@@ -1,0 +1,94 @@
+<div class="widget featured-widget ">
+  <div class="widget-title">
+    <h3 class="title-border h5">Featured Post</h3>
+  </div>
+  <div class="d-grid mb-4 gap-3 d-md-block nav nav-pills">
+    <button class="btn btn-sm btn-outline-primary btn-lg me-2 mb-lg-3 mb-xl-0 active" type="button" data-bs-toggle="pill" data-bs-target="#Featured" aria-selected="true">Featured</button>
+    <button class="btn btn-sm btn-outline-primary btn-lg" type="button" data-bs-toggle="pill" data-bs-target="#Recent" aria-selected="false">Recent</button>
+  </div>
+
+  <div class="tab-content">
+    <div class="blog-card-list text-start tab-pane fade show active" id="Featured">
+      {{ range first 5 ( where site.RegularPages "Type" "featured" )}}
+      <div class="card rounded-0">
+        <div class="d-sm-flex">
+          <!-- image path -->
+          {{ $imagePath:= .Params.image }}
+          {{ if $imagePath }}
+          <!-- image CDN -->
+          {{ if hasPrefix $imagePath "http" }}
+          <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="105" height="85">
+          {{ else }}
+          <!-- /image cdn -->
+
+          <!-- image processing for single device -->
+          {{ if fileExists (add `assets/` $imagePath) }}
+          {{ $image:= resources.Get $imagePath }}
+          {{ $imageFallback:= $image.Fill "105x85" }}
+          {{ $imageWebp:= $image.Fill "105x85 webp" }}
+          <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img"
+            onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
+          {{ end }}
+          <!-- /image processing for single device -->
+          {{ end }}
+          {{ end }}
+          <div class="card-body ps-sm-3">
+            <h4 class="h6">
+              <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
+            </h4>
+            <ul class="list-inline card-meta d-flex align-items-center mb-3">
+              <li class="list-inline-item d-flex align-items-center">
+                <i class="fas fa-calendar me-2"></i>
+                <span>{{ time.Format ":date_long" .PublishDate }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="blog-card-list text-start tab-pane fade" id="Recent">
+      {{ range first 5 ( where site.RegularPages "Section" "in" site.Params.mainSections )}}
+      <div class="card rounded-0">
+        <div class="d-sm-flex">
+          <!-- image path -->
+          {{ $imagePath:= .Params.image }}
+          {{ if $imagePath }}
+          <!-- image CDN -->
+          {{ if hasPrefix $imagePath "http" }}
+          <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="105" height="85">
+          {{ else }}
+          <!-- /image cdn -->
+
+          <!-- image processing for single device -->
+          {{ if fileExists (add `assets/` $imagePath) }}
+          {{ $image:= resources.Get $imagePath }}
+          {{ $imageFallback:= $image.Fill "105x85" }}
+          {{ $imageWebp:= $image.Fill "105x85 webp" }}
+          <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img"
+            onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
+          {{ end }}
+          <!-- /image processing for single device -->
+          {{ end }}
+          {{ end }}
+          <div class="card-body ps-sm-3">
+            <h4 class="h6">
+              <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
+            </h4>
+            <ul class="list-inline card-meta d-flex align-items-center mb-3">
+              <li class="list-inline-item d-flex align-items-center">
+                <i class="fas fa-calendar me-2"></i>
+                <span>{{ time.Format ":date_long" .PublishDate }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

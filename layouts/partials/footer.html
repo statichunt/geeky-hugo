@@ -1,0 +1,30 @@
+{{ $bgImage:= resources.Get "images/footer-bg-shape.svg" }}
+<footer class="footer" style="background-image: url('{{ $bgImage.RelPermalink }}');">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 text-center">
+        <!-- footer brand/logo -->
+        <a class="footer-brand mb-4 d-block" href="{{ site.BaseURL | relLangURL }}">
+          {{ partialCached "logo.html" . }}
+        </a>
+        <p class="text-light mb-4">{{site.Params.footer_content | markdownify}}</p>
+        <ul class="list-unstyled mb-5 footer-menu">
+          {{ range site.Menus.footer }}
+          <li class="list-inline-item">
+            <a {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+            href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+        <ul class="list-unstyled social-icons">
+          {{ range site.Params.social }}
+          <li class="list-inline-item">
+            <a href="{{.link | safeURL}}"><i class="{{ .icon }}"></i></a>
+          </li>
+          {{ end }}
+        </ul>
+        <p class="content">{{ site.Params.copyright | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

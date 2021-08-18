@@ -1,0 +1,49 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 3
+
+[[main]]
+name = "dropdown"
+url = "dropdown/"
+weight = 3
+hasChildren = true
+
+  [[main]]
+  parent = "dropdown"
+  name = "test"
+  url = "test/"
+
+# footer menu
+[[footer]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 3
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 4

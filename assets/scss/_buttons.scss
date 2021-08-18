@@ -1,0 +1,86 @@
+/* Button style */
+.btn {
+  font-size: 1rem;
+  font-family: $font-secondary;
+  text-transform: capitalize;
+  padding: .8em 2em;
+  border-radius: 0;
+  border: 1px solid;
+  position: relative;
+  font-weight: 700;
+  text-align: center;
+  z-index: 1;
+  transition: .2s ease;
+  border-radius: 50px;
+  overflow: hidden;
+
+  &:hover{
+    color: $white;
+  }
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  &-sm{
+    padding: .6em 1.5em;
+  }
+}
+
+.btn-primary {
+  background: $color-primary;
+  color: $white;
+  border-color: $color-primary;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    background: $color-primary !important;
+    border-color: $color-primary !important;
+  }
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: $color-primary;
+  border-color: $color-primary;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    background: $color-primary !important;
+    border-color: $color-primary !important;
+  }
+}
+
+
+/**! ----- Button Hover ---- **/
+.btn:after, 
+.btn:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  border-radius: 50px;
+  content: '';
+  background: rgba(0, 0, 0, 0.05);
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.btn:hover:before, .btn:hover:after {
+  left: 0%;
+  right: auto;
+  width: 100%;
+}

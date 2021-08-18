@@ -1,0 +1,48 @@
+<!-- 
+
+PROJECT: Startup Hugo
+VERSION: 1.0.0
+AUTHOR: Gethugothemes
+AUTHOR WEBSITE: https://gethugothemes.com
+
+-->
+
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default `en-US` }}">
+
+<head>
+	{{ partial "head.html" . }}
+
+	<!-- cache partial only in production -->
+	{{ if hugo.IsProduction }}
+	{{ partialCached "style.html" . }}
+	{{ else }}
+	{{ partial "style.html" . }}
+	{{ end }}
+</head>
+
+<body>
+	<!-- cache partial only in production -->
+	{{ if hugo.IsProduction }}
+	{{ partialCached "preloader.html" . }}
+	{{ partialCached "header.html" . }}
+	{{ else }}
+	{{ partial "preloader.html" . }}
+	{{ partial "header.html" . }}
+	{{ end }}
+
+	<main>
+		{{ block "main" . }}{{ end }}
+	</main>
+
+	<!-- cache partial only in production -->
+	{{ if hugo.IsProduction }}
+	{{ partialCached "script.html" . }}
+	{{ partialCached "footer.html" . }}
+	{{ else }}
+	{{ partial "script.html" . }}
+	{{ partial "footer.html" . }}
+	{{ end }}
+</body>
+
+</html>

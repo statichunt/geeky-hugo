@@ -1,0 +1,115 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="h4">Showing Post From <span class="title-border">{{ .Title | markdownify | title }}</span></h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="border mb-5 pt-4 rounded">
+          <div class="row mx-0 g-5">
+            <!-- recent post -->
+            {{ $paginator:= .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections ) }}
+            {{ range $paginator.Pages }}
+            <div class="col-sm-6 mb-4">
+              {{ .Render "post" }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- custom pagination -->
+        {{ $paginator := .Paginator }}
+        <!-- Number of links either side of the current page. -->
+        {{ $adjacent_links := 2 }}
+        <!-- $max_links = ($adjacent_links * 2) + 1 -->
+        {{ $max_links := (add (mul $adjacent_links 2) 1) }}
+        <!-- $lower_limit = $adjacent_links + 1 -->
+        {{ $lower_limit := (add $adjacent_links 1) }}
+        <!-- $upper_limit = $paginator.TotalPages - $adjacent_links -->
+        {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
+        <!-- If there's more than one page. -->
+        {{ if gt $paginator.TotalPages 1 }}
+        <nav aria-label="Page navigation">
+          <ul class="pagination align-items-center justify-content-center">
+            <!-- Previous page. -->
+            {{ if $paginator.HasPrev }}
+            <li class="page-item prev d-flex align-items-center">
+              <a class="page-link disabled" href="{{ $paginator.Prev.URL }}" aria-label="Pagination Arrow"><i
+                  class="fas fa-arrow-left me-3"></i>Previous
+              </a>
+            </li>
+            {{ else }}
+            <li class="page-item prev d-flex align-items-center disabled">
+              <span class="page-link disabled" aria-label="Pagination Arrow"><i
+                  class="fas fa-arrow-left me-3"></i>Previous
+              </span>
+            </li>
+            {{ end }}
+            <!-- Page numbers. -->
+            {{ range $paginator.Pagers }}
+            {{ $.Scratch.Set "page_number_flag" false }}
+            <!-- Advanced page numbers. -->
+            {{ if gt $paginator.TotalPages $max_links }}
+            <!-- Lower limit pages. -->
+            <!-- If the user is on a page which is in the lower limit.  -->
+            {{ if le $paginator.PageNumber $lower_limit }}
+            <!-- If the current loop page is less than max_links. -->
+            {{ if le .PageNumber $max_links }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Upper limit pages. -->
+            <!-- If the user is on a page which is in the upper limit. -->
+            {{ else if ge $paginator.PageNumber $upper_limit }}
+            <!-- If the current loop page is greater than total pages minus $max_links -->
+            {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Middle pages. -->
+            {{ else }}
+            {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            {{ end }}
+            <!-- Simple page numbers. -->
+            {{ else }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Output page numbers. -->
+            {{ if eq ($.Scratch.Get "page_number_flag") true }}
+            <li class="page-item">
+              <a href="{{ .URL }}" class="page-link {{if eq . $paginator}}active{{end}}">
+                {{ .PageNumber }}
+              </a>
+            </li>
+            {{ end }}
+            {{ end }}
+            <!-- Next page. -->
+            {{ if $paginator.HasNext }}
+            <li class="page-item next d-flex align-items-center">
+              <a class="page-link arrow" href="{{ $paginator.Next.URL }}" aria-label="Pagination">Next<i
+                  class="fas fa-arrow-right ms-3"></i>
+              </a>
+            </li>
+            {{ else }}
+            <li class="page-item next d-flex align-items-center disabled">
+              <span class="page-link arrow" aria-label="Pagination">Next<i class="fas fa-arrow-right ms-3"></i>
+              </span>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+        {{ end }}
+      </div>
+
+      <!-- sidebar widgets -->
+      <aside class="col-lg-4">
+        {{ $widget:= site.Params.widgets.sidebar }}
+        {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . )}}
+      </aside>
+    </div>
+  </div>
+</section>
+
+{{ end }}

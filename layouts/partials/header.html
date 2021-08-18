@@ -1,0 +1,137 @@
+<header
+  class="header bg-white border-bottom {{if site.Params.navbar_fixed}}sticky-top{{else}} position-relative{{end}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+          <!-- navbar brand/logo -->
+          <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+            {{ partialCached "logo.html" . }}
+          </a>
+
+          <!-- buttons -->
+          <div class="d-flex d-lg-none">
+            <ul class="list-unstyled search me-3">
+              {{ if site.Params.search }}
+              <li class="list-inline-item">
+                <a href="#" class="toggle-search" data-target="#search-wrap"><i class="fas fa-search"></i></a>
+              </li>
+              {{ end }}
+              <li class="list-inline-item">
+                <a href="#" class="toggle-side-nav" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"><i class="fas fa-bars"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- main nav -->
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-4 my-lg-0 me-3">
+              <!-- menu active -->
+              {{ $currentPage := . }}
+              {{ range site.Menus.main }}
+              {{ $menuURL := .URL | absLangURL }}
+              {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+              {{ $active := eq $menuURL $pageURL }}
+              {{ if .HasChildren }}
+              <li class="nav-item dropdown 
+              {{ range .Children }}
+              {{ $childURL := .URL | absLangURL }}
+              {{ $active := eq $childURL $pageURL }}
+              {{ if $active }}active{{ end }}
+              {{ end }}">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">{{ .Name }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  {{ range .Children }}
+                  {{ $childURL := .URL | absLangURL }}
+                  {{ $active := eq $childURL $pageURL }}
+                  <li><a class="dropdown-item {{ if $active }}active{{ end }}" {{if findRE `^http` .URL}}target="_blank"
+                      rel="noopener" {{end}}
+                      href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </li>
+              {{ else }}
+              <li class="nav-item {{ if $active }}active{{ end }}">
+                <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                  href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+              </li>
+              {{ end }}
+              {{ end }}
+            </ul>
+
+            <!-- social -->
+            <ul class="list-unstyled social-icons">
+              {{ range site.Params.social }}
+              <li class="list-inline-item">
+                <a href="{{ .link | safeURL }}"><i class="{{.icon}}"></i></a>
+              </li>
+              {{ end }}
+            </ul>
+
+            {{ if site.Params.search }}
+            <ul class="list-unstyled search d-none d-lg-block">
+              <li class="list-inline-item">
+                <a href="#" class="toggle-search" data-target="#search-wrap"><i class="fas fa-search"></i></a>
+              </li>
+            </ul>
+            {{ end }}
+          </div>
+        </nav>
+
+        <!-- search -->
+        {{ if site.Params.search }}
+        <div class="search-wrap" id="search-wrap">
+          <form action="{{ `search`| relLangURL }}" class="search-bar d-flex align-items-center justify-content-center">
+            <input class="search-input w-100 border-0 h-100" id="search-query" name="s" type="search" placeholder="Search..." />
+            <span class="close-search toggle-search" data-target="#search-wrap">
+              <i class="fas fa-times"></i>
+            </span>
+          </form>
+        </div>
+        {{ end }}
+
+        <!-- mobile menu -->
+        <div class="side-nav offcanvas offcanvas-end p-4" tabindex="-1" id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
+          <div class="navbar mt-3 flex-column align-items-start">
+            <ul class="navbar-nav my-4 my-lg-0 me-3 w-100">
+              {{ range site.Menus.main }}
+              {{ if .HasChildren }}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  {{ .Name }}
+                </a>
+                <div class="dropdown-menu">
+                  {{ range .Children }}
+                  <a class="dropdown-item" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                    href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+                  {{ end }}
+                </div>
+              </li>
+              {{ else }}
+              <li class="nav-item">
+                <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                  href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+              </li>
+              {{ end }}
+              {{ end }}
+            </ul>
+            <ul class="list-unstyled social-icons">
+              {{ range site.Params.social }}
+              <li class="list-inline-item">
+                <a href="{{ .link | safeURL }}"><i class="{{.icon}}"></i></a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
