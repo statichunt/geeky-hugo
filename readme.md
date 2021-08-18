@@ -1,5 +1,8 @@
 # Geeky | [Demo](https://demo.gethugothemes.com/geeky/)
 
+![geeky-hugo-startup-theme](https://user-images.githubusercontent.com/17677384/129856059-874a4cb5-790a-40ad-9e1f-7a313fb2a945.png)
+
+
 Geeky is Personal Hugo blog theme focused on high speed. It fits perfectly any kind of blog specially personal, photography, travel or biography blogs. Geeky is fully responsive, Super fast and powered by Bootstrap v5.
 
 The [demo site](https://demo.gethugothemes.com/geeky/) here. Make sure you visit it, to get the awesome hands-on experience.
