@@ -1,0 +1,317 @@
+// banner
+.banner {
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+  padding-top: 40px;
+
+  h1 strong {
+    color: $color-primary;
+  }
+}
+
+// list styled
+
+.list-styled {
+  li {
+    font-size: 18px;
+    color: $text-dark;
+    font-weight: 700;
+    position: relative;
+    padding-left: 20px;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      border-radius: 50%;
+      left: 0;
+      top: 11px;
+      background: $color-primary;
+      width: 9px;
+      height: 9px;
+      left: 3px;
+      border: 2px solid $white;
+      box-shadow: 0 0 0 2px $color-primary;
+    }
+  }
+}
+
+// blog
+.drop-cap>p:first-child:first-letter {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: $font-secondary;
+  float: left;
+  padding-right: 15px;
+  line-height: 1.1;
+}
+
+.blog-card-title a {
+  display: block;
+}
+
+.card-meta {
+  li {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: $font-secondary;
+    color: $text-color;
+    position: relative;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: -15px;
+        border-right: 1px solid $border-color;
+        width: 1px;
+        height: 12px;
+      }
+    }
+
+    a {
+      color: $text-color;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+
+    span {
+      padding-left: 8px;
+      display: block;
+    }
+  }
+}
+
+.card-badge {
+  top: 16px;
+  left: 16px;
+  position: absolute;
+}
+
+.nav-pills {
+  .btn.active {
+    background-color: $color-primary;
+    color: $white;
+  }
+}
+
+.scroll-list {
+
+  overflow: auto;
+  max-height: 480px;
+
+  @include desktop {
+    max-height: 100%;
+  }
+
+  /* width */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: $light;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: darken($color: $light, $amount: 20);
+  }
+}
+
+.blog-card-list {
+
+  .card {
+    border: 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $border-color;
+      margin-bottom: 25px;
+      padding-bottom: 25px;
+    }
+  }
+}
+
+// widget
+.category-widget {
+  ul li {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+
+    &:before {
+      font-family: $font-icon;
+      font-weight: 900;
+      content: "\f054";
+      border: 0;
+      left: 0;
+      position: absolute;
+      color: $color-primary;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+    }
+
+    a {
+      color: $text-dark;
+      margin-left: 18px;
+
+      &:hover {
+        color: $color-primary;
+      }
+
+      small {
+        color: $text-light;
+      }
+    }
+  }
+}
+
+.featured-widget-img {
+  width: 75px;
+  height: 75px;
+}
+
+.newsletter-widget {
+  .form-control {
+    border: 0;
+    background-color: $light;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 300;
+    color: $text-color;
+    padding: 15px 20px;
+
+    &::placeholder {
+      color: $text-color;
+    }
+
+    &:focus {
+      background-color: $light;
+      border: 0;
+    }
+  }
+
+  .input-group {
+    position: relative;
+
+    input {
+      border-top-right-radius: 50px !important;
+      border-bottom-right-radius: 50px !important;
+    }
+
+    i {
+      position: absolute;
+      right: 0;
+      z-index: 4;
+      border: 0;
+      background: transparent;
+      top: 15px;
+      right: 15px;
+    }
+  }
+}
+
+// contact
+.contact {
+  h2 {
+    font-size: 64px;
+
+    @include desktop {
+      font-size: 50px;
+    }
+
+    @include tablet {
+      font-size: 30px;
+    }
+
+    @media (min-width: 1200px) {
+      padding-right: 140px;
+    }
+  }
+
+  .form-card {
+    padding: 55px 20px;
+  }
+
+  .card {
+
+    li,
+    a {
+      color: $text-dark;
+      font-size: 18px;
+      font-weight: 700;
+      word-break: break-all;
+      border: 1px solid $border-color;
+      width: 100%;
+      min-height: 100px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+
+      i {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+
+/* footer */
+.footer {
+  padding: 70px 0 30px;
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .footer-menu {
+    li {
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+
+      @include tablet {
+        margin-bottom: 10px;
+
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+
+      a {
+        text-transform: capitalize;
+        color: $text-dark;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+
+    }
+  }
+
+  .social-icons {
+    margin-bottom: 55px;
+  }
+
+  .copyright a {
+    color: $color-primary;
+  }
+}

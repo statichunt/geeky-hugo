@@ -1,0 +1,251 @@
+.header {
+  padding: 30px 0 32px;
+
+  /* social-icons */
+  .social-icons {
+    margin: 0 60px 0 25px;
+
+    @include desktop-lg {
+      margin: 0 35px 0 15px;
+    }
+
+    @include desktop {
+      text-align: center;
+      margin-left: 30px;
+    }
+
+    li {
+      @include desktop-lg {
+        margin-right: 12px;
+      }
+
+      &:first-child::before {
+        border-left: 1px solid $border-color;
+      }
+
+      &:last-child::before {
+        border-right: 1px solid $border-color;
+      }
+    }
+  }
+
+  /* navbar-nav */
+  .navbar-nav {
+    .nav-item {
+      margin: 0;
+
+      @include desktop {
+        margin: 6px 0;
+      }
+
+      // &.dropdown,
+      &.active {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+
+        @include desktop {
+          margin-right: 0 !important;
+          margin-left: 0 !important;
+        }
+      }
+
+      &.active {
+        .nav-link {
+          background: $color-primary;
+          border-radius: 50px;
+          color: $white;
+        }
+      }
+    }
+
+    .nav-link {
+      color: $text-dark;
+      text-transform: capitalize;
+      font-family: $font-secondary;
+      font-size: .9rem;
+      font-weight: 400;
+      color: $black;
+      padding: .7em 1.5em;
+      border-radius: 50px;
+      transition: .2s ease;
+
+      @include desktop-lg {
+        padding: .6em 1em;
+      }
+
+      &:hover {
+        background: $color-primary;
+        border-radius: 50px;
+        color: $white;
+      }
+    }
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  // dropdown
+  .dropdown-toggle {
+    &::after {
+      font-family: $font-icon;
+      font-weight: 900;
+      content: "\f078";
+      border: 0;
+      position: relative;
+      transform: translate(-1px, 3px);
+      font-size: .8rem;
+    }
+  }
+
+  .dropdown {
+    @media (min-width: 992px) {
+      &:hover ul.dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+      }
+
+      &-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20px);
+      }
+    }
+
+    &-menu {
+      border: 0;
+      background: $white;
+      box-shadow: 0 1.5rem 4rem rgba(63, 63, 65, 0.15);
+      padding: 13px 15px;
+      transition: 0.3s;
+      min-width: 11rem;
+
+      li {
+        &:not(:last-child) {
+          margin-bottom: 7px;
+
+        }
+
+        a {
+          padding: 8px 16px;
+          border-radius: 5px;
+        }
+      }
+
+      .dropdown-item {
+        text-transform: capitalize;
+        transition: .3s;
+        font-family: $font-secondary;
+
+        &.active,
+        &:active,
+        &:hover {
+          color: $color-primary;
+          background-color: lighten($color: $color-primary, $amount: 40);
+        }
+      }
+    }
+  }
+}
+
+/* search */
+.search {
+  li a {
+    background: $color-primary;
+    border-radius: 50%;
+    color: $white;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+  }
+
+  .list-inline-item:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.search-wrap {
+  position: absolute;
+  width: 100%;
+  background: $white;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+  transform: translateY(-20px);
+
+  &.open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .search-bar {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .close-search {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: $black;
+  }
+
+  input {
+    font-size: 30px;
+    color: $black;
+
+    &::placeholder {
+      color: $black;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+/* offcanvas */
+.offcanvas {
+  .offcanvas-menu {
+    padding-top: 20px;
+
+    li {
+      margin-bottom: 15px;
+
+      a {
+        text-transform: capitalize;
+        color: black;
+        font-size: 26px;
+        padding: 20px;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+
+  .btn-close {
+    border: 0;
+    background: transparent;
+    right: 0;
+    font-size: 1.8rem;
+    width: 1.9em;
+    height: 1.9em;
+    position: absolute;
+    top: 11px;
+    right: 24px;
+  }
+}

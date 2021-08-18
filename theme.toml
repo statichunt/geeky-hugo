@@ -1,0 +1,13 @@
+name = "Geeky"
+license = "MIT"
+licenselink = "https://github.com/gethugothemes/andromeda-light/blob/master/LICENSE"
+description = "Geeky is a Personal Hugo blog theme focused on high speed. Geeky is fully responsive, Superfast, and powered by Bootstrap v5. Also we make it SEO friendly."
+homepage = "https://github.com/gethugothemes/geeky-hugo-startup-theme/"
+demosite = "https://demo.gethugothemes.com/geeky/"
+tags = ['blog', 'light', 'bootstrap', 'responsive', 'contact-form']
+features = ['responsive']
+min_version = "0.83.1"
+
+[author]
+name = "gethugothemes"
+homepage = "https://gethugothemes.com/"

@@ -1,0 +1,220 @@
+{{ define "main" }}
+
+<!--=================== banner section start ===================-->
+{{ with site.Params.banner }}
+{{ if .enable }}
+
+{{ $bgImage:= resources.Get .background_image }}
+<section class="banner text-center text-lg-start" style="background-image: url('{{ $bgImage.RelPermalink }}');">
+  <div class="container">
+    <div class="row align-items-center flex-column-reverse flex-lg-row">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        {{ with .title_large }}<h1 class="banner-title mb-0">{{ . | markdownify }}</h1>{{ end }}
+        {{ with .title_small }}<h2 class="h2 fw-normal mb-4">{{ . | markdownify}}</h2>{{ end }}
+        <p class="mb-4 fs-6 text-light-600">{{.content | markdownify}}</p>
+        {{ if .button_label }}
+        <a href="{{ .button_link | absURL }}" class="btn btn-primary">{{ .button_label }}</a>
+        {{ end }}
+      </div>
+      {{ with .image }}
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        {{ $image:= resources.Get . }}
+        {{ $imageWidth:= add (string $image.Width) "x"}}
+        {{ $options := add (string $imageWidth) " webp" }}
+        {{ $imageWebp:= $image.Resize $options }}
+        <img decoding="async" loading="lazy" width="{{$image.Width}}" height="{{$image.Height}}"
+          src="{{ $imageWebp.RelPermalink }}" onerror="this.onerror=null;this.src='{{$image.RelPermalink}}'"
+          alt="banner-img" class="img-fluid">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!--=================== banner section end ===================-->
+
+<!--=================== blog section start ===================-->
+<section class="section">
+  <div class="container">
+    {{with site.Params.featured_post_title}}
+    <div class="section-title">
+      <h2 class="h4 title-border">{{ . | markdownify}}</h2>
+    </div>
+    {{end}}
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="border rounded d-lg-flex p-4 mb-5">
+          <!-- big featured post -->
+          <div class="col-lg-6 me-lg-4 mb-5 mb-lg-0">
+            {{ range first 1 (where site.RegularPages "Type" "featured") }}
+            {{ .Render "post" }}
+            {{ end }}
+          </div>
+          <!-- small featured post -->
+          <div class="col-lg-6 pe-4 blog-card-list scroll-list">
+            {{ range after 1 (where site.RegularPages "Type" "featured") }}
+            <div class="card rounded-0">
+              <div class="d-sm-flex">
+                <!-- image path -->
+                {{ $imagePath:= .Params.image }}
+                {{ if $imagePath }}
+                <!-- image CDN -->
+                {{ if hasPrefix $imagePath "http" }}
+                <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
+                  class="img-fluid rounded-4 align-self-start" width="105" height="85">
+                {{ else }}
+                <!-- /image cdn -->
+
+                <!-- image processing for single device -->
+                {{ if fileExists (add `assets/` $imagePath) }}
+                {{ $image:= resources.Get $imagePath }}
+                {{ $imageFallback:= $image.Fill "105x85" }}
+                {{ $imageWebp:= $image.Fill "105x85 webp" }}
+                <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
+                  class="img-fluid rounded-4 align-self-start"
+                  onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
+                {{ end }}
+                <!-- /image processing for single device -->
+                {{ end }}
+                {{ end }}
+                <div class="card-body ps-sm-3">
+                  <h3 class="h6">
+                    <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
+                  </h3>
+                  <ul class="list-inline card-meta d-flex align-items-center mb-3">
+                    <li class="list-inline-item d-flex align-items-center">
+                      <i class="fas fa-calendar me-2"></i>
+                      <span>{{ time.Format ":date_long" .PublishDate }}</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- advertisement -->
+        {{ with site.Params.advertisement }}
+        <div class="mb-5">
+          <a href="{{.link | absLangURL}}">
+            {{ $image:= resources.Get .image }}
+            <img class="img-fluid w-100" src="{{ $image.RelPermalink }}" alt="image">
+          </a>
+        </div>
+        {{ end }}
+        <!-- /advertisement -->
+
+        {{with site.Params.recent_post_title}}
+        <div class="section-title">
+          <h2 class="h4 title-border">{{ . | markdownify}}</h2>
+        </div>
+        {{end}}
+        <div class="border pt-4 mb-5 rounded">
+          <div class="row mx-0 g-5">
+            <!-- recent post -->
+            {{ $paginator:= .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections ) }}
+            {{ range $paginator.Pages }}
+            <div class="col-sm-6 mb-4">
+              {{ .Render "post" }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- custom pagination -->
+        {{ $paginator := .Paginator }}
+        <!-- Number of links either side of the current page. -->
+        {{ $adjacent_links := 2 }}
+        <!-- $max_links = ($adjacent_links * 2) + 1 -->
+        {{ $max_links := (add (mul $adjacent_links 2) 1) }}
+        <!-- $lower_limit = $adjacent_links + 1 -->
+        {{ $lower_limit := (add $adjacent_links 1) }}
+        <!-- $upper_limit = $paginator.TotalPages - $adjacent_links -->
+        {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
+        <!-- If there's more than one page. -->
+        {{ if gt $paginator.TotalPages 1 }}
+        <nav aria-label="Page navigation">
+          <ul class="pagination align-items-center justify-content-center">
+            <!-- Previous page. -->
+            {{ if $paginator.HasPrev }}
+            <li class="page-item prev d-flex align-items-center">
+              <a class="page-link disabled" href="{{ $paginator.Prev.URL }}" aria-label="Pagination Arrow"><i
+                  class="fas fa-arrow-left me-3"></i><span class="d-none d-sm-inline">Previous</span>
+              </a>
+            </li>
+            {{ else }}
+            <li class="page-item prev d-flex align-items-center disabled">
+              <span class="page-link disabled" aria-label="Pagination Arrow"><i
+                  class="fas fa-arrow-left me-3"></i><span class="d-none d-sm-inline">Previous</span>
+              </span>
+            </li>
+            {{ end }}
+            <!-- Page numbers. -->
+            {{ range $paginator.Pagers }}
+            {{ $.Scratch.Set "page_number_flag" false }}
+            <!-- Advanced page numbers. -->
+            {{ if gt $paginator.TotalPages $max_links }}
+            <!-- Lower limit pages. -->
+            <!-- If the user is on a page which is in the lower limit.  -->
+            {{ if le $paginator.PageNumber $lower_limit }}
+            <!-- If the current loop page is less than max_links. -->
+            {{ if le .PageNumber $max_links }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Upper limit pages. -->
+            <!-- If the user is on a page which is in the upper limit. -->
+            {{ else if ge $paginator.PageNumber $upper_limit }}
+            <!-- If the current loop page is greater than total pages minus $max_links -->
+            {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Middle pages. -->
+            {{ else }}
+            {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            {{ end }}
+            <!-- Simple page numbers. -->
+            {{ else }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Output page numbers. -->
+            {{ if eq ($.Scratch.Get "page_number_flag") true }}
+            <li class="page-item">
+              <a href="{{ .URL }}" class="page-link {{if eq . $paginator}}active{{end}}">
+                {{ .PageNumber }}
+              </a>
+            </li>
+            {{ end }}
+            {{ end }}
+            <!-- Next page. -->
+            {{ if $paginator.HasNext }}
+            <li class="page-item next d-flex align-items-center">
+              <a class="page-link arrow" href="{{ $paginator.Next.URL }}" aria-label="Pagination"><span class="d-none d-sm-inline">Next</span><i
+                  class="fas fa-arrow-right ms-3"></i>
+              </a>
+            </li>
+            {{ else }}
+            <li class="page-item next d-flex align-items-center disabled">
+              <span class="page-link arrow" aria-label="Pagination"><span class="d-none d-sm-inline">Next</span><i class="fas fa-arrow-right ms-3"></i>
+              </span>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+        {{ end }}
+      </div>
+
+      <!-- sidebar widgets -->
+      <aside class="col-lg-4">
+        {{ $widget:= site.Params.widgets.sidebar }}
+        {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . )}}
+      </aside>
+    </div>
+  </div>
+</section>
+<!--=================== blog section end ===================-->
+
+{{ end }}

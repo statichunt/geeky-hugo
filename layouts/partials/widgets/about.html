@@ -1,0 +1,17 @@
+<!-- author -->
+{{ $bgImage:= resources.Get "images/map.png" }}
+{{ $bgImage:= $bgImage.Resize "400x webp" }}
+<div class="widget bg-center" style="background-image: url('{{ $bgImage.RelPermalink }}');">
+  <!-- navbar brand/logo -->
+  <a class="d-block mb-4" href="{{ site.BaseURL | relLangURL }}">
+    {{ partialCached "logo.html" . }}
+  </a>
+  <p class="mb-4 text-light-700">{{site.Params.about_widget_content | markdownify}}</p>
+  <ul class="list-inline social-icons">
+    {{ range site.Params.social }}
+    <li class="list-inline-item">
+      <a href="{{ .link | safeURL }}"><i class="{{.icon}}"></i></a>
+    </li>
+    {{ end}}
+  </ul>
+</div>

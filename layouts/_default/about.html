@@ -1,0 +1,81 @@
+{{ define "main" }}
+
+<!--=================== about section start ===================-->
+<section class="section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12">
+        <!-- image path -->
+        {{ $imagePath:= .Params.image }}
+
+        <!-- image CDN -->
+        {{ if hasPrefix $imagePath "http" }}
+        <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
+          class="img-fluid mb-5 w-100 rounded-4">
+        {{ else }}
+        <!-- /image cdn -->
+
+        <!-- image processing for multiple device -->
+        {{ if fileExists (add `assets/` $imagePath) }}
+        {{ $image:= resources.Get $imagePath }}
+        {{ $imageFallback:= $image.Resize "1400x" }}
+        {{ $imageXL:= $image.Resize "1400x webp" }}
+        {{ $imageLG:= $image.Resize "1000x webp" }}
+        {{ $imageMD:= $image.Resize "800x webp" }}
+        {{ $imageSM:= $image.Resize "600x webp" }}
+        <picture>
+          <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
+          <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
+          <source srcset="{{ $imageLG.RelPermalink }}" media="(max-width: 992px)">
+          <source srcset="{{ $imageXL.RelPermalink }}">
+          <img loading="lazy" decoding="async" class="img-fluid mb-5 w-100 rounded-4" src="{{$imageFallback.RelPermalink}}"
+            alt="{{.Title}}" width="{{$image.Width}}" height="{{$image.Height}}">
+        </picture>
+        {{ end }}
+        <!-- /image processing for multiple device -->
+        {{ end }}
+        <h2 class="mb-3">{{ .Title | markdownify }}</h2>
+        <div class="content">
+          {{.Content}}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {{ with .Params.education }}
+      {{ if .enable }}
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="p-4 border rounded">
+          <h2 class="h4 mb-5 title-border">Formal Education</h2>
+          <div class="row">
+            {{ range .education_list }}
+            <div class="col-md-6 mb-3">
+              <h4 class="h5 mb-2">{{ .name | markdownify }}</h4>
+              <p>{{.content | markdownify}}</p>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.experience }}
+      {{ if .enable }}
+      <div class="col-md-6">
+        <div class="border rounded p-4">
+          <h2 class="mb-5 h4 title-border">{{ .title | markdownify }}</h2>
+          <ul class="list-styled" style="columns:2">
+            {{ range .experience_list }}
+            <li>{{ . | markdownify}}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!--=================== about section end ===================-->
+
+{{ end }}

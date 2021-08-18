@@ -1,0 +1,20 @@
+<!-- categories -->
+{{ if isset site.Taxonomies "categories" }}
+{{ if not (eq (len site.Taxonomies.categories) 0) }}
+<div class="widget category-widget">
+  <div class="widget-title">
+    <h3 class="h5 title-border">Blog Categories</h3>
+  </div>
+  
+  <ul class="list-group">
+    {{ range $name, $items := site.Taxonomies.categories }}
+    <li>
+      <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}" class="d-flex">
+        {{ $name | humanize }} <small class="ms-auto">{{ len $items }}</small>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+{{ end }}

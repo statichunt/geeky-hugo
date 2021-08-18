@@ -1,0 +1,425 @@
+body {
+  background-color: $body-color;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: lighten($color: $color-primary, $amount: 10);
+  color: $white;
+}
+
+
+/*------------------------------------------------------------------
+# default styles
+-------------------------------------------------------------------*/
+li {
+  list-style: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-primary;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: .2s ease;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  @include tablet {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &-sm {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &-title {
+    margin-bottom: 45px;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $body-color;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* shape */
+.title-border {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: $color-primary;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+}
+
+/* social-icons */
+.social-icons {
+
+  li {
+    position: relative;
+    z-index: 1;
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+
+    &:first-child::before,
+    &:last-child::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    &:first-child::before {
+      border-left: 1px solid $color-primary;
+      right: 30px;
+    }
+
+    &:last-child::before {
+      border-right: 1px solid $color-primary;
+      left: 30px;
+    }
+
+    a {
+      color: $black;
+      font-size: 15px;
+      padding: 4px 8px;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+/* pagination */
+.pagination {
+
+  .prev,
+  .next {
+    a {
+      padding: 12px 10px;
+
+      &:hover {
+        background-color: #F4F4F4;
+        color: $text-dark;
+      }
+    }
+  }
+
+  .page-item {
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+
+    &:first-child .page-link,
+    &:last-child .page-link {
+      border-radius: 5px;
+      box-shadow: none;
+    }
+  }
+
+
+  .page-link {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: $text-dark;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    padding: 10px 15px;
+
+    &.active,
+    &:hover {
+      background-color: $color-primary;
+      color: $white;
+    }
+  }
+}
+
+/* widget */
+.widget {
+  text-align: center;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  padding: 30px 15px;
+
+  @media (min-width: 1400px) {
+    padding: 30px 35px;
+  }
+
+  .title-border::before {
+    left: 10px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    margin-bottom: 45px;
+  }
+}
+
+/* card */
+.card {
+  padding: 0;
+  border: 0;
+
+  &-body {
+    padding: 0;
+  }
+}
+
+/* form */
+.form-group {
+  margin-bottom: 25px;
+
+  label {
+    line-height: 1;
+    padding: 0;
+    color: $text-color;
+    font-family: $font-secondary;
+
+    small {
+      margin-left: .2em;
+      color: $color-primary;
+    }
+  }
+
+  .form-control {
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    font-family: $font-primary;
+    font-weight: 400;
+    border-bottom: 1px solid $border-color;
+    color: $text-color;
+    padding: 0;
+    height: 3em;
+
+    &::placeholder {
+      color: $text-light !important;
+      font-size: .8rem;
+    }
+
+    &:focus {
+      box-shadow: none;
+      border-color: $color-primary;
+    }
+  }
+
+  textarea {
+    height: 150px !important;
+  }
+}
+
+/*------------------------------------------------------------------
+ # helper classes
+-------------------------------------------------------------------*/
+.bg-center {
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.border-default,
+.border {
+  border-color: $border-color !important;
+}
+
+.outline-0 {
+  outline: 0 !important;
+}
+
+.text-primary {
+  color: $color-primary !important;
+}
+
+.text-secondary {
+  color: $color-primary !important;
+}
+
+.text-black {
+  color: $black !important;
+}
+
+.text-light {
+  color: $text-light !important;
+}
+
+.text-dark {
+  color: $text-dark !important;
+}
+
+.text-default {
+  color: $text-color !important;
+}
+
+.bg-primary {
+  background: $color-primary !important;
+}
+
+.bg-light {
+  background: $light !important;
+}
+
+.badge {
+  padding: .1em .9em;
+  border-radius: 35px;
+}
+
+.badge-primary {
+  background-color: $color-primary !important;
+  color: $white !important;
+}
+
+.font-primary {
+  font-family: $font-primary !important;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+
+.rounded {
+  border-radius: 6px !important;
+}
+
+.rounded-4 {
+  border-radius: 10px !important;
+}
+
+.left-xxl-80 {
+  @media (min-width: 1400px) {
+    left: 80px !important;
+  }
+}
+
+.title-linked {
+  color: $text-dark;
+}
+
+// content style
+.content {
+  margin-bottom: 3em;
+
+  a {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+
+  img {
+    margin-bottom: 1.5em;
+  }
+
+  p {
+    color: $black;
+    font-weight: 300;
+  }
+
+  blockquote {
+    background-color: $light;
+    border-radius: 5px;
+    padding: 30px 105px;
+    margin: 3em 0;
+
+    @include tablet {
+      padding: 30px 50px;
+    }
+
+    p {
+      font-family: $font-primary;
+      font-size: 24px;
+      color: $text-dark;
+      line-height: 32px;
+      margin-bottom: 15px;
+      position: relative;
+
+      &::before,
+      &::after {
+        font-family: $font-icon;
+        font-weight: 900;
+        border: 0;
+        position: absolute;
+        font-size: 35px;
+        color: $color-primary;
+      }
+
+      &::before {
+        content: '\f10d';
+        top: 0;
+        left: -70px;
+      }
+
+      &::after {
+        content: '\f10e';
+        bottom: 0;
+        right: -35px;
+      }
+
+      @include tablet {
+        font-size: 22px;
+
+        &::before,
+        &::after {
+          font-size: 25px;
+        }
+
+        &::before {
+          left: -3em;
+        }
+      }
+    }
+
+    h6 {
+      font-size: 20px;
+      color: $text-color;
+      font-weight: 400;
+    }
+  }
+}

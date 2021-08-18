@@ -1,0 +1,22 @@
+<div class="widget newsletter-widget">
+  <div class="widget-title">
+    <h3 class="h5 title-border">Newsletter</h3>
+  </div>
+  <p class="mb-3 small text-light-900">Join thousands of Tiny Salt subscribers and get our best recipes delivered each week! </p>
+  {{ with site.Params.subscription }}
+  <form class="row g-3 mb-3" action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank">
+    <div class="col-12">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Type And Hit Enter" id="inputEmail4" required><i class="fas fa-envelope"></i>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" name="subscribe" class="btn btn-primary w-100">Sign in</button>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1">
+      </div>
+    </div>
+  </form>
+  {{ end }}
+  <p class="text-light-900 small content">By Singing Up, You Agree To <a href="{{`privacy-policy`| relLangURL}}" class="text-light-900"><strong>Privacy Policy</strong></a></p>
+</div>

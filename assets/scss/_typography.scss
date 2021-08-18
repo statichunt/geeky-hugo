@@ -1,0 +1,54 @@
+/*  typography */
+
+html {
+  font-size: $font-size;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 400;
+  line-height: 1.75;
+  color: $text-color;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+  font-weight: 700;
+  color: $text-dark;
+}
+
+small,
+.small {
+  font-size: 0.8rem;
+}
+
+// List in descending order to prevent extra sort function
+$type-levels: 6, 5, 4, 3, 2, 1;
+
+// Create map with h[x] as key
+$level-size: $font-size;
+@each $level in $type-levels {
+  $level-size: $level-size * $font-scale;
+  // Output heading styles
+  h#{$level},
+  .h#{$level} {
+    font-size: $level-size;
+    line-height: calc(2px + 2ex + 2px);
+    margin-bottom: 0.65em;
+    @include tablet {
+      font-size: calc( #{$level-size} * .85);
+    }
+    @include mobile {
+      font-size: calc( #{$level-size} * .65);
+    }
+  }
+}

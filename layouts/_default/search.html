@@ -1,0 +1,88 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="h4">Showing Post From <span class="title-border"><script>
+        var keyword = (window.location.search).substr(3);
+        var result = keyword.replace("+", " ");
+        document.write(result);
+      </script></span></h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="border mb-5 pt-4 rounded">
+          <div class="row mx-0 g-5" id="search-results">
+            <script id="search-result-template" type="text/x-js-template">
+              <div class="col-sm-6 mb-4">
+                <div class="card">
+                  <div class="mb-4 position-relative">
+                    <img loading="lazy" decoding="async" class="img-fluid w-100 rounded-4" src="${image}" alt="${title}">
+                    ${ isset categories }<span class="badge badge-primary card-badge">${categories}</span>${ end }
+                  </div>
+                  <div class="card-body">
+                    <h3 class="h6">
+                      <a class="title-linked" href="${link}">${title}</a>
+                    </h3>
+                    <ul class="list-inline card-meta d-flex align-items-center mb-3">
+                      <li class="list-inline-item d-flex align-items-center">
+                        <i class="fas fa-calendar me-2"></i>
+                        <span>${date}</span>
+                      </li>
+                    </ul>
+                    <p class="card-text mb-4">${snippet}</p>
+                    <a href="${link}" class="btn btn-outline-primary btn-sm">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </script>
+          </div>
+        </div>
+      </div>
+
+      <!-- sidebar widgets -->
+      <aside class="col-lg-4">
+        {{ $widget:= site.Params.widgets.sidebar }}
+        {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . )}}
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <div id="search-results"></div>
+        <script id="search-result-template" type="text/x-js-template">
+          <div class="card">
+            <div class="mb-4 position-relative">
+              <img loading="lazy" decoding="async" class="img-fluid w-100 rounded-4" src="${image}" alt="${title}">
+              ${ isset categories }<span class="badge badge-primary card-badge">${categories}</span>${ end }
+            </div>
+            <div class="card-body">
+              <h3 class="h6">
+                <a class="title-linked" href="${link}">{{.Title | markdownify}}</a>
+              </h3>
+              <ul class="list-inline card-meta d-flex align-items-center mb-3">
+                <li class="list-inline-item d-flex align-items-center">
+                  <i class="fas fa-calendar me-2"></i>
+                  <span>${date}</span>
+                </li>
+              </ul>
+              <p class="card-text mb-4">${snippet}</p>
+              <a href="${link}" class="btn btn-outline-primary btn-sm">Read more</a>
+            </div>
+          </div>
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ "<!-- Search index -->" | safeHTML }}
+<script>
+  var indexURL = {{"index.json" | relLangURL}}
+</script>
+
+{{ end }}
