@@ -3,7 +3,7 @@
 # main menu
 [[main]]
 name = "Home"
-url = "/"
+url = ""
 weight = 1
 
 [[main]]
@@ -24,8 +24,13 @@ hasChildren = true
 
   [[main]]
   parent = "dropdown"
-  name = "test"
-  url = "test/"
+  name = "Child 1"
+  url = "Child-1/"
+
+  [[main]]
+  parent = "dropdown"
+  name = "Child 2"
+  url = "Child-2/"
 
 # footer menu
 [[footer]]

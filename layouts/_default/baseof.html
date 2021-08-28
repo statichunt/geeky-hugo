@@ -25,7 +25,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 	<!-- cache partial only in production -->
 	{{ if hugo.IsProduction }}
 	{{ partialCached "preloader.html" . }}
-	{{ partialCached "header.html" . }}
+	{{ partial "header.html" . }}
 	{{ else }}
 	{{ partial "preloader.html" . }}
 	{{ partial "header.html" . }}
