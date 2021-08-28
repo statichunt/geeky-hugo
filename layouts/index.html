@@ -71,7 +71,7 @@
                 {{ $image:= resources.Get $imagePath }}
                 {{ $imageFallback:= $image.Fill "105x85" }}
                 {{ $imageWebp:= $image.Fill "105x85 webp" }}
-                <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
+                <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}" width="105" height="85"
                   class="img-fluid rounded-4 align-self-start"
                   onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
                 {{ end }}
@@ -100,7 +100,7 @@
         <div class="mb-5">
           <a href="{{.link | absLangURL}}">
             {{ $image:= resources.Get .image }}
-            <img class="img-fluid w-100" src="{{ $image.RelPermalink }}" alt="image">
+            <img class="img-fluid w-100" width="858" height="123" src="{{ $image.RelPermalink }}" alt="image">
           </a>
         </div>
         {{ end }}

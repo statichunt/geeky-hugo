@@ -18,17 +18,17 @@
           <!-- image CDN -->
           {{ if hasPrefix $imagePath "http" }}
           <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="105" height="85">
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="80" height="80">
           {{ else }}
           <!-- /image cdn -->
 
           <!-- image processing for single device -->
           {{ if fileExists (add `assets/` $imagePath) }}
           {{ $image:= resources.Get $imagePath }}
-          {{ $imageFallback:= $image.Fill "105x85" }}
-          {{ $imageWebp:= $image.Fill "105x85 webp" }}
+          {{ $imageFallback:= $image.Fill "80x80" }}
+          {{ $imageWebp:= $image.Fill "80x80 webp" }}
           <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img"
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="{{$imageFallback.Width}}" height="{{$imageFallback.Height}}"
             onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
           {{ end }}
           <!-- /image processing for single device -->
@@ -59,17 +59,17 @@
           <!-- image CDN -->
           {{ if hasPrefix $imagePath "http" }}
           <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="105" height="85">
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="80" height="80">
           {{ else }}
           <!-- /image cdn -->
 
           <!-- image processing for single device -->
           {{ if fileExists (add `assets/` $imagePath) }}
           {{ $image:= resources.Get $imagePath }}
-          {{ $imageFallback:= $image.Fill "105x85" }}
-          {{ $imageWebp:= $image.Fill "105x85 webp" }}
+          {{ $imageFallback:= $image.Fill "80x80" }}
+          {{ $imageWebp:= $image.Fill "80x80 webp" }}
           <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img"
+            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="{{$imageFallback.Width}}" height="{{$imageFallback.Height}}"
             onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
           {{ end }}
           <!-- /image processing for single device -->
