@@ -1,16 +1,21 @@
 {{ define "main" }}
 
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "categories") (eq .Section "tags") }}
 <section class="section">
   <div class="container">
-    <div class="section-title">
-      <h2 class="h4">Showing Post From <span class="title-border">{{ .Title | markdownify | title }}</span></h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="h4">Showing Post From <span class="title-border">{{ .Title | markdownify | title }}</span></h2>
+        </div>
+      </div>
     </div>
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
         <div class="border mb-5 pt-4 rounded">
           <div class="row mx-0 g-5">
             <!-- recent post -->
-            {{ $paginator:= .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections ) }}
+            {{ $paginator:= .Paginate (where .Data.Pages "Section" "in" site.Params.mainSections ) }}
             {{ range $paginator.Pages }}
             <div class="col-sm-6 mb-4">
               {{ .Render "post" }}
@@ -111,5 +116,18 @@
     </div>
   </div>
 </section>
+{{else}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          {{.Content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
 
 {{ end }}

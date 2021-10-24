@@ -84,7 +84,7 @@
     }
 
     span {
-      padding-left: 8px;
+      padding-left: 2px;
       display: block;
     }
   }
@@ -160,8 +160,8 @@
 
     &:not(:last-child) {
       border-bottom: 1px solid $border-color;
-      padding-bottom: 25px;
-      margin-bottom: 25px;
+      padding-bottom: 12px;
+      margin-bottom: 12px;
     }
 
     a {

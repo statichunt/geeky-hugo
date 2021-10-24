@@ -90,7 +90,7 @@ select {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: $color-primary;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 2px;
   text-underline-offset: 10px;
 }
 
@@ -102,7 +102,7 @@ select {
     z-index: 1;
 
     &:not(:last-child) {
-      margin-right: 25px;
+      margin-right: 15px
     }
 
     &:first-child::before,

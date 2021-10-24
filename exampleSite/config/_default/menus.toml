@@ -17,20 +17,22 @@ url = "contact/"
 weight = 3
 
 [[main]]
-name = "dropdown"
-url = "dropdown/"
+name = "Pages"
+url = "#"
 weight = 3
 hasChildren = true
 
   [[main]]
-  parent = "dropdown"
-  name = "Child 1"
-  url = "Child-1/"
+  parent = "Pages"
+  name = "Tags"
+  url = "tags/"
+  weight = 1
 
   [[main]]
-  parent = "dropdown"
-  name = "Child 2"
-  url = "Child-2/"
+  parent = "Pages"
+  name = "Categories"
+  url = "categories/"
+  weight = 2
 
 # footer menu
 [[footer]]

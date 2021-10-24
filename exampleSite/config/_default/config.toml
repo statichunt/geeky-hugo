@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/geeky/"
 title = "Geeky | Hugo Personal Blog Template"
-theme = "geeky"
+theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
