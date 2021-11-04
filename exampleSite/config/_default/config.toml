@@ -19,7 +19,7 @@ disableLanguages = ["fr"] # example: ["fr"] for disable french language
 [module]
 [module.hugoVersion]
 extended = true
-min = "0.84.0"
+min = "0.87.0"
 
 ############################# Outputs ##############################
 [outputs]
