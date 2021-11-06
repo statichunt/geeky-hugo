@@ -2,8 +2,8 @@
 <h1 align=center>Geeky Hugo | <a target="_blank" href="https://demo.gethugothemes.com/geeky" rel="nofollow">Demo</a> | <a  target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fgeeky%2F&tab=desktop">Page Speed (85%)</a></h1>
 
 <p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.83.1" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.83.1&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.87" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.87&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/gethugothemes/geeky-hugo/blob/master/LICENSE">
@@ -22,8 +22,7 @@
 ---
 
 <p align="center">
-
-![geeky-hugo-startup-theme](https://user-images.githubusercontent.com/17677384/129856059-874a4cb5-790a-40ad-9e1f-7a313fb2a945.png)
+![geeky-hugo-startup-theme](https://user-images.githubusercontent.com/17677384/140605658-0c68cf6c-d15a-4f0d-8e66-1060ce636d20.png)
 </p>
 
 ---
@@ -40,7 +39,7 @@
 - Search by fuse.js and mark.js
 - Mailchimp integrate
 - GDPR consent enable
-- Google page speed optimized ( 69% )
+- Google page speed optimized ( 85% )
 - Open graph meta tag
 - Twitter card meta tag
 
