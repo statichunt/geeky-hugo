@@ -12,9 +12,7 @@ body {
 /*------------------------------------------------------------------
 # default styles
 -------------------------------------------------------------------*/
-li {
-  list-style: none;
-}
+
 
 ul,
 ol {
@@ -355,6 +353,36 @@ select {
   a {
     color: $color-primary;
     text-decoration: underline;
+  }
+  ol,
+  ul {
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: .7rem;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+
+    li {
+      padding-left: 1.5rem;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: '';
+        height: .5rem;
+        width: .5rem;
+        border-radius: 50%;
+        background: $color-primary;
+        left: 3px;
+        top: .5rem;
+      }
+    }
   }
 
   img {
