@@ -6,7 +6,7 @@
     <h3 class="h5 title-border">Blog Categories</h3>
   </div>
   
-  <ul class="list-group">
+  <ul class="list-group list-unstyled">
     {{ range $name, $items := site.Taxonomies.categories }}
     <li>
       <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}" class="d-flex">
