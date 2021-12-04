@@ -27,9 +27,13 @@
     {{ end }}
     <!-- /image processing for multiple device -->
     {{ end }}
-    {{ range .Params.categories }}
-    <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}" class="badge badge-primary card-badge">{{. | title}}</a>
-    {{ end }}
+    <ul class="list-inline card-badge">
+      {{ range .Params.categories }}
+      <li class="list-inline-item">
+        <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}" class="badge badge-primary py-1">{{. | title}}</a>
+      </li>
+      {{ end }}
+    </ul>
   </div>
   {{ else }}
   <div class="mb-4">
