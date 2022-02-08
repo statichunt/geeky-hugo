@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/geeky/examplesite/"
+baseURL = "https://demo.statichunt.com/geeky/"
 title = "Geeky | Hugo Personal Blog Template"
 theme = "geeky-hugo"
 languageName = "En"
@@ -45,7 +45,7 @@ maxAge = "720h"
 ############################# Markup ###############################
 [markup]
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 
 ############################ Media types ############################
