@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.statichunt.com/geeky/"
+baseURL = "https://demo.statichunt.com/geeky-hugo/"
 title = "Geeky | Hugo Personal Blog Template"
 theme = "geeky-hugo"
 languageName = "En"
