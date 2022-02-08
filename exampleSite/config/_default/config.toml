@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/geeky/"
+baseURL = "https://demo.gethugothemes.com/geeky/examplesite/"
 title = "Geeky | Hugo Personal Blog Template"
 theme = "geeky-hugo"
 languageName = "En"

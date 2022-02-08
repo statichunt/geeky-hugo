@@ -30,7 +30,7 @@
     <ul class="list-inline card-badge">
       {{ range .Params.categories }}
       <li class="list-inline-item">
-        <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}" class="badge badge-primary py-1">{{. | title}}</a>
+        <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}/" class="badge badge-primary py-1">{{. | title}}</a>
       </li>
       {{ end }}
     </ul>
@@ -38,7 +38,7 @@
   {{ else }}
   <div class="mb-4">
     {{ range .Params.categories }}
-    <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}" class="badge badge-primary d-inline-block">{{. | title}}</a>
+    <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}/" class="badge badge-primary d-inline-block">{{. | title}}</a>
     {{ end }}
   </div>
   {{ end }}
@@ -49,7 +49,7 @@
     <ul class="list-inline card-meta d-flex align-items-center mb-3">
       <li class="list-inline-item d-flex align-items-center">
         <i class="fas fa-user me-2"></i>
-        <a href="{{`about` | relLangURL}}">{{site.Params.author}}</a>
+        <a href="{{`about` | relLangURL}}/">{{site.Params.author}}</a>
       </li>
       <li class="list-inline-item d-flex align-items-center">
         <i class="fas fa-calendar me-2"></i>

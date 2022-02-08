@@ -9,7 +9,7 @@
   <ul class="list-group list-unstyled">
     {{ range $name, $items := site.Taxonomies.categories }}
     <li>
-      <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}" class="d-flex">
+      <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/" class="d-flex">
         {{ $name | humanize }} <small class="ms-auto">{{ len $items }}</small>
       </a>
     </li>
