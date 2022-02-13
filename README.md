@@ -1,5 +1,5 @@
 
-<h1 align=center>Geeky Hugo | <a target="_blank" href="https://demo.gethugothemes.com/geeky" rel="nofollow">Demo</a> | <a  target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fgeeky%2F&tab=desktop">Page Speed (85%)</a></h1>
+<h1 align=center>Geeky Hugo | <a target="_blank" href="https://demo.statichunt.com/geeky-hugo/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fgeeky%2F&tab=desktop">Page Speed (85%)</a></h1>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.87" alt="Contributors">
