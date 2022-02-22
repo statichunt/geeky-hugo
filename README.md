@@ -93,8 +93,7 @@ View all the websites powered by geeky hugo theme [here](https://github.com/geth
 
 <!-- licence -->
 ## License
-Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
-[Gethugothemes](https://gethugothemes.com)
+Copyright &copy; Designed and developed by [Statichunt](https://statichunt.com)
 
 **Code License:** Released under the [MIT](https://github.com/gethugothemes/geeky-hugo/blob/master/LICENSE) license.
 
@@ -110,14 +109,3 @@ share those images.
 - [Mark Js](https://markjs.io)
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/geeky-hugo/graphs/contributors)
-
-
-## Hire Us
-We are available for **Hiring** for your next HUGO project. Please, check our
-[services](https://gethugothemes.com/services/?ref=github)
-
-<!-- premium themes -->
-## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.webp)](https://gethugothemes.com/products/reader/) | [![timer](https://demo.gethugothemes.com/thumbnails/timer.webp)](https://gethugothemes.com/products/timer/) |
-|:---:|:---:|:---:|
-| **Premium Theme Bundle (40+)** | **Reader** | **Timer** |
