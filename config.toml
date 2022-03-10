@@ -7,17 +7,20 @@
 
 ######################### site variables ##############################
 # customize your color and font from here.
+# palette
+# dark blue = #2C8CD4
+# pink = #EFBAE3
+# lightish blue = #789EDC
+# light darker blue = #5494DA
 [params.variables]
-# color_primary = "#2ba283"
 color_primary = "#EFBAE3"
-# body_color = "#FFF"
 body_color = "#2C8CD4"
-text_color = "#555"
-text_dark = "#222"
-text_light = "#999"
-border_color = "#E1E1E1"
-black = "#000"
-white = "#FFF"
+text_color = "#FFF"
+text_dark = "#EFBAE3"
+text_light = "#EFBAE3"
+border_color = "#EFBAE3"
+black = "#EFBAE3"
+white = "#2C8CD4"
 light = "#f2f2f2"
 
 # font variables

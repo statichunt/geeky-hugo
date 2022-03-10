@@ -8,6 +8,7 @@
           {{ partialCached "logo.html" . }}
         </a>
         <p class="text-light mb-4">{{site.Params.footer_content | markdownify}}</p>
+        <!--
         <ul class="list-unstyled mb-5 footer-menu">
           {{ range site.Menus.footer }}
           <li class="list-inline-item">
@@ -16,6 +17,7 @@
           </li>
           {{ end }}
         </ul>
+        -->
         <ul class="list-unstyled social-icons">
           {{ range site.Params.social }}
           <li class="list-inline-item">
@@ -23,7 +25,7 @@
           </li>
           {{ end }}
         </ul>
-        <p class="content">{{ site.Params.copyright | markdownify }}</p>
+       <!-- <p class="content">{{ site.Params.copyright | markdownify }}</p> -->
       </div>
     </div>
   </div>
