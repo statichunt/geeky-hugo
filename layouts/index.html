@@ -37,20 +37,27 @@
 <!--=================== blog section start ===================-->
 <section class="section">
   <div class="container">
+    <!---->
+    <!--
     {{with site.Params.featured_post_title}}
     <div class="section-title">
       <h2 class="h4 title-border">{{ . | markdownify}}</h2>
     </div>
     {{end}}
+    -->
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
+        <!--
         <div class="border rounded d-lg-flex p-4 mb-5">
+        -->
           <!-- big featured post -->
+          <!--
           <div class="col-lg-6 me-lg-4 mb-5 mb-lg-0">
             {{ range first 1 (where site.RegularPages "Type" "featured") }}
             {{ .Render "post" }}
             {{ end }}
           </div>
+          -->
           <!-- small featured post -->
           <div class="col-lg-6 pe-4 blog-card-list scroll-list">
             {{ range after 1 (where site.RegularPages "Type" "featured") }}
@@ -93,7 +100,9 @@
             </div>
             {{ end }}
           </div>
+        <!--
         </div>
+        -->
 
         <!-- advertisement -->
         {{ with site.Params.advertisement }}
