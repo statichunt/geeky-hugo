@@ -36,9 +36,9 @@ font_scale = "1.3" # default is "majorThird": 1.25
 # Give your font name from google font. add font weight using ":wght@" and separate by ";"
 # example: "Work Sans:wght@400;500;600"
 font_primary = "Raleway:wght@400"
-font_primary_type = "sans-serif" # [serif/sans-serif]
+font_primary_type = "sans-serif"                  # [serif/sans-serif]
 font_secondary = "Merriweather Sans:wght@400;700"
-font_secondary_type = "sans-serif" # [serif/sans-serif]
+font_secondary_type = "sans-serif"                # [serif/sans-serif]
 font_icon = "Font Awesome 5 Free"
 
 
@@ -46,7 +46,7 @@ font_icon = "Font Awesome 5 Free"
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "plugins/font-awesome/fontawesome.min.css"
+link = "plugins/font-awesome/fontawesome.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/brands.css"
 [[params.plugins.css]]
@@ -54,14 +54,14 @@ link = "plugins/font-awesome/solid.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/jquery/jquery.min.js"
+link = "plugins/jquery/jquery.js"
 [[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
+link = "plugins/bootstrap/bootstrap.js"
 [[params.plugins.js]]
-link = "plugins/search/fuse.min.js"
+link = "plugins/search/fuse.js"
 [[params.plugins.js]]
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
 [[params.plugins.js]]
-link = "plugins/webfont-loader/webfont-loader-2.min.js"
+link = "plugins/webfont-loader/webfont-loader-2.js"
