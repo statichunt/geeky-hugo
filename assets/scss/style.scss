@@ -34,3 +34,5 @@ $font-icon: '{{.font_icon | default "Font Awesome 5 Free"}}';
 @import 'templates/navigation.scss';
 
 @import 'templates/main.scss';
+
+@import 'custom.scss';
