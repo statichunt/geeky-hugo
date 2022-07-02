@@ -22,7 +22,7 @@
         {{ $imageWidth:= add (string $image.Width) "x"}}
         {{ $options := add (string $imageWidth) " webp" }}
         {{ $imageWebp:= $image.Resize $options }}
-        <img decoding="async" loading="lazy" width="{{$image.Width}}" height="{{$image.Height}}"
+        <img decoding="async" width="{{$image.Width}}" height="{{$image.Height}}"
           src="{{ $imageWebp.RelPermalink }}" onerror="this.onerror=null;this.src='{{$image.RelPermalink}}'"
           alt="banner-img" class="img-fluid">
       </div>
