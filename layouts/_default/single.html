@@ -89,12 +89,12 @@
     <div class="row">
       <div class="col-12">
         <div class="section-title">
-          <h2 class="h4 title-border">Releted Posts</h2>
+          <h2 class="h4 title-border">Related Posts</h2>
         </div>
       </div>
     </div>
 
-    <!-- releted post -->
+    <!-- related post -->
     <div class="row">
       {{ $related := (where site.RegularPages "Section" "in" site.Params.mainSections) | intersect (where site.RegularPages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) }}
       {{ range first 3 $related }}
