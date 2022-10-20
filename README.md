@@ -1,5 +1,8 @@
 
-<h1 align=center>Geeky Hugo | <a target="_blank" href="https://demo.statichunt.com/geeky-hugo/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdemo.statichunt.com%2Fgeeky-hugo%2F&tab=desktop">Page Speed (85%)</a></h1>
+<h1 align=center>Geeky Hugo</h1> 
+<p align=center>Get Geeked out by Geeky, a personal Hugo blog theme that is fully responsive and super-fast.</p>
+<h2 align="center"><a target="_blank" href="https://demo.statichunt.com/geeky-hugo/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.statichunt.com%2Fgeeky-hugo%2F&form_factor=desktop">Page Speed (85%)</a> </h2>
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.87" alt="Contributors">
@@ -27,7 +30,7 @@
 </p>
 
 ---
-## Features
+## Key Features
 - Google analytics  support
 - Image optimize  with hugo pipe
 - CSS and JS bundle with hugo pipe
@@ -40,7 +43,7 @@
 - Search by fuse.js and mark.js
 - Mailchimp integrate
 - GDPR consent enable
-- Google page speed optimized ( 85% )
+- Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
 
