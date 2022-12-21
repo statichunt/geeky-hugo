@@ -1,0 +1,12 @@
+{
+  "name": "geeky-hugo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "statichunt",
+  "scripts": {
+    "dev": "cd exampleSite; hugo server || hugo server --themesDir ../..",
+    "test": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify|| hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "build": "cd exampleSite; hugo || hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "update": "hugo mod clean && hugo mod get -u ./... && hugo mod tidy"
+  }
+}
