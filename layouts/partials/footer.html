@@ -12,7 +12,8 @@
           {{ range site.Menus.footer }}
           <li class="list-inline-item">
             <a {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-            href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{
+              .Name }}</a>
           </li>
           {{ end }}
         </ul>
@@ -23,7 +24,9 @@
           </li>
           {{ end }}
         </ul>
-        <p class="content">{{ site.Params.copyright | markdownify }}</p>
+        <p>{{site.Params.copyright | markdownify}} {{if site.Params.theme_copyright}} | Theme by <a target="_blank"
+            rel="noopener noreferrer" href="https://statichunt.com/" class="text-underline-hover">statichunt</a>{{end}}
+        </p>
       </div>
     </div>
   </div>
