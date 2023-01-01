@@ -45,7 +45,7 @@
       {{ if .enable }}
       <div class="col-md-6 mb-4 mb-md-0">
         <div class="p-4 border rounded">
-          <h2 class="h4 mb-5 title-border">Formal Education</h2>
+          <h2 class="h4 mb-5 title-border">{{ .title | markdownify }}</h2>
           <div class="row">
             {{ range .education_list }}
             <div class="col-md-6 mb-3">
