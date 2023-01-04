@@ -23,9 +23,21 @@ contact_form_action = "#" # contact form works with https://formspree.io
 # search
 search = true
 
-# featured post title
+# Posts related
+categories_title = "Blog Categories"
+posts_title = "Featured"
 featured_post_title = "Featured Post"
 recent_post_title = "Recent Post"
+featured_post_button = "Featured"
+recent_post_button = "Recent"
+read_more_button = "Read more"
+previous_button = "Previous"
+next_button = "Next"
+related_posts = "Related Posts"
+showing_posts = "Showing Post From"
+no_categories_found = "No Categories Found"
+no_tags_found = "No Tags Found"
+
 mainSections = ["blog"]
 # about widget content
 about_widget_content = "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
@@ -36,6 +48,10 @@ custom_script= ""
 # copyright
 theme_copyright = true
 copyright = "Copyright by your company"
+
+# 404
+error_404_text = "404 Page Not Found!"
+error_404_button = "Back To Home"
 
 # Preloader
 [preloader]
@@ -74,6 +90,12 @@ sidebar = ["about", "categories", "recent-post", "newsletter"]
 # Subscription
 [subscription]
 enable = false
+newsletter_title = "Newsletter"
+newsletter_invitation = "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!"
+newsletter_placeholder = "Type And Hit Enter"
+newsletter_reminder_a = "By Singing Up, You Agree To"
+newsletter_reminder_b = "Privacy Policy"
+newsletter_button = "Sign in"
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours

@@ -3,7 +3,7 @@
 {{ if not (eq (len site.Taxonomies.categories) 0) }}
 <div class="widget category-widget">
   <div class="widget-title">
-    <h3 class="h5 title-border">Blog Categories</h3>
+    <h3 class="h5 title-border">{{site.Params.categories_title}}</h3>
   </div>
   
   <ul class="list-group list-unstyled">
