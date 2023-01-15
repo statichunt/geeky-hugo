@@ -10,6 +10,7 @@ var e, t;
 (e = this),
   (t = function () {
     "use strict";
+
     function e(t) {
       return (e =
         "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
@@ -25,10 +26,12 @@ var e, t;
                 : typeof e;
             })(t);
     }
+
     function t(e, t) {
       if (!(e instanceof t))
         throw new TypeError("Cannot call a class as a function");
     }
+
     function n(e, t) {
       for (var n = 0; n < t.length; n++) {
         var r = t[n];
@@ -38,9 +41,11 @@ var e, t;
           Object.defineProperty(e, r.key, r);
       }
     }
+
     function r(e, t, r) {
       return t && n(e.prototype, t), r && n(e, r), e;
     }
+
     function i(e, t, n) {
       return (
         t in e
@@ -54,6 +59,7 @@ var e, t;
         e
       );
     }
+
     function o(e, t) {
       var n = Object.keys(e);
       if (Object.getOwnPropertySymbols) {
@@ -66,6 +72,7 @@ var e, t;
       }
       return n;
     }
+
     function c(e) {
       for (var t = 1; t < arguments.length; t++) {
         var n = null != arguments[t] ? arguments[t] : {};
@@ -85,16 +92,22 @@ var e, t;
       }
       return e;
     }
+
     function a(e, t) {
       if ("function" != typeof t && null !== t)
         throw new TypeError(
           "Super expression must either be null or a function"
         );
       (e.prototype = Object.create(t && t.prototype, {
-        constructor: { value: e, writable: !0, configurable: !0 },
+        constructor: {
+          value: e,
+          writable: !0,
+          configurable: !0,
+        },
       })),
         t && u(e, t);
     }
+
     function s(e) {
       return (s = Object.setPrototypeOf
         ? Object.getPrototypeOf
@@ -102,6 +115,7 @@ var e, t;
             return e.__proto__ || Object.getPrototypeOf(e);
           })(e);
     }
+
     function u(e, t) {
       return (u =
         Object.setPrototypeOf ||
@@ -109,6 +123,7 @@ var e, t;
           return (e.__proto__ = t), e;
         })(e, t);
     }
+
     function h(e, t) {
       return !t || ("object" != typeof t && "function" != typeof t)
         ? (function (e) {
@@ -120,6 +135,7 @@ var e, t;
           })(e)
         : t;
     }
+
     function f(e) {
       var t = (function () {
         if ("undefined" == typeof Reflect || !Reflect.construct) return !1;
@@ -146,6 +162,7 @@ var e, t;
         return h(this, n);
       };
     }
+
     function l(e) {
       return (
         (function (e) {
@@ -177,20 +194,25 @@ var e, t;
         })()
       );
     }
+
     function d(e, t) {
       (null == t || t > e.length) && (t = e.length);
       for (var n = 0, r = new Array(t); n < t; n++) r[n] = e[n];
       return r;
     }
+
     function v(e) {
       return Array.isArray ? Array.isArray(e) : "[object Array]" === b(e);
     }
+
     function g(e) {
       return "string" == typeof e;
     }
+
     function y(e) {
       return "number" == typeof e;
     }
+
     function p(e) {
       return (
         !0 === e ||
@@ -201,15 +223,19 @@ var e, t;
           "[object Boolean]" == b(e))
       );
     }
+
     function m(t) {
       return "object" === e(t);
     }
+
     function k(e) {
       return null != e;
     }
+
     function M(e) {
       return !e.trim().length;
     }
+
     function b(e) {
       return null == e
         ? void 0 === e
@@ -264,6 +290,7 @@ var e, t;
           e
         );
       })();
+
     function _(e) {
       var t = null,
         n = null,
@@ -289,11 +316,18 @@ var e, t;
           );
         (t = O(o)), (n = j(o));
       }
-      return { path: t, id: n, weight: i, src: r };
+      return {
+        path: t,
+        id: n,
+        weight: i,
+        src: r,
+      };
     }
+
     function O(e) {
       return v(e) ? e : e.split(".");
     }
+
     function j(e) {
       return v(e) ? e.join(".") : e;
     }
@@ -315,9 +349,17 @@ var e, t;
           },
         },
         {},
-        { includeMatches: !1, findAllMatches: !1, minMatchCharLength: 1 },
+        {
+          includeMatches: !1,
+          findAllMatches: !1,
+          minMatchCharLength: 1,
+        },
         {},
-        { location: 0, threshold: 0.6, distance: 100 },
+        {
+          location: 0,
+          threshold: 0.6,
+          distance: 100,
+        },
         {},
         {
           useExtendedSearch: !1,
@@ -357,6 +399,7 @@ var e, t;
         }
       ),
       I = /[^ ]+/g;
+
     function C() {
       var e =
           arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 3,
@@ -472,7 +515,11 @@ var e, t;
             key: "_addString",
             value: function (e, t) {
               if (k(e) && !M(e)) {
-                var n = { v: e, i: t, n: this.norm.get(e) };
+                var n = {
+                  v: e,
+                  i: t,
+                  n: this.norm.get(e),
+                };
                 this.records.push(n);
               }
             },
@@ -481,14 +528,23 @@ var e, t;
             key: "_addObject",
             value: function (e, t) {
               var n = this,
-                r = { i: t, $: {} };
+                r = {
+                  i: t,
+                  $: {},
+                };
               this.keys.forEach(function (t, i) {
                 var o = n.getFn(e, t.path);
                 if (k(o))
                   if (v(o))
                     !(function () {
                       for (
-                        var e = [], t = [{ nestedArrIndex: -1, value: o }];
+                        var e = [],
+                          t = [
+                            {
+                              nestedArrIndex: -1,
+                              value: o,
+                            },
+                          ];
                         t.length;
 
                       ) {
@@ -497,18 +553,28 @@ var e, t;
                           s = c.value;
                         if (k(s))
                           if (g(s) && !M(s)) {
-                            var u = { v: s, i: a, n: n.norm.get(s) };
+                            var u = {
+                              v: s,
+                              i: a,
+                              n: n.norm.get(s),
+                            };
                             e.push(u);
                           } else
                             v(s) &&
                               s.forEach(function (e, n) {
-                                t.push({ nestedArrIndex: n, value: e });
+                                t.push({
+                                  nestedArrIndex: n,
+                                  value: e,
+                                });
                               });
                       }
                       r.$[i] = e;
                     })();
                   else if (!M(o)) {
-                    var c = { v: o, n: n.norm.get(o) };
+                    var c = {
+                      v: o,
+                      n: n.norm.get(o),
+                    };
                     r.$[i] = c;
                   }
               }),
@@ -518,21 +584,28 @@ var e, t;
           {
             key: "toJSON",
             value: function () {
-              return { keys: this.keys, records: this.records };
+              return {
+                keys: this.keys,
+                records: this.records,
+              };
             },
           },
         ]),
         e
       );
     })();
+
     function $(e, t) {
       var n =
           arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {},
         r = n.getFn,
         i = void 0 === r ? A.getFn : r,
-        o = new E({ getFn: i });
+        o = new E({
+          getFn: i,
+        });
       return o.setKeys(e.map(_)), o.setSources(t), o.create(), o;
     }
+
     function R(e) {
       var t =
           arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {},
@@ -551,6 +624,7 @@ var e, t;
       var d = Math.abs(a - o);
       return u ? l + d / u : d ? 1 : l;
     }
+
     function F() {
       for (
         var e =
@@ -576,6 +650,7 @@ var e, t;
       }
       return e[o - 1] && o - r >= t && n.push([r, o - 1]), n;
     }
+
     function P(e) {
       for (var t = {}, n = 0, r = e.length; n < r; n += 1) {
         var i = e.charAt(n);
@@ -623,7 +698,11 @@ var e, t;
             this.pattern.length)
           ) {
             var b = function (e, t) {
-                r.chunks.push({ pattern: e, alphabet: P(e), startIndex: t });
+                r.chunks.push({
+                  pattern: e,
+                  alphabet: P(e),
+                  startIndex: t,
+                });
               },
               x = this.pattern.length;
             if (x > 32) {
@@ -645,7 +724,10 @@ var e, t;
                   n = t.isCaseSensitive,
                   r = t.includeMatches;
                 if ((n || (e = e.toLowerCase()), this.pattern === e)) {
-                  var i = { isMatch: !0, score: 0 };
+                  var i = {
+                    isMatch: !0,
+                    score: 0,
+                  };
                   return r && (i.indices = [[0, e.length - 1]]), i;
                 }
                 var o = this.options,
@@ -756,7 +838,10 @@ var e, t;
                         if (V > x) break;
                         I = W;
                       }
-                      var B = { isMatch: S >= 0, score: Math.max(0.001, C) };
+                      var B = {
+                        isMatch: S >= 0,
+                        score: Math.max(0.001, C),
+                      };
                       if (w) {
                         var G = F(_, d);
                         G.length ? g && (B.indices = G) : (B.isMatch = !1);
@@ -778,7 +863,10 @@ var e, t;
                     (v += m),
                     p && k && (d = [].concat(l(d), l(k)));
                 });
-                var y = { isMatch: g, score: g ? v / this.chunks.length : 1 };
+                var y = {
+                  isMatch: g,
+                  score: g ? v / this.chunks.length : 1,
+                };
                 return g && r && (y.indices = d), y;
               },
             },
@@ -793,7 +881,12 @@ var e, t;
         return (
           r(
             e,
-            [{ key: "search", value: function () {} }],
+            [
+              {
+                key: "search",
+                value: function () {},
+              },
+            ],
             [
               {
                 key: "isMultiMatch",
@@ -812,6 +905,7 @@ var e, t;
           e
         );
       })();
+
     function z(e, t) {
       var n = e.match(t);
       return n ? n[1] : null;
@@ -819,6 +913,7 @@ var e, t;
     var K = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           return t(this, i), n.call(this, e);
         }
@@ -865,6 +960,7 @@ var e, t;
       q = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           return t(this, i), n.call(this, e);
         }
@@ -911,6 +1007,7 @@ var e, t;
       W = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           return t(this, i), n.call(this, e);
         }
@@ -957,6 +1054,7 @@ var e, t;
       J = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           return t(this, i), n.call(this, e);
         }
@@ -1003,6 +1101,7 @@ var e, t;
       T = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           return t(this, i), n.call(this, e);
         }
@@ -1049,6 +1148,7 @@ var e, t;
       U = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           return t(this, i), n.call(this, e);
         }
@@ -1095,6 +1195,7 @@ var e, t;
       V = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           var r,
             o =
@@ -1170,6 +1271,7 @@ var e, t;
       B = (function (e) {
         a(i, e);
         var n = f(i);
+
         function i(e) {
           return t(this, i), n.call(this, e);
         }
@@ -1187,7 +1289,11 @@ var e, t;
                   )
                     (n = t + i), r.push([t, n - 1]);
                   var o = !!r.length;
-                  return { isMatch: o, score: o ? 0 : 1, indices: r };
+                  return {
+                    isMatch: o,
+                    score: o ? 0 : 1,
+                    indices: r,
+                  };
                 },
               },
             ],
@@ -1218,6 +1324,7 @@ var e, t;
       G = [K, B, W, J, U, T, q, V],
       H = G.length,
       Q = / +(?=([^\"]*\"[^\"]*\")*[^\"]*$)/;
+
     function X(e) {
       var t =
         arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
@@ -1299,7 +1406,11 @@ var e, t;
                 key: "searchIn",
                 value: function (e) {
                   var t = this.query;
-                  if (!t) return { isMatch: !1, score: 1 };
+                  if (!t)
+                    return {
+                      isMatch: !1,
+                      score: 1,
+                    };
                   var n = this.options,
                     r = n.includeMatches;
                   e = n.isCaseSensitive ? e : e.toLowerCase();
@@ -1326,11 +1437,17 @@ var e, t;
                       }
                     }
                     if (i) {
-                      var k = { isMatch: !0, score: c / i };
+                      var k = {
+                        isMatch: !0,
+                        score: c / i,
+                      };
                       return r && (k.indices = o), k;
                     }
                   }
-                  return { isMatch: !1, score: 1 };
+                  return {
+                    isMatch: !1,
+                    score: 1,
+                  };
                 },
               },
             ],
@@ -1347,6 +1464,7 @@ var e, t;
         );
       })(),
       ee = [];
+
     function te(e, t) {
       for (var n = 0, r = ee.length; n < r; n += 1) {
         var i = ee[n];
@@ -1376,6 +1494,7 @@ var e, t;
           })
         );
       };
+
     function he(e, t) {
       var n = t.ignoreFieldNorm,
         r = void 0 === n ? A.ignoreFieldNorm : n;
@@ -1394,22 +1513,28 @@ var e, t;
           (e.score = t);
       });
     }
+
     function fe(e, t) {
       var n = e.matches;
       (t.matches = []),
         k(n) &&
           n.forEach(function (e) {
             if (k(e.indices) && e.indices.length) {
-              var n = { indices: e.indices, value: e.value };
+              var n = {
+                indices: e.indices,
+                value: e.value,
+              };
               e.key && (n.key = e.key.src),
                 e.idx > -1 && (n.refIndex = e.idx),
                 t.matches.push(n);
             }
           });
     }
+
     function le(e, t) {
       t.score = e.score;
     }
+
     function de(e, t) {
       var n =
           arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {},
@@ -1423,7 +1548,10 @@ var e, t;
         c && a.push(le),
         e.map(function (e) {
           var n = e.idx,
-            r = { item: t[n], refIndex: n };
+            r = {
+              item: t[n],
+              refIndex: n,
+            };
           return (
             a.length &&
               a.forEach(function (t) {
@@ -1454,7 +1582,9 @@ var e, t;
                 throw new Error("Incorrect 'index' type");
               this._myIndex =
                 t ||
-                $(this.options.keys, this._docs, { getFn: this.options.getFn });
+                $(this.options.keys, this._docs, {
+                  getFn: this.options.getFn,
+                });
             },
           },
           {
@@ -1518,10 +1648,15 @@ var e, t;
                     : this._searchObjectList(e)
                   : this._searchLogical(e);
               return (
-                he(h, { ignoreFieldNorm: u }),
+                he(h, {
+                  ignoreFieldNorm: u,
+                }),
                 a && h.sort(s),
                 y(r) && r > -1 && (h = h.slice(0, r)),
-                de(h, this._docs, { includeMatches: o, includeScore: c })
+                de(h, this._docs, {
+                  includeMatches: o,
+                  includeScore: c,
+                })
               );
             },
           },
@@ -1545,7 +1680,14 @@ var e, t;
                       r.push({
                         item: n,
                         idx: i,
-                        matches: [{ score: s, value: n, norm: o, indices: u }],
+                        matches: [
+                          {
+                            score: s,
+                            value: n,
+                            norm: o,
+                            indices: u,
+                          },
+                        ],
                       });
                   }
                 }),
@@ -1572,10 +1714,16 @@ var e, t;
                         var c = o ? n[ie] : r[0],
                           a = o ? n[oe] : n[c];
                         if (!g(a)) throw new Error(x(c));
-                        var s = { keyId: j(c), pattern: a };
+                        var s = {
+                          keyId: j(c),
+                          pattern: a,
+                        };
                         return i && (s.searcher = te(a, t)), s;
                       }
-                      var u = { children: [], operator: r[0] };
+                      var u = {
+                        children: [],
+                        operator: r[0],
+                      };
                       return (
                         r.forEach(function (t) {
                           var r = n[t];
@@ -1607,7 +1755,13 @@ var e, t;
                             searcher: c,
                           });
                         return a && a.length
-                          ? [{ idx: i, item: r, matches: a }]
+                          ? [
+                              {
+                                idx: i,
+                                item: r,
+                                matches: a,
+                              },
+                            ]
                           : [];
                       }
                       switch (n.operator) {
@@ -1639,7 +1793,11 @@ var e, t;
                     })(n, r, c);
                     a.length &&
                       (i[c] ||
-                        ((i[c] = { idx: c, item: r, matches: [] }),
+                        ((i[c] = {
+                          idx: c,
+                          item: r,
+                          matches: [],
+                        }),
                         o.push(i[c])),
                       a.forEach(function (e) {
                         var t,
@@ -1670,10 +1828,21 @@ var e, t;
                     i.forEach(function (e, i) {
                       a.push.apply(
                         a,
-                        l(t._findMatches({ key: e, value: r[i], searcher: n }))
+                        l(
+                          t._findMatches({
+                            key: e,
+                            value: r[i],
+                            searcher: n,
+                          })
+                        )
                       );
                     }),
-                      a.length && c.push({ idx: o, item: r, matches: a });
+                      a.length &&
+                        c.push({
+                          idx: o,
+                          item: r,
+                          matches: a,
+                        });
                   }
                 }),
                 c
@@ -1717,7 +1886,13 @@ var e, t;
                   u = a.score,
                   h = a.indices;
                 s &&
-                  i.push({ score: u, key: t, value: o, norm: c, indices: h });
+                  i.push({
+                    score: u,
+                    key: t,
+                    value: o,
+                    norm: c,
+                    indices: h,
+                  });
               }
               return i;
             },
@@ -1736,7 +1911,9 @@ var e, t;
           r = void 0 === n ? A.getFn : n,
           i = e.keys,
           o = e.records,
-          c = new E({ getFn: r });
+          c = new E({
+            getFn: r,
+          });
         return c.setKeys(i), c.setIndexRecords(o), c;
       }),
       (ve.config = A),

@@ -62,15 +62,15 @@
       color: $text-dark;
       text-transform: capitalize;
       font-family: $font-secondary;
-      font-size: .9rem;
+      font-size: 0.9rem;
       font-weight: 400;
       color: $black;
-      padding: .7em 1.5em;
+      padding: 0.7em 1.5em;
       border-radius: 50px;
-      transition: .2s ease;
+      transition: 0.2s ease;
 
       @include desktop-lg {
-        padding: .6em 1em;
+        padding: 0.6em 1em;
       }
 
       &:hover {
@@ -94,7 +94,7 @@
       border: 0;
       position: relative;
       transform: translate(-1px, 3px);
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 
@@ -125,7 +125,6 @@
       li {
         &:not(:last-child) {
           margin-bottom: 7px;
-
         }
 
         a {
@@ -136,14 +135,14 @@
 
       .dropdown-item {
         text-transform: capitalize;
-        transition: .3s;
+        transition: 0.3s;
         font-family: $font-secondary;
 
         &.active,
         &:active,
         &:hover {
           color: $color-primary;
-          background-color: rgba($color-primary, .15);
+          background-color: rgba($color-primary, 0.15);
         }
       }
     }
@@ -179,7 +178,7 @@
   z-index: 999;
   opacity: 0;
   visibility: hidden;
-  transition: .5s;
+  transition: 0.5s;
   transform: translateY(-20px);
 
   &.open {
@@ -218,6 +217,7 @@
 
 /* offcanvas */
 .offcanvas {
+  z-index: 5555 !important;
   .offcanvas-menu {
     padding-top: 20px;
 
@@ -247,6 +247,7 @@
     position: absolute;
     top: 11px;
     right: 24px;
+    z-index: 7676;
   }
 }
 

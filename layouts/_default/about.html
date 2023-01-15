@@ -5,35 +5,7 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-12">
-        <!-- image path -->
-        {{ $imagePath:= .Params.image }}
-
-        <!-- image CDN -->
-        {{ if hasPrefix $imagePath "http" }}
-        <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
-          class="img-fluid mb-5 w-100 rounded-4">
-        {{ else }}
-        <!-- /image cdn -->
-
-        <!-- image processing for multiple device -->
-        {{ if fileExists (add `assets/` $imagePath) }}
-        {{ $image:= resources.Get $imagePath }}
-        {{ $imageFallback:= $image.Resize "1400x" }}
-        {{ $imageXL:= $image.Resize "1400x webp" }}
-        {{ $imageLG:= $image.Resize "1000x webp" }}
-        {{ $imageMD:= $image.Resize "800x webp" }}
-        {{ $imageSM:= $image.Resize "600x webp" }}
-        <picture>
-          <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
-          <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
-          <source srcset="{{ $imageLG.RelPermalink }}" media="(max-width: 992px)">
-          <source srcset="{{ $imageXL.RelPermalink }}">
-          <img loading="lazy" decoding="async" class="img-fluid mb-5 w-100 rounded-4" src="{{$imageFallback.RelPermalink}}"
-            alt="{{.Title}}" width="{{$image.Width}}" height="{{$image.Height}}">
-        </picture>
-        {{ end }}
-        <!-- /image processing for multiple device -->
-        {{ end }}
+        {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid mb-5 w-100 rounded-4" ) }}
         <h2 class="mb-3">{{ .Title | markdownify }}</h2>
         <div class="content">
           {{.Content}}

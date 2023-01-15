@@ -7,7 +7,7 @@ logo = "images/logo.png"
 # Note: logo_width is not work with .svg file
 logo_width = "150x"
 # logo text will only show when logo is missing.
-logo_text = "Boilerplate"
+logo_text = "Geeky"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata

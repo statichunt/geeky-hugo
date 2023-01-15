@@ -5,7 +5,7 @@
       <div class="col-xl-6 text-center">
         <!-- footer brand/logo -->
         <a class="footer-brand mb-4 d-block" href="{{ site.BaseURL | relLangURL }}">
-          {{ partialCached "logo.html" . }}
+          {{ partial "logo.html" }}
         </a>
         <p class="text-light mb-4">{{site.Params.footer_content | markdownify}}</p>
         <ul class="list-unstyled mb-5 footer-menu">
@@ -25,7 +25,7 @@
           {{ end }}
         </ul>
         <p>{{site.Params.copyright | markdownify}} {{if site.Params.theme_copyright}} | Theme by <a target="_blank"
-            rel="noopener noreferrer" href="https://statichunt.com/">statichunt</a>{{end}}
+            rel="noopener noreferrer" href="https://statichunt.com/" class="text-muted text-decoration-underline">statichunt</a>{{end}}
         </p>
       </div>
     </div>

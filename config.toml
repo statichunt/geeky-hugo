@@ -39,29 +39,28 @@ font_primary = "Raleway:wght@400"
 font_primary_type = "sans-serif"                  # [serif/sans-serif]
 font_secondary = "Merriweather Sans:wght@400;700"
 font_secondary_type = "sans-serif"                # [serif/sans-serif]
-font_icon = "Font Awesome 5 Free"
+font_icon = "Font Awesome 6 Free"
 
 
 ############################# Plugins ##############################
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "plugins/font-awesome/fontawesome.css"
+link = "plugins/font-awesome/v6/brands.css"
 [[params.plugins.css]]
-link = "plugins/font-awesome/brands.css"
+link = "plugins/font-awesome/v6/solid.css"
 [[params.plugins.css]]
-link = "plugins/font-awesome/solid.css"
+link = "plugins/font-awesome/v6/icons.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/jquery/jquery.js"
+link = "plugins/webfont/webfont-loader-2.js"
+# [[params.plugins.js]]
+# link = "plugins/glightbox.js"
 [[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.js"
-[[params.plugins.js]]
-link = "plugins/search/fuse.js"
-[[params.plugins.js]]
-link = "plugins/search/mark.js"
-[[params.plugins.js]]
-link = "plugins/search/search.js"
-[[params.plugins.js]]
-link = "plugins/webfont-loader/webfont-loader-2.js"
+link = "plugins/cookie.js"
+# [[params.plugins.js]]
+# link = "plugins/lazy-loader.js"
+# [[params.plugins.js]]
+# link = "https://cpwebassets.codepen.io/assets/embed/ei.js"
+# attributes = "async"

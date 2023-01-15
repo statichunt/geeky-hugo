@@ -1,5 +1,5 @@
 {{ $.Scratch.Add "index" slice }}
-{{ range site.RegularPages }}
+{{ range where site.RegularPages "Section" "blog" }}
 
 {{ $date:= time.Format ":date_long" .PublishDate }}
 

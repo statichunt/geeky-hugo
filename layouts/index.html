@@ -18,13 +18,7 @@
       </div>
       {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 mx-auto mb-5 mb-lg-0">
-        {{ $image:= resources.Get . }}
-        {{ $imageWidth:= add (string $image.Width) "x"}}
-        {{ $options := add (string $imageWidth) " webp" }}
-        {{ $imageWebp:= $image.Resize $options }}
-        <img decoding="async" width="{{$image.Width}}" height="{{$image.Height}}"
-          src="{{ $imageWebp.RelPermalink }}" onerror="this.onerror=null;this.src='{{$image.RelPermalink}}'"
-          alt="banner-img" class="img-fluid">
+        {{ partial "image.html" (dict "Src" . "Alt" "banner-img" "Class" "img-fluid" ) }}
       </div>
       {{ end }}
     </div>
@@ -56,28 +50,7 @@
             {{ range after 1 (where site.RegularPages "Type" "featured") }}
             <div class="card rounded-0">
               <div class="d-sm-flex">
-                <!-- image path -->
-                {{ $imagePath:= .Params.image }}
-                {{ if $imagePath }}
-                <!-- image CDN -->
-                {{ if hasPrefix $imagePath "http" }}
-                <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
-                  class="img-fluid rounded-4 align-self-start" width="105" height="85">
-                {{ else }}
-                <!-- /image cdn -->
-
-                <!-- image processing for single device -->
-                {{ if fileExists (add `assets/` $imagePath) }}
-                {{ $image:= resources.Get $imagePath }}
-                {{ $imageFallback:= $image.Fill "105x85" }}
-                {{ $imageWebp:= $image.Fill "105x85 webp" }}
-                <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}" width="105" height="85"
-                  class="img-fluid rounded-4 align-self-start"
-                  onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
-                {{ end }}
-                <!-- /image processing for single device -->
-                {{ end }}
-                {{ end }}
+                {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid rounded-4 align-self-start" "Command" "Fill" "Size" "105x85" ) }}
                 <div class="card-body ps-sm-3">
                   <h3 class="h6">
                     <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>

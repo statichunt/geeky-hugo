@@ -12,28 +12,7 @@
       {{ range first 5 ( where site.RegularPages "Type" "featured" )}}
       <div class="card rounded-0">
         <div class="d-sm-flex">
-          <!-- image path -->
-          {{ $imagePath:= .Params.image }}
-          {{ if $imagePath }}
-          <!-- image CDN -->
-          {{ if hasPrefix $imagePath "http" }}
-          <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="80" height="80">
-          {{ else }}
-          <!-- /image cdn -->
-
-          <!-- image processing for single device -->
-          {{ if fileExists (add `assets/` $imagePath) }}
-          {{ $image:= resources.Get $imagePath }}
-          {{ $imageFallback:= $image.Fill "80x80" }}
-          {{ $imageWebp:= $image.Fill "80x80 webp" }}
-          <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="{{$imageFallback.Width}}" height="{{$imageFallback.Height}}"
-            onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
-          {{ end }}
-          <!-- /image processing for single device -->
-          {{ end }}
-          {{ end }}
+          {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" "Command" "Fill" "Size" "80x80" ) }}
           <div class="card-body ps-sm-3">
             <h4 class="h6">
               <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
@@ -53,28 +32,7 @@
       {{ range first 5 ( where site.RegularPages "Section" "in" site.Params.mainSections )}}
       <div class="card rounded-0">
         <div class="d-sm-flex">
-          <!-- image path -->
-          {{ $imagePath:= .Params.image }}
-          {{ if $imagePath }}
-          <!-- image CDN -->
-          {{ if hasPrefix $imagePath "http" }}
-          <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="80" height="80">
-          {{ else }}
-          <!-- /image cdn -->
-
-          <!-- image processing for single device -->
-          {{ if fileExists (add `assets/` $imagePath) }}
-          {{ $image:= resources.Get $imagePath }}
-          {{ $imageFallback:= $image.Fill "80x80" }}
-          {{ $imageWebp:= $image.Fill "80x80 webp" }}
-          <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}"
-            class="img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" width="{{$imageFallback.Width}}" height="{{$imageFallback.Height}}"
-            onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
-          {{ end }}
-          <!-- /image processing for single device -->
-          {{ end }}
-          {{ end }}
+          {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid rounded-circle mb-3 mb-sm-0 featured-widget-img" "Command" "Fill" "Size" "80x80" ) }}
           <div class="card-body ps-sm-3">
             <h4 class="h6">
               <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
