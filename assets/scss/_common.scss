@@ -8,11 +8,9 @@ body {
   color: $white;
 }
 
-
 /*------------------------------------------------------------------
 # default styles
 -------------------------------------------------------------------*/
-
 
 ul,
 ol {
@@ -41,7 +39,7 @@ a,
 button,
 select {
   cursor: pointer;
-  transition: .2s ease;
+  transition: 0.2s ease;
 
   &:focus {
     outline: 0;
@@ -94,13 +92,12 @@ select {
 
 /* social-icons */
 .social-icons {
-
   li {
     position: relative;
     z-index: 1;
 
     &:not(:last-child) {
-      margin-right: 15px
+      margin-right: 15px;
     }
 
     &:first-child::before,
@@ -136,14 +133,13 @@ select {
 
 /* pagination */
 .pagination {
-
   .prev,
   .next {
     a {
       padding: 12px 10px;
 
       &:hover {
-        background-color: #F4F4F4;
+        background-color: #f4f4f4;
         color: $text-dark;
       }
     }
@@ -160,7 +156,6 @@ select {
       box-shadow: none;
     }
   }
-
 
   .page-link {
     font-size: 18px;
@@ -225,7 +220,7 @@ select {
     font-family: $font-secondary;
 
     small {
-      margin-left: .2em;
+      margin-left: 0.2em;
       color: $color-primary;
     }
   }
@@ -243,7 +238,7 @@ select {
 
     &::placeholder {
       color: $text-light !important;
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
 
     &:focus {
@@ -307,7 +302,7 @@ select {
 }
 
 .badge {
-  padding: .1em .9em;
+  padding: 0.1em 0.9em;
   border-radius: 35px;
 }
 
@@ -346,7 +341,12 @@ select {
 .content {
   margin-bottom: 3em;
 
-  h1,h2,h3,h4,h5,h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-top: 3rem;
   }
 
@@ -359,7 +359,7 @@ select {
     padding-left: 1.5rem;
 
     li {
-      margin-bottom: .7rem;
+      margin-bottom: 0.7rem;
     }
   }
 
@@ -374,19 +374,28 @@ select {
 
       &::before {
         position: absolute;
-        content: '';
-        height: .5rem;
-        width: .5rem;
+        content: "";
+        height: 0.5rem;
+        width: 0.5rem;
         border-radius: 50%;
         background: $color-primary;
         left: 3px;
-        top: .5rem;
+        top: 0.5rem;
       }
     }
   }
 
   img {
     margin-bottom: 1.5em;
+  }
+  figure {
+    img {
+      margin-bottom: 0.5em;
+    }
+    figcaption {
+      text-align: center;
+      font-style: italic;
+    }
   }
 
   p {
@@ -423,13 +432,13 @@ select {
       }
 
       &::before {
-        content: '\f10d';
+        content: "\f10d";
         top: 0;
         left: -70px;
       }
 
       &::after {
-        content: '\f10e';
+        content: "\f10e";
         bottom: 0;
         right: -35px;
       }
