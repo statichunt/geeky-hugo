@@ -31,7 +31,8 @@
 
 ---
 ## Key Features
-- Google analytics  support
+- Hugo module support
+- Google analytics, AdSense support
 - Image optimize  with hugo pipe
 - CSS and JS bundle with hugo pipe
 - Netlify settings predefine
@@ -40,7 +41,7 @@
 - Caching enable
 - Color and fonts variable in config file
 - Contact form Support
-- Search by fuse.js and mark.js
+- Search by fuse.js
 - Mailchimp integrate
 - GDPR consent enable
 - Google page speed optimized
@@ -109,6 +110,5 @@ share those images.
 - [Jquery](https://jquery.com)
 - [Font Awesome Icons](https://fontawesome.com)
 - [Fuse Js](https://fusejs.io)
-- [Mark Js](https://markjs.io)
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/geeky-hugo/graphs/contributors)
