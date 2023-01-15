@@ -3,7 +3,7 @@
 <section class="section">
   <div class="container">
     <div class="section-title">
-      <h2 class="h4">Showing Post From <span class="title-border"><script>
+      <h2 class="h4">{{ site.Params.showing_posts }} <span class="title-border"><script>
         var keyword = (window.location.search).substr(3);
         var result = keyword.replace("+", " ");
         document.write(result);
@@ -31,7 +31,7 @@
                       </li>
                     </ul>
                     <p class="card-text mb-4">${snippet}</p>
-                    <a href="${link}" class="btn btn-outline-primary btn-sm">Read more</a>
+                    <a href="${link}" class="btn btn-outline-primary btn-sm">{{ site.Params.read_more_button }}</a>
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@
                 </li>
               </ul>
               <p class="card-text mb-4">${snippet}</p>
-              <a href="${link}" class="btn btn-outline-primary btn-sm">Read more</a>
+              <a href="${link}" class="btn btn-outline-primary btn-sm">{{ site.Params.read_more_button }}</a>
             </div>
           </div>
         </script>
