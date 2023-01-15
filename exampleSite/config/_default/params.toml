@@ -23,7 +23,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 # search
 search = true
 
-# Posts related
+# Posts related title & Contents
 categories_title = "Blog Categories"
 posts_title = "Featured"
 featured_post_title = "Featured Post"
