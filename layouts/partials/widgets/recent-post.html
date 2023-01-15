@@ -1,10 +1,10 @@
 <div class="widget featured-widget ">
   <div class="widget-title">
-    <h3 class="title-border h5">Featured Post</h3>
+    <h3 class="title-border h5">{{site.Params.posts_title}}</h3>
   </div>
   <div class="d-grid mb-5 gap-3 d-md-block nav nav-pills">
-    <button class="btn btn-sm btn-outline-primary btn-lg me-2 mb-lg-3 mb-xl-0 active" type="button" data-bs-toggle="pill" data-bs-target="#Featured" aria-selected="true">Featured</button>
-    <button class="btn btn-sm btn-outline-primary btn-lg" type="button" data-bs-toggle="pill" data-bs-target="#Recent" aria-selected="false">Recent</button>
+    <button class="btn btn-sm btn-outline-primary btn-lg me-2 mb-lg-3 mb-xl-0 active" type="button" data-bs-toggle="pill" data-bs-target="#Featured" aria-selected="true">{{site.Params.featured_post_button_text}}</button>
+    <button class="btn btn-sm btn-outline-primary btn-lg" type="button" data-bs-toggle="pill" data-bs-target="#Recent" aria-selected="false">{{site.Params.recent_post_button_text}}</button>
   </div>
 
   <div class="tab-content">
