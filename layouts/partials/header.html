@@ -14,11 +14,11 @@
             <ul class="list-unstyled search me-3">
               {{ if site.Params.search }}
               <li class="list-inline-item">
-                <a href="#" class="toggle-search" data-target="#search-wrap"><i class="fas fa-search"></i></a>
+                <a href="#" class="toggle-search" data-target="#search-wrap" aria-label="Search"><i class="fas fa-search"></i></a>
               </li>
               {{ end }}
               <li class="list-inline-item">
-                <a href="#" class="toggle-side-nav" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                <a href="#" class="toggle-side-nav" aria-label="Toggle navigation" aria-controls="offcanvasRight" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                   aria-controls="offcanvasRight"><i class="fas fa-bars"></i></a>
               </li>
             </ul>
@@ -34,7 +34,7 @@
               {{ $pageURL:= $currentPage.Permalink | absLangURL }}
               {{ $active := eq $menuURL $pageURL }}
               {{ if .HasChildren }}
-              <li class="nav-item dropdown 
+              <li class="nav-item dropdown
               {{ range .Children }}
               {{ $childURL := .URL | absLangURL }}
               {{ $active := eq $childURL $pageURL }}
@@ -75,7 +75,7 @@
             {{ if site.Params.search }}
             <ul class="list-unstyled search d-none d-lg-block">
               <li class="list-inline-item">
-                <button class="toggle-search" data-target="#search-wrap"><i class="fas fa-search"></i></button>
+                <button class="toggle-search" aria-label="Search" data-target="#search-wrap"><i class="fas fa-search"></i></button>
               </li>
             </ul>
             {{ end }}
