@@ -84,7 +84,7 @@
             <!-- Output page numbers. -->
             {{ if eq ($.Scratch.Get "page_number_flag") true }}
             <li class="page-item">
-              <a href="{{ .URL }}" class="page-link {{if eq . $paginator}}active{{end}}" aria-label="Ga naar pagina {{ .PageNumber }}"{{if eq . $paginator}} aria-current="page"{{end}}>
+              <a href="{{ .URL }}" class="page-link {{if eq . $paginator}}active{{end}}" aria-label="Go to page {{ .PageNumber }}"{{if eq . $paginator}} aria-current="page"{{end}}>
                 {{ .PageNumber }}
               </a>
             </li>
