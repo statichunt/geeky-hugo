@@ -7,7 +7,7 @@
 {{ if (fileExists (add `assets/` .)) }}
 {{ $image:= resources.Get . }}
 {{ $image:= $image.Resize "650x" }}
-{{ $.Scratch.Set "image" $image.Permalink }}
+{{ $.Scratch.Set "image" $image.RelPermalink }}
 {{ end }}
 {{ end }}
 {{ $image:= $.Scratch.Get "image" }}
