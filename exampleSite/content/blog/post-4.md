@@ -4,6 +4,7 @@ description: "meta description"
 image: "images/post/post-4.png"
 date: 2021-01-24T18:19:25+06:00
 categories: ["github", "youtube"]
+tags: ["github"]
 type: "featured" # available types: [featured/regular]
 draft: false
 ---
