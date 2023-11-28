@@ -11,7 +11,7 @@ logo_text = "Earn Money Online"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "Find ways to earn money online through freelancing, side hustles, e-Biz opportunities and more. Explore legitimate strategies to generate income from home! "
+description = "Find ways to earn money online via side hustles, work from home jobs, ebiz, along with other remote opportunities. Diversify your income today!"
 author = "Dejuan Jones"
 image = "images/money-logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
