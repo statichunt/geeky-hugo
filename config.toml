@@ -8,7 +8,7 @@
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
-color_primary = "#2ba283"
+color_primary = "#5e17eb"
 body_color = "#FFF"
 text_color = "#555"
 text_dark = "#222"
@@ -19,7 +19,7 @@ white = "#FFF"
 light = "#f2f2f2"
 
 # font variables
-# base font size for full website, 
+# base font size for full website,
 font_size = "15px" # default is 16px
 
 # Font Scale Sizes

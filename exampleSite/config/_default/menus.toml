@@ -7,32 +7,30 @@ url = ""
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Guide"
+url = "guide/"
 weight = 2
 
 [[main]]
-name = "Contact"
-url = "contact/"
+name = "Make Money Online"
+url = "blog/make-money-online/"
 weight = 3
 
 [[main]]
-name = "Pages"
-url = "#"
-weight = 3
-hasChildren = true
+name = "Creative Side Hustles"
+url = "blog/creative-side-hustles/"
+weight = 4
 
-  [[main]]
-  parent = "Pages"
-  name = "Tags"
-  url = "tags/"
-  weight = 1
+[[main]]
+name = "Passive Income Ideas"
+url = "blog/passive-income-ideas/"
+weight = 5
 
-  [[main]]
-  parent = "Pages"
-  name = "Categories"
-  url = "categories/"
-  weight = 2
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 6
+hasChildren = false
 
 # footer menu
 [[footer]]

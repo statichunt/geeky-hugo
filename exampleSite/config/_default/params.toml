@@ -1,25 +1,25 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/favicon-1.png"
 # logo
-logo = "images/logo.png"
+logo = "images/logo-front.png"
 # use `x` with logo_width, example: "100x".
 # Note: logo_width is not work with .svg file
 logo_width = "150x"
 # logo text will only show when logo is missing.
-logo_text = "Geeky"
+logo_text = "Earn Money Online"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
-author = "Themefisher"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+description = "Find ways to earn money online through freelancing, side hustles, e-Biz opportunities and more. Explore legitimate strategies to generate income from home! "
+author = "Dejuan Jones"
+image = "images/money-logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@email.com"
+address = "Seattle, Wa"
+mobile = "+4252434038"
+email = "earnonlinemoney2023@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xdoreeqg" # contact form works with https://formspree.io
 # search
 search = true
 
@@ -30,7 +30,7 @@ featured_post_title = "Featured Post"
 recent_post_title = "Recent Post"
 featured_post_button = "Featured"
 recent_post_button = "Recent"
-read_more_button = "Read more"
+read_more_button = "Explore"
 previous_button = "Previous"
 next_button = "Next"
 related_posts = "Related Posts"
@@ -40,14 +40,14 @@ no_tags_found = "No Tags Found"
 
 mainSections = ["blog"]
 # about widget content
-about_widget_content = "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+about_widget_content = "Connect with us on social media!"
 # footer content
-footer_content = "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper."
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+footer_content = "This platform is dedicated to empowering individuals from diverse backgrounds to embrace the digital realm and explore genuine avenues for financial success in the virtual world."
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script= ""
 # copyright
 theme_copyright = true
-copyright = "Copyright by your company"
+copyright = "© Copyright"
 
 # 404
 error_404_text = "404 Page Not Found!"
@@ -55,24 +55,24 @@ error_404_button = "Back To Home"
 
 # Preloader
 [preloader]
-enable = false
+enable = true
 preloader = "" # use jpg, png, svg or gif format.
 
 # Banner
 [banner]
 enable = true
-title_large = "Welcome **!**"
-title_small = "to Jhon Bravo Blog"
-image = "images/banner.png"
+title_large = "Earn Money Online **!**"
+title_small = "Digital Side Hustles"
+image = "images/earn-money-from-home.png"
 background_image = "/images/banner-bg-shape.svg"
-content = "Are Developer and recently started your own business Already made website to ensure presence wants to develop."
-button_label = "Know About Me"
-button_link = "about/"
+content = "Your journey to earn money online starts here! Discover side hustles, freelance gigs, work from home opportunities and more."
+button_label = "Start Here"
+button_link = "guide/"
 
 # Advertise
 [advertisement]
-image = "images/promotion.png"
-link = "https://gethugothemes.com/"
+image = "images/earn-internet-income.png"
+link = "https://earnonlinemoney.org/"
 
 # cookies
 [cookies]
@@ -89,28 +89,27 @@ sidebar = ["about", "categories", "recent-post", "newsletter"]
 
 # Subscription
 [subscription]
-enable = false
+enable = true
 newsletter_title = "Newsletter"
 newsletter_invitation = "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!"
 newsletter_placeholder = "Type And Hit Enter"
-newsletter_reminder_a = "By Singing Up, You Agree To"
+newsletter_reminder_a = "By Singing Up, You Agree To Receive Updated Content"
 newsletter_reminder_b = "Privacy Policy"
 newsletter_button = "Sign in"
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
-
+mailchimp_form_action = "https://gmail.us17.list-manage.com/subscribe/post" # replace this url with yours
+mailchimp_form_name = "MERGE0" # replace this code with yours
 
 ############################# social site ########################
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://earnmoneynowonline/"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/moneyonline_fre"
 
 [[social]]
 title = "instagram"
@@ -125,4 +124,4 @@ link = "#"
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://linkedin.com/earn-money-online-free/"
