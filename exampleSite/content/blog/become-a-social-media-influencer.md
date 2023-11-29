@@ -6,7 +6,7 @@ date: "2023-05-20T18:19:25+06:00"
 categories: ["influencing"]
 tags: ["business"]
 type: "regular" # available types: [featured/regular]
-draft: true
+draft: false
 ---
 
 The phenomenon of influencing has reached widespread recognition, with a multitude of influencers populating the online realm. What's even more intriguing is that physical presence is no longer a prerequisite for earning income. The realm of influencing allows you to accrue earnings even as you slumber peacefully. As you check your earnings, you'll find your account growing without active effort. Notably, some influencers accumulate income round-the-clock, ensuring a steady stream of earnings 24/7.

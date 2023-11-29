@@ -64,3 +64,10 @@ link = "plugins/cookie.js"
 # [[params.plugins.js]]
 # link = "https://cpwebassets.codepen.io/assets/embed/ei.js"
 # attributes = "async"
+
+# Robotstxt
+enableRobotsTXT = true
+
+[taxonomies]
+    tag = "/tags/:slug"
+    category = "/:slug/"
