@@ -69,5 +69,5 @@ link = "plugins/cookie.js"
 enableRobotsTXT = true
 
 [permalinks]
-    categories = "/:slug/"
+    categories = "/:title/"
     tags = "/:slug/"
