@@ -71,3 +71,6 @@ enableRobotsTXT = true
 [taxonomies]
     tag = "/tags/:slug"
     category = "/:slug/"
+
+[permalinks]
+    blog = "/:slug/"
