@@ -67,7 +67,6 @@ link = "plugins/cookie.js"
 
 # Robotstxt
 enableRobotsTXT = true
-
+# Permamalinks
 [permalinks]
-    categories = "/:title/"
-    tags = "/:slug/"
+    categories = "title"

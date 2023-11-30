@@ -72,7 +72,7 @@ button_link = "guide/"
 # Advertise
 [advertisement]
 image = "images/earn-internet-income.png"
-link = "https://earnonlinemoney.org/"
+link = "https://earnonlinemoney.org/blog/make-money-online"
 
 # cookies
 [cookies]
@@ -104,7 +104,7 @@ mailchimp_form_name = "MERGE0" # replace this code with yours
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://earnmoneynowonline/"
+link = "https://www.facebook.com/earnmoneynowonline/"
 
 [[social]]
 title = "twitter"
