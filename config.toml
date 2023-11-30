@@ -68,9 +68,6 @@ link = "plugins/cookie.js"
 # Robotstxt
 enableRobotsTXT = true
 
-[taxonomies]
-    tag = "/tags/:slug"
-    category = "/:slug/"
-
 [permalinks]
-    blog = "/:slug/"
+    categories = "/:slug/"
+    tags = "/:slug/"
