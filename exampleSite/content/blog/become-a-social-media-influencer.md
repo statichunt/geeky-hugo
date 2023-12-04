@@ -1,11 +1,11 @@
 ---
-title: How to Become a Social Media Influencer
-description: Discover the world of online influencing! Earn while you sleep, with 24/7 income potential.
-image: images/post/social-influencer.png
+title: "How to Become a Social Media Influencer"
+description: "Discover the world of online influencing! Earn while you sleep, with 24/7 income potential."
+image: "images/post/social-influencer.png"
 date: 2023-05-20T18:19:25+06:00
 categories: ["influencing"]
 tags: ["business"]
-type: regular # available types: [featured/regular]
+type: "regular" # available types: [featured/regular]
 draft: false
 ---
 

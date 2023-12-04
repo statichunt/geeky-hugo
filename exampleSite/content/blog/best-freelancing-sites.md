@@ -1,6 +1,6 @@
 ---
 title: "Best Freelance Platforms"
-description: Explore the best freelancing websites, uncover platforms to kickstart your independent contracting journey!"
+description: "Explore the best freelancing websites, uncover platforms to kickstart your independent contracting journey!"
 image: "images/post/freelance-sites.jpg"
 date: 2019-02-16T11:17:25+04:00
 categories: ["gig economy"]
@@ -41,7 +41,7 @@ The Writer Finder might be the most expensive, but they deliver skilled on-deman
 
 Upwork ranks number one in its respective markets. Annually, Upwork generates an estimated revenue of more than $1 billion, posting over three million jobs from 5 million registered customers. Over the years, the company has re-branded and merged to become one of the most dominant forces in its field, beginning in 1998. In the beginning, Elance was the name of this organization. In 2003, they renamed the company oDesk. Ten years later (2013), the organization's brand name changed to oDesk-Elance. In 2015, the company re-branded its name to Upwork. I have not used this platform, but according to positive reviews and satisfied clients, the company is legitimate.
 
-## Additional Freelance Platforms
+#### Additional Freelance Platforms
 
 Want to increase your income? Start searching for additional freelance platforms. By using more platforms you can generate leads, build your reputation, and boost your income. Here are a few to get started:
 
@@ -55,6 +55,6 @@ Want to increase your income? Start searching for additional freelance platforms
 - Guru is one of the best markets because they charge as low as 5%. Guru has paid out over $250 million to freelancers to date.
 - Ndash is a crowd-sourcing marketplace that has enabled thousands of writers to earn additional income. To tell the truth, some authors earn a six-figure income.
 
-### Freelancer Earning Tips
+#### Freelancer Earning Tips
 
 Here are a few earning tips for freelancers; Freelancing takes time, dedication, and motivation. Therefore, if you plan to become a successful freelancer, you must be consistent. In addition, you must have extensive knowledge of the topic or topics you're covering. To be more specific, you also should have an expert level of knowledge on subjects concerning individual marketplaces.
