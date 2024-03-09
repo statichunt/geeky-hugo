@@ -61,7 +61,6 @@ $ cd geeky-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
-Or Check out [Full Documentation](https://docs.gethugothemes.com/geeky/?ref=github).
 
 
 ## Deployment and hosting
