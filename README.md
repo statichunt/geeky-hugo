@@ -61,15 +61,39 @@ $ cd geeky-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
-Or Check out [Full Documentation](https://docs.gethugothemes.com/geeky/?ref=github).
-
 
 ## Deployment and hosting
 
-[![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/statichunt/geeky-hugo)
+## Netlify 
 
-Follow the steps.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/statichunt/geeky-hugo)
+
+Follow these steps.
+
+
+## Render
+
+![Deploy to Render](https://www.render.com)
+
+To deploy your Hugo site on Render, follow these steps:
+
+1. **Create a New Static Site** on Render's dashboard.
+2. **Link the Git Repository** that contains your Hugo site.
+3. Navigate to **Settings > Build & Deploy**.
+
+Configure the build settings as follows:
+
+- **Build Command**:
+
+```bash
+mkdir geeky-hugo; mv * geeky-hugo/.; hugo -s geeky-hugo/exampleSite --minify --gc --themesDir ../..
+```
+
+- **Publish Directory**:
+
+```bash
+geeky-hugo/exampleSite/public
+```
 
 <!-- reporting issue -->
 ## Reporting Issues

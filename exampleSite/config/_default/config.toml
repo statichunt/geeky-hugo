@@ -63,3 +63,15 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+
+############################ sitemap  ###########################
+[sitemap]
+  changeFreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0
+
+
+############################ exclude from sitemap  ###########################
+[params]
+taxonomiesExcludedFromSitemap = ["tags", "categories"]
