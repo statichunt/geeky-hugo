@@ -1,7 +1,7 @@
 ---
 title: "Get started with Geeky Hugo"
 description: "Congrats on picking the perfect Hugo theme for your blog! Follow these clear instructions to set it up quickly with the Geeky theme."
-image: "images/post/post-1.png"
+image: "images/post/how-to-use-geeky.jpeg"
 date: 2023-01-24T18:19:25+06:00
 categories: ["tutorial"]
 tags: ["docs"]
@@ -10,8 +10,7 @@ draft: false
 sitemapExclude: false
 ---
 
-You've searched through a ton of Hugo themes, so many wonderful options to pick from but you finally found the 
-one that clicks for you. You have great taste thats for sure, this guide will ensure you have your blog up and running with the Geeky theme in no time.
+Congrats on finding the perfect theme for your blog. You have great taste that's for sure, this guide will help you get your blog up and running with the Geeky theme in no time.
 
 #### Let's Get Geeking
 First, if you haven't already, you'll need to download the [Go](https://go.dev/doc/install) programming language. Hugo is built on Go, so it's essential to have it installed before you can use Hugo.
