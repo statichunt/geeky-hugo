@@ -1,22 +1,44 @@
-<div class="widget newsletter-widget">
-  <div class="widget-title">
-    <h3 class="h5 title-border">{{ site.Params.subscription.newsletter_title }}</h3>
+<div id="mc_embed_shell">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    #mc_embed_shell .form-control {border-color: #3c3e3e;background-color:light;border-radius: 30px;font-size: 15px;font-weight: 300;color:#0c0600; padding: 15px 20px;}
+    .input { border-top-right-radius: 30px !important; border-bottom-right-radius: 30px !important;}
+    .response { color:#00ADD8 }
+  </style>
+  <div class="widget newsletter-widget">
+      <div class="widget-title">
+        <h3 class="h5 title-border">{{ site.Params.subscription.newsletter_title }}</h3>
+      </div>
+    {{ with site.Params.subscription }}
+      <form class="row g-3 mb-3" action="{{ .mailchimp_form_action }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <p class="mb-3 small text-light-900">{{ site.Params.subscription.newsletter_invitation }} </p>
+        <div class="col-12 mc-field-group">
+          <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display: none;"></div>
+            <div class="response" id="mce-success-response" style="display: none;"></div>
+          </div>
+          <label for="mce-EMAIL">Enter Email<span class="asterisk">*</span></label>
+          <div class="input-group">
+            <input type="email" name="EMAIL" class="form-control" placeholder="Type And Hit Enter" id="mce-EMAIL" required="" value="">
+          </div>
+        </div>
+          
+          <div class="col-12 optionalParent clear foot">
+            <button type="submit" name="subscribe" class="btn btn-primary w-100">{{ site.Params.subscription.newsletter_button }}</button>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"class="clear foot" >
+              <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1" id="mc-embedded-subscribe" value="Subscribe">
+            </div>
+          </div>
+      </form>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1">
+        </div>
+      <p class="text-light-900 small content">{{ site.Params.subscription.newsletter_reminder_a }} <a href="{{`privacy-policy`| relLangURL}}/" class="text-light-900"><strong>{{ site.Params.subscription.newsletter_reminder_b }}</strong></a></p>
+    </div>
   </div>
-  <p class="mb-3 small text-light-900">{{ site.Params.subscription.newsletter_invitation }} </p>
-  {{ with site.Params.subscription }}
-  <form class="row g-3 mb-3" action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank">
-    <div class="col-12">
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="{{ site.Params.subscription.newsletter_placeholder }}" id="inputEmail4" required><i class="fas fa-envelope"></i>
-      </div>
-    </div>
-    <div class="col-12">
-      <button type="submit" name="subscribe" class="btn btn-primary w-100">{{ site.Params.subscription.newsletter_button }}</button>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1">
-      </div>
-    </div>
-  </form>
-  {{ end }}
-  <p class="text-light-900 small content">{{ site.Params.subscription.newsletter_reminder_a }} <a href="{{`privacy-policy`| relLangURL}}/" class="text-light-900"><strong>{{ site.Params.subscription.newsletter_reminder_b }}</strong></a></p>
+    
+{{ end }}
 </div>
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+
