@@ -39,7 +39,7 @@
         </ul>
         <div class="content drop-cap">{{.Content}}</div>
         <!-- disqus comments -->
-        {{ if .Site.DisqusShortname }}
+        {{ if .Site.Config.Services.Disqus.Shortname }}
         <div class="border rounded p-4">
           {{ template "_internal/disqus.html" . }}
         </div>
