@@ -33,6 +33,9 @@ path = "github.com/gethugothemes/hugo-modules/pwa"
 path = "github.com/gethugothemes/hugo-modules/images"
 
 [[imports]]
+path = "github.com/gethugothemes/hugo-modules/shortcodes"
+
+[[imports]]
 path = "github.com/gethugothemes/hugo-modules/shortcodes/buttons"
 
 [[imports]]
@@ -49,9 +52,6 @@ path = "github.com/gethugothemes/hugo-modules/shortcodes/video"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/shortcodes/tabs"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/image"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/shortcodes/gallery"

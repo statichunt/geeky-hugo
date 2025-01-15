@@ -5,7 +5,7 @@ theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
-paginate = "6"
+pagination.pagerSize = "6"
 # post excerpt
 summaryLength = "20"
 # google analytics
