@@ -10,10 +10,12 @@ pagination.pagerSize = "6"
 summaryLength = "20"
 # google analytics
 googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+
 # disable language
 disableLanguages = ["fr"] # example: ["fr"] for disable french language
+
+[services.disqus]
+shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
 ############################# Modules ##############################
 [module]
