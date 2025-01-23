@@ -41,13 +41,13 @@
             <!-- Previous page. -->
             {{ if $paginator.HasPrev }}
             <li class="page-item prev d-flex align-items-center">
-              <a class="page-link disabled" href="{{ $paginator.Prev.URL }}" aria-label="Pagination Arrow"><i
+              <a class="page-link" href="{{ $paginator.Prev.URL }}" role="button" aria-label="Pagination Previous" aria-disabled="false"><i
                   class="fas fa-arrow-left me-3"></i>{{ site.Params.previous_button }}
               </a>
             </li>
             {{ else }}
             <li class="page-item prev d-flex align-items-center disabled">
-              <span class="page-link disabled" aria-label="Pagination Arrow"><i
+              <span class="page-link disabled" role="button" aria-label="Pagination Previous" aria-disabled="true"><i
                   class="fas fa-arrow-left me-3"></i>{{ site.Params.previous_button }}
               </span>
             </li>
@@ -84,7 +84,7 @@
             <!-- Output page numbers. -->
             {{ if eq ($.Scratch.Get "page_number_flag") true }}
             <li class="page-item">
-              <a href="{{ .URL }}" class="page-link {{if eq . $paginator}}active{{end}}">
+              <a href="{{ .URL }}" class="page-link {{if eq . $paginator}}active{{end}}" aria-label="Go to page {{ .PageNumber }}"{{if eq . $paginator}} aria-current="page"{{end}}>
                 {{ .PageNumber }}
               </a>
             </li>
@@ -93,13 +93,13 @@
             <!-- Next page. -->
             {{ if $paginator.HasNext }}
             <li class="page-item next d-flex align-items-center">
-              <a class="page-link arrow" href="{{ $paginator.Next.URL }}" aria-label="Pagination">{{ site.Params.next_button }}<i
+              <a class="page-link arrow" href="{{ $paginator.Next.URL }}" role="button" aria-label="Pagination Next" aria-disabled="false"><span class="d-none d-sm-inline">{{ site.Params.next_button }}</span><i
                   class="fas fa-arrow-right ms-3"></i>
               </a>
             </li>
             {{ else }}
             <li class="page-item next d-flex align-items-center disabled">
-              <span class="page-link arrow" aria-label="Pagination">{{ site.Params.next_button }}<i class="fas fa-arrow-right ms-3"></i>
+              <span class="page-link arrow disabled" role="button" aria-label="Pagination Next" aria-disabled="true"><span class="d-none d-sm-inline">{{ site.Params.next_button }}</span><i class="fas fa-arrow-right ms-3"></i>
               </span>
             </li>
             {{ end }}
