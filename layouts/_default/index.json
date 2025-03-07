@@ -1,33 +1,17 @@
 {{ $.Scratch.Add "index" slice }}
+{{ range where site.RegularPages "Section" "blog" }}
 
-{{ range site.RegularPages }}
-    {{ $date := time.Format ":date_long" .PublishDate }}
-    {{ $image := "" }}
+{{ $date:= time.Format ":date_long" .PublishDate }}
 
-    {{/* Step 1: Check if an image is defined in front matter */}}
-    {{ with .Params.image }}
-        {{ if (fileExists (printf "assets/%s" .)) }}
-            {{ $img := resources.Get (printf "images/%s" .) }}
-            {{ if $img }}
-                {{ $image = $img.Resize "650x" }}
-                {{ $.Scratch.Set "image" $image.Permalink }}
-            {{ end }}
-        {{ end }}
-    {{ end }}
-
-    {{/* Step 2: Retrieve processed image */}}
-    {{ $image = $.Scratch.Get "image" }}
-
-    {{/* Step 3: Add data to JSON */}}
-    {{ $.Scratch.Add "index" (dict 
-        "title" .Title 
-        "date" $date 
-        "image" $image 
-        "categories" .Params.categories 
-        "contents" .Plain 
-        "permalink" .RelPermalink
-    ) }}
+{{ with .Params.image }}
+{{ if (fileExists (add `assets/` .)) }}
+{{ $image:= resources.Get . }}
+{{ $image:= $image.Resize "650x" }}
+{{ $.Scratch.Set "image" $image.RelPermalink }}
 {{ end }}
+{{ end }}
+{{ $image:= $.Scratch.Get "image" }}
 
-{{/* Step 4: Pretty-print JSON with indentation */}}
+{{ $.Scratch.Add "index" (dict "title" .Title "date" $date "image" $image "categories" .Params.categories "contents" .Plain "permalink" .RelPermalink) }}
+{{ end }}
 {{ $.Scratch.Get "index" | jsonify (dict "indent" "  ") }}
