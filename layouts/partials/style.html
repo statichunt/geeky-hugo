@@ -17,15 +17,15 @@
 <link rel="dns-prefetch" href="//platform.linkedin.com">
 <link rel="dns-prefetch" href="//platform.twitter.com">
 
+<!-- plugins + stylesheet -->
 {{ $styles := slice }}
 {{ range site.Params.plugins.css }}
-  {{ if findRE "^http" .link }}
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ .link | relURL }}" {{.attributes | safeHTMLAttr}} >
-  {{ else }}
-    {{ $styles = $styles | append (resources.Get .link | toCSS) }}
-  {{ end }}
+{{ if findRE "^http" .link }}
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ .link | relURL }}" {{.attributes | safeHTMLAttr}} >
+{{ else }}
+{{ $styles = $styles | append (resources.Get .link) }}
 {{ end }}
-{{ $mainStyle := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS }}
-{{ $styles = $styles | append $mainStyle }}
-{{ $styles = $styles | resources.Concat "/css/style.css" | minify | fingerprint "sha512" }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}">
+{{ end }}
+{{ $styles := $styles | append (resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS) }}
+{{ $styles := $styles | resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
+<style type="text/css">{{$styles.Content | safeCSS}}</style>
