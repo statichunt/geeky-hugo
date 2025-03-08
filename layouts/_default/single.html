@@ -8,8 +8,10 @@
 <!--=================== section start ===================-->
 <section class="section-sm">
   <div class="container">
+    {{ partial "breadcrumbs.html" . }}
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
+        
         <!-- image path -->
         {{ $imagePath:= .Params.image }} {{ if $imagePath }}
         <div class="position-relative">

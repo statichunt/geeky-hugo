@@ -1,0 +1,17 @@
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Set "path" .Site.BaseURL }}
+
+<nav aria-label="breadcrumb">
+  <ul class="breadcrumbs">
+    <li><a href="/">Home</a></li>
+    
+    {{ range $index, $element := split $url "/" }}
+      {{ if ne $element "" }}
+        {{ $.Scratch.Add "path" (printf "%s/" $element) }}
+        <li>
+          <a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . | humanize }}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
