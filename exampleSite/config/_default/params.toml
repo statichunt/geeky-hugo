@@ -12,12 +12,8 @@ navbar_fixed = false
 description = "Ultimate guide to earn money online free. Find legitimate side hustles, passive income ideas, online jobs & more."
 author = "Dejuan Jones"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
-# contact info
-address = "4"
-mobile = "+425"
-email = "jonesdejuan24@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xdoreeqg" # contact form works with https://formspree.io
 # search
 search = true
 
@@ -89,8 +85,8 @@ newsletter_reminder_a = "By Singing Up, You Agree To"
 newsletter_reminder_b = "Privacy Policy"
 newsletter_button = "Sign in"
 
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_action = "https://gmail.us17.list-manage.com/subscribe/post?u=3392b2d612de88ac6644ca414&amp;id=3ecf0e3fef&amp;f_id=00e55de0f0" # replace this url with yours
+mailchimp_form_name = "b_3392b2d612de88ac6644ca414_3ecf0e3fef" # replace this code with yours
 
 [[social]]
 title = "facebook"
