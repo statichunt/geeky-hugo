@@ -86,12 +86,12 @@ mailchimp_form_name = "b_3392b2d612de88ac6644ca414_3ecf0e3fef" # replace this co
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook"
-link = "https://www.facebook.com/earnmoneynowonline"
+link = "https://www.facebook.com/earnmoneynowonline/"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter"
-link = "https://twitter.com/moneyonline_fre"
+link = "https://twitter.com/moneyonline_fre/"
 
 [[social]]
 title = "instagram"
@@ -101,4 +101,4 @@ link = "#"
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/company/earn-money-online-free"
+link = "https://www.linkedin.com/company/earn-money-online-free/"
