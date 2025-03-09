@@ -5,7 +5,7 @@ date: "2025-01-01T18:19:25+06:00"
 image: "images/post/make-money.jpg"
 categories: ["monetizing"]
 tags: ["strategies"]
-type: "regular"
+type: "featured"
 draft: false
 ---
 

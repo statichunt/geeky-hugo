@@ -42,7 +42,7 @@ If you leave a comment on our site you may opt-in to saving your name, email add
 
 Like any other website, Earnonlinemoney uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
 
-For more general information on cookies, please read ["What Are Cookies"](https://www.cookieconsent.com/what-are-cookies/).
+For more general information on cookies, please read <a href="https://www.cookieconsent.com/what-are-cookies/" rel="nofollow">"What Are Cookies"</a>.
 
 ### Advertising Partners Privacy Policies
 
@@ -58,15 +58,15 @@ Earnonlinemoney's Privacy Policy does not apply to other advertisers or websites
 
 * Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites.
 * Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet.
-* Users may opt out of personalized advertising by visiting [Ads Settings](https://www.google.com/settings/ads). (Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for personalized advertising by visiting [www.aboutads.info](http://www.aboutads.info/choices/).)
+* Users may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" rel="nofollow">Ads Settings</a>. (Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for personalized advertising by visiting <a href="https://www.aboutads.info/choices/" rel="nofollow">aboutads</a>.)
 
-If you have not [opted out of third-party ad serving](https://support.google.com/dfp_premium/answer/94152), the cookies of other [third-party vendors or ad networks](https://support.google.com/dfp_premium/answer/94149) may also be used to serve ads on your site, which should also be disclosed in your privacy policy in the following manner:
+If you have not <a href="https://support.google.com/dfp_premium/answer/94152" rel="nofollow">opted out of third-party ad serving</a>, the cookies of other <a href="https://support.google.com/dfp_premium/answer/94149" rel="nofollow">third-party vendors or ad networks</a> may also be used to serve ads on your site, which should also be disclosed in your privacy policy in the following manner:
 
 * Notify your site visitors of the third-party vendors and ad networks serving ads on your site.
 * Provide links to the appropriate vendor and ad network websites.
-* Inform your users that they may visit those websites to opt out of the use of cookies for personalized advertising (if the vendor or ad network offers this capability). Alternatively, you can direct users to opt out of some third-party vendors’ uses of cookies for personalized advertising by visiting [www.aboutads.info](http://www.aboutads.info/choices/).
+* Inform your users that they may visit those websites to opt out of the use of cookies for personalized advertising (if the vendor or ad network offers this capability). Alternatively, you can direct users to opt out of some third-party vendors’ uses of cookies for personalized advertising by visiting <a href="https://www.aboutads.info/choices/" rel="nofollow">aboutads</a>.
 
-Because publisher sites and laws across countries vary, we're unable to suggest specific privacy policy language. However, you may wish to review resources such as the [Network Advertising Initiative](http://www.networkadvertising.org/) for guidance on drafting a privacy policy. For additional details regarding cookie consent notices, please refer to [cookiechoices.org](http://cookiechoices.org/).
+Because publisher sites and laws across countries vary, we're unable to suggest specific privacy policy language. However, you may wish to review resources such as the <a href="https://www.networkadvertising.org/" rel="nofollow">Network Advertising Initiative</a> for guidance on drafting a privacy policy. For additional details regarding cookie consent notices, please refer to <a href="https://cookiechoices.org/" rel="nofollow">cookiechoices</a>.
 
 ### CCPA Privacy Rights (Do Not Sell My Personal Information)
 
@@ -110,8 +110,8 @@ If you have an account on this site, or have left comments, you can request to r
 
 When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
 
-An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
+An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: <a href="https://automattic.com/privacy/" rel="nofollow">automattic.com</a>. After approval of your comment, your profile picture is visible to the public in the context of your comment.
 
 ### How to contact us
 
-If you have any questions or concerns feel free to contact us.
+If you have any questions or concerns feel free to contact us on our contact page.

@@ -5,7 +5,7 @@ date: "2024-11-10T18:19:25+06:00"
 image: "images/post/start-a-blog.jpg"
 categories: ["blogging"]
 tags: ["content-creation"]
-type: "regular"
+type: "featured"
 draft: false
 ---
 

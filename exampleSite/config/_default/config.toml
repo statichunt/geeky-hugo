@@ -11,9 +11,11 @@ summaryLength = "20"
 # google analytics
 googleAnalytics = "G-PNQXNMRNBD" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+disqusShortname = "disqus_afGZDYYvBY" # get your shortname form here : https://disqus.com
 enableRobotsTXT = true
 
+[minify]
+  minifyOutput = true
 
 ############################# Modules ##############################
 [module]

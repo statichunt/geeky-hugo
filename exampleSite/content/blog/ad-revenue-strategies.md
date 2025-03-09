@@ -5,7 +5,7 @@ date: "2019-10-30T18:19:25+06:00"
 image: "images/post/ad-revenue-advice.jpg"
 categories: ["monetizing"]
 tags: ["strategies"]
-type: "featured" # available types: [featured/regular]
+type: "featured"
 draft: false
 ---
 

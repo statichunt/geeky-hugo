@@ -5,7 +5,7 @@ date: "2019-10-11T18:19:25+06:00"
 image: "images/post/passive-income-ideas.jpg"
 categories: ["investments"]
 tags: ["wealth-building"]
-type: "regular"
+type: "featured"
 draft: false
 ---
 
