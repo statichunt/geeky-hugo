@@ -33,7 +33,7 @@
         <span>{{ time.Format ":date_long" .PublishDate }}</span>
       </li>
     </ul>
-    <p class="card-text mb-4">{{ .Summary }}</p>
+    <p class="card-text mb-4">{{ .Summary | strings.Truncate 160 }}</p>
     <a href="{{.RelPermalink}}" class="btn btn-outline-primary btn-sm">{{ site.Params.read_more_button }}</a>
   </div>
 </div>

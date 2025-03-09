@@ -40,33 +40,6 @@
         </div>
       </div>
     </div>
-
-    <div class="row g-4">
-      {{ with site.Params.mobile }}
-      <div class="col-lg-4">
-        <div class="card text-center">
-          <a href="tel:{{.}}"><i class="fas fa-user text-primary"></i>{{.}}</a>
-        </div>
-      </div>
-      {{ end }}
-      {{ with site.Params.email }}
-      <div class="col-lg-4">
-        <div class="card text-center">
-          <a href="mailto:{{.}}"><i class="fas fa-envelope text-primary"></i>{{.}}</a>
-        </div>
-      </div>
-      {{ end }}
-      {{ with site.Params.address }}
-      <div class="col-lg-4">
-        <div class="card text-center">
-          <li>
-            <i class="fas fa-map-marker-alt text-primary"></i>{{ .| markdownify}}
-          </li>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
 </section>
 <!--=================== contact section start ===================-->
 
