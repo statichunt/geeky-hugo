@@ -1,17 +1,22 @@
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{ $.Scratch.Set "path" .Site.BaseURL }}
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul class="breadcrumb-list">
+    <!-- Home Link -->
+    <li class="breadcrumb-item">
+      <a href="/">Home</a>
+    </li>
+    <span class="breadcrumb-separator" aria-hidden="true">»</span>
 
-<nav aria-label="breadcrumb">
-  <ul class="breadcrumbs">
-    <li><a href="/">Home</a></li>
-    
-    {{ range $index, $element := split $url "/" }}
-      {{ if ne $element "" }}
-        {{ $.Scratch.Add "path" (printf "%s/" $element) }}
-        <li>
-          <a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . | humanize }}</a>
-        </li>
-      {{ end }}
-    {{ end }}
+    <!-- Get the Direct Parent (Category) -->
+    {{- with .Parent }}
+    <li class="breadcrumb-item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    <span class="breadcrumb-separator" aria-hidden="true">»</span>
+    {{- end }}
+
+    <!-- Current Post (No Link) -->
+    <li class="breadcrumb-item active">
+      <span aria-current="location">{{ .Title }}</span>
+    </li>
   </ul>
 </nav>
