@@ -41,9 +41,6 @@ footer_content = "Empowering you with the best ideas to earn online—because fi
 theme_copyright = true
 copyright = "© 2018-2025"
 
-# Google Adsense
-adsenseDataAdClient = "ca-pub-9965740454699088"
-
 # 404
 error_404_text = "404 Page Not Found!"
 error_404_button = "Back To Home"
@@ -62,7 +59,7 @@ content = "Discover legitimate ways to earn money online and offline with proven
 
 [advertisement]
 image = "images/income-online.jpg"
-link = "https://gethugothemes.com/"
+link = "/"
 
 [cookies]
 enable = false
