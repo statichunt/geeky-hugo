@@ -69,7 +69,7 @@ Online stores open doors to global audiences, enabling entrepreneurs to turn pas
 
 Providing remote support for tasks such as email management, scheduling, and social media coordination has become a sought-after service. Platforms like Upwork, Fiverr, and TaskRabbit connect virtual assistants with businesses across industries. Strong organizational and communication skills ensure value delivery and competitive earnings.
 
-{{< image src="images/post/virtual-assistance-support.jpg" caption="" alt="Virual Assistance Support Illustration" height="300" width="400" position="center" command="fill" option="q100" class="img-fluid" title="Virual Assistance Support" webp="false" >}}
+{{< image src="images/post/virtual-assistance-support.jpg" caption="" alt="Virual Assistance Support Illustration" height="300" width="400" position="center" command="fill" option="q100" class="img-fluid" title="Virtual Assistance Support" webp="false" >}}
 
 ### 14. Investing and Trading
 

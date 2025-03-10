@@ -46,8 +46,14 @@ maxAge = "720h"
 
 ############################# Markup ###############################
 [markup]
-[markup.goldmark.renderer]
-unsafe= true
+  [markup.goldmark.renderer]
+    unsafe = true  # Required for TOC links to work correctly
+
+  [markup.tableOfContents]
+    startLevel = 3   # Include headings from H2
+    endLevel = 3     # Include up to H3
+    ordered = false  # Use an unordered list (true = ordered)
+
 
 
 ############################ Media types ############################
