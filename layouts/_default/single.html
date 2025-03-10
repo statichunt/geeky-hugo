@@ -54,7 +54,9 @@
           {{ template "_internal/disqus.html" . }}
         </div>
       {{ end }}
-        
+        <div class="content drop-cap">
+          {{ partial "toc-insert.html" . }}
+        </div>
       </div>
       <!-- sidebar widgets -->
       <aside class="col-lg-4">
