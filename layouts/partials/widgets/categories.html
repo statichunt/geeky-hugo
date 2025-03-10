@@ -1,20 +1,25 @@
-<!-- categories -->
+<!-- Check if the site has categories -->
 {{ if isset site.Taxonomies "categories" }}
-{{ if not (eq (len site.Taxonomies.categories) 0) }}
-<div class="widget category-widget">
-  <div class="widget-title">
-    <h3 class="h5 title-border">{{site.Params.categories_title}}</h3>
-  </div>
-  
-  <ul class="list-group list-unstyled">
-    {{ range $name, $items := site.Taxonomies.categories }}
-    <li>
-      <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/" class="d-flex">
-        {{ $name | humanize }} <small class="ms-auto">{{ len $items }}</small>
-      </a>
-    </li>
-    {{ end }}
-  </ul>
-</div>
-{{ end }}
+  <!-- Check if there are any categories -->
+  {{ if not (eq (len site.Taxonomies.categories) 0) }}
+    <div class="widget category-widget">
+      <div class="widget-title">
+        <!-- Display the widget title -->
+        <h3 class="h5 title-border">{{site.Params.categories_title}}</h3>
+      </div>
+      
+      <ul class="list-group list-unstyled">
+        <!-- Iterate over each category -->
+        {{ range $name, $items := site.Taxonomies.categories }}
+          <li>
+            <!-- Link to the category page -->
+            <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/" class="d-flex">
+              <!-- Display the category name -->
+              {{ $name | humanize }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
 {{ end }}
