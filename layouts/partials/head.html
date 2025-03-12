@@ -14,10 +14,10 @@
 <link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
 
-{{ if and .IsNode (eq .Paginator.PageNumber 1) }}
-  <link rel="canonical" href="{{ .Permalink }}">
-{{ else if .IsPage }}
-  <link rel="canonical" href="{{ .Permalink }}">
+{{ if eq (getenv "HUGO_ENV") "production" }}
+<meta name="robots" content="index,follow">
+{{ else }}
+<meta name="robots" content="noindex,nofollow">
 {{ end }}
 
 <!-- mobile responsive meta -->
