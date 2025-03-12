@@ -1,30 +1,21 @@
 favicon = "images/favicon.png"
-# logo
 logo = "images/logo.png"
-# use `x` with logo_width, example: "100x".
-# Note: logo_width is not work with .svg file
 logo_width = "150x"
-# logo text will only show when logo is missing.
 logo_text = "Earn Money Online"
-# navbar fixed to top
 navbar_fixed = false
-# OpenGraph / Twitter Card metadata
 description = "Ultimate guide to earn money online free. Find legitimate side hustles, passive income ideas, online jobs & more."
 author = "Dejuan Jones"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
-# contact form action
-contact_form_action = "https://formspree.io/f/xdoreeqg" # contact form works with https://formspree.io
-# search
+image = "images/logo.png"
+contact_form_action = "https://formspree.io/f/xdoreeqg"
 search = true
 
-# Posts related Titles & Contents
 categories_title = "Blog Categories"
 posts_title = "Featured"
 featured_post_title = "Featured Post"
 recent_post_title = "Recent Post"
 featured_post_button = "Featured"
 recent_post_button = "Recent"
-read_more_button = "Read more"
+explore_button = "Explore"
 previous_button = "Previous"
 next_button = "Next"
 related_posts = "Related Posts"
@@ -33,7 +24,6 @@ no_categories_found = "No Categories Found"
 no_tags_found = "No Tags Found"
 
 mainSections = ["blog"]
-# about widget content
 about_widget_content = "Find Us On Social Media."
 
 footer_content = "Empowering you with the best ideas to earn online—because financial freedom starts with the right knowledge."
@@ -41,13 +31,12 @@ footer_content = "Empowering you with the best ideas to earn online—because fi
 theme_copyright = true
 copyright = "© 2018-2025"
 
-# 404
 error_404_text = "404 Page Not Found!"
 error_404_button = "Back To Home"
 
 [preloader]
 enable = false
-preloader = "" # use jpg, png, svg or gif format.
+preloader = ""
 
 [banner]
 enable = true

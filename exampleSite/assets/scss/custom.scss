@@ -26,3 +26,14 @@
     text-decoration: underline;
   }
   
+  // ...existing code...
+
+.small-buttons a {
+  svg {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px; // Add space between icons
+  }
+}
+
+// ...existing code...
