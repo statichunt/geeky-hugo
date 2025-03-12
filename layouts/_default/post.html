@@ -7,7 +7,7 @@
     <ul class="list-inline card-badge">
       {{ range .Params.categories }}
       <li class="list-inline-item">
-        <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}/" class="badge badge-primary py-1">{{. | title}}</a>
+        <span class="badge badge-primary py-1">{{. | title}}</span>
       </li>
       {{ end }}
     </ul>
