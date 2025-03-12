@@ -1,18 +1,12 @@
 User-agent: *
-Disallow: /archetypes/
-Disallow: /layouts/
-Disallow: /resources/
-Disallow: /config.toml
-Disallow: /netlify.toml
-Disallow: /package.json
-Disallow: /LICENSE
-Disallow: /README.md
-Disallow: /.editorconfig
-Disallow: /.gitignore
+
+Disallow: /404/
+Disallow: /search/
 Disallow: /assets/plugins/search/
 Disallow: /assets/plugins/webfont/
 Disallow: /assets/scss/
 Disallow: /assets/js/
 
 Allow: /
+
 Sitemap: https://earnonlinemoney.org/sitemap.xml
