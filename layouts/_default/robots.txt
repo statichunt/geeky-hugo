@@ -1,11 +1,13 @@
 User-agent: *
 
-Disallow: /404/
+Disallow: /resources/
+Disallow: /content/
+Disallow: /layouts/
+Disallow: /archetypes/
+Disallow: /data/
+Disallow: /static/
 Disallow: /search/
-Disallow: /assets/plugins/search/
-Disallow: /assets/plugins/webfont/
-Disallow: /assets/scss/
-Disallow: /assets/js/
+Disallow: /page/
 
 Allow: /
 
