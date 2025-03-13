@@ -6,6 +6,8 @@
 <base href="{{ site.BaseURL }}">
 {{ end }}
 
+{{ partial "google.html" }}
+
 <!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }}
 {{ range .AllTranslations }}
