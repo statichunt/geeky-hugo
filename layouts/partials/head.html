@@ -6,8 +6,6 @@
 <base href="{{ site.BaseURL }}">
 {{ end }}
 
-{{ partial "google.html" }}
-
 <!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }}
 {{ range .AllTranslations }}
@@ -70,3 +68,4 @@
 {{ partialCached "crisp-chat.html" . }}
 
 {{ partial "schema.html" . }}
+{{ partial "google.html" }}
