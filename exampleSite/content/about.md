@@ -1,6 +1,6 @@
 ---
 title: "About The Author"
-description: "this is meta-description"
+description: "Dejuan Jones is a marketing expert and the founder of Earn Money Online, dedicated to helping entrepreneurs, bloggers, and freelancers maximize their online income."
 image: "images/author.jpg"
 layout: "about"
 draft: false

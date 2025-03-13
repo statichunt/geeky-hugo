@@ -1,6 +1,6 @@
 ---
 title: "Let's, Talk About You"
-description: "this is meta-description"
+description: "Dont hesitate to reach out if you need to contact us for any matter. We will respond within 48 hours."
 layout: "contact"
 draft: false
 
@@ -21,5 +21,4 @@ subject_placeholder: "Blog advertisement"
 
 content_title: "Your Message Here"
 content_placeholder: "Hello I’m Mr ‘x’ from.............."
-
 ---

@@ -4,14 +4,10 @@ title = "Earn Money Online Free | Side Hustles | Online Jobs"
 theme = "ramem"
 languageName = "En"
 languageCode = "en-us"
-# post pagination
 pagination.pagerSize = "10"
-# post excerpt
 summaryLength = "20"
-# google analytics
-googleAnalytics = "G-PNQXNMRNBD" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disqus short name
-disqusShortname = "disqus_afGZDYYvBY" # get your shortname form here : https://disqus.com
+googleAnalytics = "G-PNQXNMRNBD"
+disqusShortname = "disqus_afGZDYYvBY"
 enableRobotsTXT = true
 
 [minify]
@@ -29,8 +25,7 @@ home = ["HTML", "RSS", "JSON", "WebAppManifest"]
 
 ############################# Imaging ##############################
 [imaging]
-# See https://github.com/disintegration/imaging
-# Default JPEG or WebP quality setting. Default is 75.
+
 quality = 90
 
 ############################# Caches ###############################
@@ -47,14 +42,12 @@ maxAge = "720h"
 ############################# Markup ###############################
 [markup]
   [markup.goldmark.renderer]
-    unsafe = true  # Required for TOC links to work correctly
+    unsafe = true
 
   [markup.tableOfContents]
-    startLevel = 3   # Include headings from H2
-    endLevel = 3     # Include up to H3
-    ordered = false  # Use an unordered list (true = ordered)
-
-
+    startLevel = 3
+    endLevel = 3
+    ordered = false
 
 ############################ Media types ############################
 [mediaTypes]
