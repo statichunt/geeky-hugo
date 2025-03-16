@@ -1,5 +1,41 @@
+<!-- Robots meta -->
+{{ if eq .Kind "404" -}}
+  <meta name="robots" content="noindex, follow">
+{{ else -}}
+  {{ with .Params.robots -}}
+    <meta name="robots" content="{{ . }}">
+  {{ else -}}
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  {{ end -}}
+{{ end -}}
+
+<!-- Canonical & Pagination SEO -->
+{{ if or (eq .Section "categories") (eq .Section "tags") }}
+  {{ if .Paginator }}
+    {{ if eq .Paginator.PageNumber 1 }}
+      <link rel="canonical" href="{{ .Permalink | absURL }}">
+    {{ else }}
+      <link rel="canonical" href="{{ .Paginator.First.URL | absURL }}">
+    {{ end }}
+
+    {{ if .Paginator.HasPrev }}
+      <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
+    {{ end }}
+
+    {{ if .Paginator.HasNext }}
+      <link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
+    {{ end }}
+  {{ else }}
+    <link rel="canonical" href="{{ .Permalink | absURL }}">
+  {{ end }}
+{{ else }}
+  <link rel="canonical" href="{{ .Permalink | absURL }}">
+{{ end }}
+
 <meta charset="utf-8">
-<title>{{.Title | default site.Title}}</title>
+<title>{{ .Title | default site.Title }}</title>
 
 <!-- base url -->
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
@@ -11,7 +47,7 @@
 <!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }}
 {{ range .AllTranslations }}
-<link rel="alternate" hreflang="{{.Lang}}" href="{{ .RelPermalink | absLangURL }}">
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
 <link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
@@ -26,45 +62,35 @@
 <!-- favicon -->
 {{ partialCached "favicon" . }}
 
-
 <!-- manifest -->
 {{ partialCached "manifest" . }}
 
-
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
-
 
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
 
 <!-- custom script -->
-{{ site.Params.custom_script | safeHTML}}
-
+{{ site.Params.custom_script | safeHTML }}
 
 <!-- google analytics -->
 {{ template "_internal/google_analytics.html" . }}
 
-
 <!-- google tag manager -->
 {{ partialCached "gtm.html" . }}
-
 
 <!-- matomo analytics -->
 {{ partialCached "matomo-analytics.html" . }}
 
-
-<!--  Baidu analytics -->
+<!-- Baidu analytics -->
 {{ partialCached "baidu-analytics.html" . }}
-
 
 <!-- Plausible Analytics -->
 {{ partialCached "plausible-analytics.html" . }}
 
-
 <!-- Counter Analytics -->
 {{ partialCached "counter-analytics.html" . }}
-
 
 <!-- Crisp Chat -->
 {{ partialCached "crisp-chat.html" . }}
