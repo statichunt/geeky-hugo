@@ -1,11 +1,6 @@
 User-agent: *
 
-Disallow: /resources/
-Disallow: /content/
-Disallow: /layouts/
-Disallow: /archetypes/
-Disallow: /data/
-Disallow: /static/
+Disallow: /404/
 Disallow: /search/
 Disallow: /page/
 
