@@ -9,6 +9,15 @@ image = "images/logo.png"
 contact_form_action = "https://formspree.io/f/xdoreeqg"
 search = true
 
+
+# JSON-LD structured data schemas
+schemaName = "Dejuan Jones" # Enter your name
+schemaLocale = "en-US" # Structured data locale
+schemaImage = "images/author.jpg" # Image for Person structured data schema. Enter path to the image.
+schemaImageWidth = 1120 # Width of the above image
+schemaImageHeight = 630 # Height of the above image
+
+
 categories_title = "Blog Categories"
 posts_title = "Featured"
 featured_post_title = "Featured Post"
