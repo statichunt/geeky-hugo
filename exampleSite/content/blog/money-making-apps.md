@@ -57,7 +57,7 @@ While traditionally associated with handmade goods, Etsy also has a mobile app t
 
 Managing finances and growing wealth is more accessible through apps that offer tools for investing, budgeting, and expense tracking. These platforms help users achieve financial goals efficiently.
 
-\*Robinhood
+_Robinhood_
 
 Robinhood revolutionized investing by eliminating trading fees, making it accessible to beginners. With its intuitive app, users can invest in stocks, ETFs, and cryptocurrencies, all while monitoring market trends in real time.
 
