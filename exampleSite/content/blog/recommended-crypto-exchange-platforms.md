@@ -50,10 +50,6 @@ eToro specializes in social trading, enabling users to track and replicate the t
 
 Gemini is a crypto platform that was founded in and is based in New York. It is a trusted and secure platform that offers a wide range of digital assets, including Bitcoin, Ethereum, and several other popular cryptocurrencies.
 
-### Kraken.com
-
-Headquartered in San Francisco, [Kraten](https://kraten.com) stands as one of the oldest and most established cryptocurrency platforms. It hosts a multitude of digital assets, including Dogecoin (DOGE) and Stellar Lumens (XLM).
-
 ### Robinhood.com
 
 Robinhood is recognized for its user-friendly interface and fee-free trading options, making it a popular choice among cryptocurrency and stock traders alike. With its intuitive platform design and mobile application, Robinhood offers users the convenience of accessing a variety of [investment options](/blog/introduction-to-investing), including ETFs and options trading, thereby catering to diverse investor preferences.

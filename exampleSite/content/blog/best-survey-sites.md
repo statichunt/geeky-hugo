@@ -27,7 +27,7 @@ Known for its versatility and numerous earning opportunities [Swagbucks](https:/
 
 ### 2. SurveyJunkie.com
 
-With well over 10 million members [SurveyJunkie](https://www.surveyjunkie.com) focuses solely on surveys, making it ideal for those who enjoy sharing their opinions. The platform is straightforward, ensuring users can quickly get started.
+With well over 10 million members Survey Junkie focuses solely on surveys, making it ideal for those who enjoy sharing their opinions. The platform is straightforward, ensuring users can quickly get started.
 
 ### 3. InboxDollars.com
 
