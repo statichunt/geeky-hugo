@@ -18,9 +18,7 @@ The choice of platform has a direct impact on the success of a blog. It affects 
 
 Before you [start your blog](/blog/how-to-make-a-blog) you must find the right blog platform to turn your vision into reality. Start by identifying your goals. Are you looking to share personal stories, build a professional brand, or [create a monetized blog](/blog/monetize-a-blog)? Knowing your purpose will help you prioritize features like customization, ease of use, or scalability.
 
-Consider your technical skills. Platforms like WordPress.org offer flexibility but require some know-how, while options like Wix or Squarespace provide user-friendly, drag-and-drop functionality.
-
-Think about your budget. Free platforms like Blogger are great for beginners, but premium options often come with advanced tools for growth.
+Consider your technical skills. Platforms like WordPress.org offer flexibility but require some know-how, while options like Wix or Squarespace provide user-friendly, drag-and-drop functionality. Think about your budget. Free platforms like Blogger are great for beginners, but premium options often come with advanced tools for growth.
 
 Finally, explore design options and integrations. A platform with appealing templates and support for plugins or SEO tools can make all the difference. Take your time, evaluate your needs, and choose a platform that aligns with your vision for success.
 
