@@ -1,13 +1,12 @@
 {{ define "main" }}
 
 <!-- checking blog -->
-{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq
-.Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section
-"tags") }}
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
 
 <!--=================== section start ===================-->
 <section class="section-sm">
   <div class="container">
+    {{ partial "breadcrumbs.html" . }}
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
         <!-- image path -->
