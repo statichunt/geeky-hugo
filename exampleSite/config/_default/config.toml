@@ -10,8 +10,7 @@ googleAnalytics = "G-PNQXNMRNBD"
 disqusShortname = "disqus_afGZDYYvBY"
 enableRobotsTXT = true
 
-[minify]
-  minifyOutput = true
+
 
 ############################# Modules ##############################
 [module]
@@ -43,11 +42,6 @@ maxAge = "720h"
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
-
-  [markup.tableOfContents]
-    startLevel = 3
-    endLevel = 3
-    ordered = false
 
 ############################ Media types ############################
 [mediaTypes]
