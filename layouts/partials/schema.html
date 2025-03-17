@@ -12,7 +12,7 @@
     {{ $dot.Scratch.Add "path" $element -}}
     {{ $.Scratch.Add "path" "/" -}}
     {{ if ne $element "" -}}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
+    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" $element "position" (add $index 2))) -}}
   {{ end -}}
 {{ end -}}
 
@@ -101,14 +101,10 @@
         "@type": "ListItem",
         "position": {{ .position }},
         "item": {
-          {{ if ne (add $index 1) $len -}}
           "@type": "WebPage",
           "@id": "{{ .url | safeJS }}",
           "url": "{{ .url | safeJS }}",
           "name": "{{ .name | humanize | title | safeJS }}"
-          {{ else -}}
-          "@id": "{{ .url | safeJS }}"
-          {{ end -}}
         }
         }{{ end }}]
     },
