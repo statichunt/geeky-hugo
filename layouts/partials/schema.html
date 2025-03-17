@@ -101,7 +101,7 @@
         "@type": "ListItem",
         "position": {{ .position }},
         "item": {
-          "@type": "WebPage",
+          "@type": "{{ if or (eq $.Section "post") (eq $.Section "posts") (eq $.Section "blog") (eq $.Section "blogs") (eq $.Section "news") (eq $.Section "categories") (eq $.Section "tags") }}Article{{ else }}WebPage{{ end }}",
           "@id": "{{ .url | safeJS }}",
           "url": "{{ .url | safeJS }}",
           "name": "{{ .name | humanize | title | safeJS }}"
