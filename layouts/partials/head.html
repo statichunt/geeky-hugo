@@ -1,15 +1,15 @@
 <!-- Robots meta -->
-{{ if eq .Kind "404" -}}
+{{ if eq .Kind "404" }}
   <meta name="robots" content="noindex, follow">
-{{ else -}}
-  {{ with .Params.robots -}}
+{{ else }}
+  {{ with .Params.robots }}
     <meta name="robots" content="{{ . }}">
-  {{ else -}}
+  {{ else }}
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  {{ end -}}
-{{ end -}}
+  {{ end }}
+{{ end }}
 
 <!-- Canonical & Pagination SEO -->
 {{ if or (eq .Section "categories") (eq .Section "tags") }}
