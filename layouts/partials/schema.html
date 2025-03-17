@@ -1,155 +1,28 @@
-{{ $baseURL := "/" | absURL -}}
-
-{{ $dot := . -}}
-{{ $dot.Scratch.Set "path" "" -}}
-{{ $dot.Scratch.Set "breadcrumb" slice -}}
-
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
-{{ $.Scratch.Add "path" .Site.BaseURL -}}
-
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
-  {{ range $index, $element := split $url "/" -}}
-    {{ $dot.Scratch.Add "path" $element -}}
-    {{ $.Scratch.Add "path" "/" -}}
-    {{ if ne $element "" -}}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" $element "position" (add $index 2))) -}}
-  {{ end -}}
-{{ end -}}
-
-{{ $images := $.Resources.ByType "image" -}}
-{{ $feature := $images.GetMatch "*feature*" -}}
-{{ $feature_param := $.Params.feature_image  }}
-{{ $feature_frontmatter := $images.GetMatch $feature_param }}
-{{ if $feature_frontmatter -}}
-  {{ $.Scratch.Set "primaryImage" $feature_frontmatter.Permalink }}
-  {{ with $.Params.feature_image_alt }}
-    {{ $.Scratch.Set "primaryImageAlt" . }}
-  {{ end }}
-{{ else if $feature -}}
-  {{ $.Scratch.Set "primaryImage" $feature.Permalink }}
-  {{ with $.Params.feature_image_alt }}
-    {{ $.Scratch.Set "primaryImageAlt" . }}
-  {{ end }}
-{{ else if $.Params.images }}
-  {{ $.Scratch.Set "primaryImage" ( index $.Params.images 0 | absURL ) }}
-{{ else if $.Site.Params.images }}
-  {{ $.Scratch.Set "primaryImage" ( index $.Site.Params.images 0 | absURL ) }}
-{{ end }}
-
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
-      "@type": "Person",
-      "@id": "{{ print $baseURL "#/schema/person/1" | safeJS }}",
-      "name": "{{ .Site.Params.schemaName | safeJS }}",
-      "url": "{{ print $baseURL | safeJS }}",
-      "image": {
-        "@type": "ImageObject",
-        "@id": "{{ print $baseURL "#/schema/image/1" | safeJS }}",
-        "url": "{{ print $baseURL .Site.Params.schemaImage | safeJS }}",
-        "width": {{ .Site.Params.schemaImageWidth }},
-        "height": {{ .Site.Params.schemaImageHeight }},
-        "caption": "{{ .Site.Params.schemaName | safeJS }}"
-      }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "{{ print $baseURL "#/schema/website/1" | safeJS }}",
-      "url": "{{ print $baseURL | safeJS }}",
-      "name": "{{ .Site.Title | safeJS }}",
-      "description": "{{ .Site.Params.description | safeJS }}",
-      "publisher": {
-        "@id": "{{ print $baseURL "#/schema/person/1" | safeJS }}"
-      }
-    },
-    {
-      {{ if and (ne .Kind "taxonomy") (ne .Kind "term") -}}
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
         "@type": "WebPage",
-      {{ else -}}
-        "@type": "CollectionPage",
-      {{ end -}}
-      "@id": "{{ .Permalink | safeJS }}",
-      "url": "{{ .Permalink | safeJS }}",
-      "name": "{{ with .Title }}{{ . | safeJS }}{{ else }}{{ .Site.Title | safeJS }}{{ end }}",
-      "description": "{{ with .Description }}{{ . | safeJS }}{{ else }}{{ .Site.Params.description | safeJS }}{{ end }}",
-      "isPartOf": {
-        "@id": "{{ print $baseURL "#/schema/website/1" | safeJS }}"
+        "@id": "{{ .Permalink }}"
       },
-      "about": {
-        "@id": "{{ print $baseURL "#/schema/person/1" | safeJS }}"
+      "headline": "{{ .Title }}",
+      "description": "{{ .Params.description }}",
+      "image": "{{ .Params.image | absURL }}",
+      "author": {
+        "@type": "Person",
+        "name": "Dejuan Jones"
       },
-      "datePublished": "{{ with .PublishDate}}{{ .Format "2006-01-02T15:04:05-07:00" }}{{ else }}{{ .Date.Format "2006-01-02T15:04:05-07:00" }}{{ end }}",
-      "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
-      "breadcrumb": {
-        "@id": "{{ print .Permalink "#/schema/breadcrumb/1" | safeJS }}"
-      },
-      "primaryImageOfPage": {
-        "@id": "{{ print .Permalink "#/schema/image/2" | safeJS }}"
-      },
-      "inLanguage": "{{ .Site.Params.schemaLocale | safeJS }}",
-      "potentialAction": [{
-        "@type": "ReadAction", "target": ["{{ .Permalink | safeJS }}"]
-      }]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "{{ print .Permalink "#/schema/breadcrumb/1" | safeJS }}",
-      "name": "Breadcrumbs",
-      "itemListElement": [{{ $list := $.Scratch.Get "breadcrumb" }}{{ $len := (len $list) }}{{ range $index, $element := $list }}{{ if ne .position 1 }},{{ end }}{
-        "@type": "ListItem",
-        "position": {{ .position }},
-        "item": {
-          "@type": "{{ if or (eq $.Section "post") (eq $.Section "posts") (eq $.Section "blog") (eq $.Section "blogs") (eq $.Section "news") (eq $.Section "categories") (eq $.Section "tags") }}Article{{ else }}WebPage{{ end }}",
-          "@id": "{{ .url | safeJS }}",
-          "url": "{{ .url | safeJS }}",
-          "name": "{{ .name | humanize | title | safeJS }}"
-        }
-        }{{ end }}]
-    },
-    {{ if and (eq .Kind "page") (eq .Section "posts") -}}
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "@id": "{{ print $baseURL "#/schema/article/1" | safeJS }}",
-          "headline": "{{ .Title | safeJS }}",
-          "description": "{{ .Description | safeJS }}",
-          "isPartOf": {
-            "@id": "{{ .Permalink | safeJS }}"
-          },
-          "mainEntityOfPage": {
-            "@id": "{{ .Permalink | safeJS }}"
-          },
-          "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}",
-          "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
-          "author": {
-            "@id": "{{ print $baseURL "#/schema/person/1" | safeJS }}"
-          },
-          "publisher": {
-            "@id": "{{ print $baseURL "#/schema/person/1" | safeJS }}"
-          },
-          "image": {
-            "@id": "{{ print .Permalink "#/schema/image/2" | safeJS }}"
-          }
-        }
-      ]
-    },
-    {{- end -}}
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+      "publisher": {
+        "@type": "Organization",
+        "name": "Earn Money Online",
+        "logo": {
           "@type": "ImageObject",
-          "@id": "{{ print .Permalink "#/schema/image/2" | safeJS }}",
-          "url": "{{ $.Scratch.Get "primaryImage" | safeJS }}",
-          "contentUrl": "{{ $.Scratch.Get "primaryImage" | safeJS }}",
-          "caption": "{{ with $.Scratch.Get "primaryImageAlt" }}{{ . | safeJS }}{{ else }}{{ .Title | safeJS }}{{ end }}"
+          "url": "{{ .Site.BaseURL }}/images/logo.png"
         }
-      ]
+      },
+      "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+      "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}"
     }
-  ]
-}
-</script>
+    </script>
+    
