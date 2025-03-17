@@ -1,9 +1,25 @@
-<!-- Robots meta -->
+<!-- Meta Charset -->
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+<!-- Title -->
+<title>{{ .Title | default site.Title }}</title>
+
+<!-- Base URL -->
+{{ if ne site.BaseURL "http://localhost:1313/" }}
+  <base href="{{ site.BaseURL }}">
+{{ end }}
+
+<!-- Robots Meta -->
 {{ if eq .Kind "404" }}
   <meta name="robots" content="noindex, follow">
 {{ else }}
   {{ with .Params.robots }}
-    <meta name="robots" content="{{ . }}">
+    {{ if in (slice "index, follow" "noindex, follow" "noindex, nofollow") . }}
+      <meta name="robots" content="{{ . }}">
+    {{ else }}
+      <meta name="robots" content="index, follow">
+    {{ end }}
   {{ else }}
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -12,34 +28,16 @@
 {{ end }}
 
 <!-- Canonical & Pagination SEO -->
-{{ if or (eq .Section "categories") (eq .Section "tags") }}
-  {{ if .Paginator }}
-    {{ if eq .Paginator.PageNumber 1 }}
-      <link rel="canonical" href="{{ .Permalink | absURL }}">
-    {{ else }}
-      <link rel="canonical" href="{{ .Paginator.First.URL | absURL }}">
-    {{ end }}
-
-    {{ if .Paginator.HasPrev }}
-      <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
-    {{ end }}
-
-    {{ if .Paginator.HasNext }}
-      <link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
-    {{ end }}
-  {{ else }}
-    <link rel="canonical" href="{{ .Permalink | absURL }}">
+{{ if $.Scratch.Get "paginator" }}
+  <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
+  {{ if .Paginator.HasPrev }}
+    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}" />
   {{ end }}
 {{ else }}
-  <link rel="canonical" href="{{ .Permalink | absURL }}">
-{{ end }}
-
-<meta charset="utf-8">
-<title>{{ .Title | default site.Title }}</title>
-
-<!-- base url -->
-{{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
-<base href="{{ site.BaseURL }}">
+  <link rel="canonical" href="{{ .Permalink }}" />
 {{ end }}
 
 {{ partial "google.html" }}
@@ -68,9 +66,6 @@
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
 
-<!-- opengraph and twitter card -->
-{{ partial "basic-seo.html" . }}
-
 <!-- custom script -->
 {{ site.Params.custom_script | safeHTML }}
 
@@ -96,3 +91,7 @@
 {{ partialCached "crisp-chat.html" . }}
 
 {{ partial "schema.html" . }}
+
+{{ partial "opengraph.html" . }}
+
+{{ partial "twitter_cards.html" . }}
