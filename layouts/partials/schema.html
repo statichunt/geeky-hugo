@@ -124,16 +124,11 @@
           "@type": "ListItem",
           "position": {{ .position }},
           "item": {
-            {{ if ne (add $index 1) $len }}
             "@type": "WebPage",
-            "@id": {{ .url }},
             "url": {{ .url }},
-            "name": "{{ .name | humanize}}"
-            {{ else }}
-            "@id": {{ .url }}
-            {{ end }}
+            "name": "{{ .name | humanize }}"
           }
-          }{{ end }}]
+        }{{ end }}]
       },
 
       {{ if and (eq .Kind "page") (or (eq .Section "blog") (eq .Section "docs") (eq .Section "tutorial") (eq .Section "showcase")) }}
