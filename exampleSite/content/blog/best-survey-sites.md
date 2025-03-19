@@ -52,7 +52,7 @@ Vindale Research pays members five dollars for referrals. The referral must comp
 ### 8. SurveyMonkey.com
 
 [Surveymonkey](https://www.surveymonkey.com) has an exclusive process for referrals. You can receive five hundred dollars for qualifying referrals with SurveyMonkey. This site has a free version and a paid version where members can complete offers.
- 
+
 ### 9. OpinionOutpost.com
 
 Opinion Outpost is one of the best survey sites. This market research panel pays members to test products, watch advertisements, take surveys, and more. Every time you take part, they offer a reward. These rewards can be redeemable by PayPal, Visa debit cards, or e-gift cards.

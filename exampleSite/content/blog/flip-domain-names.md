@@ -17,21 +17,17 @@ Before we get started, lets identify the definition of domain names. In short, d
 
 The internet is an ever-expanding landscape, with millions of new websites being created every year. Premium domain names can become highly valuable commodities. According to Verisign, there were three hundred and seventy million domain name registrations across all top-level domains at the end of 2021. This high demand can translate into substantial profits for domain flippers.
 
-## Domain Flipping Strategies
+## Types of Domain Names
 
 First things first, build a domain portfolio. Don't just focus on .com domains. Search for other popular extensions like .net, .org, and country-specific ones like .co.uk. Invest in domains across different niches to spread your risk.
 
-## Types of Domain Names
+## Domain Names Previously Sold
 
-There are many types of domains, i.e.,, or industry and are easily understandable and memorable. Each of these alternatives offers unique opportunities to earn money online, catering to different skills and interests.
+In 2007 VacationRentals.com sold for 35 million U.S.D. Three years later CarInsurance.com sold for 49.7 million U.S.D. However, in 2019 Voice.com sold for 30 million U.S.D. Hence, selling digital real-estate is one of the [best passive income ideas](/blog/passive-income-investments)! With strategic investment decisions and effective marketing strategies, you can capitalize on the booming online marketplace to generate substantial income streams.
 
 ## How to Make Money Flip Domain Names
 
-Domain flipping is one of the most profitable investments on the Web. When executed properly. Unlike [stocks and bonds](/blog/stocks-vs-bonds) flipping domains enable individuals to earn reasonable profits from a small investment without much effort.
-
-## Types of Domain Names
-
-There are many types of domains, i.e.,ine. In 2007 VacationRentals.com sold for 35 million U.S.D. Three years later CarInsurance.com sold for 49.7 million U.S.D. However, in 2019 Voice.com sold for 30 million U.S.D. Hence, selling digital real-estate is one of the [best passive income ideas](/blog/passive-income-investments)! With strategic investment decisions and effective marketing strategies, you can capitalize on the booming online marketplace to generate substantial income streams. Below we will explore how to attain digital real-estate step-by-step:
+Domain flipping is one of the most profitable investments on the Web. When executed properly. Unlike [stocks and bonds](/blog/stocks-vs-bonds) flipping domains enable individuals to earn reasonable profits from a small investment without much effort. Below we will explore how to attain digital real-estate step-by-step:
 
 ### 1. Search for Profitable Domain Names
 

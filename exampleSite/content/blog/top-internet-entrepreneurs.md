@@ -26,7 +26,7 @@ Elon Musk, the visionary behind companies like Tesla and SpaceX, has a net worth
 
 ### 2. Jeff Bezos
 
-_Net-worth: 200.7 Billion U.S.D_
+_Net Worth: 200.7 Billion U.S.D._
 
 Jeff Bezos, the founder of Amazon,American entrepreneur from Bellevue, Washington tops the list with a staggering net worth exceeding 200 billion dollars. His journey began in 1994 when he started Amazon as an online bookstore from his garage. Jeffs first major accomplishment was started his own business in high school. Jeff Bezos influences and fun facts:
 

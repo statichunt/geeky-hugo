@@ -11,7 +11,7 @@ draft: false
 
 The concept of microtasks has gained significant traction, revolutionizing how work is distributed, completed, and managed across various industries. Microtasks, often characterized by their small, manageable nature, play a crucial role in streamlining processes, optimizing efficiency, and harnessing the power of distributed labor.
 
-## What is Microtasks
+## What are Microtasks
 
 A microtask is an [online side hustle](/blog/creative-side-hustles) or task that can be completed in a relatively short amount of time, typically ranging from seconds to a few minutes. These tasks are often simple, repetitive, and require minimal cognitive effort, making them ideal for crowdsourcing and outsourcing to a distributed workforce.
 

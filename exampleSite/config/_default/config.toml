@@ -10,8 +10,6 @@ googleAnalytics = "G-PNQXNMRNBD"
 disqusShortname = "disqus_afGZDYYvBY"
 enableRobotsTXT = true
 
-
-
 ############################# Modules ##############################
 [module]
 [module.hugoVersion]
