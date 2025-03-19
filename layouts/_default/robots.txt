@@ -1,9 +1,15 @@
 User-agent: *
 
+Disallow: /content/
+Disallow: /layouts/
+Disallow: /resources/
+Disallow: /static/
+Disallow: /archetypes/
+Disallow: /index.xml
 Disallow: /404/
 Disallow: /search/
 Disallow: /page/
 
-Allow: /
+Allow: / 
 
 Sitemap: https://earnonlinemoney.org/sitemap.xml
