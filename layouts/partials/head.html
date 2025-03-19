@@ -1,5 +1,8 @@
 <!-- Meta Charset -->
 <meta charset="utf-8">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
 <!-- Title -->
 <title>{{ .Title | default site.Title }}</title>
@@ -7,23 +10,6 @@
 <!-- base url -->
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
 <base href="{{ site.BaseURL }}">
-{{ end }}
-
-<!-- Robots Meta -->
-{{ if eq .Kind "404" }}
-  <meta name="robots" content="noindex, follow">
-{{ else }}
-  {{ with .Params.robots }}
-    {{ if in (slice "index, follow" "noindex, follow" "noindex, nofollow") . }}
-      <meta name="robots" content="{{ . }}">
-    {{ else }}
-      <meta name="robots" content="index, follow">
-    {{ end }}
-  {{ else }}
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  {{ end }}
 {{ end }}
 
 {{ partial "google.html" }}
