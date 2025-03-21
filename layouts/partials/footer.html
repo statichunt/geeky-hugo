@@ -17,7 +17,13 @@
           </li>
           {{ end }}
         </ul>
-        {{ partial "icons" . }}
+        <ul class="list-unstyled social-icons">
+          {{ range site.Params.social }}
+          <li class="list-inline-item">
+            <a href="{{.link | safeURL}}"><i class="{{ .icon }}"></i></a>
+          </li>
+          {{ end }}
+        </ul>
         <p>{{site.Params.copyright | markdownify}} {{if site.Params.theme_copyright}} | <a target="_blank"
             rel="noopener noreferrer" href="https://earnonlinemoney.org/" class="text-muted text-decoration-underline">Earnonlinemoney.org</a>{{end}}
         </p>
