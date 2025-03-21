@@ -23,11 +23,11 @@ First things first, build a domain portfolio. Don't just focus on .com domains. 
 
 ## Domain Names Previously Sold
 
-In 2007 VacationRentals.com sold for 35 million U.S.D. Three years later CarInsurance.com sold for 49.7 million U.S.D. However, in 2019 Voice.com sold for 30 million U.S.D. Hence, selling digital real-estate is one of the [best passive income ideas](/blog/passive-income-investments)! With strategic investment decisions and effective marketing strategies, you can capitalize on the booming online marketplace to generate substantial income streams.
+In 2007 VacationRentals.com sold for 35 million U.S.D. Three years later CarInsurance.com sold for 49.7 million U.S.D. However, in 2019 Voice.com sold for 30 million U.S.D. Hence, selling digital real-estate is one of the [best passive income ideas](/blog/passive-income-investments/)! With strategic investment decisions and effective marketing strategies, you can capitalize on the booming online marketplace to generate substantial income streams.
 
 ## How to Make Money Flip Domain Names
 
-Domain flipping is one of the most profitable investments on the Web. When executed properly. Unlike [stocks and bonds](/blog/stocks-vs-bonds) flipping domains enable individuals to earn reasonable profits from a small investment without much effort. Below we will explore how to attain digital real-estate step-by-step:
+Domain flipping is one of the most profitable investments on the Web. When executed properly. Unlike [stocks and bonds](/blog/stocks-vs-bonds/) flipping domains enable individuals to earn reasonable profits from a small investment without much effort. Below we will explore how to attain digital real-estate step-by-step:
 
 ### 1. Search for Profitable Domain Names
 

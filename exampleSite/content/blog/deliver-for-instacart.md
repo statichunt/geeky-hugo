@@ -13,7 +13,7 @@ People are increasingly choosing to _deliver for Instacart_ not just for economi
 
 The independence of being an Instacart shopper is another major draw. Many appreciate the freedom of working without constant oversight, enjoying a self-directed environment that caters to their preferences.
 
-For those looking for a [real side hustle](/blog/creative-side-hustles) to earn immediate income, your in luck. Instacart provides a fast and accessible option, with minimal requirements and a quick onboarding process. This makes it especially appealing to individuals new to gig work or those seeking short-term income solutions.
+For those looking for a [real side hustle](/blog/creative-side-hustles/) to earn immediate income, your in luck. Instacart provides a fast and accessible option, with minimal requirements and a quick onboarding process. This makes it especially appealing to individuals new to gig work or those seeking short-term income solutions.
 
 Additionally, the tech-driven nature of the job, managed through a user-friendly app, adds to its appeal by offering a modern, flexible, and convenient way to work.
 
@@ -39,7 +39,7 @@ How much you can earn delivering for Instacart depends on various factors, inclu
 
 Instacart provides a base payment for each order, which is influenced by factors such as batch size and the time required to shop. Additionally, customers have the option to tip, which can significantly boost earnings. Drivers who are strategic in accepting batches, work during busy periods, and deliver excellent service often earn more. While income isn’t guaranteed, many find delivering for Instacart to be a lucrative and flexible opportunity.
 
-Related: [How Much Do Uber Drivers Make](/blog/how-much-do-uber-drivers-make)
+Related: [How Much Do Uber Drivers Make](/blog/how-much-do-uber-drivers-make/)
 
 ### Instant Ways to Increase Instacart Earnings
 

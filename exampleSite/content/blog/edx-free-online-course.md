@@ -13,11 +13,11 @@ In todays world, education is no longer confined to traditional classrooms. The 
 
 ## What is edX?
 
-Founded in 2012 by Harvard University and the Massachusetts Institute of Technology (MIT), edX is one of the [best online course sites](/blog/best-online-course-platforms). Its mission is simple yet profound: to increase global access to high-quality education. By partnering with over 160 institutions, including world-renowned universities like Berkeley, Oxford, and Stanford, as well as organizations such as Microsoft and Google, edX has created a diverse learning ecosystem.
+Founded in 2012 by Harvard University and the Massachusetts Institute of Technology (MIT), edX is one of the [best online course sites](/blog/best-online-course-platforms/). Its mission is simple yet profound: to increase global access to high-quality education. By partnering with over 160 institutions, including world-renowned universities like Berkeley, Oxford, and Stanford, as well as organizations such as Microsoft and Google, edX has created a diverse learning ecosystem.
 
 ## Benefits of edX
 
-If you want to learn [how to build online courses](/blog/how-to-create-online-courses) edX is the perfect solution. The platform offers courses across various disciplines, including technology, business, health, humanities, and more. While learners can pay for a verified certificate, most courses are audit-friendly, meaning you can access the course materials for free.
+If you want to learn [how to build online courses](/blog/how-to-create-online-courses/) edX is the perfect solution. The platform offers courses across various disciplines, including technology, business, health, humanities, and more. While learners can pay for a verified certificate, most courses are audit-friendly, meaning you can access the course materials for free.
 
 ### Free Courses
 
@@ -44,7 +44,7 @@ Additionally, edX offers MicroMasters programs, professional certificates, and e
 
 ### edX Affiliate Program
 
-Do you want to [get paid teaching courses](/blog/make-money-teaching-online-courses)? The [edX Affiliate Program](https://www.edx.org/affiliate-program) offers an opportunity for individuals and businesses to earn commissions by promoting high-quality online courses from top universities and institutions. Affiliates can share links to edX’s vast catalog, which includes topics ranging from data science to business management, and earn a percentage for every successful referral. With competitive commission rates and a trusted brand, the program is an excellent choice for those looking to monetize their content while promoting accessible, world-class education. Affiliates also gain access to marketing resources and performance tracking tools to maximize their earnings.
+Do you want to [get paid teaching courses](/blog/make-money-teaching-online-courses/)? The [edX Affiliate Program](https://www.edx.org/affiliate-program/) offers an opportunity for individuals and businesses to earn commissions by promoting high-quality online courses from top universities and institutions. Affiliates can share links to edX’s vast catalog, which includes topics ranging from data science to business management, and earn a percentage for every successful referral. With competitive commission rates and a trusted brand, the program is an excellent choice for those looking to monetize their content while promoting accessible, world-class education. Affiliates also gain access to marketing resources and performance tracking tools to maximize their earnings.
 
 ### Real-Life Impact
 

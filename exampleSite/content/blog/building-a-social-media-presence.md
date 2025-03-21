@@ -13,7 +13,7 @@ In the ever-evolving digital landscape, building a strong social media presence 
 
 ## Keys to Building a Social Media Presence
 
-To build a robust social media presence, businesses should focus on crafting engaging content, leveraging analytics, and interacting with their audience. Consistency in posting and using a mix of media types can also significantly enhance visibility. Additionally, collaborating with influencers and running targeted ads are [effective smm tips](/blog/social-media-marketing-tips) that can help reach a broader audience.
+To build a robust social media presence, businesses should focus on crafting engaging content, leveraging analytics, and interacting with their audience. Consistency in posting and using a mix of media types can also significantly enhance visibility. Additionally, collaborating with influencers and running targeted ads are [effective smm tips](/blog/social-media-marketing-tips/) that can help reach a broader audience.
 
 ### Who is Your Audience
 
@@ -72,9 +72,9 @@ By managing your time effectively, you can maintain a consistent presence withou
 You can can easily find ways to monetize your website through social media traffic.
 
 - TikTok Monetization: There are various TikTok monetization opportunities, like TikToks Creator Fund, brand collaboration, receiving gifts from live streams and more.
-- Earn Money on Pinterest: Publishers can [earn money on Pinterest](/blog/make-money-on-pinterest) with idea pins and ads.
+- Earn Money on Pinterest: Publishers can [earn money on Pinterest](/blog/make-money-on-pinterest/) with idea pins and ads.
 - Make Money on Twitter: Making money on Twitter involves several strategies. One way is through sponsored tweets, where businesses pay you to promote their products or services.
-- Facebook Monetization Strategies: As Meta evolves, so do [Facebook monetization strategies](/blog/facebook-monetization), offering new opportunities for individuals and businesses to capitalize on its reach and engagement.
+- Facebook Monetization Strategies: As Meta evolves, so do [Facebook monetization strategies](/blog/facebook-monetization/), offering new opportunities for individuals and businesses to capitalize on its reach and engagement.
 
 Selecting the right platforms depends on where your audience spends their time and the type of content you plan to create. If you need assistance building your presence on social sites you can find help on freelance websites.
 

@@ -22,11 +22,11 @@ Coursera is a leading online learning website that partners with top universitie
 
 ### 2. Udemy.com
 
-Udemy is a popular online course platform known for its vast library of affordable courses taught by expert instructors. With over 150,000 courses available in various languages, there are several ways to [make money on Udemy](/blog/make-money-on-udemy). The platform offers opportunities for learners to explore diverse topics and acquire new skills.
+Udemy is a popular online course platform known for its vast library of affordable courses taught by expert instructors. With over 150,000 courses available in various languages, there are several ways to [make money on Udemy](/blog/make-money-on-udemy/). The platform offers opportunities for learners to explore diverse topics and acquire new skills.
 
 ### 3. edX.com
 
-edX is a non-profit online learning platform founded by Harvard University and MIT, offering courses, certificates, and degree programs from leading universities and institutions around the world. With a focus on quality and accessibility, [edX free online courses](/blog/edx-free-online-course) aims to provide learners with opportunities for academic and professional advancement.
+edX is a non-profit online learning platform founded by Harvard University and MIT, offering courses, certificates, and degree programs from leading universities and institutions around the world. With a focus on quality and accessibility, [edX free online courses](/blog/edx-free-online-course/) aims to provide learners with opportunities for academic and professional advancement.
 
 ### 4. LinkedIn Learning
 
@@ -38,4 +38,4 @@ Skillshare is an online learning community that offers thousands of classes taug
 
 ### Conclusion
 
-In conclusion, there are thousands of lucrative opportunities for passionate individuals to [develop online courses](/blog/how-to-create-online-courses) simply sharing their knowledge and skills while making a positive impact on learners worldwide. By creating high-quality courses, leveraging promotional strategies, and building your brand, you can unlock your earning potential and pave the way for a fulfilling career as an online educator.
+In conclusion, there are thousands of lucrative opportunities for passionate individuals to [develop online courses](/blog/how-to-create-online-courses/) simply sharing their knowledge and skills while making a positive impact on learners worldwide. By creating high-quality courses, leveraging promotional strategies, and building your brand, you can unlock your earning potential and pave the way for a fulfilling career as an online educator.

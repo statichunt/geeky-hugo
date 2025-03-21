@@ -15,7 +15,7 @@ Diving into the world of vlogging can seem like an overwhelming adventure, but i
 
 Below we will walk you through the essential steps of launching a successful vlog, from planning your content to optimizing your videos for search engines. By the end, you'll be ready to hit the record button and share your stories with the world.
 
-Before you start filming, you'll need to set up your [YouTube channel](/blog/how-to-start-a-youtube-channel). This involves creating an account, choosing a channel name, and designing a channel banner and logo. Your channel name should reflect your vlog's theme and be easy to remember.
+Before you start filming, you'll need to set up your [YouTube channel](/blog/how-to-start-a-youtube-channel/). This involves creating an account, choosing a channel name, and designing a channel banner and logo. Your channel name should reflect your vlog's theme and be easy to remember.
 
 Once your channel is set up, fill out your profile information and include links to your social media accounts and website if you have one. This helps in creating a cohesive online presence and makes it easier for viewers to connect with you. Begin your journey with our YouTube channel guide to get detailed insights into setting up and optimizing your channel effectively.
 
@@ -96,7 +96,7 @@ Pay attention to which videos perform best and try to identify patterns. Use thi
 
 ### FAQs
 
-- How Much Money Do YouTubers Make? Many aspiring vloggers wonder about the [earning potential on YouTube](/blog/how-do-youtubers-make-money). While it varies widely, understanding the different revenue streams can help you set realistic expectations and goals. Top YouTubers can earn significant amounts through ad revenue, sponsorships, merchandise sales, and crowdfunding. However, it's important to note that success doesn't happen overnight. Building a substantial income from YouTube requires time, dedication, and strategic planning. Understand potential earnings by learning from top YouTubers and studying their strategies.
+- How Much Money Do YouTubers Make? Many aspiring vloggers wonder about the [earning potential on YouTube](/blog/how-do-youtubers-make-money/). While it varies widely, understanding the different revenue streams can help you set realistic expectations and goals. Top YouTubers can earn significant amounts through ad revenue, sponsorships, merchandise sales, and crowdfunding. However, it's important to note that success doesn't happen overnight. Building a substantial income from YouTube requires time, dedication, and strategic planning. Understand potential earnings by learning from top YouTubers and studying their strategies.
 
 ### How to Make Money on YouTube
 

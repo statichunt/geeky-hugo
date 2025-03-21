@@ -17,11 +17,11 @@ Fiverr is a popular platform that connects freelancers with clients from around 
 
 ## How to Make Money on Fiverr
 
-It would be wise to identify your niche before you [start freelancing](/blog/how-to-start-freelancing) on Fiverr. Specializing in a niche can set you apart from the competition. Whether it’s graphic design, writing, programming, or voiceover work, having a specific area of expertise makes you more appealing to potential clients and allows you to command higher rates. As a result, you can earn income quickly when you monetize a Fiverr account. Here are 10 ways to earn income on Fiverr:
+It would be wise to identify your niche before you [start freelancing](/blog/how-to-start-freelancing/) on Fiverr. Specializing in a niche can set you apart from the competition. Whether it’s graphic design, writing, programming, or voiceover work, having a specific area of expertise makes you more appealing to potential clients and allows you to command higher rates. As a result, you can earn income quickly when you monetize a Fiverr account. Here are 10 ways to earn income on Fiverr:
 
 ### 1. Choose a Profitable or Trending Service to Offer
 
-Choosing a profitable or trending service to offer is key to standing out in a competitive market. Start by researching current industry trends, customer demands, and emerging technologies. Focus on services with high demand and low competition to maximize profitability. Whether it’s [freelancer writer gigs](/blog/find-freelance-writing-gigs), AI consulting, or video marketing, aligning your skills with market needs will increase your chances of success. Stay adaptable and continuously refine your offerings to stay ahead of industry shifts.
+Choosing a profitable or trending service to offer is key to standing out in a competitive market. Start by researching current industry trends, customer demands, and emerging technologies. Focus on services with high demand and low competition to maximize profitability. Whether it’s [freelancer writer gigs](/blog/find-freelance-writing-gigs/), AI consulting, or video marketing, aligning your skills with market needs will increase your chances of success. Stay adaptable and continuously refine your offerings to stay ahead of industry shifts.
 
 ### 2. Optimize your Profile
 

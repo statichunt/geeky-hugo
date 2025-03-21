@@ -17,7 +17,7 @@ Social media monetization encompasses a broad spectrum of techniques and approac
 
 ### Launch a YouTube Channel
 
-Setting up a channel channel is a straightforward process. You can [start a YouTube channel](/blog/how-to-start-a-youtube-channel) by choosing a niche, setting up a professional-looking profile, and creating high-quality content. Investing in good equipment, such as a camera and microphone, can significantly enhance video quality.
+Setting up a channel channel is a straightforward process. You can [start a YouTube channel](/blog/how-to-start-a-youtube-channel/) by choosing a niche, setting up a professional-looking profile, and creating high-quality content. Investing in good equipment, such as a camera and microphone, can significantly enhance video quality.
 
 ### Develop a Social Media Presence
 
@@ -43,7 +43,7 @@ Each social media platform offers unique opportunities for monetization. Here’
 
 #### Make Money on Pinterest
 
-To [earn income on Pinterest](/blog/make-money-on-pinterest), focus on creating visually appealing pins that link to affiliate products or your own merchandise. Join group boards to increase your reach and drive traffic to your pins. Consistent pinning and engagement are crucial for success.
+To [earn income on Pinterest](/blog/make-money-on-pinterest/), focus on creating visually appealing pins that link to affiliate products or your own merchandise. Join group boards to increase your reach and drive traffic to your pins. Consistent pinning and engagement are crucial for success.
 
 #### YouTube
 
@@ -53,7 +53,7 @@ To [earn income on Pinterest](/blog/make-money-on-pinterest), focus on creating 
 
 #### Make Money on Facebook
 
-Creating engaging and shareable content is key to [making money on Facebook](/blog/facebook-monetization). Utilize Facebook Ads, in-stream ads, and fan subscriptions to generate revenue from your audience. Engaging with your followers regularly can boost your visibility and earnings.
+Creating engaging and shareable content is key to [making money on Facebook](/blog/facebook-monetization/). Utilize Facebook Ads, in-stream ads, and fan subscriptions to generate revenue from your audience. Engaging with your followers regularly can boost your visibility and earnings.
 
 - In-Stream Ads: Make money on Facebook by placing ads in your videos.
 - Fan Subscriptions: Offer exclusive content to fans who subscribe to your page for a monthly fee.

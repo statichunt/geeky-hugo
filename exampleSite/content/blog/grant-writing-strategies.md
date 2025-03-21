@@ -22,7 +22,7 @@ Finding funding doesn't always require extensive grant applications. Here are fi
 - Crowdfunding Platforms: Use crowdfunding sites like Kickstarter or GoFundMe to raise funds quickly by appealing to the public with a compelling story.
 - Local Business Sponsorships: Partner with local businesses for sponsorship in exchange for promotional benefits.
 - Angel Investors: Pitch your scalable idea to angel investors who are looking for new opportunities.
-- [Freelancing Writing Gig Opportunities](/blog/find-freelance-writing-gigs): Utilize freelance websites to find writing gigs.
+- [Freelancing Writing Gig Opportunities](/blog/find-freelance-writing-gigs/): Utilize freelance websites to find writing gigs.
 - Online Contests: Enter contests and competitions that offer cash prizes for creative ideas or business pitches.
 - Gig economy: Find jobs on TaskRabbit or complete quick online surveys to earn immediate cash.
 

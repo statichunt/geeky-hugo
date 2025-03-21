@@ -15,11 +15,11 @@ Survey sites are online platforms that connect businesses with consumers willing
 
 ## Are Surveys Worth It
 
-Surveys can be a worthwhile way to [generate additional income](/blog/creative-side-hustles), but their value depends on your expectations and approach. While they won’t replace a full-time job, survey sites offer a flexible and low-effort way to earn extra cash, gift cards, or other rewards. They are ideal for filling spare time and can be done from anywhere, making them convenient for busy individuals. However, earnings vary depending on the platform, the number of available surveys, and your demographic profile. If you’re looking for a simple, no-cost way to supplement your income, surveys can be a good option, but they work best when combined with other side hustles.
+Surveys can be a worthwhile way to [generate additional income](/blog/creative-side-hustles/), but their value depends on your expectations and approach. While they won’t replace a full-time job, survey sites offer a flexible and low-effort way to earn extra cash, gift cards, or other rewards. They are ideal for filling spare time and can be done from anywhere, making them convenient for busy individuals. However, earnings vary depending on the platform, the number of available surveys, and your demographic profile. If you’re looking for a simple, no-cost way to supplement your income, surveys can be a good option, but they work best when combined with other side hustles.
 
 ## Best Survey Sites
 
-There are several survey sites online. However, the best survey sites provide users with several options to make money. Members can earn money from referrals, chiming contests, and opinion polls. Users can also [earn money playing games](/blog/play-games-for-cash), reviews, and complete tasks. Best of all, legitimate survey sites don’t cost a dime. As noted, they will not replace a full time job, but they offer a steady stream of additional income. Without further due, here are the best survey sites;
+There are several survey sites online. However, the best survey sites provide users with several options to make money. Members can earn money from referrals, chiming contests, and opinion polls. Users can also [earn money playing games](/blog/play-games-for-cash/), reviews, and complete tasks. Best of all, legitimate survey sites don’t cost a dime. As noted, they will not replace a full time job, but they offer a steady stream of additional income. Without further due, here are the best survey sites;
 
 ### 1. Swagbucks.com
 
@@ -31,7 +31,7 @@ With well over 10 million members Survey Junkie focuses solely on surveys, makin
 
 ### 3. InboxDollars.com
 
-InboxDollars offers a variety of ways to earn money, including taking surveys, reading emails, and shopping to [earn rebates](/blog/earn-cash-back). It's a comprehensive platform for those looking to diversify their income streams.
+InboxDollars offers a variety of ways to earn money, including taking surveys, reading emails, and shopping to [earn rebates](/blog/earn-cash-back/). It's a comprehensive platform for those looking to diversify their income streams.
 
 ### 4. PineconeResearch.com
 

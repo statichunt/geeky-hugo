@@ -15,9 +15,9 @@ How can you _get paid to click ads_? First, find opportunities to make money vis
 
 How do you earn cash clicking ads? As you may already know, you’ll need an internet connection if you want to get paid to click advertisements. If you do not have an internet connection at home, you can find hot spots just about anywhere. You can get online at most coffee shops, libraries, hotels, and many other places. What is better, most businesses have high-speed internet which enables you to get the job done quickly. This enables you to open several tabs at once without slowing down.
 
-There are several additional opportunities. You don’t have to just get paid to click ads. You can start [making money from apps](/blog/money-making-apps). This can be accomplished by watching video ads, completing offers, and taking surveys. In addition, you can earn rewards by purchasing items online, posting reviews, and recruiting new members.
+There are several additional opportunities. You don’t have to just get paid to click ads. You can start [making money from apps](/blog/money-making-apps/). This can be accomplished by watching video ads, completing offers, and taking surveys. In addition, you can earn rewards by purchasing items online, posting reviews, and recruiting new members.
 
-Besides that, these are the [best side hustle ideas](/blog/creative-side-hustles) for people that are low on funds because they are free to join. You do not have to pay one penny out-of-pocket to get started. Below are 15 websites where you can get paid to click ads:
+Besides that, these are the [best side hustle ideas](/blog/creative-side-hustles/) for people that are low on funds because they are free to join. You do not have to pay one penny out-of-pocket to get started. Below are 15 websites where you can get paid to click ads:
 
 ### Ayuwage.com
 
@@ -29,7 +29,7 @@ BuxInside provides its members with a few ways to make money. You can make money
 
 ### Donkeymails.com
 
-There are several ways you can earn with Donkeymails. You can [get paid to play games](/blog/play-games-for-cash), read emails, surf the Web, and much more. Above all else, you can get paid to click ads!
+There are several ways you can earn with Donkeymails. You can [get paid to play games](/blog/play-games-for-cash/), read emails, surf the Web, and much more. Above all else, you can get paid to click ads!
 
 ### EasyHits4U.com
 

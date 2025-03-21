@@ -31,13 +31,13 @@ Start by considering what you are passionate about. Your interests can be a grea
 
 A successful niche often revolves around solving specific problems. Look for issues or gaps in the market that you can address with your skills and knowledge. Ask yourself:
 
-- Do you have enough knowledge to explain [how to launch a blog](/blog/how-to-make-a-blog)?
+- Do you have enough knowledge to explain [how to launch a blog](/blog/how-to-make-a-blog/)?
 - What problems do people in my interest areas face?
 - Can teach people how to start a podcasts?
 
 ### 3. Research Your Market
 
-To successfully [market an online business](/blog/marketing-a-online-business) you must do your homework. Conduct thorough market research to understand the demand for your potential niche. Use tools like Google Trends, keyword research tools, and social media insights to gauge interest levels and identify trends.
+To successfully [market an online business](/blog/marketing-a-online-business/) you must do your homework. Conduct thorough market research to understand the demand for your potential niche. Use tools like Google Trends, keyword research tools, and social media insights to gauge interest levels and identify trends.
 
 Statistic: According to Google Trends, niche market search terms have seen a steady increase of 20% year-over-year, indicating growing interest in specialized areas.
 

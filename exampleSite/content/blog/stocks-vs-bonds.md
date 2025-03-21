@@ -13,7 +13,7 @@ Stocks and bonds represent distinct asset classes with unique characteristics, r
 
 ## Stocks vs Bonds
 
-Investing in financial markets offers a plethora of [passive income opportunities](/blog/passive-income-investments), yet navigating the landscape requires understanding the fundamental differences between various asset classes. Among the most foundational decisions investors face are choosing between stocks and bonds. Each represents distinct financial instruments with unique characteristics and potential returns. Let's delve into the essential differences between stocks and bonds to help you make informed investment decisions.
+Investing in financial markets offers a plethora of [passive income opportunities](/blog/passive-income-investments/), yet navigating the landscape requires understanding the fundamental differences between various asset classes. Among the most foundational decisions investors face are choosing between stocks and bonds. Each represents distinct financial instruments with unique characteristics and potential returns. Let's delve into the essential differences between stocks and bonds to help you make informed investment decisions.
 
 ### Understanding Stocks
 
@@ -29,13 +29,13 @@ Transitioning from understanding the nature of stocks and bonds, it's crucial to
 
 Conversely, bonds tend to offer lower returns than stocks but are accompanied by lower risk levels. Government bonds, for instance, are often considered the safest investment because they are backed by the issuing government's creditworthiness. However, corporate bonds may carry higher risk depending on the issuer's financial health.
 
-Keep in mind, even the [best investors](/blog/top-investors) take losses.
+Keep in mind, even the [best investors](/blog/top-investors/) take losses.
 
 ### Investment Objectives and Time Horizon
 
 Your investment goals and time horizon play a pivotal role in determining whether stocks or bonds are more suitable for your portfolio. Stocks are ideal for investors seeking long-term growth and willing to withstand market fluctuations. Younger investors with decades until retirement often favor stocks due to their potential for compounding returns over time.
 
-On the contrary, bonds are favored by investors seeking income generation and capital preservation. Retirees or those with shorter investment horizons may prioritize bonds for their steady income stream and lower risk of principal loss. Need an investment idea? Why not consider [investing in the NFT Market](/blog/nft-market-breakdown)?
+On the contrary, bonds are favored by investors seeking income generation and capital preservation. Retirees or those with shorter investment horizons may prioritize bonds for their steady income stream and lower risk of principal loss. Need an investment idea? Why not consider [investing in the NFT Market](/blog/nft-market-breakdown/)?
 
 ### Diversification Benefits
 

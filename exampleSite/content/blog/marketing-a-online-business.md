@@ -13,7 +13,7 @@ Are you planning to _market an online business_? If so, you've found the right p
 
 ## Online Business Marketing Tips
 
-Marketing an online business can be both exhilarating and challenging. With the digital landscape constantly evolving, it’s essential to stay updated with the latest trends and strategies. Whether you're a seasoned entrepreneur or just [starting a online business](/blog/how-to-start-an-online-business) for the first time, understanding the fundamentals of online marketing can make a significant difference in your business's success. Let's dive into some key tactics that can help your online business flourish.
+Marketing an online business can be both exhilarating and challenging. With the digital landscape constantly evolving, it’s essential to stay updated with the latest trends and strategies. Whether you're a seasoned entrepreneur or just [starting a online business](/blog/how-to-start-an-online-business/) for the first time, understanding the fundamentals of online marketing can make a significant difference in your business's success. Let's dive into some key tactics that can help your online business flourish.
 
 ### Building a Strong Brand
 
@@ -23,7 +23,7 @@ First and foremost, a strong brand is the cornerstone of any successful online b
 - Create a Consistent Brand Voice: Consistency is key when it comes to branding. Ensure that your brand voice is reflected across all your marketing channels, including your website, social media, and email communications. This consistency helps build trust and recognition among your audience.
 - Invest in Professional Design: A professional and appealing design can make a huge difference. From your logo to your website layout, investing in high-quality design can enhance your brand’s credibility and appeal.
 
-Do you have a podcast? Read our complete [podcast branding guide](/blog/podcaster-brand-building)!
+Do you have a podcast? Read our complete [podcast branding guide](/blog/podcaster-brand-building/)!
 
 ### Use Social Media Platforms
 

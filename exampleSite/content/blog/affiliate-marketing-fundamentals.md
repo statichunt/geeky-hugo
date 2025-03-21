@@ -12,7 +12,7 @@ draft: false
 
 There are several reasons why you should consider **affiliate marketing**. To begin with, over the last decade, the associate marketing industry has grown tremendously. According to research, the affiliate marketing industry was worth around 13 billion in 2016. Fast-forward to 2023, it is worth 17 billion. On top of that, you can earn passive income and generate online income 24/7, even while you sleep!
 
-As an experienced affiliate marketer, I'm excited to guide you through the ins and outs of this lucrative industry. By the end of this article, you'll have a solid understanding of what affiliate marketing is, how it works, and how you can start [earning income](/blog/ways-to-make-money) through affiliate marketing strategies. More importantly, you can find out how to become a successful associate marketer.
+As an experienced affiliate marketer, I'm excited to guide you through the ins and outs of this lucrative industry. By the end of this article, you'll have a solid understanding of what affiliate marketing is, how it works, and how you can start [earning income](/blog/ways-to-make-money/) through affiliate marketing strategies. More importantly, you can find out how to become a successful associate marketer.
 
 ## What is Affiliate Marketing?
 
@@ -30,7 +30,7 @@ _Key Players_:
 There are five steps that take place in the affiliate marketing process:
 
 - Merchant Partnership: First, a merchant signs up and pays an partner network to sell products or offer services.
-- After joining an [affiliate program](/blog/best-affiliate-programs), the publisher receives unique affiliate links to sell digital products or offer services.
+- After joining an [affiliate program](/blog/best-affiliate-programs/), the publisher receives unique affiliate links to sell digital products or offer services.
 - Next, the product or service is promoted on the publisher's platform, i.e., (social media channel, website, blog).
 - A customer purchases a product or service on the publisher's platform.
 - Lastly, the publisher earns a commission by sales or leads, and the merchant earns a return on investment.

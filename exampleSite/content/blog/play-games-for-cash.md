@@ -21,7 +21,7 @@ In recent years, live streaming platforms such as Twitch, YouTube Gaming, and Fa
 
 ### Monetize Twitch Channel
 
-[Monetizing your Twitch channel](/blog/get-paid-on-twitch) involves exploring various revenue streams, including subscriptions, donations, sponsorships, and affiliate marketing. Encourage viewers to subscribe to your channel for exclusive perks and emotes, and enable donation features to allow supporters to contribute directly to your content creation efforts.
+[Monetizing your Twitch channel](/blog/get-paid-on-twitch/) involves exploring various revenue streams, including subscriptions, donations, sponsorships, and affiliate marketing. Encourage viewers to subscribe to your channel for exclusive perks and emotes, and enable donation features to allow supporters to contribute directly to your content creation efforts.
 
 ### Earn Money on Esports
 
@@ -37,7 +37,7 @@ For those with a passion for game design and programming, the realm of game deve
 
 ### Gaming Influencer Marketing
 
-Influencer marketing has become a prevalent phenomenon in the digital age, with brands seeking to leverage the influence and reach of prominent gamers to promote their products and services. Through strategic partnerships, sponsored content, and affiliate marketing programs, gaming influencers can monetize their platforms while providing valuable exposure to brands seeking to connect with their target audiences. By aligning with brands that resonate with their audience and values, gaming influencers can monetize their influence while maintaining authenticity and credibility within the gaming community. As your influence and reach grow within the gaming community, opportunities for partnerships and endorsements may arise, providing [creative side hustle ideas](/blog/creative-side-hustles).
+Influencer marketing has become a prevalent phenomenon in the digital age, with brands seeking to leverage the influence and reach of prominent gamers to promote their products and services. Through strategic partnerships, sponsored content, and affiliate marketing programs, gaming influencers can monetize their platforms while providing valuable exposure to brands seeking to connect with their target audiences. By aligning with brands that resonate with their audience and values, gaming influencers can monetize their influence while maintaining authenticity and credibility within the gaming community. As your influence and reach grow within the gaming community, opportunities for partnerships and endorsements may arise, providing [creative side hustle ideas](/blog/creative-side-hustles/).
 
 ### Free Online Poker and Bingo
 
@@ -70,8 +70,8 @@ While the allure of cash games online is undeniable, success is not guaranteed. 
 
 While cash games online and Twitch streaming represent primary avenues for monetizing your gaming endeavors, there are numerous other opportunities to explore within the broader gaming industry. Consider leveraging your expertise to pursue freelance opportunities such;
 
-- [Make Money Clicking Ads](/blog/get-paid-to-click-ads).
-- [Earn Cashback Shopping](/blog/earn-cash-back).
+- [Make Money Clicking Ads](/blog/get-paid-to-click-ads/).
+- [Earn Cashback Shopping](/blog/earn-cash-back/).
 
 ### Practice Diligently
 

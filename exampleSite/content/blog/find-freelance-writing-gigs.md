@@ -13,7 +13,7 @@ In the continuously changing environment of the digital era, freelance writing h
 
 ## What is Freelance Writing
 
-Freelance writing offers the freedom to [remotely work](/blog/remote-job-opportunities) from anywhere, choose projects, and set your own rates. However, to succeed, writers need more than just talent; they must also master the business side of freelancing.
+Freelance writing offers the freedom to [remotely work](/blog/remote-job-opportunities/) from anywhere, choose projects, and set your own rates. However, to succeed, writers need more than just talent; they must also master the business side of freelancing.
 
 ## Finding Freelance Writing Gigs
 
@@ -31,7 +31,7 @@ Specializing in a niche can set you apart from the competition. Whether it's tec
 
 ### Set Competitive Rates
 
-Research the market to understand the going rates for different types of writing projects. For example, if you want to [earn money on Fiverr](/blog/how-to-make-money-on-fiverr), you must set competitive rates. Consider your experience, the complexity of the work, and the client's budget when setting your rates. Be confident in your pricing and ready to negotiate when necessary.
+Research the market to understand the going rates for different types of writing projects. For example, if you want to [earn money on Fiverr](/blog/how-to-make-money-on-fiverr/), you must set competitive rates. Consider your experience, the complexity of the work, and the client's budget when setting your rates. Be confident in your pricing and ready to negotiate when necessary.
 
 ### Create a Professional Website
 
@@ -65,11 +65,11 @@ Rejection is part of the freelance writing journey. Learn from the feedback and 
 
 ### Diversify Your Income Streams
 
-Relying on a single client or type of writing can be risky. Diversify your income by exploring different writing opportunities, such as blogging, copywriting, technical writing, or [grant writing](/blog/grant-writing-strategies). Consider creating your own products, like eBooks or online courses.
+Relying on a single client or type of writing can be risky. Diversify your income by exploring different writing opportunities, such as blogging, copywriting, technical writing, or [grant writing](/blog/grant-writing-strategies/). Consider creating your own products, like eBooks or online courses.
 
 ### Find Solid Freelance Platforms
 
-Freelancing has become a popular career choice, offering flexibility and independence. The [best freelance platforms](/blog/best-freelance-websites) cater to various skill sets and industries, providing platforms for freelancers to connect with potential clients. Upwork is renowned for its vast marketplace, featuring jobs in writing, design, and tech. Fiverr allows freelancers to offer specific services at competitive prices, ideal for quick gigs.
+Freelancing has become a popular career choice, offering flexibility and independence. The [best freelance platforms](/blog/best-freelance-websites/) cater to various skill sets and industries, providing platforms for freelancers to connect with potential clients. Upwork is renowned for its vast marketplace, featuring jobs in writing, design, and tech. Fiverr allows freelancers to offer specific services at competitive prices, ideal for quick gigs.
 
 Toptal targets top-tier professionals in software development, design, and finance, ensuring high-quality matches. Freelancer.com offers diverse projects and contests to showcase skills. These websites offer robust support, including secure payment systems, project management tools, and community resources, making them invaluable for freelancers looking to build and sustain successful careers.
 

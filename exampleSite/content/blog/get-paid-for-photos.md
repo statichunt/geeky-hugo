@@ -8,7 +8,7 @@ tags:
   - Quick Cash
 ---
 
-Did you know you can **get paid from photos**? You can earn thousands of dollars each month selling stock photos. The market demand for stock photos is not getting any lower. We live in an age, where smartphones boast powerful cameras and social media platforms thrive on visual content, the demand for captivating photographs has skyrocketed. What was once a hobby or a means of preserving memories has transformed into a [lucrative side hustle](/blog/creative-side-hustles) for creative expression and financial gain. At the end of the day, the prospect of getting paid for your photos is more attainable than ever before.
+Did you know you can **get paid from photos**? You can earn thousands of dollars each month selling stock photos. The market demand for stock photos is not getting any lower. We live in an age, where smartphones boast powerful cameras and social media platforms thrive on visual content, the demand for captivating photographs has skyrocketed. What was once a hobby or a means of preserving memories has transformed into a [lucrative side hustle](/blog/creative-side-hustles/) for creative expression and financial gain. At the end of the day, the prospect of getting paid for your photos is more attainable than ever before.
 
 ## How to Get Paid For Your Photos
 

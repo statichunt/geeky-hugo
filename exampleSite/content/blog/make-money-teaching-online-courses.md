@@ -28,7 +28,7 @@ The concept of online learning traces its roots back to the early days of the in
 
 Post that you might enjoy:
 
-Learn how to [earn money on Udemy](/blog/make-money-on-udemy).
+Learn how to [earn money on Udemy](/blog/make-money-on-udemy/).
 
 ### Flexibility and Convenience
 
@@ -52,7 +52,7 @@ Many online courses are taught by subject matter experts and industry profession
 
 ## How to Make Money Teaching Online Courses
 
-The first step in making money through online courses is choosing a profitable niche. It's crucial to select a topic that aligns with your expertise and interests but also has a high demand in the market. Conduct thorough market research to identify trends and gaps. Tools like Google Trends, Udemy's marketplace insights, and keyword research tools can help determine what learners are seeking. However, before you monetize your online course, you must learn [how to create an online course](/blog/how-to-create-online-courses).
+The first step in making money through online courses is choosing a profitable niche. It's crucial to select a topic that aligns with your expertise and interests but also has a high demand in the market. Conduct thorough market research to identify trends and gaps. Tools like Google Trends, Udemy's marketplace insights, and keyword research tools can help determine what learners are seeking. However, before you monetize your online course, you must learn [how to create an online course](/blog/how-to-create-online-courses/).
 
 ### Create Engaging Content
 
@@ -96,7 +96,7 @@ Inclusivity and accessibility are paramount in online courses to ensure that all
 
 ### Choose the Right Online Course
 
-Discovering the [best online course platforms](/blog/best-online-course-platforms) is essential for those seeking to expand their knowledge and skills. Here are some factors to consider when choosing an online course:
+Discovering the [best online course platforms](/blog/best-online-course-platforms/) is essential for those seeking to expand their knowledge and skills. Here are some factors to consider when choosing an online course:
 
 - Learning Objectives: Clearly define your learning goals and objectives to identify courses that align with your interests and career aspirations.
 - Accreditation and Credentials: Research the credentials of the institution or organization offering the course to ensure that it meets industry standards and is recognized by employers and academic institutions.

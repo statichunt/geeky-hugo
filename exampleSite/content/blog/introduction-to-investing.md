@@ -21,7 +21,7 @@ Investing offers several opportunities. One of the primary benefits is the poten
 
 ### Stocks vs Bonds
 
-Stocks offer ownership in a company. Bonds are loans to a company or government. Stocks have higher risk but more growth potential. Bonds are safer with steady income. Investors choose based on goals and risk tolerance. Understanding these differences is key when comparing [stocks vs bonds](/blog/stocks-vs-bonds).
+Stocks offer ownership in a company. Bonds are loans to a company or government. Stocks have higher risk but more growth potential. Bonds are safer with steady income. Investors choose based on goals and risk tolerance. Understanding these differences is key when comparing [stocks vs bonds](/blog/stocks-vs-bonds/).
 
 ### 1. Mutual Funds
 
@@ -33,7 +33,7 @@ Bonds are debt securities issued by governments, municipalities, or corporations
 
 ### 3. Cryptocurrency Exchange Platforms
 
-Cryptocurrency has gained popularity due to its potential for high returns. However, they come with significant risk and volatility. Investors should thoroughly research and understand the market before committing funds to [crypto exchange platform investments](/blog/recommended-crypto-exchange-platforms).
+Cryptocurrency has gained popularity due to its potential for high returns. However, they come with significant risk and volatility. Investors should thoroughly research and understand the market before committing funds to [crypto exchange platform investments](/blog/recommended-crypto-exchange-platforms/).
 
 ### Strategies for Investing
 

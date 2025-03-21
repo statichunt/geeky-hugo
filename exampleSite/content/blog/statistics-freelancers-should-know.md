@@ -13,7 +13,7 @@ As a freelancer or on-demand worker, staying informed about industry trends, mar
 
 ## 18 Freelance Statistics
 
-Freelancing is becoming a go-to option for beginners, driven by its flexibility and accessibility. Learning [how to become a freelancer](/blog/how-to-start-freelancing) often starts with honing marketable skills and using online platforms to connect with clients. For many, freelancing offers a way to gain experience, build a portfolio, and explore diverse opportunities without committing to a traditional job. This growing trend highlights why more individuals are choosing freelancing as a stepping stone in their careers.
+Freelancing is becoming a go-to option for beginners, driven by its flexibility and accessibility. Learning [how to become a freelancer](/blog/how-to-start-freelancing/) often starts with honing marketable skills and using online platforms to connect with clients. For many, freelancing offers a way to gain experience, build a portfolio, and explore diverse opportunities without committing to a traditional job. This growing trend highlights why more individuals are choosing freelancing as a stepping stone in their careers.
 
 ### 1. The Gig economy is Thriving
 

@@ -19,7 +19,7 @@ Let’s explore some standout apps that exemplify the variety and potential of t
 
 ### Cashback Apps
 
-Whoever said [earning cashback](/blog/earn-cash-back) from apps was dead forgot to do their homework! There are several apps to earn cashback and rebates. Saving money has become much easier with apps that reward users for purchases, offering cashback or discounts. These platforms turn everyday spending into opportunities for extra savings.
+Whoever said [earning cashback](/blog/earn-cash-back/) from apps was dead forgot to do their homework! There are several apps to earn cashback and rebates. Saving money has become much easier with apps that reward users for purchases, offering cashback or discounts. These platforms turn everyday spending into opportunities for extra savings.
 
 _Checkout 51_: At Checkout, 51 members can find gas rewards and save tons of money on popular brands. In the event you leave your cell phone at home, don't worry you can use Checkout 51 from any device.
 
@@ -27,7 +27,7 @@ _ReceiptPal_: Users can create memberships fast and free on Receiptpal. Newbies 
 
 ### Survey and Task-Based Apps
 
-Completing simple tasks on [survey websites](/blog/best-survey-sites) or data entry platforms can provide quick earnings. These apps are perfect for those looking to make use of spare time productively.
+Completing simple tasks on [survey websites](/blog/best-survey-sites/) or data entry platforms can provide quick earnings. These apps are perfect for those looking to make use of spare time productively.
 
 _Toluna_: Engaging with surveys on Toluna allows users to turn their opinions into rewards. From gift cards to cash, the platform offers diverse options for redeeming points earned through surveys on various topics. As a bonus, its interactive community and frequent updates keep users coming back for more opportunities.
 

@@ -15,7 +15,7 @@ So, you've decided to start podcasting. Awesome! But now you're staring at a sea
 
 Set a budget that reflects your current financial situation but allows for essential purchases. Prioritize the gear that will make the most significant difference in your sound quality.
 
-When I first [started my podcast](/blog/how-to-start-a-podcast), I set a budget of three hundred dollars. This might seem low, but it forced me to make smart choices and prioritize the most critical pieces of equipment.
+When I first [started my podcast](/blog/how-to-start-a-podcast/), I set a budget of three hundred dollars. This might seem low, but it forced me to make smart choices and prioritize the most critical pieces of equipment.
 
 It's okay to start with entry-level gear and upgrade later as your podcast grows. This approach ensures you don't blow your entire budget upfront and gives you room to improve your setup over time.
 

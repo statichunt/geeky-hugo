@@ -13,13 +13,13 @@ Craigslist is more than just a place to find used furniture or rent an apartment
 
 ## How to Make Money on Craigslist
 
-Ready to exploit a [profitable side hustle](/blog/creative-side-hustles)? Making money on Craigslist (CL) involves leveraging the platform's extensive reach to sell items or offer services. You can earn quick cash by listing items around your home, such as furniture, electronics, and clothing, with clear descriptions and high-quality photos to attract buyers. Additionally, you can offer freelance services like writing, tutoring, or home repairs, ensuring your posts are detailed and professional. Consistently updating your listings and responding promptly to inquiries can help maximize your earnings on Craigslist.
+Ready to exploit a [profitable side hustle](/blog/creative-side-hustles/)? Making money on Craigslist (CL) involves leveraging the platform's extensive reach to sell items or offer services. You can earn quick cash by listing items around your home, such as furniture, electronics, and clothing, with clear descriptions and high-quality photos to attract buyers. Additionally, you can offer freelance services like writing, tutoring, or home repairs, ensuring your posts are detailed and professional. Consistently updating your listings and responding promptly to inquiries can help maximize your earnings on Craigslist.
 
 ### Selling Your Stuff
 
 Selling your stuff on Craigslist can be an efficient way to declutter and earn extra cash. Begin by creating detailed listings with clear, high-quality photos and accurate descriptions to attract potential buyers. Be honest about the condition of the items and set competitive prices based on market research. Promptly respond to inquiries and arrange safe, public meeting spots for transactions to ensure a smooth and secure selling experience.
 
-Next, dive through the [best apps to sell items](/blog/best-apps-to-sell-your-stuff) from around your home, as there's always a market for secondhand goods at competitive prices. You can also offer services such as handyman work, tutoring, or freelance gigs that cater to local needs. To maximize your earnings, ensure your listings are detailed, well-photographed, and priced reasonably to attract buyers quickly.
+Next, dive through the [best apps to sell items](/blog/best-apps-to-sell-your-stuff/) from around your home, as there's always a market for secondhand goods at competitive prices. You can also offer services such as handyman work, tutoring, or freelance gigs that cater to local needs. To maximize your earnings, ensure your listings are detailed, well-photographed, and priced reasonably to attract buyers quickly.
 
 ### Best Practices for Selling on Craigslist
 
@@ -66,7 +66,7 @@ Unfortunately, scams are prevalent on Craigslist. Red flags include prices that 
 
 Businesses can post ads in the “Services” section to reach local customers. Whether you offer landscaping, tutoring, or handyman services, Craigslist can help you connect with potential clients.
 
-Searching for another way to make money? Start [earning cashback](/blog/earn-cash-back) and rebates today!
+Searching for another way to make money? Start [earning cashback](/blog/earn-cash-back/) and rebates today!
 
 ### 10. Find Freelancers
 
@@ -110,7 +110,7 @@ If you have time on your hands, you can always find a job under the gigs section
 
 ### 20. Start Trading Products
 
-Have you ever heard the [red paperclip story](https://en.wikipedia.org/wiki/One*red*paperclip)? This story is about Kyle MacDonald. A man who started by trading a red paperclip on Craigslist and ended up with a farmhouse. He achieved it in fourteen transactions!
+Have you ever heard the [red paperclip story](https://en.wikipedia.org/wiki/One_red_paperclip)? This story is about Kyle MacDonald. A man who started by trading a red paperclip on Craigslist and ended up with a farmhouse. He achieved it in fourteen transactions!
 
 #### Paperclip to Farm House Story
 

@@ -13,12 +13,12 @@ The concept of microtasks has gained significant traction, revolutionizing how w
 
 ## What are Microtasks
 
-A microtask is an [online side hustle](/blog/creative-side-hustles) or task that can be completed in a relatively short amount of time, typically ranging from seconds to a few minutes. These tasks are often simple, repetitive, and require minimal cognitive effort, making them ideal for crowdsourcing and outsourcing to a distributed workforce.
+A microtask is an [online side hustle](/blog/creative-side-hustles/) or task that can be completed in a relatively short amount of time, typically ranging from seconds to a few minutes. These tasks are often simple, repetitive, and require minimal cognitive effort, making them ideal for crowdsourcing and outsourcing to a distributed workforce.
 
 ### Advantages of Micro-Tasking
 
 - Diverse Opportunities: The range of micro-tasks available is extensive, catering to different skills and interests. Whether you excel in data entry, content creation, or graphic design, there are micro-tasks suited to your abilities.
-- Quick Turnaround: Micro-tasking often involves completing tasks within a short timeframe, just as fast as [taking surveys](/blog/best-survey-sites) This quick turnaround not only benefits task providers but also allows workers to see the results of their efforts promptly.
+- Quick Turnaround: Micro-tasking often involves completing tasks within a short timeframe, just as fast as [taking surveys](/blog/best-survey-sites/) This quick turnaround not only benefits task providers but also allows workers to see the results of their efforts promptly.
 
 ### Disadvantages of Micro-Tasking
 
@@ -32,7 +32,7 @@ While micro-tasking presents numerous advantages, it's essential to acknowledge 
 
 Microtasking has emerged as a flexible and accessible way for individuals to earn extra income. Several online platforms offer a plethora of microtasking opportunities, catering to a wide range of skills and interests.
 
-For those with a flair for creativity, you can [get paid for your photos](/blog/get-paid-for-photos). You can also find featured microtasking gigs on Upwork in areas like graphic design, writing, and digital marketing.
+For those with a flair for creativity, you can [get paid for your photos](/blog/get-paid-for-photos/). You can also find featured microtasking gigs on Upwork in areas like graphic design, writing, and digital marketing.
 
 ### Your Favorite Social Media Channels
 

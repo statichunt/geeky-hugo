@@ -24,11 +24,11 @@ Once you have a clear understanding of your audience, it’s crucial to set spec
 - Generating leads and sales
 - Boosting engagement and interaction
 
-By establishing goals and objectives you increase the chances of boosting [social media monetization earnings](/blog/social-media-monetization).
+By establishing goals and objectives you increase the chances of boosting [social media monetization earnings](/blog/social-media-monetization/).
 
 ### Choosing the Right Social Platforms
 
-Building a [social media presence](/blog/building-a-social-media-presence) can be lucrative on the right platform! Different social platforms cater to different audiences and types of content.
+Building a [social media presence](/blog/building-a-social-media-presence/) can be lucrative on the right platform! Different social platforms cater to different audiences and types of content.
 
 ### Planning Your Social Media Content
 
@@ -48,7 +48,7 @@ Regularly reviewing your analytics data allows you to identify what’s working 
 
 ### Tools for Social Media Analytics
 
-Various tools can help you track and analyze your social media performance. Popular options include Google Analytics for tracking website traffic from social media, Hootsuite for managing and analyzing multiple social media accounts, and Sprout Social for in-depth social media analytics and reporting. These [smm tools](/blog/top-social-media-tools) provide valuable insights to enhance your social media strategy.
+Various tools can help you track and analyze your social media performance. Popular options include Google Analytics for tracking website traffic from social media, Hootsuite for managing and analyzing multiple social media accounts, and Sprout Social for in-depth social media analytics and reporting. These [smm tools](/blog/top-social-media-tools/) provide valuable insights to enhance your social media strategy.
 
 ### Boosting Engagement on Social Media
 

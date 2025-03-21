@@ -25,23 +25,23 @@ While passive income is generally sought after for financial freedom, reverse pa
 
 ## Factors to Consider Before Investing
 
-Before diving in, it's crucial to explore an [intro to investing](/blog/introduction-to-investing). Start by assessing your risk tolerance. Research the market thoroughly to make informed decisions. Understand the time commitment required for managing investments. Diversify your portfolio to mitigate risks. Always keep an eye on market trends and economic indicators. This preparation helps in making sound investment choices.
+Before diving in, it's crucial to explore an [intro to investing](/blog/introduction-to-investing/). Start by assessing your risk tolerance. Research the market thoroughly to make informed decisions. Understand the time commitment required for managing investments. Diversify your portfolio to mitigate risks. Always keep an eye on market trends and economic indicators. This preparation helps in making sound investment choices.
 
 ## Passive Income Ideas
 
-The quest for financial freedom and security has led many individuals to explore passive income ideas as a means to generate wealth and achieve financial independence. [Top investors](/blog/top-investors) often seek ways to earn passive income. Investing in dividend stocks is a popular choice. Rental properties can provide steady monthly income. Consider peer-to-peer lending for interest earnings. Create digital products like e-books or courses. Invest in index funds for diversified growth. Each method requires different levels of effort and initial investment.
+The quest for financial freedom and security has led many individuals to explore passive income ideas as a means to generate wealth and achieve financial independence. [Top investors](/blog/top-investors/) often seek ways to earn passive income. Investing in dividend stocks is a popular choice. Rental properties can provide steady monthly income. Consider peer-to-peer lending for interest earnings. Create digital products like e-books or courses. Invest in index funds for diversified growth. Each method requires different levels of effort and initial investment.
 
 ### 1. Cryptocurrency Investments
 
-Diving into [cryptocurrency investments](/blog/cryptocurrency-investment-guide) can feel like stepping into a futuristic financial frontier. This dynamic realm offers a myriad of opportunities, from buying and holding cryptocurrencies to engaging in the increasingly popular activity of.
+Diving into [cryptocurrency investments](/blog/cryptocurrency-investment-guide/) can feel like stepping into a futuristic financial frontier. This dynamic realm offers a myriad of opportunities, from buying and holding cryptocurrencies to engaging in the increasingly popular activity of.
 
 ### 2. NFTs Market
 
-The NFT market offers opportunities to make money through various avenues, including creating, buying, selling, and investing in non-fungible tokens (NFTs). To [capitalize on NFTs](/blog/nft-market-breakdown), individuals can create unique digital assets such as artwork, collectibles, and virtual real estate, then sell them on NFT marketplaces.
+The NFT market offers opportunities to make money through various avenues, including creating, buying, selling, and investing in non-fungible tokens (NFTs). To [capitalize on NFTs](/blog/nft-market-breakdown/), individuals can create unique digital assets such as artwork, collectibles, and virtual real estate, then sell them on NFT marketplaces.
 
 ### 3. Stocks vs Bonds
 
-Understanding the differences between [stocks vs bonds](/blog/stocks-vs-bonds) is crucial for any investor. Stocks offer ownership in a company and the potential for high returns, while bonds provide fixed income and lower risk. Diversifying between these assets can balance risk and reward.
+Understanding the differences between [stocks vs bonds](/blog/stocks-vs-bonds/) is crucial for any investor. Stocks offer ownership in a company and the potential for high returns, while bonds provide fixed income and lower risk. Diversifying between these assets can balance risk and reward.
 
 ### 4. Royalties
 
@@ -57,7 +57,7 @@ Investing in collectibles, such as art, stamps, coins, or sports memorabilia, ca
 
 ### 5. Flip Domain Names
 
-It's not just about buying domain names then selling; it's about envisioning future possibilities and leveraging them to build a lucrative portfolio. Ready to explore the world of [domain flipping](/blog/flip-domain-names)? Unlock the potential of turning your digital instincts into rewarding financial gains.
+It's not just about buying domain names then selling; it's about envisioning future possibilities and leveraging them to build a lucrative portfolio. Ready to explore the world of [domain flipping](/blog/flip-domain-names/)? Unlock the potential of turning your digital instincts into rewarding financial gains.
 
 ### 7. Money Market Funds
 

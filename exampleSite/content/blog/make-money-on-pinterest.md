@@ -13,7 +13,7 @@ In this guide, I’ll explain how to monetize a Pinterest in 6 steps. Even more,
 
 ## How to Make Money on Pinterest
 
-How can you make money on Pinterest? Well, it’s simple. Pinterest is nothing like most social media networks. This platform encourages you to grow your social media presence. In other words, most social media networks restrict publishers from sharing affiliate links or promoting affiliate programs. Whereas, Pinterest encourages [social media monetization](/blog/social-media-monetization). Lets get to it, how to _make money on Pinterest_, in six steps:
+How can you make money on Pinterest? Well, it’s simple. Pinterest is nothing like most social media networks. This platform encourages you to grow your social media presence. In other words, most social media networks restrict publishers from sharing affiliate links or promoting affiliate programs. Whereas, Pinterest encourages [social media monetization](/blog/social-media-monetization/). Lets get to it, how to _make money on Pinterest_, in six steps:
 
 ### 1. Build a Landing Page
 
@@ -29,7 +29,7 @@ Option #2 (Get a free landing page) If you don’t want to pay for a landing pag
 
 ### 2. Create a Pinterest Business Account
 
-If you want to grow your Pinterest page quickly, it’s essential to [create a Pinterest business account](https://www.pinterest.com/business). Not only does the business account help you grow faster, but it gives you access to valuable tools like analytics and ads. Do not forget to include the link to your landing page on your Pinterest business account profile.
+If you want to grow your Pinterest page quickly, it’s essential to [create a Pinterest business account](https://www.pinterest.com/business/). Not only does the business account help you grow faster, but it gives you access to valuable tools like analytics and ads. Do not forget to include the link to your landing page on your Pinterest business account profile.
 
 ### 3. Build an Active Following
 
@@ -152,7 +152,7 @@ Step #2 (Create a TikTok account): TikTok marketing is effective. Use snaptik.ap
 
 Step #3 (Create an Instagram account): Instagram is a video-sharing network like TikTok. Repost content using the same strategy as TikTok.
 
-If you need additional resources dont hesitate reading our exclusive [marketing tips for social media](/blog/social-media-marketing-tips).
+If you need additional resources dont hesitate reading our exclusive [marketing tips for social media](/blog/social-media-marketing-tips/).
 
 #### FAQs
 

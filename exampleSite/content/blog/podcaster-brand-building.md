@@ -23,7 +23,7 @@ What experiences or expertise can you share that others cannot?
 What tone fits your personality—serious, comedic, or somewhere in between?
 Your podcast's personality should feel authentic to you while offering something of value to your listeners. For example, if you're passionate about obscure history and enjoy humor, combine those elements to create a distinctive niche.
 
-Defining your podcast’s identity is the foundation for building a brand that resonates with your audience. By understanding what makes your voice unique and aligning it with your goals, you set the stage for long-term success. If you're wondering [how to start a podcast](/blog/how-to-start-a-podcast), begin with clarity on your niche and personality to create a lasting impact.
+Defining your podcast’s identity is the foundation for building a brand that resonates with your audience. By understanding what makes your voice unique and aligning it with your goals, you set the stage for long-term success. If you're wondering [how to start a podcast](/blog/how-to-start-a-podcast/), begin with clarity on your niche and personality to create a lasting impact.
 
 ### 2. Build a Cohesive Brand
 
@@ -41,7 +41,7 @@ Last but not least, leverage partnerships. Partnering with other podcasters, inf
 
 ### 4. Monetizing Your Podcast Brand
 
-Once your podcast gains traction, consider these [podcast monetization strategies](/blog/how-do-podcasts-make-money):
+Once your podcast gains traction, consider these [podcast monetization strategies](/blog/how-do-podcasts-make-money/):
 
 - Sponsorships: Partner with brands that align with your audience’s interests. Highlight your listener demographics to attract potential sponsors.
 - Merchandise: Offer branded items such as T-shirts, mugs, or stickers to generate income while promoting your podcast.

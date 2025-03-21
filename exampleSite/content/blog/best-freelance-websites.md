@@ -22,11 +22,11 @@ To begin with, Upwork is the top freelance platform online in my opinion. It sta
 
 ### Fiverr.com
 
-Following closely is Fiverr, celebrated for its unique gig-based model. Fiverr offers a platform where freelancers can showcase their specific services, known as "gigs," allowing clients to easily browse and engage with the exact skills they require There are several opportunities including graphic designing, logos, games, posters, flyers, business cards, postcards, social media, and many others. One of the most beneficial aspects of Fiverr is there are lots of businesses and gurus who use Fiverrs services. As a result, not only can you [earn money on Fiverr](/blog/how-to-make-money-on-fiverr), but as an independent contractor you can name your price and get paid fair value.
+Following closely is Fiverr, celebrated for its unique gig-based model. Fiverr offers a platform where freelancers can showcase their specific services, known as "gigs," allowing clients to easily browse and engage with the exact skills they require There are several opportunities including graphic designing, logos, games, posters, flyers, business cards, postcards, social media, and many others. One of the most beneficial aspects of Fiverr is there are lots of businesses and gurus who use Fiverrs services. As a result, not only can you [earn money on Fiverr](/blog/how-to-make-money-on-fiverr/), but as an independent contractor you can name your price and get paid fair value.
 
 ### Contently.com
 
-Contently is a freelance platform that connects businesses with publishers. This company takes pride in being the only business in its marketplace to take the three-step approach to solve clients' promotional issues. They start by targeting world-class talent publishers (you). Next, they identify a content strategy (digital marketing) for their client. The last step involves targeting enterprises. The combination of these steps equals content mastery (marketing solution).
+Contently is a freelance platform that connects businesses with publishers. This company takes pride in being the only business in its marketplace to take the three-step approach to solve clients' promotional issues. They start by targeting world-class talent publishers. Next, they identify a content strategy for their client. The last step involves targeting enterprises. The combination of these steps equals content mastery.
 
 ### Freelancer.com
 
@@ -42,7 +42,7 @@ The Writer Finder might be the most expensive, but they deliver skilled on-deman
 
 ### Freelance Platforms For Beginners
 
-Here are a few platforms for [freelance beginners](/blog/how-to-start-freelancing):
+Here are a few platforms for [freelance beginners](/blog/how-to-start-freelancing/):
 
 - Guru.com: This platform focuses on connecting freelancers with businesses seeking expertise in fields like programming, design, and writing.
 - BloggingPro Job Board: Focused on blogging and content creation, BloggingPro lists freelance writing opportunities.

@@ -17,7 +17,7 @@ Shopify is an all-in-one e-commerce platform that empowers individuals and busin
 
 ## How to Set Up a Shopify Store
 
-Before you can start selling, you need to [set up your eCommerce store](/blog/launch-an-ecommerce-store). This process is straightforward but requires careful planning and execution.
+Before you can start selling, you need to [set up your eCommerce store](/blog/launch-an-ecommerce-store/). This process is straightforward but requires careful planning and execution.
 
 First, sign up for a [Shopify account](https://shopify.pxf.io/21qK6G). Shopify offers a 14-day free trial, which allows you to explore the platform and set up your store without any financial commitment.
 
@@ -101,7 +101,7 @@ Shipping and fulfillment can make or break your customer experience. Provide sta
 
 ### Use Shopify Apps
 
-You can find numerous [Shopify Apps](/blog/shopify-apps) that can enhance your store’s functionality. Here are some must-have apps:
+You can find numerous [Shopify Apps](/blog/shopify-apps/) that can enhance your store’s functionality. Here are some must-have apps:
 
 - B2C Dropshipping: For dropshipping products directly to customers use [Oberlo](https://www.oberlo.com).
 - C2B Dropshipping: If you want to collect and display customer reviews explore Yotpo.
@@ -115,4 +115,4 @@ Shopify makes it easy to sell internationally. You can set up multiple currencie
 
 ### Explore Shopify Alternatives
 
-Selling on Shopify is a rewarding journey that offers immense opportunities for growth and success. However, theres always other options. When exploring eCommerce solutions, Shopify often tops the list, but several [Shopify alternatives](/blog/shopify-alternatives) offer unique benefits that might better suit your business needs.
+Selling on Shopify is a rewarding journey that offers immense opportunities for growth and success. However, theres always other options. When exploring eCommerce solutions, Shopify often tops the list, but several [Shopify alternatives](/blog/shopify-alternatives/) offer unique benefits that might better suit your business needs.

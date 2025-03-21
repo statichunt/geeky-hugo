@@ -13,7 +13,7 @@ Selling digital products has emerged as a highly profitable and scalable busines
 
 ## Why Sell Digital Products?
 
-Selling digital products offers numerous advantages, including low overhead costs and the ability to reach a global audience. Unlike physical goods, digital products don't require inventory management or shipping logistics. This model provides an [opportunity to earn money](/blog/ways-to-make-money) online without additional production costs as products can be sold repeatedly. Additionally, the flexibility of digital products allows creators to innovate and update offerings easily.
+Selling digital products offers numerous advantages, including low overhead costs and the ability to reach a global audience. Unlike physical goods, digital products don't require inventory management or shipping logistics. This model provides an [opportunity to earn money](/blog/ways-to-make-money/) online without additional production costs as products can be sold repeatedly. Additionally, the flexibility of digital products allows creators to innovate and update offerings easily.
 
 - Low Production Costs: Once created, digital products can be replicated at no additional cost.
 - High-Profit Margins: With minimal ongoing expenses, the majority of sales revenue is profit.
@@ -49,7 +49,7 @@ As an online course developer, creating and marketing online courses is a lucrat
 
 ### eBooks and Audiobooks
 
-eBooks and audiobooks are popular digital products that cater to various niches. They are easy to distribute through platforms like Amazon Kindle Direct Publishing and Audible. Need more information, learn [how to write an ebook](/blog/how-to-write-an-ebook)!
+eBooks and audiobooks are popular digital products that cater to various niches. They are easy to distribute through platforms like Amazon Kindle Direct Publishing and Audible. Need more information, learn [how to write an ebook](/blog/how-to-write-an-ebook/)!
 
 ### Software and Apps
 
@@ -57,7 +57,7 @@ Developing software or mobile applications can be a profitable venture. This req
 
 ### Digital Art and Graphics
 
-Artists and designers can [sell digital art on Etsy](/blog/sell-products-on-etsy), Creative Market, and Adobe Stock. This includes illustrations, logos, website themes, and more.
+Artists and designers can [sell digital art on Etsy](/blog/sell-products-on-etsy/), Creative Market, and Adobe Stock. This includes illustrations, logos, website themes, and more.
 
 ### Conclusion
 
