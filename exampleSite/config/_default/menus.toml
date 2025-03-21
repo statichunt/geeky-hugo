@@ -3,7 +3,7 @@
 # main menu
 [[main]]
 name = "Home"
-url = ""
+url = "/"
 weight = 1
 
 [[main]]
@@ -16,10 +16,6 @@ name = "Blog"
 url = "blog/"
 weight = 3
 
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 4
 
 # footer menu
 [[footer]]

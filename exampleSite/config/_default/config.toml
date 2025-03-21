@@ -10,6 +10,11 @@ googleAnalytics = "G-PNQXNMRNBD"
 disqusShortname = "disqus_afGZDYYvBY"
 enableRobotsTXT = true
 
+[permalinks]
+  blog = "/blog/:slug/"
+
+
+
 ############################# Modules ##############################
 [module]
 [module.hugoVersion]
