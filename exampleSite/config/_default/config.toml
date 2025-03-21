@@ -13,7 +13,9 @@ enableRobotsTXT = true
 [permalinks]
   blog = "/blog/:slug/"
 
-
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 ############################# Modules ##############################
 [module]

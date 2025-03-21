@@ -27,7 +27,6 @@
 <!-- theme meta -->
 <meta name="theme-name" content="geeky-hugo" />
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
-<meta name="keywords" content="{{ .Params.keywords | default site.Params.keywords }}">
 {{partial "seo/main.html" .}}
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
