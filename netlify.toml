@@ -1,6 +1,6 @@
 [build]
   publish = "exampleSite/public"
-  command = "cd exampleSite && hugo --minify --gc --themesDir ../.."
+  command = "hugo --source=exampleSite --gc --minify"
 
 [build.environment]
   HUGO_VERSION = "0.145.0"
@@ -9,6 +9,10 @@
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
+
+[context.production.environment]
+  HUGO_ENV = "production"
+  NODE_ENV = "production"
 
 [headers.values]
   X-Frame-Options = "DENY"
