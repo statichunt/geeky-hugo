@@ -1,30 +1,25 @@
 <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Article",
-  "author": {
-    "@type": "Person",
-    "name": "{{ if .Params.author }}{{ .Params.author }}{{ else if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}"
-  },
-  "url": "https://earnonlinemoney.org/about/",
-  "headline": "{{ .Title }}",
-  "description" : "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify  }}{{ end }}{{ end }}",
-  "inLanguage" : "{{ .Lang }}",
-  "wordCount": {{ .WordCount }},
-  "datePublished" : "{{ .PublishDate.Format "2006-01-02T15:04:05PST" }}",
-  "dateModified" : "{{ .Date.Format "2006-01-02T15:04:05PST" }}",
-  "image" : "{{ .Site.Params.logo | absURL }}",
-  "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}" ],
-  "mainEntityOfPage" : "{{ .Permalink }}",
-  "publisher" : {
-    "@type": "Organization",
-    "name" : "{{ .Site.BaseURL }}",
-    "logo" : {
-        "@type" : "ImageObject",
-        "url" : "{{ .Site.Params.logo | absURL }}",
-        "height" :  1852,
-        "width" :  484
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ .Title }}",
+    "description": "{{ .Params.description }}",
+    "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author }}",
+      "url": "{{ .Site.BaseURL }}about/"
+    },
+    "image": "{{ .Params.image }}",
+    "inLanguage": "{{ .Site.Params.schemaLocale }}",
+    "potentialAction": [{
+      "@type": "ReadAction",
+      "target": ["{{ .Permalink }}"]
+    }],
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}"
     }
   }
-}
-</script>
+  </script>
