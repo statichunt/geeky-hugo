@@ -6,7 +6,7 @@
     "@type": "Person",
     "name": "{{ if .Params.author }}{{ .Params.author }}{{ else if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}"
   },
-  "url": "{{ .Permalink }}",
+  "url": "{{ if .Permalink }}{{ .Permalink }}{{ else }}{{ .Site.BaseURL }}{{ end }}",
   "headline": "{{ .Title }}",
   "description" : "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify  }}{{ end }}{{ end }}",
   "inLanguage" : "{{ .Lang }}",
