@@ -13,6 +13,10 @@ search = true
 twitterSite = "@moneyonline_fre"
 twitterCreator = "@moneyonline_fre"
 
+schemaAuthorTwitter = "https://twitter.com/moneyonline_fre"
+schemaAuthorLinkedIn = "www.linkedin.com/company/earn-money-online-free"
+schemaAuthorGitHub = "https://github.com/juan-jones"
+
 categories_title = "Blog Categories"
 posts_title = "Featured"
 featured_post_title = "Featured Post"

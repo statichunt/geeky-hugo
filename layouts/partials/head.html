@@ -4,6 +4,19 @@
 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
+<!-- Canonical & Pagination SEO -->
+{{ if $.Scratch.Get "paginator" }}
+  <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
+  {{ if .Paginator.HasPrev }}
+    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}" />
+  {{ end }}
+{{ else }}
+  <link rel="canonical" href="{{ .Permalink }}" />
+{{ end }}
+
 <!-- Title -->
 <title>{{ .Title | default site.Title }}</title>
 

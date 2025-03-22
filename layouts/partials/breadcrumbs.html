@@ -1,9 +1,22 @@
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
-    {{ range .Params.categories }}
-    <li class="breadcrumb-item"><a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}">{{. | title}}</a></li>
-    {{ end }}
-    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-  </ol>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul class="breadcrumb">
+    <!-- Home Link -->
+    <li class="breadcrumb-item">
+      <a href="/">Home</a>
+    </li>
+
+
+    <!-- Get the Direct Parent (Category) -->
+    {{- with .Parent }}
+    <li class="breadcrumb-item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+
+    {{- end }}
+
+    <!-- Current Post (No Link) -->
+    <li class="breadcrumb-item active">
+      <span aria-current="location">{{ .Title }}</span>
+    </li>
+  </ul>
 </nav>
