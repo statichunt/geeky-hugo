@@ -4,7 +4,7 @@ Disallow: /search/
 
 User-agent: ia_archiver
 User-agent: archive.org_bot
-Disallow: /
+Allow: /
 
 User-agent: 360Spider
 User-agent: 360Spider-Image
@@ -87,6 +87,5 @@ User-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
 User-agent: YoudaoBot
-Allow: /
 
 Sitemap: https://earnonlinemoney.org/sitemap.xml
