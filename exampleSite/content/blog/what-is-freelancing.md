@@ -1,6 +1,6 @@
 ---
 title: "What is Freelancing"
-description: "Explore freelancing fundamentals along with key elements, earning potential and more."
+description: "Discover what freelancing is, how it works, and the income potential it offers. Learn key features, benefits, and challenges of working as a successful freelancer."
 date: "2020-01-01T18:19:25+06:00"
 image: "images/post/whats-freelancing.jpg"
 categories: ["freelancing"]

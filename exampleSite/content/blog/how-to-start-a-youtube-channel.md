@@ -1,6 +1,6 @@
 ---
 title: "Start a YouTube Channel"
-description: "Learn how to start a YouTube channel, create compelling content, optimizing your videos for search, captivate viewers and grow your presence on YT!"
+description: "Learn how to start a YouTube channel, create compelling content, optimize for search, captivate viewers, and grow a strong social presence step by step."
 date: "2019-11-08T18:19:25+06:00"
 image: "images/post/start-youtube-channel.jpg"
 categories: ["social media"]

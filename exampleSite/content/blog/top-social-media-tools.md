@@ -1,6 +1,6 @@
 ---
 title: "Top Social Media Tools"
-description: "Top social media tools for effective marketing uncovered! Explore valuable SMM tips and strategies to optimize your promotional efforts."
+description: "Discover top social media marketing tools to grow your brand. Learn expert strategies, boost engagement, and streamline content creation across platforms."
 date: "2019-11-05T18:19:25+06:00"
 image: "images/post/social-media-tools.jpg"
 categories: ["social media"]

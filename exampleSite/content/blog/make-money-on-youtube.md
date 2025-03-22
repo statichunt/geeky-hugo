@@ -1,6 +1,6 @@
 ---
 title: "Earn Money on YouTube"
-description: "Explore full guide to YouTube monetization features. Find strategies to make money while you sleep."
+description: "Discover a complete guide to YouTube monetization. Learn passive income strategies, ad revenue tips, and how to grow your channel to earn while you sleep."
 date: "2019-10-04T18:19:25+06:00"
 image: "images/post/youtube-monetization.jpg"
 categories: ["monetizing"]

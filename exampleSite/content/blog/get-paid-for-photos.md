@@ -1,6 +1,6 @@
 ---
 title: "Get Paid for Photos"
-description: "Learn how to get paid for stock photos. Turn your digital lens into cash today!"
+description: "Learn how to get paid for stock photos. Discover expert tips to sell your images online, grow your portfolio, and turn your digital lens into cash today!"
 date: "2024-02-17T18:19:25+06:00"
 image: "images/post/paid-for-photo.jpg"
 categories: ["side hustles"]

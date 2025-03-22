@@ -1,6 +1,6 @@
 ---
 title: "How to Start a Blog"
-description: "Learn how to successfully start a blog. Learn how to optimize your content, build an audience."
+description: "Learn how to successfully start a blog, optimize your content, and build an engaged audience. Step-by-step guide for beginners to make & grow digital content."
 date: "2024-11-10T18:19:25+06:00"
 image: "images/post/start-a-blog.jpg"
 categories: ["blogging"]

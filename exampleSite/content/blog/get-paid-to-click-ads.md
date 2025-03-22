@@ -1,6 +1,6 @@
 ---
 title: "Get Paid to Click Ads"
-description: "Earn money by clicking ads online. Simple tasks, quick rewards. No special skills needed. Start now and get paid to visit websites."
+description: "Earn money by clicking ads online. Simple tasks, quick rewards, and no special skills needed. Start now and get paid to visit websites and complete offers."
 date: "2024-02-17T18:19:25+06:00"
 image: "images/post/earn-money-clicking-ads.jpg"
 categories: ["side hustles"]

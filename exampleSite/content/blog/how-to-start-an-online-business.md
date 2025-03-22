@@ -1,6 +1,6 @@
 ---
 title: "Online Business Startup"
-description: "Discover tips on starting an online business. Learn from idea generation to marketing strategies in this comprehensive guide."
+description: "Discover expert tips for starting an online business. From idea generation to marketing strategies, this step-by-step guide helps turn your vision into reality."
 date: "2019-10-25T18:19:25+06:00"
 image: "images/post/online-business-startup.jpg"
 categories: ["ebiz"]

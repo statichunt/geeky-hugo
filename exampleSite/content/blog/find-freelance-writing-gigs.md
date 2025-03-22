@@ -1,6 +1,6 @@
 ---
 title: "Explore Freelance Writing Jobs"
-description: "Harness the power of professional freelance writing services to elevate your brand."
+description: "Discover how to find high-paying freelance writing gigs, build a strong portfolio, and attract clients to grow your brand with expert writing services."
 date: "2019-11-07T18:19:25+06:00"
 image: "images/post/freelancers-tips.jpg"
 categories: ["freelancing"]

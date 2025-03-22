@@ -1,6 +1,6 @@
 ---
 title: "How to Earn Teaching Online Courses"
-description: "Ultimate guide on teaching online courses."
+description: "Discover the ultimate guide to teaching online courses. Learn how to choose a niche, create content, engage students, and monetize your knowledge effectively."
 date: "2019-10-23T18:19:25+06:00"
 image: "images/post/earn-money-online-courses.jpg"
 categories: ["monetizing"]

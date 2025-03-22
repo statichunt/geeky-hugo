@@ -1,6 +1,6 @@
 ---
 title: "Make Money on Craigslist"
-description: "Learn how to make money on Craigslist posting ads. Find strategies and tips to maximize profits by buying, selling, and trading."
+description: "Discover how to make money on Craigslist by posting effective ads. Learn smart strategies for buying, selling, and trading to maximize your side hustle profits."
 date: "2019-10-31T18:19:25+06:00"
 image: "images/post/make-money-on-craigslist.jpg"
 categories: ["side hustles"]

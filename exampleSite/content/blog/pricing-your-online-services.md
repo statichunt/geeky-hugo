@@ -1,6 +1,6 @@
 ---
 title: "Pricing Your Online Services"
-description: "Learn how to price your online services to maximize profits and client satisfaction."
+description: "Discover smart strategies to price your online services effectively. Maximize profit, attract ideal clients, and boost satisfaction with the right pricing model."
 date: "2019-10-26T18:19:25+06:00"
 image: "images/post/price-internet-services.jpg"
 categories: ["ebiz"]

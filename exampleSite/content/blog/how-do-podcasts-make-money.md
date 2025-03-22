@@ -1,6 +1,6 @@
 ---
 title: "How Do Podcasts Make Money"
-description: "How do podcasts make money? Find ways to earn money podcasting. Discover 11 monetization strategies for your platform."
+description: "How do podcasts make money? Learn 13 proven strategies to monetize your podcast—from ads and affiliate marketing to live events, merchandise, and more."
 date: "2020-01-06T18:19:25+06:00"
 image: "images/post/make-money-from-podcasts.jpg"
 categories: ["ebiz"]

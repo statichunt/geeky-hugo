@@ -1,6 +1,6 @@
 ---
 title: "Best Affiliate Programs"
-description: "Find the best affiliate marketing programs on the internet to make money."
+description: "Find the best affiliate marketing programs on the internet to make money. Discover top networks with high payouts, quality products, and trusted support."
 author: "Dejuan Jones"
 date: "2020-03-03T18:19:25+06:00"
 image: "images/post/affiliate-programs.jpg"

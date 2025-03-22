@@ -1,6 +1,6 @@
 ---
 title: "Building a Social Media Presence"
-description: "Key strategies for building a strong social media presence to boost your brand and engage your audience effectively."
+description: "Discover key strategies for building a strong social media presence. Boost your brand, connect with your audience, and grow engagement across platforms."
 date: "2019-05-05T18:19:25+06:00"
 image: "images/post/social-media-building.jpg"
 categories: ["social media"]

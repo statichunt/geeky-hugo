@@ -1,6 +1,6 @@
 ---
 title: "Ultimate SMM Guide"
-description: "Discover the ultimate guide to social media marketing tips and strategies for boosting engagement, brand presence, and ROI."
+description: "Unlock expert social media marketing strategies to grow your brand online. Boost engagement, increase visibility, and drive ROI across all major platforms."
 date: "2019-11-03T18:19:25+06:00"
 image: "images/post/smm-tips.jpg"
 categories: ["social media"]

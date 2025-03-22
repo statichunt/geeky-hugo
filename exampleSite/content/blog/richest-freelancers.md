@@ -1,6 +1,6 @@
 ---
 title: "Wealthiest Freelancers List"
-description: "Discover the wealthiest freelancers in various industries, analyzing their success stories and key strategies."
+description: "Explore the top-earning freelancers across industries. Uncover their income sources, business tactics, and what makes their freelance journeys so successful."
 date: "2019-11-10T18:19:25+06:00"
 image: "images/post/wealthy-freelancers.jpg"
 categories: ["freelancing"]

@@ -1,6 +1,6 @@
 ---
 title: "Elearning Course Creation"
-description: "Online courses creation guide. Master elearning strategies, engage learners, and launch your course successfully."
+description: "Learn how to create and launch successful online courses. Master elearning strategies, engage your audience, and turn your expertise into income today."
 date: "2019-10-20T18:19:25+06:00"
 image: "images/post/create-online-courses.jpg"
 categories: ["monetizing"]

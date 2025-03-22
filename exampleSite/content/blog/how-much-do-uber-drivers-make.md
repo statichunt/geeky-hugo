@@ -1,6 +1,6 @@
 ---
 title: "How Much Do Uber Drivers Make"
-description: "Discover how much Uber drivers make, including factors like location, time, and expenses, in this comprehensive guide."
+description: "Discover how much Uber drivers really make. Learn how location, hours, vehicle expenses, and platform fees impact driver earnings in this detailed breakdown."
 date: "2024-11-27T18:19:25+06:00"
 image: "images/post/uber-driver-earnings.jpg"
 categories: ["side hustles"]

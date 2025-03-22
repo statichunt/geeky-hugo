@@ -1,6 +1,6 @@
 ---
 title: "Earn Money on Udemy"
-description: "Unlock Udemys money making secrets, craft stellar courses, boost visibility, and leverage marketing tools to thrive as an instructor."
+description: "Learn how to make money on Udemy by creating high-quality courses, increasing visibility, and using smart marketing strategies to grow your online income."
 date: "2023-05-05T18:19:25+06:00"
 image: "images/post/earn-on-udemy.jpg"
 categories: ["monetizing"]
