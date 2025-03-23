@@ -39,10 +39,9 @@ copyright = "© 2018-2025"
 error_404_text = "404 Page Not Found!"
 error_404_button = "Back To Home"
 
-[preloader]
-enable = false
-preloader = ""
-
+organizationName = "Earn Money Online"
+socialProfiles = "https://twitter.com/moneyonline_fre, https://www.linkedin.com/company/earn-money-online-free/, https://www.facebook.com/earnmoneynowonline"
+organizationLogo = "https://earnonlinemoney.org/images/logo_hu_eb2361d2545c66aa.png"
 [banner]
 enable = true
 title_large = "Earn **Money** Online"
