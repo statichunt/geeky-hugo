@@ -1,7 +1,6 @@
 ---
 title: "B2B Ecommerce Business Components"
 description: "Unlock B2B e-commerce bussiness potential with tailored online store solutions, streamlining transactions and fostering collaboration."
-author: "Dejuan Jones"
 date: "2020-11-02T18:19:25+06:00"
 image: "images/post/business-to-business-ecommerce.jpg"
 categories: ["ecommerce"]

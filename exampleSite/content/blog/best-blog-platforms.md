@@ -1,7 +1,6 @@
 ---
 title: "Best Blog Platforms"
 description: "Discover the top 20 blog platforms and their key features in this comprehensive guide. Discover options to help fit your goals."
-author: "Dejuan Jones"
 date: "2019-10-05T18:19:25+06:00"
 image: "images/post/best-blog-websites.jpg"
 categories: ["blogging"]

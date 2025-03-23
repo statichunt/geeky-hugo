@@ -1,7 +1,6 @@
 ---
 title: "Best Apps for Selling Your Stuff"
 description: "Check out the best apps to sell stuff in 2024. Discover simple platforms to declutter, earn extra cash, and boost your income with ease."
-author: "Dejuan Jones"
 date: "2019-10-10T18:19:25+06:00"
 image: "images/post/best-apps-selling-stuff.jpg"
 categories: ["side hustles"]

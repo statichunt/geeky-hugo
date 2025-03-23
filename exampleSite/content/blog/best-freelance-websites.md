@@ -1,7 +1,6 @@
 ---
 title: "Best Freelance Websites Online"
 description: "Find the best freelance websites and opportunities online. Explore platforms like Upwork, Fiverr, Freelancer and more."
-author: "Dejuan Jones"
 date: "2019-10-10T18:19:25+06:00"
 image: "images/post/freelance-sites.jpg"
 categories: ["freelancing"]

@@ -1,7 +1,6 @@
 ---
 title: "Remote Job Opportunities"
 description: "Explore remote job opportunities, legit ways to work from home, part-time and full time gigs. Ideal for students, stay at home moms, & motivated beginners."
-author: "Dejuan Jones"
 date: "2025-03-02T18:19:25+06:00"
 image: "images/post/remote-jobs.jpg"
 categories: ["work from home"]
