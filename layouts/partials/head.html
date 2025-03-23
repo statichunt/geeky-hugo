@@ -17,13 +17,6 @@
 <link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
 
-<!-- mobile responsive meta -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<!-- theme meta -->
-<meta name="theme-name" content="geeky-hugo" />
-<meta name="description" content="{{ .Params.Description | default site.Params.description }}">
-{{partial "seo/main.html" .}}
-{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
 <!-- Canonical & Pagination SEO -->
 {{ if $.Scratch.Get "paginator" }}
@@ -38,19 +31,40 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 {{ end }}
 
-
-<!-- RSS -->
-{{ with .OutputFormats.Get "RSS" }}
-  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-{{ end }}
-
-<!-- JSON Feed -->
-{{ with .OutputFormats.Get "json" }}
-  <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
-{{ end }}
+<!-- mobile responsive meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<!-- theme meta -->
+<meta name="theme-name" content="geeky-hugo" />
+<meta name="description" content="{{ .Params.Description | default site.Params.description }}">
+{{partial "seo/main.html" .}}
+{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+{{ hugo.Generator }}
 
 <!-- favicon -->
-{{ partialCached "favicon" . }}
+{{ $favicon:= site.Params.favicon }}
+{{ if $favicon }}
+{{ if fileExists (add `assets/` $favicon) }}
+{{ $favicon:= resources.Get $favicon }}
+{{ $favicon_16:= $favicon.Resize "16x png"}}
+{{ $favicon_32:= $favicon.Resize "32x png"}}
+{{ $favicon_180:= $favicon.Resize "180x png"}}
+<link rel="shortcut icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
+<link rel="icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="16x16" href="{{$favicon_16.RelPermalink}}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{$favicon_32.RelPermalink}}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{$favicon_180.RelPermalink}}">
+{{ end }}
+{{ end }}
+<link rel="manifest" href="{{`manifest.webmanifest` | relURL }}">
+<meta name="msapplication-TileColor" content="{{site.Params.variables.color_primary | default `#da532c`}}">
+<meta name="theme-color" content="{{site.Params.variables.body_color | default `#ffffff` }}">
+
+
+
+<!-- rss -->
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
 <!-- manifest -->
 {{ partialCached "manifest" . }}
