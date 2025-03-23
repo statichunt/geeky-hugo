@@ -1,4 +1,3 @@
-######################## default configuration ####################
 baseURL = "https://earnonlinemoney.org/"
 title = "Earn Money Online Free | Side Hustles | Online Jobs"
 theme = "ramem"
@@ -10,22 +9,18 @@ googleAnalytics = "G-PNQXNMRNBD"
 disqusShortname = "disqus_afGZDYYvBY"
 enableRobotsTXT = true
 
-############################# Modules ##############################
 [module]
 [module.hugoVersion]
 extended = true
 min = "0.87.0"
 
-############################# Outputs ##############################
 [outputs]
 home = ["HTML", "RSS", "JSON", "WebAppManifest"]
 
-############################# Imaging ##############################
 [imaging]
 
 quality = 90
 
-############################# Caches ###############################
 [caches]
 [caches.images]
 dir = ":resourceDir/_gen"
@@ -35,13 +30,10 @@ maxAge = "720h"
 dir = ":resourceDir/_gen"
 maxAge = "720h"
 
-
-############################# Markup ###############################
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
 
-############################ Media types ############################
 [mediaTypes]
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
@@ -50,20 +42,12 @@ suffixes = ["webmanifest"]
 delimiter = ""
 suffixes = [""]
 
-
-############################ Output Format ###########################
 [outputFormats]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
 
-
-############################ sitemap  ###########################
 [sitemap]
   changeFreq = 'daily'
   filename = 'sitemap.xml'
   priority = 5
-
-############################ exclude from sitemap  ###########################
-[params]
-taxonomiesExcludedFromSitemap = ["tags", "categories"]

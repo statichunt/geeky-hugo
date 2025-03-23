@@ -1,21 +1,5 @@
 <!-- Meta Charset -->
 <meta charset="utf-8">
-<meta name="robots" content="index, follow">
-<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-
-<!-- Canonical & Pagination SEO -->
-{{ if $.Scratch.Get "paginator" }}
-  <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
-  {{ if .Paginator.HasPrev }}
-    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
-  {{ end }}
-  {{ if .Paginator.HasNext }}
-    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}" />
-  {{ end }}
-{{ else }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-{{ end }}
 
 <!-- Title -->
 <title>{{ .Title | default site.Title }}</title>
@@ -24,7 +8,6 @@
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
 <base href="{{ site.BaseURL }}">
 {{ end }}
-
 
 <!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }}
@@ -41,6 +24,16 @@
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
 {{partial "seo/main.html" .}}
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+
+<!-- RSS -->
+{{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{ end }}
+
+<!-- JSON Feed -->
+{{ with .OutputFormats.Get "json" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
+{{ end }}
 
 <!-- favicon -->
 {{ partialCached "favicon" . }}

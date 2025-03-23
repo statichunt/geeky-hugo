@@ -1,6 +1,5 @@
 ---
 title: "Blog"
-description: "Explore insightful articles and updates on various topics in our blog."
+description: "The EarnOnlineMoney.org blog is full of income ideas—from side hustles to investing—packed with tips, tools, and strategies to boost your earnings."
 draft: false
 ---
-
