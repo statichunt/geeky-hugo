@@ -3,7 +3,63 @@
   {{ $imagePath:= .Params.image }}
   {{ if $imagePath }}
   <div class="mb-4 position-relative">
-    {{ partial "image.html" (dict "Src" $imagePath "Alt" .Title "Class" "img-fluid w-100 rounded-4" ) }}
+    <!-- image CDN -->
+    {{ if hasPrefix $imagePath "http" }}
+    <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
+      class="img-fluid w-100 rounded-4">
+    {{ else }}
+    <!-- /image cdn -->
+
+    <!-- image processing for single device -->
+    {{ if hasPrefix $imagePath "/" }}
+      {{ $image := .Resources.GetMatch (path.Split $imagePath).File }}
+      {{ if $image }}
+        {{ $imageFallback:= $image.Resize "650x" }}
+        {{ $imageLG:= $image.Resize "650x webp" }}
+        {{ $imageMD:= $image.Resize "600x webp" }}
+        {{ $imageSM:= $image.Resize "545x webp" }}
+        <picture>
+          <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
+          <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
+          <source srcset="{{ $imageLG.RelPermalink }}">
+          <img loading="lazy" decoding="async" class="img-fluid w-100 rounded-4" src="{{$imageFallback.RelPermalink}}"
+            alt="{{.Title}}" width="{{$image.Width}}" height="{{$image.Height}}">
+        </picture>
+      {{ else }}
+        {{ if fileExists (add `assets/` $imagePath) }}
+          {{ $image:= resources.Get $imagePath }}
+          {{ $imageFallback:= $image.Resize "650x" }}
+          {{ $imageLG:= $image.Resize "650x webp" }}
+          {{ $imageMD:= $image.Resize "600x webp" }}
+          {{ $imageSM:= $image.Resize "545x webp" }}
+          <picture>
+            <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
+            <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
+            <source srcset="{{ $imageLG.RelPermalink }}">
+            <img loading="lazy" decoding="async" class="img-fluid w-100 rounded-4" src="{{$imageFallback.RelPermalink}}"
+              alt="{{.Title}}" width="{{$image.Width}}" height="{{$image.Height}}">
+          </picture>
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      {{ if fileExists (add `assets/` $imagePath) }}
+        {{ $image:= resources.Get $imagePath }}
+        {{ $imageFallback:= $image.Resize "650x" }}
+        {{ $imageLG:= $image.Resize "650x webp" }}
+        {{ $imageMD:= $image.Resize "600x webp" }}
+        {{ $imageSM:= $image.Resize "545x webp" }}
+        <picture>
+          <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
+          <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
+          <source srcset="{{ $imageLG.RelPermalink }}">
+          <img loading="lazy" decoding="async" class="img-fluid w-100 rounded-4" src="{{$imageFallback.RelPermalink}}"
+            alt="{{.Title}}" width="{{$image.Width}}" height="{{$image.Height}}">
+        </picture>
+      {{ end }}
+    {{ end }}
+
+    <!-- /image processing for multiple device -->
+    {{ end }}
     <ul class="list-inline card-badge">
       {{ range .Params.categories }}
       <li class="list-inline-item">

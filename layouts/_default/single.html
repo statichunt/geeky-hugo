@@ -9,23 +9,85 @@
     {{ partial "breadcrumbs.html" . }}
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
-        <!-- image path -->
-        {{ $imagePath:= .Params.image }} {{ if $imagePath }}
-        <div class="position-relative">
-          {{ partial "image.html" (dict "Src" $imagePath "Alt" .Title "Class"
-          "img-fluid mb-5 w-100 rounded-4" ) }}
-          <ul class="list-inline card-badge">
-            {{ range .Params.categories }}
-            <li class="list-inline-item">
-              <a
-                href="{{`categories/` | relLangURL}}{{. | lower | urlize}}"
-                class="badge badge-primary py-1"
-                >{{. | title}}</a
-              >
-            </li>
-            {{ end }}
-          </ul>
-        </div>
+         <!-- image path -->
+         {{ $imagePath:= .Params.image }}
+         {{ if $imagePath }}
+         <div class="position-relative">
+           <!-- image CDN -->
+           {{ if hasPrefix $imagePath "http" }}
+           <img src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
+             class="img-fluid mb-5 w-100 rounded-4">
+           {{ else }}
+           <!-- /image cdn -->
+
+           <!-- image processing for multiple device -->
+           {{ if or (strings.HasSuffix $imagePath "svg") (strings.HasSuffix $imagePath "gif") }}
+             <img class="img-fluid mb-5 w-100 rounded-4"
+               src="{{ $imagePath }}" alt="{{.Title}}">
+           {{ else }}
+
+           {{ if hasPrefix $imagePath "/"}}
+             {{ $image := .Resources.GetMatch (path.Split $imagePath).File }}
+             {{ if $image }}
+               {{ $imageFallback:= $image.Resize "1400x" }}
+               {{ $imageXL:= $image.Resize "1400x webp" }}
+               {{ $imageLG:= $image.Resize "1000x webp" }}
+               {{ $imageMD:= $image.Resize "800x webp" }}
+               {{ $imageSM:= $image.Resize "600x webp" }}
+               <picture>
+                 <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
+                 <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
+                 <source srcset="{{ $imageLG.RelPermalink }}" media="(max-width: 992px)">
+                 <source srcset="{{ $imageXL.RelPermalink }}">
+                 <img class="img-fluid mb-5 w-100 rounded-4"
+                   src="{{$imageFallback.RelPermalink}}" alt="{{.Title}}" width="{{$image.Width}}"
+                   height="{{$image.Height}}">
+               </picture>
+             {{ else }}
+               {{ if fileExists (add `assets/` $imagePath) }}
+                 {{ $image:= resources.Get $imagePath }}
+                 {{ $imageFallback:= $image.Resize "1400x" }}
+                 {{ $imageXL:= $image.Resize "1400x webp" }}
+                 {{ $imageLG:= $image.Resize "1000x webp" }}
+                 {{ $imageMD:= $image.Resize "800x webp" }}
+                 {{ $imageSM:= $image.Resize "600x webp" }}
+                 <picture>
+                   <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
+                   <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
+                   <source srcset="{{ $imageLG.RelPermalink }}" media="(max-width: 992px)">
+                   <source srcset="{{ $imageXL.RelPermalink }}">
+                   <img class="img-fluid mb-5 w-100 rounded-4"
+                     src="{{$imageFallback.RelPermalink}}" alt="{{.Title}}" width="{{$image.Width}}"
+                     height="{{$image.Height}}">
+                 </picture>
+               {{ else }}
+                 <strong class="text-danger">`{{$imagePath}}` doesn't exist</strong>
+               {{ end }}
+             {{ end }}
+           {{ else }}
+             {{ if fileExists (add `assets/` $imagePath) }}
+               {{ $image:= resources.Get $imagePath }}
+               {{ $imageFallback:= $image.Resize "1400x" }}
+               {{ $imageXL:= $image.Resize "1400x webp" }}
+               {{ $imageLG:= $image.Resize "1000x webp" }}
+               {{ $imageMD:= $image.Resize "800x webp" }}
+               {{ $imageSM:= $image.Resize "600x webp" }}
+               <picture>
+                 <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 575px)">
+                 <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 767px)">
+                 <source srcset="{{ $imageLG.RelPermalink }}" media="(max-width: 992px)">
+                 <source srcset="{{ $imageXL.RelPermalink }}">
+                 <img class="img-fluid mb-5 w-100 rounded-4"
+                   src="{{$imageFallback.RelPermalink}}" alt="{{.Title}}" width="{{$image.Width}}"
+                   height="{{$image.Height}}">
+               </picture>
+             {{ else }}
+               <strong class="text-danger">`{{$imagePath}}` doesn't exist</strong>
+             {{ end }}
+           {{ end }}
+           {{ end }}
+           <!-- /image processing for multiple device -->
+           {{ end }}
         {{ else }} {{ range .Params.categories }}
         <a
           href="{{`categories/` | relLangURL}}{{. | lower | urlize}}"

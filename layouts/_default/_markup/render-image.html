@@ -1,0 +1,45 @@
+{{ $watermark:= resources.Get "images/logo-watermark.png" }}
+<p style="text-align: center;">
+    {{ $imagePath := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
+    {{ if or (hasPrefix $imagePath "http") (hasPrefix $imagePath "/") }}
+    <a class="glightbox" href="{{ .Destination | safeURL }}">
+        <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ plainify .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+    </a>
+    {{ else }}
+        {{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
+        {{ if and (and $image (ne $image.MediaType.SubType "svg")) (ne $image.MediaType.SubType "gif") }}
+
+            {{ $image = $image.Filter (images.Overlay $watermark (sub (sub $image.Width $watermark.Width) 5) (sub (sub $image.Height $watermark.Height) 5) ) }}
+            {{ $small := $image.Resize "480x webp" }}
+            {{ $medium := $image.Resize "768x webp" }}
+            {{ $big := $image.Resize "1024x webp" }}
+            {{ $xlarge := $image.Resize "1920x webp" }}
+            {{ $image := ($image.Resize (printf "%dx webp" $image.Width)) }}
+
+            {{ $alt := .PlainText | safeHTML }}
+            {{ $caption := "" }}
+            {{ with .Title }}
+            {{ $caption = . | safeHTML }}
+            {{ end }}
+
+            <a class="glightbox" href="{{ $image.RelPermalink }}">
+            <figure style="text-align: center;">
+                <img
+                loading="lazy"
+                sizes="100vw"
+                srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $big.RelPermalink }} 1024w, {{ $xlarge.RelPermalink }} 1920x"
+                src="{{ $image.RelPermalink }}"
+                width="{{ $image.Width }}"
+                height="{{ $image.Height }}"
+                alt="{{ if $alt }}{{ $alt }}{{ else if $caption }}{{ $caption | markdownify | plainify }}{{ else }}&nbsp;{{ end }}"
+                >
+            </figure>
+            </a>
+        {{ else }}
+        <a class="glightbox" href="{{ .Destination | safeURL }}">
+            <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ plainify .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+        </a>
+        {{ end }}
+    {{ end }}
+</p>
+<p style="text-align: center;"><b>{{ safeHTML .Text }}</b></p>
