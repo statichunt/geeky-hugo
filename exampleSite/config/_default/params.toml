@@ -39,9 +39,6 @@ copyright = "© 2018-2025"
 error_404_text = "404 Page Not Found!"
 error_404_button = "Back To Home"
 
-organizationName = "Earn Money Online"
-socialProfiles = "https://twitter.com/moneyonline_fre, https://www.linkedin.com/company/earn-money-online-free/, https://www.facebook.com/earnmoneynowonline"
-organizationLogo = "https://earnonlinemoney.org/images/logo_hu_eb2361d2545c66aa.png"
 [banner]
 enable = true
 title_large = "Earn **Money** Online"
@@ -49,10 +46,6 @@ title_small = "Passive Income Ideas"
 image = "images/cash-banner.png"
 background_image = "/images/banner-bg-shape.svg"
 content = "Welcome! Your journey to earning money online starts now. Here you can learn how to make money from home, start your own business, and build financial freedom. From online jobs and side hustles to entrepreneurial ideas and passive income opportunities—there’s something here for everyone, including students, stay-at-home moms, and invdividuals with no experiencene. No matter where you live—Africa, Panama, South America, Asia, the UK, or beyond—opportunities to earn are everywhere, and we are here to help you find them."
-
-[advertisement]
-image = "images/income-online.jpg"
-link = "/"
 
 [cookies]
 enable = false
@@ -76,22 +69,21 @@ newsletter_button = "Sign in"
 mailchimp_form_action = "https://gmail.us17.list-manage.com/subscribe/post?u=3392b2d612de88ac6644ca414&amp;id=3ecf0e3fef&amp;f_id=00e55de0f0"
 mailchimp_form_name = "b_3392b2d612de88ac6644ca414_3ecf0e3fef"
 
+
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook"
-link = "https://www.facebook.com/earnmoneynowonline/"
+link = "https://www.facebook.com/earnmoneynowonline"
+url = "https://www.facebook.com/earnmoneynowonline"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter"
-link = "https://twitter.com/moneyonline_fre/"
-
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram"
-link = "#"
+link = "https://twitter.com/moneyonline_fre"
+url = "https://twitter.com/moneyonline_fre"
 
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/company/earn-money-online-free/"
+link = "https://www.linkedin.com/company/earn-money-online-free"
+url = "https://www.linkedin.com/company/earn-money-online-free"

@@ -21,6 +21,21 @@
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
+{{partial "seo.html" .}}
+
+<!-- Canonical & Pagination SEO -->
+{{ if $.Scratch.Get "paginator" }}
+  <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
+  {{ if .Paginator.HasPrev }}
+    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}" />
+  {{ end }}
+{{ else }}
+  <link rel="canonical" href="{{ .Permalink }}" />
+{{ end }}
+
 <!-- favicon -->
 {{ partialCached "favicon" . }}
 
@@ -46,23 +61,3 @@
 
 <!-- google tag manager -->
 {{ partialCached "gtm.html" . }}
-
-
-<!-- matomo analytics -->
-{{ partialCached "matomo-analytics.html" . }}
-
-
-<!--  Baidu analytics -->
-{{ partialCached "baidu-analytics.html" . }}
-
-
-<!-- Plausible Analytics -->
-{{ partialCached "plausible-analytics.html" . }}
-
-
-<!-- Counter Analytics -->
-{{ partialCached "counter-analytics.html" . }}
-
-
-<!-- Crisp Chat -->
-{{ partialCached "crisp-chat.html" . }}
