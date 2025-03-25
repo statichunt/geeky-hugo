@@ -21,7 +21,7 @@
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
-{{partial "seo.html" .}}
+{{partial "seo/main.html" .}}
 
 <!-- Canonical & Pagination SEO -->
 {{ if $.Scratch.Get "paginator" }}
