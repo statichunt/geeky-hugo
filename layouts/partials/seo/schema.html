@@ -1,6 +1,6 @@
 {{ partial "seo/structured/website" . }}
 {{ partial "seo/structured/organization" . }}
-{{ if .IsPage }}
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
 {{ partial "seo/structured/breadcrumb" . }}
 {{ partial "seo/structured/blogposting" . }}
 {{ end }}
