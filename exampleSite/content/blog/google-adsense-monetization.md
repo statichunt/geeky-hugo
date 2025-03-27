@@ -1,8 +1,8 @@
 ---
-title: "Monetize Google Ads"
+title: "Google Adsense Monetization Strategies"
 description: "Maximize earnings by monetizing content, platform, or expertise. Explore revenue streams like advertising, affiliate marketing, and digital products."
 date: "2023-12-24T18:19:25+06:00"
-image: "images/post/make-money-google-ads.jpg"
+image: "images/post/monetize-google-ads.jpg"
 categories: ["monetizing"]
 tags: ["strategies"]
 type: "regular"

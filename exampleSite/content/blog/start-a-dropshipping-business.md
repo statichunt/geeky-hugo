@@ -2,7 +2,7 @@
 title: "Start a Dropshipping Business"
 description: "Learn how to start a profitable dropshipping business. Choose the right niche, find trusted suppliers, and build a high-converting online store from scratch."
 date: "2020-09-09T18:19:25+06:00"
-image: "images/post/start-dropshipping-company.jpg"
+image: "images/post/launch-dropshipping-business.jpg"
 categories: ["ebiz"]
 tags: ["entrepreneurship"]
 type: "regular"

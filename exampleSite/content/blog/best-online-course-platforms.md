@@ -11,6 +11,8 @@ draft: false
 
 In today's fast-paced world, continuous learning has become essential for personal and professional growth. Fortunately, the rise of online course platforms has made education more accessible than ever before. Whether you want to master a new skill or advance your career, online learning platforms offer a wealth of opportunities. This guide highlights the **best online course platforms** that cater to various goals, budgets, and learning styles, making it easier to choose the right fit for your journey.
 
+{{< toc >}}
+
 ## Best Online Courses
 
 Let's explore the best online course websites;

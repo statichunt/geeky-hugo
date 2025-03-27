@@ -2,7 +2,7 @@
 title: "Podcast Equipment Budgeting"
 description: "Explore affordable podcasting gear, smart budgeting tips, DIY hacks, and essential tools to launch your podcast without breaking the bank."
 date: "2020-01-10T18:19:25+06:00"
-image: "images/post/budgeting-podcast-equipment.png"
+image: "images/post/podcast-equipment.jpg"
 categories: ["ebiz"]
 tags: ["podcasting"]
 type: "regular"

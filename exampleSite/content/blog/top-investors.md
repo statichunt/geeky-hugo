@@ -65,6 +65,6 @@ Seth Klarman is a value investor known for his cautious and disciplined approach
 
 Jim Simons, founder of Renaissance Technologies, employs quantitative analysis and algorithms to make investment decisions. His approach relies heavily on mathematical models and big data. Simons' Medallion Fund is renowned for its high returns, averaging around 40% annually, making it one of the most successful hedge funds in history.
 
-### Conclusion
+#### Conclusion
 
 These twelve investors have not only achieved remarkable financial success but have also influenced the broader investment community by sharing [investment strategies](/blog/introduction-to-investing/) and insights. Their contributions continue to shape the financial landscape, offering valuable lessons for both novice and experienced investors alike.

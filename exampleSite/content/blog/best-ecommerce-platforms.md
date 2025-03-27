@@ -2,7 +2,7 @@
 title: "Top 5 Ecommerce Websites"
 description: "Explore the best ecommerce websites. Find the perfect platform to launch, manage, and scale your online store with ease."
 date: "2019-10-13T18:19:25+06:00"
-image: "images/post/best-ecommerce-websites.jpg"
+image: "images/post/top-ecommerce-sites.jpg"
 categories: ["ecommerce"]
 tags: ["online stores"]
 type: "regular"

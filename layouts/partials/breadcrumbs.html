@@ -4,16 +4,12 @@
     <li class="breadcrumb-item">
       <a href="{{ "/" | relLangURL }}">Home</a>
     </li>
-
-
     <!-- Get the Direct Parent (Category) -->
     {{- with .Parent }}
     <li class="breadcrumb-item">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
-
     {{- end }}
-
     <!-- Current Post (No Link) -->
     <li class="breadcrumb-item active">
       <span aria-current="location">{{ .Title }}</span>

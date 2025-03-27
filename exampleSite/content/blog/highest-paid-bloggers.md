@@ -2,7 +2,7 @@
 title: "Highest Paid Bloggers"
 description: "Uncover the top 10 highest-paid bloggers, learn how much they earn each month, and explore their blog monetization strategies including ads, affiliates, and courses."
 date: "2024-07-17T18:19:25+06:00"
-image: "images/post/rich-bloggers.jpg"
+image: "images/post/best-paid-bloggers.jpg"
 categories: ["blogging"]
 tags: ["content-creation"]
 type: "regular"

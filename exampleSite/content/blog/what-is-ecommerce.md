@@ -2,7 +2,7 @@
 title: "What is E-commerce"
 description: "Explore the world of e-commerce, a digital realm where virtual markets redefine commerce. Find digital storefronts & the dynamic landscape of modern business."
 date: "2019-11-09T18:19:25+06:00"
-image: "images/post/ecommerce-101.jpg"
+image: "images/post/ecommerce-overview.jpg"
 categories: ["ecommerce"]
 tags: ["online stores"]
 type: "regular"

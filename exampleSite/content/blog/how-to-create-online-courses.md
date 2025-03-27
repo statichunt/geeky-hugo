@@ -1,6 +1,6 @@
 ---
-title: "Elearning Course Creation"
-description: "Learn how to create and launch successful online courses. Master elearning strategies, engage your audience, and turn your expertise into income today."
+title: "Learn How to Create Online Courses"
+description: "Learn how to create online courses successfully. Master elearning strategies, engage your audience, and turn your expertise into income today."
 date: "2019-10-20T18:19:25+06:00"
 image: "images/post/create-online-courses.jpg"
 categories: ["monetizing"]
@@ -9,7 +9,9 @@ type: "regular"
 draft: false
 ---
 
-Online learning and education continues to grow at a record setting pace. According to Global Market Insights, the e-learning market is expected to surpass 375 billion U.S.D. by 2026. This surge is driven by the flexibility, accessibility, and variety of online courses available to learners worldwide. For creators, this presents an incredible opportunity to reach a global audience and .
+Online learning and education continues to grow at a record setting pace. According to Global Market Insights, the e-learning market is expected to surpass 375 billion U.S.D. by 2026. This surge is driven by the flexibility, accessibility, and variety of online courses available to learners worldwide. Therefore, if you know **how to create online courses**, there is plently of opportunities online for you to earn income.
+
+{{< toc >}}
 
 ## How to Create Online Courses
 

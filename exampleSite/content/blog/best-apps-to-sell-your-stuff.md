@@ -11,6 +11,8 @@ draft: false
 
 Did you know each year billions of dollars are earned through selling items? In the digital age, selling items you don't want has never been easier. Gone are the days of hosting garage sales or posting classified ads in newspapers.
 
+{{< toc >}}
+
 ## Best Apps to Sell Your Stuff
 
 Today, there's a plethora of apps available that allow you to sell your stuff quickly and efficiently right from your smartphone. Whether you're looking to declutter your home or a [creative side hustle](/blog/creative-side-hustles/) to make some extra cash, these apps offer a convenient platform to connect with buyers worldwide. Without further due, lets dive into the _best apps to sell your stuff_.

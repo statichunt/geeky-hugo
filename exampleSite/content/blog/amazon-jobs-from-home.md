@@ -13,6 +13,10 @@ Amazon has become one of the largest employers in the world, offering a variety 
 
 According to reviews, Amazon is amazingly one of the best work from home companies around the world. Amazon's network has provided individuals with ample [remote job opportunities](/blog/remote-job-opportunities/). Some work remotely, whereas others work from the facilities. As of December 2001, the retail giant provided jobs for millions of people. Ranking second to none other than Walmart.
 
+{{< toc >}}
+
+## Amazon Work From Home Jobs
+
 In this guide, we’ll explore 15 legitimate **Amazon work from home jobs** that offer flexibility, competitive pay, and the chance to work with one of the most innovative companies in the world. If you’re looking for a new remote position, keep reading to discover options that might be the perfect fit for you.
 
 ### 1. Amazon-Flex

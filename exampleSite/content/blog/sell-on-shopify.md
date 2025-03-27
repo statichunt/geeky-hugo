@@ -13,11 +13,11 @@ Launching a shopify store can be daunting. As a leading e-commerce platform, Sho
 
 ## What is Shopify?
 
-Shopify is an all-in-one e-commerce platform that empowers individuals and businesses to create, manage, and scale their online stores with ease. Founded in 2006 by Tobias Lütke, Daniel Weinand, and Scott Lake, Shopify has evolved from a humble startup to a global juggernaut, powering over a million businesses in more than 175 countries.
+Shopify is an all-in-one e-commerce platform that empowers individuals and businesses to [setup ecommerces stores](/blog/launch-an-ecommerce-store/), manage, and scale their online stores with ease. Founded in 2006 by Tobias Lütke, Daniel Weinand, and Scott Lake, Shopify has evolved from a humble startup to a global juggernaut, powering over a million businesses in more than 175 countries.
 
 ## How to Set Up a Shopify Store
 
-Before you can start selling, you need to [set up your eCommerce store](/blog/launch-an-ecommerce-store/). This process is straightforward but requires careful planning and execution.
+Before you can start selling, you need to set up your eCommerce store. This process is straightforward but requires careful planning and execution.
 
 First, sign up for a [Shopify account](https://shopify.pxf.io/21qK6G). Shopify offers a 14-day free trial, which allows you to explore the platform and set up your store without any financial commitment.
 
