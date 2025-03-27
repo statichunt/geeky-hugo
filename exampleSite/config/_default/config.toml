@@ -9,6 +9,9 @@ googleAnalytics = "G-PNQXNMRNBD"
 disqusShortname = "disqus_afGZDYYvBY"
 enableRobotsTXT = true
 
+[minify]
+  minifyOutput = true
+
 [module]
 [module.hugoVersion]
 extended = true

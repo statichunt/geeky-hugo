@@ -1,22 +1,27 @@
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
         "@type": "ListItem",
         "position": 1,
-        "item": {
-          "@id": "{{ .Site.BaseURL }}",
-          "name": "home"
-        }
+        "name": "Home",
+        "item": "{{ .Site.BaseURL }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "@id": "{{ "/blog" | relURL | absURL }}",
+        "item": "{{ "/blog" | relURL | absURL }}"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "item": {
-          "@id": "{{ .Permalink }}",
-          "name": "{{ .Title | humanize }}"
-        }
-    }]
-}
-</script>
+        "name": "{{ .Title }}",
+        "item": "{{ .Permalink }}"
+      }
+    ]
+  }
+  </script>

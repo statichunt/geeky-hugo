@@ -54,8 +54,7 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
 
 [widgets]
-sidebar = ["about", "categories", "recent-post", "newsletter"]
-# available widget : about,categories,newsletter,recent-post
+sidebar = ["categories", "newsletter"]
 
 [subscription]
 enable = false

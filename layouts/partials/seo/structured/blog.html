@@ -1,5 +1,5 @@
 <script type="application/ld+json"> {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "BlogPosting",
   {{ if .Params.categories }}{{ range .Params.categories }}"articleSection" : "{{ . }}",{{ end }}{{ end }}
   "name" : "{{ .Title | safeJS }}",
