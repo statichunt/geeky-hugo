@@ -7,14 +7,13 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "{{ .Site.BaseURL }}"
+        "item": "{{ "/" | absURL }}"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "@id": "{{ "/blog" | relURL | absURL }}",
-        "item": "{{ "/blog" | relURL | absURL }}"
+        "item": "{{ "/blog/" | relURL | absURL }}"
       },
       {
         "@type": "ListItem",
