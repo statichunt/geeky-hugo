@@ -7,19 +7,22 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "{{ "/" | absURL }}"
+        "item": "{{ "/" | absURL }}",
+        "@id": "{{ "/" | absURL }}"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "{{ "/blog/" | relURL | absURL }}"
+        "item": "{{ "/blog/" | relURL | absURL }}",
+        "@id": "{{ "/blog/" | relURL | absURL }}"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "{{ .Title }}",
-        "item": "{{ .Permalink }}"
+        "item": "{{ .Permalink }}",
+        "@id": "{{ .Permalink }}"
       }
     ]
   }
