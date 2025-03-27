@@ -53,4 +53,4 @@ rel = "manifest"
 [sitemap]
   changeFreq = 'daily'
   filename = 'sitemap.xml'
-  priority = 5
+  priority = 0.5
