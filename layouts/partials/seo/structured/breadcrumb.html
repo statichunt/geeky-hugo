@@ -6,23 +6,26 @@
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Home",
-        "item": "{{ "/" | absURL }}",
-        "@id": "{{ "/" | absURL }}"
+        "item": {
+          "@id": "{{ .Site.BaseURL }}",
+          "name": "Home"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Blog",
-        "item": "{{ "/blog/" | relURL | absURL }}",
-        "@id": "{{ "/blog/" | relURL | absURL }}"
+        "item": {
+          "@id": "{{ "/blog/" | relURL | absURL }}",
+          "name": "Blog"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "{{ .Title }}",
-        "item": "{{ .Permalink }}",
-        "@id": "{{ .Permalink }}"
+        "item": {
+          "@id": "{{ .Permalink }}",
+          "name": "{{ .Title | humanize }}"
+        }
       }
     ]
   }
