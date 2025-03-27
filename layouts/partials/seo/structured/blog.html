@@ -13,13 +13,19 @@
   {{ if .Site.Params.author -}}
     "author": {
       "@type": "Person",
-      "name": "{{ .Site.Params.author }}"
-  },
+      "name": "{{ .Site.Params.author }}",
+      {{ with .Site.Params.authorUrl -}}
+      "url": "{{ . }}",
+      {{ end -}}
+    },
   {{- else if .Site.Params.author.name -}}
     "author": {
       "@type": "Person",
-      "name": "{{ .Site.Params.author.name }}"
-  },
+      "name": "{{ .Site.Params.author.name }}",
+      {{ with .Site.Params.author.url -}}
+      "url": "{{ . }}",
+      {{ end -}}
+    },
   {{- end }}
   "copyrightYear" : "{{ .Site.Params.since }} - {{ .Site.Lastmod.Format "2006" }}",
   {{ if not .PublishDate.IsZero -}}
