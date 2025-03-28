@@ -1,4 +1,9 @@
 User-agent: *
+
+Disallow: /404/
+Disallow: /search/
+Disallow: /tags/
+
 Allow: /
 
 Sitemap: https://earnonlinemoney.org/sitemap.xml
