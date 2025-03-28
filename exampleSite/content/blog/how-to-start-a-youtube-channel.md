@@ -89,7 +89,7 @@ Once you've built a loyal audience and consistently produce high-quality content
 - Brand Ambassadorships: Form long-term partnerships with brands to become an ambassador, creating ongoing sponsored content and promotions.
 - Create and Sell Online Courses: If you have expertise in a particular field or skill, consider creating and selling online courses. Platforms like Udemy.com, Skillshare, and [Teachable](https://teachable.sjv.io/EKE0Oe) provide a marketplace for instructors to share their knowledge and earn passive income through course sales.
 
-### 10. Grow Social Media Presense
+### 10. Grow Social Media presence
 
 Building an audience on YouTube takes time and effort. Consistently posting high-quality content and engaging with your audience is essential to [grow your social media presence](/blog/building-a-social-media-presence/). Use eye-catching thumbnails and compelling titles to attract viewers. Interacting with comments and participating in community discussions can foster a loyal subscriber base.
 

@@ -61,7 +61,7 @@ Building a social presence can be time-consuming, especially if you're managing 
 
 #### Explore Different Social Media Monetization Strategies
 
-You can can easily [leverage different monetization strategies]({{< relref "blog/social-media-monetization.md#leveraging-different-monetization-strategies" >}}) by way of;
+You can can easily [leverage different monetization strategies]({{< relref "blog/social-media-monetization.md#leverage-different-monetization-strategies" >}}) by way of;
 
 - TikTok Monetization: There are various TikTok monetization opportunities, like TikToks Creator Fund, brand collaboration, receiving gifts from live streams and more.
 - Earn Money on Pinterest: Publishers can [earn money on Pinterest](/blog/make-money-on-pinterest/) with idea pins and ads.

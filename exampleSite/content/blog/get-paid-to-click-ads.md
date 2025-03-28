@@ -74,7 +74,7 @@ One of the most important elements of business is longevity. I strongly believe 
 
 ### Star-Clicks.com
 
-Star-Clicks is in fact one of the fastest growing online advertising networks on the web today. Many are finding themselves joining the network because of the memberships (silver, gold, platinum). Each membership has a different compensation plan. The silver membership is free but has limited ads in which you earn eleven cents a day. The gold membership is currently nineteen ninety five a month but allows members to earn five dollars a day. The platinum membership costs fourty nine ninety five and allows members to earn seven fifty a day. There are no yearly fees or hidden costs at [Star-Clicks](http://www.star-clicks.com/?ref=51359815).
+Star-Clicks is in fact one of the fastest growing online advertising networks on the web today. Many are finding themselves joining the network because of the memberships (silver, gold, platinum). Each membership has a different compensation plan. The silver membership is free but has limited ads in which you earn eleven cents a day. The gold membership is currently nineteen ninety five a month but allows members to earn five dollars a day. The platinum membership costs fortynine ninety five and allows members to earn seven fifty a day. There are no yearly fees or hidden costs at [Star-Clicks](http://www.star-clicks.com/?ref=51359815).
 
 ### Ysense.com
 

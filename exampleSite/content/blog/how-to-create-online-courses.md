@@ -11,8 +11,6 @@ draft: false
 
 Online learning and education continues to grow at a record setting pace. According to Global Market Insights, the e-learning market is expected to surpass 375 billion U.S.D. by 2026. This surge is driven by the flexibility, accessibility, and variety of online courses available to learners worldwide. Therefore, if you know **how to create online courses**, there is plently of opportunities online for you to earn income.
 
-{{< toc >}}
-
 ## How to Create Online Courses
 
 Developing an online course can be a lucrative endeavor. Start by considering your passions and areas of expertise. Your course should be on a topic you're knowledgeable about and excited to teach. This enthusiasm will translate into engaging content for your students.
