@@ -1,4 +1,3 @@
-// banner
 .banner {
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -9,8 +8,6 @@
     color: $color-primary;
   }
 }
-
-// list styled
 
 .list-styled {
   li {
@@ -41,7 +38,6 @@
   }
 }
 
-// blog
 .drop-cap>p:first-child:first-letter {
   font-size: 3rem;
   font-weight: 700;
@@ -113,17 +109,14 @@
     max-height: 100%;
   }
 
-  /* width */
   &::-webkit-scrollbar {
     width: 5px;
   }
 
-  /* Track */
   &::-webkit-scrollbar-track {
     background: $light;
   }
 
-  /* Handle */
   &::-webkit-scrollbar-thumb {
     background: darken($color: $light, $amount: 20);
   }
@@ -142,7 +135,6 @@
   }
 }
 
-// widget
 .category-widget {
   ul li {
     position: relative;
@@ -225,7 +217,6 @@
   }
 }
 
-// contact
 .contact {
   h2 {
     font-size: 64px;
@@ -271,8 +262,6 @@
   }
 }
 
-
-/* footer */
 .footer {
   padding: 70px 0 30px;
   background-position: left top;

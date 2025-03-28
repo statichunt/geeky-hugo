@@ -1,9 +1,3 @@
-// Button variants
-//
-// Easily pump out default styles, as well as :hover, :focus, :active,
-// and disabled options for all buttons
-
-// scss-docs-start btn-variant-mixin
 @mixin button-variant(
   $background,
   $border,
@@ -37,7 +31,6 @@
     @if $enable-shadows {
       @include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), .5));
     } @else {
-      // Avoid using mixin so we can pass custom focus shadow properly
       box-shadow: 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), .5);
     }
   }
@@ -49,7 +42,6 @@
   .show > &.dropdown-toggle {
     color: $active-color;
     background-color: $active-background;
-    // Remove CSS gradients if they're enabled
     background-image: if($enable-gradients, none, null);
     border-color: $active-border;
 
@@ -57,7 +49,7 @@
       @if $enable-shadows {
         @include box-shadow($btn-active-box-shadow, 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), .5));
       } @else {
-        // Avoid using mixin so we can pass custom focus shadow properly
+
         box-shadow: 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), .5);
       }
     }
@@ -67,14 +59,12 @@
   &.disabled {
     color: $disabled-color;
     background-color: $disabled-background;
-    // Remove CSS gradients if they're enabled
+
     background-image: if($enable-gradients, none, null);
     border-color: $disabled-border;
   }
 }
-// scss-docs-end btn-variant-mixin
 
-// scss-docs-start btn-outline-variant-mixin
 @mixin button-outline-variant(
   $color,
   $color-hover: color-contrast($color),
@@ -109,7 +99,7 @@
       @if $enable-shadows {
         @include box-shadow($btn-active-box-shadow, 0 0 0 $btn-focus-width rgba($color, .5));
       } @else {
-        // Avoid using mixin so we can pass custom focus shadow properly
+
         box-shadow: 0 0 0 $btn-focus-width rgba($color, .5);
       }
     }
@@ -121,13 +111,9 @@
     background-color: transparent;
   }
 }
-// scss-docs-end btn-outline-variant-mixin
 
-// scss-docs-start btn-size-mixin
 @mixin button-size($padding-y, $padding-x, $font-size, $border-radius) {
   padding: $padding-y $padding-x;
   @include font-size($font-size);
-  // Manually declare to provide an override to the browser default
   @include border-radius($border-radius, 0);
 }
-// scss-docs-end btn-size-mixin

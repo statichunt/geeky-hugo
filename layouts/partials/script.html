@@ -1,4 +1,3 @@
-<!-- JS Plugins + Main script -->
 {{ $scripts := slice }}
 {{ $bootstrap := resources.Get "js/bootstrap.js" }}
 {{ $params := dict }}
@@ -10,7 +9,6 @@
 {{ end }}
 <script crossorigin="anonymous" defer {{ if hugo.IsProduction }}integrity="{{ $bootstrap.Data.Integrity }}"{{end}} type="application/javascript">{{$bootstrap.Content | safeJS}}</script>
 
-<!-- JS Plugins + Main script -->
 {{ $scripts := slice }}
 {{ range site.Params.plugins.js }}
   {{ if findRE "^http" .link }}
@@ -23,13 +21,11 @@
   {{ end }}
 {{ end }}
 
-<!-- search script -->
 {{ if site.Params.search }}
   {{ $scripts = $scripts | append (resources.Get "plugins/search/fuse.js" ) }}
   {{ $scripts = $scripts | append (resources.Get "plugins/search/search.js" ) }}
 {{ end }}
 
-<!-- main script -->
 {{ $scripts = $scripts | append (resources.Get "js/script.js") }}
 {{ $scripts = $scripts | resources.Concat "js/scripts.js" }}
 {{ if hugo.IsProduction }}
@@ -37,7 +33,6 @@
 {{ end }}
 <script crossorigin="anonymous" defer {{ if hugo.IsProduction }}integrity="{{ $scripts.Data.Integrity }}"{{end}} type="application/javascript">{{$scripts.Content | safeJS}}</script>
 
-<!-- font family -->
 {{ $pf:= site.Params.variables.font_primary }}
 {{ $sf:= site.Params.variables.font_secondary }}
 <script type="application/javascript">
@@ -51,11 +46,6 @@
   });
 </script>
 
-<!-- progressive web app -->
 {{ partialCached "pwa.html" . }}
 
-<!-- cookie consent -->
 {{ partialCached "cookie-consent.html" . }}
-
-<!-- google adsense -->
-{{ partialCached "adsense-script.html" . }}

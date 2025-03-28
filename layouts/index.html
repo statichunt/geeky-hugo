@@ -1,18 +1,17 @@
 {{ define "main" }}
 
-<!--=================== blog header section start ===================-->
 <section class="section" style="padding-top: 40px; padding-bottom: 0px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-16 mb-5 mb-lg-0">
         <div class="border rounded d-lg-flex p-4 mb-5">
-          <!-- big featured post -->
+
           <div class="col-lg-6 me-lg-4 mb-5 mb-lg-0">
             {{ range first 1 (where site.RegularPages "Type" "featured") }}
             {{ .Render "post" }}
             {{ end }}
           </div>
-          <!-- small featured post -->
+
           <div class="col-lg-6 pe-4 blog-card-list scroll-list">
             {{ range first 4 (after 1 (where site.RegularPages "Type" "featured")) }}
             <div class="card rounded-0">
@@ -51,9 +50,6 @@
     </div>
   </div>
 </section>
-<!--=================== blog header section end ===================-->
-
-<!--=================== blog section start ===================-->
 <section class="section" style="padding-top: 0px;">
   <div class="container">
     <div class="row">
@@ -69,7 +65,6 @@
       <div class="col-lg-8 mb-5 mb-lg-0">
         <div class="border pt-4 mb-5 rounded">
           <div class="row mx-0 g-5">
-            <!-- recent post -->
             {{ $paginator := .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections) }}
             {{ range $paginator.Pages }}
             <div class="col-sm-6 mb-4">
@@ -79,7 +74,6 @@
           </div>
         </div>
 
-        <!-- custom pagination -->
         {{ $paginator := .Paginator }}
         {{ if gt $paginator.TotalPages 1 }}
         <nav aria-label="Page navigation">
@@ -122,7 +116,6 @@
         {{ end }}
       </div>
 
-      <!-- sidebar widgets -->
       <aside class="col-lg-4">
         {{ $widget := site.Params.widgets.sidebar }}
         {{ partialCached "widgets/widget-wrapper" (dict "Widgets" $widget "Scope" .) }}
@@ -130,6 +123,5 @@
     </div>
   </div>
 </section>
-<!--=================== blog section end ===================-->
 
 {{ end }}

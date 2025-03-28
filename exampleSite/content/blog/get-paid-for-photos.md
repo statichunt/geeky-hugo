@@ -41,7 +41,7 @@ The most common types of licenses in stock photograph include:
 
 Once you've honed your craft and built a compelling portfolio, it's time to explore avenues for monetization.
 
-- Stock Photography: Explore stock photography platforms such as 500px.com, [Smugmug](https://www.smugmug.com/), and [iStockPhoto](https://www.istockphoto.com). Each time your image is downloaded or licensed for use.
+- Stock Photography: Explore stock photography platforms such as 500px.com, [Smugmug](https://www.smugmug.com/ "{rel='nofollow'}"), and [iStockPhoto](https://www.istockphoto.com/ "{rel='nofollow'}"). Each time your image is downloaded or licensed for use.
 - Print Sales: Whether through online galleries, art fairs, or exhibitions, there is a growing demand for high-quality prints that adorn homes, offices, and public spaces.
 - Freelance Assignments: From editorial commissions to commercial gigs, freelance opportunities abound for photographers who are willing to network, pitch their ideas, and deliver exceptional results.
 - Social Media Marketing: Social media platforms such as Instagram, Facebook, and TikTok have become powerful tools for photographers to showcase their work, connect with audiences, and attract potential clients.

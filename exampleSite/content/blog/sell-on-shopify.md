@@ -19,7 +19,7 @@ Shopify is an all-in-one e-commerce platform that empowers individuals and busin
 
 Before you can start selling, you need to set up your eCommerce store. This process is straightforward but requires careful planning and execution.
 
-First, sign up for a [Shopify account](https://shopify.pxf.io/21qK6G). Shopify offers a 14-day free trial, which allows you to explore the platform and set up your store without any financial commitment.
+First, sign up for a [Shopify account](https://shopify.pxf.io/21qK6G/ "{rel='nofollow'}"). Shopify offers a 14-day free trial, which allows you to explore the platform and set up your store without any financial commitment.
 
 ### Design Your Shopify Store
 
@@ -105,7 +105,7 @@ You can find numerous [Shopify Apps](/blog/shopify-apps/) that can enhance your 
 
 - B2C Dropshipping: For dropshipping products directly to customers use [Oberlo](https://www.oberlo.com).
 - C2B Dropshipping: If you want to collect and display customer reviews explore Yotpo.
-- B2B Dropshipping: [Klaviyo](https://www.klaviyo.com) is for advanced email marketing automation.
+- B2B Dropshipping: [Klaviyo](https://www.klaviyo.com/ "{rel='nofollow'}") is for advanced email marketing automation.
 
 ### Scale Your Shopify Business
 

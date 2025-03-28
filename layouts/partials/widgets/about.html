@@ -1,8 +1,6 @@
-<!-- author -->
 {{ $bgImage:= resources.Get "images/map.png" }}
 {{ $bgImage:= $bgImage.Resize "400x webp" }}
 <div class="widget bg-center" style="background-image: url('{{ $bgImage.RelPermalink }}');">
-  <!-- navbar brand/logo -->
   <a class="d-block mb-4" href="{{ site.BaseURL | relLangURL }}/">
     {{ partial "logo.html" }}
   </a>

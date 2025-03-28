@@ -49,10 +49,6 @@
   }
 }
 
-
-//
-// Sizing
-//
 @include pagination-size($pagination-padding-y, $pagination-padding-x, null, $pagination-border-radius);
 
 .pagination-lg {

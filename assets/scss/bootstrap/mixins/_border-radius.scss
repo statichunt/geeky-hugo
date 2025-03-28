@@ -1,7 +1,3 @@
-// stylelint-disable property-disallowed-list
-// Single side border-radius
-
-// Helper function to replace negative values with 0
 @function valid-radius($radius) {
   $return: ();
   @each $value in $radius {
@@ -14,7 +10,6 @@
   @return $return;
 }
 
-// scss-docs-start border-radius-mixins
 @mixin border-radius($radius: $border-radius, $fallback-border-radius: false) {
   @if $enable-rounded {
     border-radius: valid-radius($radius);
@@ -75,4 +70,3 @@
     border-bottom-left-radius: valid-radius($radius);
   }
 }
-// scss-docs-end border-radius-mixins

@@ -1,8 +1,3 @@
-// Base class
-//
-// Kickstart any navigation component with a set of style resets. Works with
-// `<nav>`s, `<ul>`s or `<ol>`s.
-
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -26,17 +21,12 @@
     text-decoration: if($link-hover-decoration == underline, none, null);
   }
 
-  // Disabled state lightens text
   &.disabled {
     color: $nav-link-disabled-color;
     pointer-events: none;
     cursor: default;
   }
 }
-
-//
-// Tabs
-//
 
 .nav-tabs {
   border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
@@ -50,7 +40,7 @@
     &:hover,
     &:focus {
       border-color: $nav-tabs-link-hover-border-color;
-      // Prevents active .nav-link tab overlapping focus outline of previous/next .nav-link
+
       isolation: isolate;
     }
 
@@ -69,17 +59,12 @@
   }
 
   .dropdown-menu {
-    // Make dropdown border overlap tab border
+
     margin-top: -$nav-tabs-border-width;
-    // Remove the top rounded corners here since there is a hard edge above the menu
+
     @include border-top-radius(0);
   }
 }
-
-
-//
-// Pills
-//
 
 .nav-pills {
   .nav-link {
@@ -94,11 +79,6 @@
     @include gradient-bg($nav-pills-link-active-bg);
   }
 }
-
-
-//
-// Justified variants
-//
 
 .nav-fill {
   > .nav-link,
@@ -120,14 +100,9 @@
 .nav-fill,
 .nav-justified {
   .nav-item .nav-link {
-    width: 100%; // Make sure button will grow
+    width: 100%;
   }
 }
-
-
-// Tabbable tabs
-//
-// Hide tabbable panes to start, show them when `.active`
 
 .tab-content {
   > .tab-pane {

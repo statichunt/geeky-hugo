@@ -24,9 +24,6 @@ path = "github.com/gethugothemes/hugo-modules/icons/font-awesome"
 path = "github.com/gethugothemes/hugo-modules/components/valine-comment"
 
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/components/crisp-chat"
-
-[[imports]]
 path = "github.com/gethugothemes/hugo-modules/pwa"
 
 [[imports]]
@@ -48,9 +45,6 @@ path = "github.com/gethugothemes/hugo-modules/shortcodes/collapse"
 path = "github.com/gethugothemes/hugo-modules/shortcodes/notice"
 
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/video"
-
-[[imports]]
 path = "github.com/gethugothemes/hugo-modules/shortcodes/tabs"
 
 [[imports]]
@@ -60,27 +54,6 @@ path = "github.com/gethugothemes/hugo-modules/shortcodes/gallery"
 path = "github.com/gethugothemes/hugo-modules/shortcodes/table-of-contents"
 
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/youtube-lite"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/vimeo-lite"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/seo-tools/baidu-analytics"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/seo-tools/plausible-analytics"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/seo-tools/counter-analytics"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager"
-
-[[imports]]
 path = "github.com/gethugothemes/hugo-modules/seo-tools/site-verifications"
 
 [[imports]]
@@ -88,6 +61,3 @@ path = "github.com/gethugothemes/hugo-modules/seo-tools/basic-seo"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/gzip-caching"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/adsense"

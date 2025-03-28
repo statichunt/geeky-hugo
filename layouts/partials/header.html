@@ -4,12 +4,9 @@
     <div class="row">
       <div class="col-12">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
-          <!-- navbar brand/logo -->
           <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
             {{ partial "logo.html" }}
           </a>
-
-          <!-- buttons -->
           <div class="d-flex d-lg-none">
             <ul class="list-unstyled search me-3">
               {{ if site.Params.search }}
@@ -23,18 +20,15 @@
               </li>
             </ul>
           </div>
-
-          <!-- main nav -->
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav ms-auto my-4 my-lg-0 me-3">
-              <!-- menu active -->
               {{ $currentPage := . }}
               {{ range site.Menus.main }}
               {{ $menuURL := .URL | absLangURL }}
               {{ $pageURL:= $currentPage.Permalink | absLangURL }}
               {{ $active := eq $menuURL $pageURL }}
               {{ if .HasChildren }}
-              <li class="nav-item dropdown 
+              <li class="nav-item dropdown
               {{ range .Children }}
               {{ $childURL := .URL | absLangURL }}
               {{ $active := eq $childURL $pageURL }}
@@ -63,7 +57,6 @@
               {{ end }}
             </ul>
 
-            <!-- social -->
             <ul class="list-unstyled social-icons">
               {{ range site.Params.social }}
               <li class="list-inline-item">

@@ -1,14 +1,8 @@
-// Select
-//
-// Replaces the browser default select with a custom one, mostly pulled from
-// https://primer.github.io/.
-
 .form-select {
   display: block;
   width: 100%;
   padding: $form-select-padding-y $form-select-indicator-padding $form-select-padding-y $form-select-padding-x;
-  // stylelint-disable-next-line property-no-vendor-prefix
-  -moz-padding-start: subtract($form-select-padding-x, 3px); // See https://github.com/twbs/bootstrap/issues/32636
+  -moz-padding-start: subtract($form-select-padding-x, 3px);
   font-family: $form-select-font-family;
   @include font-size($form-select-font-size);
   font-weight: $form-select-font-weight;
@@ -31,7 +25,6 @@
     @if $enable-shadows {
       @include box-shadow($form-select-box-shadow, $form-select-focus-box-shadow);
     } @else {
-      // Avoid using mixin so we can pass custom focus shadow properly
       box-shadow: $form-select-focus-box-shadow;
     }
   }
@@ -48,7 +41,6 @@
     border-color: $form-select-disabled-border-color;
   }
 
-  // Remove outline from select box in FF
   &:-moz-focusring {
     color: transparent;
     text-shadow: 0 0 0 $form-select-color;

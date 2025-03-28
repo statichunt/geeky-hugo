@@ -1,0 +1,23 @@
+{{/* Split .Title into two parts, title and attributes. */}}
+{{- $parts := split . "{" -}}
+{{- $parts = apply $parts "trim" "." " " -}}
+{{- $parts = apply $parts "trim" "." "}" -}}
+
+{{/* Extract title into a string. */}}
+{{- $title := index $parts 0 -}}
+
+{{/* Extract attributes into a dictionary. */}}
+{{- $temp := index $parts 1 -}}
+{{- $temp = split $temp "'" -}}
+{{- $temp = first (sub (len $temp) 1) $temp -}}
+{{- $temp = apply $temp "replace" "." "=" "" -}}
+{{- $temp = apply $temp "trim" "." " " -}}
+{{- $attributes := dict -}}
+{{- if $temp -}}
+  {{- range (seq 0 2 (sub (len $temp) 1)) -}}
+    {{- $attributes = merge $attributes (dict (index $temp . ) (index $temp (add 1 .))) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $parsedTitle := dict "title" $title "attributes" $attributes -}}
+{{- return $parsedTitle -}}

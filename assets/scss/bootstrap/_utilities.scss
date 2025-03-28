@@ -1,19 +1,14 @@
-// stylelint-disable indentation
-
-// Utilities
-
 $utilities: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
+
 $utilities: map-merge(
   (
-    // scss-docs-start utils-vertical-align
+
     "align": (
       property: vertical-align,
       class: align,
       values: baseline top middle bottom text-bottom text-top
     ),
-    // scss-docs-end utils-vertical-align
-    // scss-docs-start utils-float
+
     "float": (
       responsive: true,
       property: float,
@@ -23,14 +18,12 @@ $utilities: map-merge(
         none: none,
       )
     ),
-    // scss-docs-end utils-float
-    // scss-docs-start utils-overflow
+
     "overflow": (
       property: overflow,
       values: auto hidden visible scroll,
     ),
-    // scss-docs-end utils-overflow
-    // scss-docs-start utils-display
+
     "display": (
       responsive: true,
       print: true,
@@ -38,8 +31,7 @@ $utilities: map-merge(
       class: d,
       values: inline inline-block block grid table table-row table-cell flex inline-flex none
     ),
-    // scss-docs-end utils-display
-    // scss-docs-start utils-shadow
+
     "shadow": (
       property: box-shadow,
       class: shadow,
@@ -50,8 +42,7 @@ $utilities: map-merge(
         none: none,
       )
     ),
-    // scss-docs-end utils-shadow
-    // scss-docs-start utils-position
+
     "position": (
       property: position,
       values: static relative absolute fixed sticky
@@ -83,8 +74,7 @@ $utilities: map-merge(
         y: translateY(-50%),
       )
     ),
-    // scss-docs-end utils-position
-    // scss-docs-start utils-borders
+
     "border": (
       property: border,
       values: (
@@ -132,9 +122,7 @@ $utilities: map-merge(
       class: border,
       values: $border-widths
     ),
-    // scss-docs-end utils-borders
-    // Sizing utilities
-    // scss-docs-start utils-sizing
+
     "width": (
       property: width,
       class: w,
@@ -187,9 +175,7 @@ $utilities: map-merge(
       class: min-vh,
       values: (100: 100vh)
     ),
-    // scss-docs-end utils-sizing
-    // Flex utilities
-    // scss-docs-start utils-flex
+
     "flex": (
       responsive: true,
       property: flex,
@@ -292,9 +278,7 @@ $utilities: map-merge(
         last: 6,
       ),
     ),
-    // scss-docs-end utils-flex
-    // Margin utilities
-    // scss-docs-start utils-spacing
+
     "margin": (
       responsive: true,
       property: margin,
@@ -337,7 +321,6 @@ $utilities: map-merge(
       class: ms,
       values: map-merge($spacers, (auto: auto))
     ),
-    // Negative margin utilities
     "negative-margin": (
       responsive: true,
       property: margin,
@@ -380,7 +363,7 @@ $utilities: map-merge(
       class: ms,
       values: $negative-spacers
     ),
-    // Padding utilities
+
     "padding": (
       responsive: true,
       property: padding,
@@ -423,9 +406,7 @@ $utilities: map-merge(
       class: ps,
       values: $spacers
     ),
-    // scss-docs-end utils-spacing
-    // Text
-    // scss-docs-start utils-text
+
     "font-family": (
       property: font-family,
       class: font,
@@ -496,8 +477,7 @@ $utilities: map-merge(
       values: (break: break-word),
       rtl: false
     ),
-    // scss-docs-end utils-text
-    // scss-docs-start utils-color
+
     "color": (
       property: color,
       class: text,
@@ -513,8 +493,7 @@ $utilities: map-merge(
         )
       )
     ),
-    // scss-docs-end utils-color
-    // scss-docs-start utils-bg-color
+
     "background-color": (
       property: background-color,
       class: bg,
@@ -527,13 +506,12 @@ $utilities: map-merge(
         )
       )
     ),
-    // scss-docs-end utils-bg-color
+
     "gradient": (
       property: background-image,
       class: bg,
       values: (gradient: var(--#{$variable-prefix}gradient))
     ),
-    // scss-docs-start utils-interaction
     "user-select": (
       property: user-select,
       values: all auto none
@@ -543,8 +521,7 @@ $utilities: map-merge(
       class: pe,
       values: none auto,
     ),
-    // scss-docs-end utils-interaction
-    // scss-docs-start utils-border-radius
+
     "rounded": (
       property: border-radius,
       class: rounded,
@@ -578,8 +555,6 @@ $utilities: map-merge(
       class: rounded-start,
       values: (null: $border-radius)
     ),
-    // scss-docs-end utils-border-radius
-    // scss-docs-start utils-visibility
     "visibility": (
       property: visibility,
       class: null,
@@ -588,7 +563,6 @@ $utilities: map-merge(
         invisible: hidden,
       )
     )
-    // scss-docs-end utils-visibility
   ),
   $utilities
 );

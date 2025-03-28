@@ -11,21 +11,17 @@ AUTHOR WEBSITE: https://gethugothemes.com
 <html lang="{{ site.LanguageCode | default `en-US` }}">
 
 <head>
-  <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WF5G9VP');</script>
-    <!-- End Google Tag Manager -->
     <meta name="p:domain_verify" content="09474e2bca40bf0daf7899ec672f84a8"/>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9965740454699088"
      crossorigin="anonymous"></script>
      <meta name="google-adsense-account" content="ca-pub-9965740454699088">
      <meta name="description" content="{{ .Description }}">
 	{{ partial "head.html" . }}
-
-	<!-- cache partial only in production -->
 	{{ if hugo.IsProduction }}
 	{{ partialCached "style.html" . }}
 	{{ else }}
@@ -34,11 +30,8 @@ AUTHOR WEBSITE: https://gethugothemes.com
 </head>
 
 <body>
-  	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GT-WP5D6LP"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-	<!-- cache partial only in production -->
 	{{ if hugo.IsProduction }}
 	{{ partialCached "preloader.html" . }}
 	{{ partial "header.html" . }}
@@ -50,8 +43,6 @@ AUTHOR WEBSITE: https://gethugothemes.com
 	<main>
 		{{ block "main" . }}{{ end }}
 	</main>
-
-	<!-- cache partial only in production -->
 	{{ if hugo.IsProduction }}
 	{{ partialCached "script.html" . }}
 	{{ partialCached "footer.html" . }}

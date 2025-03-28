@@ -1,6 +1,3 @@
-############# English navigation ##############
-
-# main menu
 [[main]]
 name = "Home"
 url = "/"
@@ -16,8 +13,6 @@ name = "Blog"
 url = "blog/"
 weight = 3
 
-
-# footer menu
 [[footer]]
 name = "Home"
 url = "/"

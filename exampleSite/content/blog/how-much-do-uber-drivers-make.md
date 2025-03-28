@@ -13,7 +13,7 @@ Uber has ignited a revolution in the gig economy, empowering countless individua
 
 ## How Much Do Uber Drivers Make
 
-If you're wondering how much [Uber drivers](https://www.uber.com/us/en/drive/) make, it depends on several factors as mentioned. However, the average Uber driver’s net earnings typically range between 10 and 20 dollars per hour after factoring in expenses. Drivers in high-demand urban areas might clear 25 per hour, while those in less active regions might see net earnings closer to 8–12 per hour. But every situation is different. To better illustrate, let’s analyze a 40-hour workweek for two drivers—Driver A and Driver B—operating in two different cities:
+If you're wondering how much [Uber drivers](https://www.uber.com/us/en/drive/ "{rel='nofollow'}") make, it depends on several factors as mentioned. However, the average Uber driver’s net earnings typically range between 10 and 20 dollars per hour after factoring in expenses. Drivers in high-demand urban areas might clear 25 per hour, while those in less active regions might see net earnings closer to 8–12 per hour. But every situation is different. To better illustrate, let’s analyze a 40-hour workweek for two drivers—Driver A and Driver B—operating in two different cities:
 
 Driver A: Driver A working 40 hours a week in a major city might gross 1,000 but spend 300 on gas, maintenance, and fees, leaving them with 700.
 

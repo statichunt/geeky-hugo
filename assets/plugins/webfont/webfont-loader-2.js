@@ -1,4 +1,3 @@
-/* Web Font Loader v1.6.28 - (c) Adobe Systems, Google. License: Apache 2.0 */
 (function () {
   function aa(a, b, c) {
     return a.call.apply(a.bind, arguments)

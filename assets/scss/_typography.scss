@@ -1,5 +1,3 @@
-/*  typography */
-
 html {
   font-size: $font-size;
 }
@@ -31,14 +29,11 @@ small,
   font-size: 0.8rem;
 }
 
-// List in descending order to prevent extra sort function
 $type-levels: 6, 5, 4, 3, 2, 1;
 
-// Create map with h[x] as key
 $level-size: $font-size;
 @each $level in $type-levels {
   $level-size: $level-size * $font-scale;
-  // Output heading styles
   h#{$level},
   .h#{$level} {
     font-size: $level-size;

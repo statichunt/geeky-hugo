@@ -11,8 +11,6 @@ draft: false
 
 The concept of microtasks has gained significant traction, revolutionizing how work is distributed, completed, and managed across various industries. Microtasks, often characterized by their small, manageable nature, play a crucial role in streamlining processes, optimizing efficiency, and harnessing the power of distributed labor.
 
-{{< toc >}}
-
 ## What are Microtasks
 
 A microtask is an [online side hustle](/blog/creative-side-hustles/) or task that can be completed in a relatively short amount of time, typically ranging from seconds to a few minutes. These tasks are often simple, repetitive, and require minimal cognitive effort, making them ideal for crowdsourcing and outsourcing to a distributed workforce.
@@ -42,7 +40,7 @@ Social media platforms often host microtasking opportunities as well, with compa
 
 #### CrowdSourcing Platforms
 
-Crowdsourcing platforms like Amazon Mechanical Turk, CrowdFlower, and [Clickworker](https://www.clickworker.com) serve as hubs for microtasking opportunities across various domains. These platforms host a wide array of tasks ranging from data entry and content moderation to image tagging and transcription services. Users can browse through available tasks, complete them at their own pace, and earn money based on the volume and complexity of tasks completed.
+Crowdsourcing platforms like Amazon Mechanical Turk, CrowdFlower, and [Clickworker](https://www.clickworker.com/ "{rel='nofollow'}") serve as hubs for microtasking opportunities across various domains. These platforms host a wide array of tasks ranging from data entry and content moderation to image tagging and transcription services. Users can browse through available tasks, complete them at their own pace, and earn money based on the volume and complexity of tasks completed.
 
 #### Freelancing Websites
 
@@ -50,7 +48,7 @@ Freelancing platforms such as Upwork, Freelancer, and Fiverr aren't just limited
 
 #### Task-Based Mobile Apps
 
-In addition to web-based platforms, task-based mobile apps have emerged as convenient avenues for microtasking on the go. Apps like TaskRabbit, [Gigwalk](https://www.gigwalk.com), and Field Agent connect users with local, location-based tasks such as grocery shopping, product scanning, and mystery shopping.
+In addition to web-based platforms, task-based mobile apps have emerged as convenient avenues for microtasking on the go. Apps like TaskRabbit, [Gigwalk](https://www.gigwalk.com/ "{rel='nofollow'}"), and Field Agent connect users with local, location-based tasks such as grocery shopping, product scanning, and mystery shopping.
 
 #### Online Marketplaces
 

@@ -8,10 +8,6 @@ body {
   color: $white;
 }
 
-/*------------------------------------------------------------------
-# default styles
--------------------------------------------------------------------*/
-
 ul,
 ol {
   margin: 0;
@@ -67,7 +63,6 @@ select {
   }
 }
 
-/* preloader */
 .preloader {
   position: fixed;
   top: 0;
@@ -81,7 +76,6 @@ select {
   justify-content: center;
 }
 
-/* shape */
 .title-border {
   text-decoration-line: underline;
   text-decoration-style: wavy;
@@ -90,7 +84,6 @@ select {
   text-underline-offset: 10px;
 }
 
-/* social-icons */
 .social-icons {
   li {
     position: relative;
@@ -131,7 +124,6 @@ select {
   }
 }
 
-/* pagination */
 .pagination {
   .prev,
   .next {
@@ -175,7 +167,6 @@ select {
   }
 }
 
-/* widget */
 .widget {
   text-align: center;
   border: 1px solid $border-color;
@@ -199,7 +190,6 @@ select {
   }
 }
 
-/* card */
 .card {
   padding: 0;
   border: 0;
@@ -209,7 +199,6 @@ select {
   }
 }
 
-/* form */
 .form-group {
   margin-bottom: 25px;
 
@@ -252,9 +241,6 @@ select {
   }
 }
 
-/*------------------------------------------------------------------
- # helper classes
--------------------------------------------------------------------*/
 .bg-center {
   background-position: center center;
   background-repeat: no-repeat;
@@ -337,7 +323,6 @@ select {
   color: $text-dark;
 }
 
-// content style
 .content {
   margin-bottom: 3em;
 

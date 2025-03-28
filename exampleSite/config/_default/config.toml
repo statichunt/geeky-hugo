@@ -5,8 +5,6 @@ languageName = "En"
 languageCode = "en-us"
 pagination.pagerSize = "10"
 summaryLength = "20"
-googleAnalytics = "G-PNQXNMRNBD"
-disqusShortname = "disqus_afGZDYYvBY"
 enableRobotsTXT = true
 
 [minify]

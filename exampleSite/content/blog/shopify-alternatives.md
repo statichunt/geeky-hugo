@@ -23,7 +23,7 @@ As you many know, [launching an e-commerce store](/blog/launch-an-ecommerce-stor
 
 Why Choose Wix Over Shopify? Wix is a versatile website builder that caters to various needs, including e-commerce. It’s particularly appealing because of its drag-and-drop interface, which makes it incredibly easy to use, even for beginners. Wix also offers a wide range of templates and design flexibility that can help your online store stand out.
 
-Advantages of [Wix](https://www.wix.com):
+Advantages of [Wix](https://www.wix.com/ "{rel='nofollow'}"):
 
 - Ease of Use: Wix’s intuitive interface is perfect for those who want to create a website without coding knowledge.
 - Customization: A plethora of templates and design tools allow for a high level of customization.
@@ -62,7 +62,7 @@ If your primary focus is on having a visually [appealing online store](/blog/mos
 
 Should you pick Volusion over Shopify? Volusion offers a comprehensive set of e-commerce tools that can cater to businesses of all sizes. It's particularly strong in inventory management and analytics, making it a great choice for data-driven business owners.
 
-Essential [Volusion](https://www.volusion.com) Resources:
+Essential [Volusion](https://www.volusion.com/ "{rel='nofollow'}") Resources:
 
 - Inventory Management: Advanced inventory management tools.
 - Analytics: In-depth analytics and reporting features.
@@ -75,7 +75,7 @@ For those who need powerful inventory and analytics tools, Volusion provides an 
 
 Weebly is an easy-to-use website builder that offers a range of e-commerce features. It’s particularly suitable for small businesses or startups due to its affordability and straightforward interface.
 
-Benefits of Building Websites on [Weebly](https://www.weebly.com):
+Benefits of Building Websites on [Weebly](https://www.weebly.com/ "{rel='nofollow'}"):
 
 - Ease of Use: Drag-and-drop builder that’s very beginner-friendly.
 - Affordability: Competitive pricing, making it accessible for small businesses.

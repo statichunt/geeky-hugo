@@ -1,4 +1,3 @@
-// The dropdown wrapper (`<div>`)
 .dropup,
 .dropend,
 .dropdown,
@@ -9,21 +8,19 @@
 .dropdown-toggle {
   white-space: nowrap;
 
-  // Generate the caret automatically
   @include caret();
 }
 
-// The dropdown menu
 .dropdown-menu {
   position: absolute;
   z-index: $zindex-dropdown;
-  display: none; // none by default, but block on "open" of the menu
+  display: none;
   min-width: $dropdown-min-width;
   padding: $dropdown-padding-y $dropdown-padding-x;
-  margin: 0; // Override default margin of ul
+  margin: 0;
   @include font-size($dropdown-font-size);
   color: $dropdown-color;
-  text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+  text-align: left;
   list-style: none;
   background-color: $dropdown-bg;
   background-clip: padding-box;
@@ -37,10 +34,6 @@
     margin-top: $dropdown-spacer;
   }
 }
-
-// scss-docs-start responsive-breakpoints
-// We deliberately hardcode the `bs-` prefix because we check
-// this custom property in JS to determine Popper's positioning
 
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
@@ -65,10 +58,7 @@
     }
   }
 }
-// scss-docs-end responsive-breakpoints
 
-// Allow for dropdowns to go bottom up (aka, dropup-menu)
-// Just add .dropup after the standard .dropdown class and you're set.
 .dropup {
   .dropdown-menu[data-bs-popper] {
     top: auto;
@@ -116,8 +106,6 @@
   }
 }
 
-
-// Dividers (basically an `<hr>`) within the dropdown
 .dropdown-divider {
   height: 0;
   margin: $dropdown-divider-margin-y 0;
@@ -125,24 +113,18 @@
   border-top: 1px solid $dropdown-divider-bg;
 }
 
-// Links, buttons, and more within the dropdown menu
-//
-// `<button>`-specific styles are denoted with `// For <button>s`
 .dropdown-item {
   display: block;
-  width: 100%; // For `<button>`s
+  width: 100%;
   padding: $dropdown-item-padding-y $dropdown-item-padding-x;
   clear: both;
   font-weight: $font-weight-normal;
   color: $dropdown-link-color;
-  text-align: inherit; // For `<button>`s
+  text-align: inherit;
   text-decoration: if($link-decoration == none, null, none);
-  white-space: nowrap; // prevent links from randomly breaking onto new lines
-  background-color: transparent; // For `<button>`s
-  border: 0; // For `<button>`s
-
-  // Prevent dropdown overflow if there's no padding
-  // See https://github.com/twbs/bootstrap/pull/27703
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
   @if $dropdown-padding-y == 0 {
     &:first-child {
       @include border-top-radius($dropdown-inner-border-radius);
@@ -172,7 +154,6 @@
     color: $dropdown-link-disabled-color;
     pointer-events: none;
     background-color: transparent;
-    // Remove CSS gradients if they're enabled
     background-image: if($enable-gradients, none, null);
   }
 }
@@ -181,24 +162,21 @@
   display: block;
 }
 
-// Dropdown section headers
 .dropdown-header {
   display: block;
   padding: $dropdown-header-padding;
-  margin-bottom: 0; // for use with heading elements
+  margin-bottom: 0;
   @include font-size($font-size-sm);
   color: $dropdown-header-color;
-  white-space: nowrap; // as with > li > a
+  white-space: nowrap;
 }
 
-// Dropdown text
 .dropdown-item-text {
   display: block;
   padding: $dropdown-item-padding-y $dropdown-item-padding-x;
   color: $dropdown-link-color;
 }
 
-// Dark dropdowns
 .dropdown-menu-dark {
   color: $dropdown-dark-color;
   background-color: $dropdown-dark-bg;

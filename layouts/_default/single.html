@@ -1,18 +1,15 @@
 {{ define "main" }}
 
-<!-- checking blog -->
 {{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq
 .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section
 "tags") }}
 
-<!--=================== section start ===================-->
 <section class="section-sm">
   <div class="container">
     {{ partial "breadcrumbs.html" . }}
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
 
-        <!-- image path -->
         {{ $imagePath:= .Params.image }} {{ if $imagePath }}
         <div class="position-relative">
           {{ partial "image.html" (dict "Src" $imagePath "Alt" .Title "Class"
@@ -49,7 +46,7 @@
         </ul>
         <div class="content drop-cap">{{.Content}}</div>
       </div>
-      <!-- sidebar widgets -->
+
       <aside class="col-lg-4">
         {{ $widget:= site.Params.widgets.sidebar }} {{ partialCached
         "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . )}}
@@ -57,9 +54,7 @@
     </div>
   </div>
 </section>
-<!--=================== section end ===================-->
 
-<!--=================== section start ===================-->
 <section class="section-sm pt-0">
   <div class="container">
     <div class="row">
@@ -70,7 +65,6 @@
       </div>
     </div>
 
-    <!-- related post -->
     <div class="article-nextprev">
       <div class="next-post">
         {{ if .Page.Next }}
@@ -84,9 +78,7 @@
         {{ end }}
       </div>
 </section>
-<!--=================== section end ===================-->
 
-<!-- regular page -->
 {{ else }} {{ partial "page-header.html" . }}
 <section class="section-sm">
   <div class="container">
@@ -98,6 +90,6 @@
   </div>
 </section>
 {{ end }}
-<!-- /regular page -->
+
 
 {{ end }}

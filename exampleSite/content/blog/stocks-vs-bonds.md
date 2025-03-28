@@ -1,6 +1,6 @@
 ---
 title: "Stocks vs Bonds"
-description: "Explore Discover the key differences between stocks and bonds, from risk levels to investment strategies. Learn which might suit your financial goals best."
+description: "Discover the key differences between stocks vs bonds, from risk levels to investment strategies. Learn which might suit your financial goals best."
 date: "2019-10-17T18:19:25+06:00"
 image: "images/post/bonds-vs-stocks.jpg"
 categories: ["investments"]

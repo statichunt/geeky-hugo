@@ -1,8 +1,3 @@
-// Base class
-//
-// Requires one of the contextual, color modifier classes for `color` and
-// `background-color`.
-
 .badge {
   display: inline-block;
   padding: $badge-padding-y $badge-padding-x;
@@ -16,13 +11,11 @@
   @include border-radius($badge-border-radius);
   @include gradient-bg();
 
-  // Empty badges collapse automatically
   &:empty {
     display: none;
   }
 }
 
-// Quick fix for badges in buttons
 .btn .badge {
   position: relative;
   top: -1px;

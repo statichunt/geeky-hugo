@@ -1,31 +1,22 @@
-//
-// Base styles
-//
-
 .input-group {
   position: relative;
   display: flex;
-  flex-wrap: wrap; // For form validation feedback
+  flex-wrap: wrap;
   align-items: stretch;
   width: 100%;
 
   > .form-control,
   > .form-select {
-    position: relative; // For focus state's z-index
+    position: relative;
     flex: 1 1 auto;
     width: 1%;
-    min-width: 0; // https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size
+    min-width: 0;
   }
 
-  // Bring the "active" form control to the top of surrounding elements
   > .form-control:focus,
   > .form-select:focus {
     z-index: 3;
   }
-
-  // Ensure buttons are always above inputs for more visually pleasing borders.
-  // This isn't needed for `.input-group-text` since it shares the same border-color
-  // as our inputs.
   .btn {
     position: relative;
     z-index: 2;
@@ -36,17 +27,11 @@
   }
 }
 
-
-// Textual addons
-//
-// Serves as a catch-all element for any text or radio/checkbox input you wish
-// to prepend or append to an input.
-
 .input-group-text {
   display: flex;
   align-items: center;
   padding: $input-group-addon-padding-y $input-group-addon-padding-x;
-  @include font-size($input-font-size); // Match inputs
+  @include font-size($input-font-size);
   font-weight: $input-group-addon-font-weight;
   line-height: $input-line-height;
   color: $input-group-addon-color;
@@ -56,12 +41,6 @@
   border: $input-border-width solid $input-group-addon-border-color;
   @include border-radius($input-border-radius);
 }
-
-
-// Sizing
-//
-// Remix the default form control sizing classes into new ones for easier
-// manipulation.
 
 .input-group-lg > .form-control,
 .input-group-lg > .form-select,
@@ -86,14 +65,6 @@
   padding-right: $form-select-padding-x + $form-select-indicator-padding;
 }
 
-
-// Rounded corners
-//
-// These rulesets must come after the sizing ones to properly override sm and lg
-// border-radius values when extending. They're more specific than we'd like
-// with the `.input-group >` part, but without it, we cannot override the sizing.
-
-// stylelint-disable-next-line no-duplicate-selectors
 .input-group {
   &:not(.has-validation) {
     > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),

@@ -1,7 +1,6 @@
 <meta charset="utf-8">
 <title>{{.Title | default site.Title}}</title>
 
-<!-- base url -->
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
 <base href="{{ site.BaseURL }}">
 {{ end }}
@@ -10,7 +9,6 @@
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
 
-<!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }}
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{.Lang}}" href="{{ .RelPermalink | absLangURL }}">
@@ -18,35 +16,12 @@
 <link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
 
-<!-- mobile responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<!-- theme meta -->
 <meta name="theme-name" content="geeky-hugo" />
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
-<!-- favicon -->
-{{ $favicon:= site.Params.favicon }}
-{{ if $favicon }}
-{{ if fileExists (add `assets/` $favicon) }}
-{{ $favicon:= resources.Get $favicon }}
-{{ $favicon_16:= $favicon.Resize "16x png"}}
-{{ $favicon_32:= $favicon.Resize "32x png"}}
-{{ $favicon_180:= $favicon.Resize "180x png"}}
-<link rel="shortcut icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
-<link rel="icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="16x16" href="{{$favicon_16.RelPermalink}}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{$favicon_32.RelPermalink}}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{$favicon_180.RelPermalink}}">
-{{ end }}
-{{ end }}
-<link rel="manifest" href="{{`manifest.webmanifest` | relURL }}">
-<meta name="msapplication-TileColor" content="{{site.Params.variables.color_primary | default `#da532c`}}">
-<meta name="theme-color" content="{{site.Params.variables.body_color | default `#ffffff` }}">
-
 {{partial "seo/main.html" .}}
-
-<!-- Canonical & Pagination SEO -->
 {{ if $.Scratch.Get "paginator" }}
   <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
   {{ if .Paginator.HasPrev }}
@@ -59,13 +34,8 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 {{ end }}
 
-<!-- site verifications -->
-{{ partialCached "site-verifications.html" . }}
-
-<!-- opengraph and twitter card -->
+{{ partialCached "favicon" . }}
+{{ partialCached "manifest" . }}
 {{ partial "basic-seo.html" . }}
-
-<!-- custom script -->
 {{ site.Params.custom_script | safeHTML}}
-
 {{ template "_internal/google_analytics.html" . }}

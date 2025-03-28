@@ -1,4 +1,3 @@
-<!-- DNS preconnect -->
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="preconnect" href="//ajax.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
@@ -17,7 +16,6 @@
 <link rel="dns-prefetch" href="//platform.linkedin.com">
 <link rel="dns-prefetch" href="//platform.twitter.com">
 
-<!-- plugins + stylesheet -->
 {{ $styles := slice }}
 {{ range site.Params.plugins.css }}
 {{ if findRE "^http" .link }}
