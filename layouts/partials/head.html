@@ -44,7 +44,6 @@
 <meta name="msapplication-TileColor" content="{{site.Params.variables.color_primary | default `#da532c`}}">
 <meta name="theme-color" content="{{site.Params.variables.body_color | default `#ffffff` }}">
 
-
 {{partial "seo/main.html" .}}
 
 <!-- Canonical & Pagination SEO -->
@@ -63,17 +62,10 @@
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
 
-
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
 
 <!-- custom script -->
 {{ site.Params.custom_script | safeHTML}}
 
-
-<!-- google analytics -->
 {{ template "_internal/google_analytics.html" . }}
-
-
-<!-- google tag manager -->
-{{ partialCached "gtm.html" . }}
