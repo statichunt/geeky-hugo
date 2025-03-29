@@ -40,7 +40,7 @@ Social media platforms often host microtasking opportunities as well, with compa
 
 #### CrowdSourcing Platforms
 
-Crowdsourcing platforms like Amazon Mechanical Turk, CrowdFlower, and [Clickworker](https://www.clickworker.com/ "{rel='nofollow'}") serve as hubs for microtasking opportunities across various domains. These platforms host a wide array of tasks ranging from data entry and content moderation to image tagging and transcription services. Users can browse through available tasks, complete them at their own pace, and earn money based on the volume and complexity of tasks completed.
+Crowdsourcing platforms like Amazon Mechanical Turk, CrowdFlower, and [Clickworker](https://www.clickworker.com/)serve as hubs for microtasking opportunities across various domains. These platforms host a wide array of tasks ranging from data entry and content moderation to image tagging and transcription services. Users can browse through available tasks, complete them at their own pace, and earn money based on the volume and complexity of tasks completed.
 
 #### Freelancing Websites
 

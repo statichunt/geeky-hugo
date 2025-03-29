@@ -29,7 +29,7 @@ Another popular tool, [Buffer](https://www.buffer.com), simplifies social media 
 
 ### 4. BuzzSumo Salesforce Social Studio
 
-Content curation is crucial for maintaining a fresh and engaging social media presence. [BuzzSumo](https://buzzsumo.com/ "{rel='nofollow'}") helps businesses discover trending content in their industry, allowing them to share relevant and timely information with their audience. By analyzing what content performs well, businesses can adapt their strategies to include similar topics, enhancing their visibility and engagement.
+Content curation is crucial for maintaining a fresh and engaging social media presence. [BuzzSumo](https://buzzsumo.com/)helps businesses discover trending content in their industry, allowing them to share relevant and timely information with their audience. By analyzing what content performs well, businesses can adapt their strategies to include similar topics, enhancing their visibility and engagement.
 
 ### 5. Canva
 

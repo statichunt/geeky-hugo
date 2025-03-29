@@ -82,7 +82,9 @@ Platforms like Spotify have been signing exclusive deals with popular podcasts t
 
 Yes, starting a podcast can involve various costs, so it's important to consider your [podcast budget](/blog/podcasting-equipment-budget/) carefully. When starting a business, especially in the podcasting realm, expenses such as equipment, hosting, and marketing can add up quickly. While some platforms offer free services, investing in quality tools and promotion often yields better results. Planning your podcast budget from the beginning ensures you allocate resources efficiently and helps set a strong foundation for your new venture.
 
-There are two ways to develop professional content. The first way is to record content at a studio and the second way is to use your own equipment. If you choose to record your podcast at a studio, more than likely you will have to pay for studio time. The average cost for booking time at an attractive studio can cost anywhere from $40 to $550 an hour. By the same token, you will need an audio engineer. Hiring a professional audio engineer will cost you between $35 and $250 per episode.
+There are two ways to develop professional content. The first way is to record content at a studio and the second way is to use your own equipment.
+
+If you choose to record your podcast at a studio, more than likely you will have to pay for studio time. The average cost for booking time at an attractive studio can cost anywhere from $40 to $550 an hour. By the same token, you will need an audio engineer. Hiring a professional audio engineer will cost you between $35 and $250 per episode.
 
 However, if you choose to record the podcast yourself, you’ll need to purchase the equipment and software. Indeed, it will be cheaper to record the content, but it will require most of your time.
 

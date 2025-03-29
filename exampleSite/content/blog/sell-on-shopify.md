@@ -105,7 +105,7 @@ You can find numerous [Shopify Apps](/blog/shopify-apps/) that can enhance your 
 
 - B2C Dropshipping: For dropshipping products directly to customers use [Oberlo](https://www.oberlo.com).
 - C2B Dropshipping: If you want to collect and display customer reviews explore Yotpo.
-- B2B Dropshipping: [Klaviyo](https://www.klaviyo.com/ "{rel='nofollow'}") is for advanced email marketing automation.
+- B2B Dropshipping: [Klaviyo](https://www.klaviyo.com/)is for advanced email marketing automation.
 
 ### Scale Your Shopify Business
 

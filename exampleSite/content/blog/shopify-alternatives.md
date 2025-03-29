@@ -62,7 +62,7 @@ If your primary focus is on having a visually [appealing online store](/blog/mos
 
 Should you pick Volusion over Shopify? Volusion offers a comprehensive set of e-commerce tools that can cater to businesses of all sizes. It's particularly strong in inventory management and analytics, making it a great choice for data-driven business owners.
 
-Essential [Volusion](https://www.volusion.com/ "{rel='nofollow'}") Resources:
+Essential [Volusion](https://www.volusion.com/)Resources:
 
 - Inventory Management: Advanced inventory management tools.
 - Analytics: In-depth analytics and reporting features.

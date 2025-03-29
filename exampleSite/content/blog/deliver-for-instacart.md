@@ -19,7 +19,7 @@ Additionally, the tech-driven nature of the job, managed through a user-friendly
 
 ## Deliver for Instacart, How to Get Started
 
-Delivering for [Instacart](https://instacart.oloiyb.net/c/2747132/413183/ "{rel='nofollow'}") has become a popular way to earn extra income in the growing gig economy. As a platform that connects customers with personal shoppers for grocery delivery, Instacart offers flexible work options for individuals seeking control over their schedules. With a relatively simple onboarding process and a growing demand for delivery services, it’s an appealing choice for many. However, success requires understanding how the platform works, meeting specific requirements, and applying strategies to maximize earnings.
+Delivering for [Instacart](https://instacart.oloiyb.net/c/2747132/413183/)has become a popular way to earn extra income in the growing gig economy. As a platform that connects customers with personal shoppers for grocery delivery, Instacart offers flexible work options for individuals seeking control over their schedules. With a relatively simple onboarding process and a growing demand for delivery services, it’s an appealing choice for many. However, success requires understanding how the platform works, meeting specific requirements, and applying strategies to maximize earnings.
 
 ### How the Grocery Delivery Service Operates
 

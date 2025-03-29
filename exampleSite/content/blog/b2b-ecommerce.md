@@ -11,8 +11,6 @@ draft: false
 
 When it comes to starting an online store for business to business (B2B) e-commerce, the benefits are numerous. It can drive increased sales, improve customer satisfaction, and enhance operational efficiency. Additionally, it enables businesses to reach a global audience and operate 24/7, offering unparalleled convenience for both buyers and sellers.
 
-{{< toc >}}
-
 ## What is B2B Ecommerce
 
 B2B e-commerce refers to online transactions between businesses rather than between a business and individual consumers. This sector has seen significant growth due to digital transformation and the increased demand for efficient procurement processes. Understanding _B2B e-commerce_ is crucial for any business looking to expand its reach and streamline its operations.
