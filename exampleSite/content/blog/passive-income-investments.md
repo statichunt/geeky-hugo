@@ -27,7 +27,7 @@ While passive income is generally sought after for financial freedom, reverse pa
 
 Before diving in, it's crucial to explore an [intro to investing](/blog/introduction-to-investing/). Start by assessing your risk tolerance. Research the market thoroughly to make informed decisions. Understand the time commitment required for managing investments. Diversify your portfolio to mitigate risks. Always keep an eye on market trends and economic indicators. This preparation helps in making sound investment choices.
 
-## Passive Income Ideas
+## Passive Income Investments
 
 The quest for financial freedom and security has led many individuals to explore passive income ideas as a means to generate wealth and achieve financial independence. [Top investors](/blog/top-investors/) often seek ways to earn passive income. Investing in dividend stocks is a popular choice. Rental properties can provide steady monthly income. Consider peer-to-peer lending for interest earnings. Create digital products like e-books or courses. Invest in index funds for diversified growth. Each method requires different levels of effort and initial investment.
 

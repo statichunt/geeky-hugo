@@ -17,7 +17,7 @@ For those looking for a [real side hustle](/blog/creative-side-hustles/) to earn
 
 Additionally, the tech-driven nature of the job, managed through a user-friendly app, adds to its appeal by offering a modern, flexible, and convenient way to work.
 
-## Deliver for Instacart, How to Get Started
+## Deliver for Instacart, How to Start
 
 Delivering for Instacart has become a popular way to earn extra income in the growing gig economy. As a platform that connects customers with personal shoppers for grocery delivery, Instacart offers flexible work options for individuals seeking control over their schedules. With a relatively simple onboarding process and a growing demand for delivery services, it’s an appealing choice for many. However, success requires understanding how the platform works, meeting specific requirements, and applying strategies to maximize earnings.
 

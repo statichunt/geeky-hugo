@@ -29,7 +29,7 @@ _Key Players_:
 There are five steps that take place in the referral marketing process:
 
 - Merchant Partnership: First, a merchant signs up and pays a partner network to sell products or offer services.
-- After joining a [referral program](/blog/best-affiliate-programs/), the publisher receives unique custom links to sell digital products or offer services.
+- After joining a [top notch affiliate program](/blog/best-affiliate-programs/), the publisher receives unique custom links to sell digital products or offer services.
 - Next, the product or service is promoted on the publisher's platform, i.e., (social media channel, website, blog).
 - A customer purchases a product or service on the publisher's platform.
 - Lastly, the publisher earns a payout for qualified actions, and the merchant earns a return on investment.

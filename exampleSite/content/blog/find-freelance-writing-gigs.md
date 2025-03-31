@@ -65,7 +65,7 @@ Rejection is part of the freelance writing journey. Learn from the feedback and 
 
 ### Diversify Your Income Streams
 
-Relying on a single client or type of writing can be risky. Diversify your income by exploring different writing opportunities, such as blogging, copywriting, technical writing, or [grant writing](/blog/grant-writing-strategies/). Consider creating your own products, like eBooks or online courses.
+Relying on a single client or type of writing can be risky. Diversify your income by exploring different writing opportunities, such as blogging, copywriting, or technical writing. Consider creating your own products, like eBooks or online courses.
 
 ### Find Solid Freelance Platforms
 
