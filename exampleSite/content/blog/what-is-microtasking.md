@@ -48,7 +48,7 @@ Freelancing platforms such as Upwork, Freelancer, and Fiverr aren't just limited
 
 #### Task-Based Mobile Apps
 
-In addition to web-based platforms, task-based mobile apps have emerged as convenient avenues for microtasking on the go. Apps like TaskRabbit, [Gigwalk](https://www.gigwalk.com/ "{rel='nofollow'}"), and Field Agent connect users with local, location-based tasks such as grocery shopping, product scanning, and mystery shopping.
+In addition to web-based platforms, task-based mobile apps have emerged as convenient avenues for microtasking on the go. Apps like TaskRabbit, [Gigwalk](https://www.gigwalk.com/), and Field Agent connect users with local, location-based tasks such as grocery shopping, product scanning, and mystery shopping.
 
 #### Online Marketplaces
 

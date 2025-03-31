@@ -27,7 +27,7 @@ Affiliaxe is a beloved choice among marketers, stands out for its commitment to 
 
 ### 2. Amazon Associates
 
-Why should you join [Amazon’s affiliate program](https://affiliate-program.amazon.com/ "{rel='nofollow'}")? I’ll give you one reason, ‘competitiveness’. When it comes to purchasing products online, most customers like to bargain shop. This means they will keep shopping until they find the cheapest price for goods they’re purchasing. And, Amazon seems to keep offering better prices than their competitors. This is one of many reasons Amazon is the world’s largest eCommerce site.
+Why should you join [Amazon’s affiliate program](https://affiliate-program.amazon.com/)? I’ll give you one reason, ‘competitiveness’. When it comes to purchasing products online, most customers like to bargain shop. This means they will keep shopping until they find the cheapest price for goods they’re purchasing. And, Amazon seems to keep offering better prices than their competitors. This is one of many reasons Amazon is the world’s largest eCommerce site.
 
 ### 3. ClickBank.com
 
