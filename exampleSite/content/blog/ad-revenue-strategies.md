@@ -1,5 +1,5 @@
 ---
-title: "Powerful Revenue Strategies"
+title: "Powerful Ad Revenue Strategies"
 description: "Expert revenue strategies to boost your earnings. Learn how to optimize placements, balance user experience, and increase ROI with actionable insights."
 date: "2019-10-30T18:19:25+06:00"
 image: "images/post/ad-revenue-techniques.jpg"

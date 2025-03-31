@@ -13,7 +13,7 @@ There are several reasons why you should consider the **fundamentals of affiliat
 
 As an experienced affiliate marketer, I'm excited to guide you through the ins and outs of this lucrative industry. By the end of this article, you’ll understand how referral partnerships work and how you can start earning income through them. More importantly, you can find out how to become a successful partner in the space.
 
-## What is Referral-Based Marketing?
+## What is Affiliate Marketing?
 
 A short version would be: a performance-based advertising model where publishers earn commissions for leads, sales, or referrals. When customers take specific actions like purchasing goods or signing up for trials, partners earn a commission. Typically, partners promote vendors’ products or services through websites, blogs, and social media using referral links and banners.
 
