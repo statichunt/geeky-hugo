@@ -22,23 +22,10 @@
                     <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
                   </h3>
                   <ul class="list-inline card-meta d-flex align-items-center mb-3">
-                    {{ if .Params.country }}
-                    <li class="list-inline-item d-flex align-items-center">
-                      <i class="fas fa-map-pin me-2"></i>
-                      {{ $country := .Params.country }}
-                      {{ $link := add "search/?s=" $country }}
-                      <a href="{{ $link | relLangURL }}">{{ .Params.country | title }}</a>
-                    </li>
-                    {{ end }}
                     <li class="list-inline-item d-flex align-items-center">
                       <i class="fas fa-calendar me-2"></i>
                       <span>{{ time.Format ":date_long" .PublishDate }}</span>
                     </li>
-                    {{ if .Params.sponsored }}
-                    <li class="list-inline-item d-flex align-items-center">
-                      <i>Sponsorizzato</i>
-                    </li>
-                    {{ end }}
                   </ul>
                 </div>
               </div>
@@ -46,9 +33,6 @@
             {{ end }}
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 </section>
 <section class="section" style="padding-top: 0px;">
   <div class="container">
