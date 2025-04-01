@@ -65,19 +65,17 @@
       </div>
     </div>
 
-    <div class="article-nextprev">
-      <div class="next-post">
-        {{ if .Page.Next }}
-        <a class="link-reverse" href="{{ .Page.Next.Permalink }}?ref=footer">« {{ .Page.Next.Title | truncate 50 "..." }}</a>
+      <!-- related post -->
+      <div class="row">
+        {{ $related := (where site.RegularPages "Section" "in"
+        site.Params.mainSections) | intersect (where site.RegularPages ".Title"
+        "!=" .Title) | union (site.RegularPages.Related . ) }} {{ range first 3
+        $related }}
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">{{ .Render "post" }}</div>
         {{ end }}
       </div>
-
-      <div class="previous-post">
-        {{ if .Page.Prev }}
-        <a class="link-reverse" href="{{ .Page.Prev.Permalink }}?ref=footer">{{ .Page.Prev.Title | truncate 50 "..."}} »</a>
-        {{ end }}
-      </div>
-</section>
+    </div>
+  </section>
 
 {{ else }} {{ partial "page-header.html" . }}
 <section class="section-sm">
