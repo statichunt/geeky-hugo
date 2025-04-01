@@ -1,7 +1,7 @@
 ---
 title: "Affiliate Marketing Fundamentals"
 description: "Learn the basics of affiliate marketing, how it works, key players, program types, and proven strategies to start earning income online today."
-date: "2019-10-10T18:19:25+06:00"
+date: "2019-10-10T18:19:25+06:00"                      
 image: "images/post/affiliate-marketing-basics.jpg"
 categories: ["monetizing"]
 tags: ["affiliate marketing"]

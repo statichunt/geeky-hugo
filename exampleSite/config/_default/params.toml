@@ -1,9 +1,9 @@
 favicon = "images/favicon.png"
 logo = "images/logo.png"
 logo_width = "150x"
-logo_text = "Earn Money Online"
+logo_text = "Generate Income Online"
 navbar_fixed = false
-description = "Ultimate guide to earn money online free. Find legitimate side hustles, passive income ideas, online jobs & more. Learn how to get paid from home today."
+description = "Want to generate income online? Find free ways to earn money via side hustles, remote online jobs, or home-based business opportunities. Pursue financial freedom now!"
 author = "Dejuan Jones"
 image = "images/logo.png"
 contact_form_action = "https://formspree.io/f/xdoreeqg"
@@ -11,7 +11,7 @@ search = true
 ## Twitter Cards
 twitterSite = "@moneyonline_fre"
 twitterCreator = "@moneyonline_fre"
-alternateName = "Earn Money Online: Side Hustles, Online Jobs, Passive Income Ideas"
+alternateName = "Earn Money Online"
 authorURL= "https://earnonlinemoney.org/about"
 
 categories_title = "Blog Categories"
@@ -20,7 +20,6 @@ featured_post_title = "Featured Post"
 recent_post_title = "Recent Post"
 featured_post_button = "Featured"
 recent_post_button = "Recent"
-explore_button = "Explore"
 previous_button = "Previous"
 next_button = "Next"
 related_posts = "Related Posts"
@@ -29,7 +28,6 @@ no_categories_found = "No Categories Found"
 no_tags_found = "No Tags Found"
 
 mainSections = ["blog"]
-about_widget_content = "Find Us On Social Media."
 
 footer_content = "Empowering you with the best ideas to earn online—because financial freedom starts with the right knowledge."
 
@@ -43,8 +41,6 @@ error_404_button = "Back To Home"
 enable = true
 title_large = "Earn **Money** Online"
 title_small = "Passive Income Ideas"
-image = "images/cash-banner.png"
-background_image = "/images/banner-bg-shape.svg"
 content = "Welcome! Your journey to earning money online starts now. Here you can learn how to make money from home, start your own business, and build financial freedom. From online jobs and side hustles to entrepreneurial ideas and passive income opportunities—there’s something here for everyone, including students, stay-at-home moms, and invdividuals with no experiencene. No matter where you live—Africa, Panama, South America, Asia, the UK, or beyond—opportunities to earn are everywhere, and we are here to help you find them."
 
 [cookies]
