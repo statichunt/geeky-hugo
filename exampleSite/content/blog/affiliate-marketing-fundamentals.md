@@ -11,7 +11,7 @@ draft: false
 
 There are several reasons why you should consider the **fundamentals of affiliate marketing**. To begin with, over the last decade, the referral marketing industry has grown tremendously. According to research, the referral marketing space was valued at around 13 billion in 2016. Fast-forward to 2023, it is worth 17 billion. On top of that, you can earn passive income and generate online income 24/7, even while you sleep!
 
-As an experienced affiliate marketer, I'm excited to guide you through the ins and outs of this lucrative industry. By the end of this article, you’ll understand how referral partnerships work and how you can start earning income through them. More importantly, you can find out how to become a successful partner in the space.
+As an experienced affiliate marketer, I'm excited to guide you through the ins and outs of this lucrative industry. By the end of this article, you’ll understand how referral partnerships work and how you can start [earning money online](/blog/ways-to-make-money)through them. More importantly, you can find out how to become a successful partner in the space.
 
 ## What is Affiliate Marketing?
 

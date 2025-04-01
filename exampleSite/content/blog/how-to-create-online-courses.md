@@ -13,6 +13,10 @@ Online learning and education continues to grow at a record setting pace. Accord
 
 ## How to Create Online Courses
 
+Teaching online is a smart way to earn money online. Many people are looking for skills you already have.
+
+You don’t need to be a tech expert. If you can explain things clearly, you can teach. Online platforms make it simple to get started. Sharing your knowledge can help others—and help you [earn money online fast](/blog/ways-to-make-money).
+
 Developing an online course can be a lucrative endeavor. Start by considering your passions and areas of expertise. Your course should be on a topic you're knowledgeable about and excited to teach. This enthusiasm will translate into engaging content for your students.
 
 ### 1. Research Market Demand
@@ -42,8 +46,8 @@ For example, if you want to learn web development, define specific outcomes like
 Selecting the [best platforms for online courses](/blog/best-online-course-platforms/) to host your content is crucial for the success of your course. Consider factors like ease of use, features, pricing, and audience reach.
 
 - Teachable: Known for its user-friendly interface and powerful marketing tools.
-- Udemy: Offers a massive audience and extensive marketing support.
 - Kajabi: An all-in-one platform with robust course creation and marketing features.
+- Udemy: Offers a massive audience and extensive marketing support. Learn how to [earn money on Udemy](/blog/make-money-on-udemy) by exploring this guide.
 
 ### 7. Set Up Your Course
 

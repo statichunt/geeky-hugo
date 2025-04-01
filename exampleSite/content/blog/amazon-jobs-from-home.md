@@ -19,7 +19,7 @@ In this guide, we’ll explore 15 legitimate **Amazon work from home jobs** that
 
 ### 1. Amazon-Flex
 
-If you enjoy driving, [Amazon Flex](https://flex.amazon.com/)could be a way for you to make an additional income. Flex jobs pay $5 per hour. The work you perform involves delivering products. To be eligible to deliver items, workers must be at the warehouse. This is how it works. First, the customer orders merchandise from the vendor. After the vendor receives the order, the vendor appoints one of their drivers (you) to deliver the product. The driver (you) picks up the merchandise from Amazon's warehouse, then delivers the merchandise to the customer. After the customer receives their order, they sign off and pay for the merchandise. After they sign off, they transfer funds to your account, you may also receive a tip.
+If you enjoy driving, [Amazon Flex](https://flex.amazon.com/) could be a way for you to make an additional income. Flex jobs pay $5 per hour. The work you perform involves delivering products. To be eligible to deliver items, workers must be at the warehouse. This is how it works. First, the customer orders merchandise from the vendor. After the vendor receives the order, the vendor appoints one of their drivers (you) to deliver the product. The driver (you) picks up the merchandise from Amazon's warehouse, then delivers the merchandise to the customer. After the customer receives their order, they sign off and pay for the merchandise. After they sign off, they transfer funds to your account, you may also receive a tip.
 
 ### 2. Customer Service Associate
 

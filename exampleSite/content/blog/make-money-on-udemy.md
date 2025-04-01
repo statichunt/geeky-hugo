@@ -17,11 +17,13 @@ When it comes to [online course creation](/blog/how-to-create-online-courses/), 
 
 ## What is Udemy
 
-For starters, Udemy is online learning platform that offers a diverse array of courses taught by experts from around the world. Whether you're interested in mastering programming languages, honing your photography skills, or delving into mindfulness practices, Udemy has something for everyone. With over 155,000 courses available, learners can explore virtually any topic imaginable.
+Founded in 2010 by Eren Bali, Gagan Biyani, and Oktay Caglar, Udemy emerged as a revolutionary platform aimed at democratizing education More importantly, Udemy has become one of the [best online learning platforms](/blog/best-online-course-platforms/).
+
+For starters, Udemy is online an learning platform that offers a diverse array of courses taught by experts from around the world. Whether you're interested in mastering programming languages, honing your photography skills, or delving into mindfulness practices, Udemy has something for everyone. With over 155,000 courses available, learners can explore virtually any topic imaginable.
 
 ## How to Make Money on Udemy
 
-Founded in 2010 by Eren Bali, Gagan Biyani, and Oktay Caglar, Udemy emerged as a revolutionary platform aimed at democratizing education More importantly, Udemy has become one of the [best online learning platforms](/blog/best-online-course-platforms/). The founders envisioned a space where anyone, regardless of their background or location, could learn new skills and pursue their passions. From its humble beginnings, Udemy has evolved into a global marketplace boasting thousands of courses across various disciplines. Lets examine how to [earn money teaching online courses](/blog/make-money-teaching-online-courses/) on Udemy:
+From its humble beginnings, Udemy has evolved into a global marketplace boasting thousands of courses across various disciplines. Lets examine how to [earn money teaching online courses](/blog/make-money-teaching-online-courses/) on Udemy:
 
 ### Choose Your Niche Wisely
 
