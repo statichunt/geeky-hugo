@@ -1,16 +1,16 @@
 ---
 title: "Privacy Policy"
-description: "this is meta-description"
+description: "Be sure to read our privacy policy."
 draft: false
 ---
 
 ### What personal data we collect and why we collect it
 
-At Earnonlinemoney, accessible from earnonlinemoney.org, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Earnonlinemoney and how we use it.
+At Earnonlinemoney, accessible from 'earnonlinemoney.org', one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Earnonlinemoney and how we use it.
 
-Privacy Notice Last updated Mar 9, 2025
+Privacy Notice Last updated Apr 1, 2025
 
-Thank you for choosing to be part of our community at earnonlinemoney.org (“Company”, “we”, “us”, or “our”). Please read this privacy notice carefully as it will help you make informed decisions about sharing your personal information with us. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us though our contact page. When you visit our website https://earnonlinemoney.org, and use our services, you trust us with your personal information. We take your privacy very seriously.
+Thank you for choosing to be part of our community at 'earnonlinemoney.org' (“Company”, “we”, “us”, or “our”). Please read this privacy notice carefully as it will help you make informed decisions about sharing your personal information with us. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us though our contact page. When you visit our website 'earnonlinemoney.org', and use our services, you trust us with your personal information. We take your privacy very seriously.
 
 In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Sites and our services.
 
@@ -42,7 +42,7 @@ If you leave a comment on our site you may opt-in to saving your name, email add
 
 Like any other website, Earnonlinemoney uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
 
-For more general information on cookies, please read <a href="https://www.cookieconsent.com/what-are-cookies/" rel="nofollow">"What Are Cookies"</a>.
+For more general information on cookies, please read 'www.cookieconsent.com/what-are-cookies/'.
 
 ### Advertising Partners Privacy Policies
 
@@ -58,15 +58,15 @@ Earnonlinemoney's Privacy Policy does not apply to other advertisers or websites
 
 * Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites.
 * Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet.
-* Users may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" rel="nofollow">Ads Settings</a>. (Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for personalized advertising by visiting <a href="https://www.aboutads.info/choices/" rel="nofollow">aboutads</a>.)
+* Users may opt out of personalized advertising by visiting 'www.google.com/settings/ad' . Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for personalized advertising by visiting 'www.aboutads.info/choices/'.
 
-If you have not <a href="https://support.google.com/dfp_premium/answer/94152" rel="nofollow">opted out of third-party ad serving</a>, the cookies of other <a href="https://support.google.com/dfp_premium/answer/94149" rel="nofollow">third-party vendors or ad networks</a> may also be used to serve ads on your site, which should also be disclosed in your privacy policy in the following manner:
+If you have not 'support.google.com/dfp_premium/answer/94152', the cookies of other 'support.google.com/dfp_premium/answer/94149' may also be used to serve ads on your site, which should also be disclosed in your privacy policy in the following manner:
 
 * Notify your site visitors of the third-party vendors and ad networks serving ads on your site.
 * Provide links to the appropriate vendor and ad network websites.
-* Inform your users that they may visit those websites to opt out of the use of cookies for personalized advertising (if the vendor or ad network offers this capability). Alternatively, you can direct users to opt out of some third-party vendors’ uses of cookies for personalized advertising by visiting <a href="https://www.aboutads.info/choices/" rel="nofollow">aboutads</a>.
+* Inform your users that they may visit those websites to opt out of the use of cookies for personalized advertising (if the vendor or ad network offers this capability). Alternatively, you can direct users to opt out of some third-party vendors’ uses of cookies for personalized advertising by visiting 'www.aboutads.info/choices/'.
 
-Because publisher sites and laws across countries vary, we're unable to suggest specific privacy policy language. However, you may wish to review resources such as the <a href="https://www.networkadvertising.org/" rel="nofollow">Network Advertising Initiative</a> for guidance on drafting a privacy policy. For additional details regarding cookie consent notices, please refer to <a href="https://cookiechoices.org/" rel="nofollow">cookiechoices</a>.
+Because publisher sites and laws across countries vary, we're unable to suggest specific privacy policy language. However, you may wish to review resources such as the 'www.networkadvertising.org/' for guidance on drafting a privacy policy. For additional details regarding cookie consent notices, please refer to cookiechoices.org/" rel="nofollow">cookiechoices</a>.
 
 ### CCPA Privacy Rights (Do Not Sell My Personal Information)
 
@@ -110,7 +110,7 @@ If you have an account on this site, or have left comments, you can request to r
 
 When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
 
-An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: <a href="https://automattic.com/privacy/" rel="nofollow">automattic.com</a>. After approval of your comment, your profile picture is visible to the public in the context of your comment.
+An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: 'automattic.com/privacy'. After approval of your comment, your profile picture is visible to the public in the context of your comment.
 
 ### How to contact us
 

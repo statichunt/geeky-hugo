@@ -4,8 +4,8 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Start Here"
+url = "start/"
 weight = 2
 
 [[main]]
@@ -14,8 +14,8 @@ url = "blog/"
 weight = 3
 
 [[footer]]
-name = "Home"
-url = "/"
+name = "About"
+url = "about/"
 weight = 1
 
 [[footer]]

@@ -65,16 +65,15 @@
       </div>
     </div>
 
-      <!-- related post -->
-      <div class="row">
-        {{ $related := (where site.RegularPages "Section" "in"
-        site.Params.mainSections) | intersect (where site.RegularPages ".Title"
-        "!=" .Title) | union (site.RegularPages.Related . ) }} {{ range first 3
-        $related }}
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">{{ .Render "post" }}</div>
-        {{ end }}
+    <nav class="article-nextprev" aria-label="Post navigation">
+      {{ if .Page.Next }}
+      <div class="next-post">
+        <a class="link-reverse" href="{{ .Page.Next.Permalink }}" rel="next">
+          « {{ .Page.Next.Title | truncate 50 "..." }}
+        </a>
       </div>
-    </div>
+      {{ end }}
+    </nav>
   </section>
 
 {{ else }} {{ partial "page-header.html" . }}

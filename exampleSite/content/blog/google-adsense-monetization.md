@@ -2,7 +2,7 @@
 title: "Complete Google Adsense Monetization Guide"
 description: "Unlock residual income with this complete Google AdSense monetization guide! Learn proven strategies to optimize your site, boost revenue, and grow your empire."
 image: "images/make-money-google-ads.jpg"
-date: 2023-12-24T18:19:25+06:00"
+date: "2023-12-24T18:19:25+06:00"
 categories: ["monetizing"]
 tags: ["strategies"]
 type: "regular"
