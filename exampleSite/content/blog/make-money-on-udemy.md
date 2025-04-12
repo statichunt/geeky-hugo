@@ -41,7 +41,7 @@ In a competitive marketplace like Udemy, visibility is key to attracting student
 
 Building a strong rapport with your students is essential for fostering a positive learning environment and encouraging repeat enrollments. Respond promptly to student inquiries and feedback, participate in course discussions, and consider hosting live Q&A sessions to provide additional support and guidance.
 
-## Maximizing Your Earnings Potential on Udemy
+### How to Maximize Your Earnings
 
 While creating and publishing courses on Udemy is free, instructors earn revenue through course sales and instructor promotions. Udemy operates on a revenue-sharing model, where instructors typically earn a percentage of the course sales generated through organic discovery or instructor promotions.
 

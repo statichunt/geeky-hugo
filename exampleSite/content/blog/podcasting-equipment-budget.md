@@ -21,7 +21,7 @@ It's okay to start with entry-level gear and upgrade later as your podcast grows
 
 ### Identify Essential Equipment
 
-Before you start shopping for your podcast, it's crucial to understand what you really need. Are you hosting a solo podcast, or do you have multiple co-hosts or guests? Are you planning to do audio-only, or are you venturing into video podcasting as well? Your answers to these questions will guide your equipment choices.
+Before you start shopping for your podcast, it's crucial to understand what you really need to [build your podcast brand](/blog/podcaster-brand-building/). Are you hosting a solo podcast, or do you have multiple co-hosts or guests? Are you planning to do audio-only, or are you venturing into video podcasting as well? Your answers to these questions will guide your equipment choices.
 
 In the beginning of my podcasting days I was flying solo, recording from a small corner in my basement. Knowing this helped me avoid spending on unnecessary gear like extra microphones and complex mixers. Instead, I focused on the essentials that would give me the best audio quality for my situation.
 

@@ -59,7 +59,7 @@ For the past 7 years, Flexoffers has been a top 10 affiliate network. Flexoffers
 
 ### 7. PartnerStack.com
 
-PartnerStack connects marketers with product owners. This organization specializes in helping merchants and advertisers maximize their potential. They also help you recruit relreferral partners, consultants, qualified leads, and more.
+PartnerStack connects marketers with product owners. This organization specializes in helping merchants and advertisers maximize their potential. They also help you recruit referral partners, consultants, qualified leads, and more.
 
 ### 8. ShareASale.com
 

@@ -71,7 +71,7 @@ How to sell digital products without a website?
 
 You can easily sell downloadable items without owning a website. Use marketplaces like Gumroad, Amazon Kindle Direct Publishing, or even social media platforms like Instagram and Facebook. These marketplaces provide built-in audiences, secure payment processing, and easy-to-use sales tools, enabling you to reach buyers without managing your own website.
 
-Can I [sell digital products on Etsy](/blog/sell-products-on-etsy) for free?
+Can I [sell digital products on Etsy](/blog/sell-products-on-etsy/) for free?
 
 Listing downloadable items on Etsy involves minimal costs, typically around $0.20 per listing, plus transaction fees once you make a sale. Although Etsy isn’t entirely free, these nominal fees are affordable and manageable, making it a viable and cost-effective option for selling virtual products to a broad audience.
 

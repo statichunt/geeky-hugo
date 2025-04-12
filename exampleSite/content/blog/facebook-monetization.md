@@ -23,7 +23,7 @@ Facebook provides multiple avenues for users to monetize their content, includin
 
 ### Performance Bonus
 
-At Facebook, the [Performance Bonus program](https://creators.facebook.com/programs/bonuses) is designed to recognize and reward employees for their exceptional contributions and achievements throughout the year. This bonus system reflects Facebook's commitment to fostering a culture of excellence and innovation. Employees who consistently go above and beyond, demonstrate exceptional teamwork, and drive impactful results are eligible for this recognition. The Performance Bonus serves as more than just financial compensation; it's a testament to the dedication and hard work that define Facebook's dynamic workforce. It motivates employees to strive for excellence and fuels a sense of accomplishment and pride in their work. Through this program, Facebook celebrates individual and collective successes, reinforcing its commitment to rewarding talent and fostering a thriving community of innovators.
+At Facebook, the Performance Bonus program is designed to recognize and reward employees for their exceptional contributions and achievements throughout the year. This bonus system reflects Facebook's commitment to fostering a culture of excellence and innovation. Employees who consistently go above and beyond, demonstrate exceptional teamwork, and drive impactful results are eligible for this recognition. The Performance Bonus serves as more than just financial compensation; it's a testament to the dedication and hard work that define Facebook's dynamic workforce. It motivates employees to strive for excellence and fuels a sense of accomplishment and pride in their work. Through this program, Facebook celebrates individual and collective successes, reinforcing its commitment to rewarding talent and fostering a thriving community of innovators.
 
 ### Develop a Social Media Presence
 
@@ -36,7 +36,7 @@ While the avenues for Facebook monetization are vast, achieving success requires
 
 ### Facebook Stars
 
-For creators, [Facebook Stars](https://creators.facebook.com/tools/stars) offer a way to monetize their content and engage with their audience in real-time. It provides an additional revenue stream beyond traditional advertising or sponsorship deals. Creators can also see their supporters in the chat, fostering a sense of community and connection.
+For creators, Facebook Stars offer a way to monetize their content and engage with their audience in real-time. It provides an additional revenue stream beyond traditional advertising or sponsorship deals. Creators can also see their supporters in the chat, fostering a sense of community and connection.
 
 ### Facebook Reels
 

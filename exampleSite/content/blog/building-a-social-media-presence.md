@@ -9,7 +9,7 @@ type: "regular"
 draft: false
 ---
 
-Ready to turn your scroll time into spotlight time? **Building your social media presenc**e isn't just about likes and followers anymore-it’s about creating influence, attracting opportunities, and owning your digital voice. Whether you're launching a brand, growing a business, or building your personal identity, your social media game can make or break your momentum. It’s time to stop lurking and start leading.
+Ready to turn your scroll time into spotlight time? **Building your social media presence** isn't just about likes and followers anymore-it’s about creating influence, attracting opportunities, and owning your digital voice. Whether you're launching a brand, growing a business, or building your personal identity, your social media game can make or break your momentum. It’s time to stop lurking and start leading.
 
 In today’s fast-moving digital world, the right strategy on social media can open doors you didn’t even know existed. From engaging content to authentic interaction, every post is a chance to build trust, connect with the right audience, and position yourself as a go-to authority in your niche. Let’s dive into the steps that will help you grow with confidence, build a loyal following, and make your presence impossible to ignore.
 
@@ -63,7 +63,7 @@ Building a social presence can be time-consuming, especially if you're managing 
 
 #### Explore Different Social Media Monetization Strategies
 
-You can can easily [leverage different monetization strategies]({{< relref "blog/social-media-monetization.md#leverage-different-monetization-strategies" >}}) by way of;
+You can can easily [leverage different monetization strategies](/blog/social-media-monetization#leverage-different-monetization-strategies) by way of;
 
 - TikTok Monetization: There are various TikTok monetization opportunities, like TikToks Creator Fund, brand collaboration, receiving gifts from live streams and more.
 - Earn Money on Pinterest: Publishers can [earn money on Pinterest](/blog/make-money-on-pinterest/) with idea pins and ads.

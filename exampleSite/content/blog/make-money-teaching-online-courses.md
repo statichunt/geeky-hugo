@@ -13,7 +13,7 @@ Teaching online courses has become not only a viable option but also a preferred
 
 ## Make Money Teaching Online Courses
 
-Online courses refer to educational programs delivered entirely or primarily through the internet. They encompass a wide range of subjects and formats, including video lectures, interactive modules, discussion forums, quizzes, and assignments. Unlike traditional classroom-based learning, online courses provide flexibility and convenience, allowing students to access course materials and participate in activities from anywhere with an internet connection. Read our in depth article on [Real Ways to Earn Money Online](/blog/ways-to-make-money)!
+Online courses refer to educational programs delivered entirely or primarily through the internet. They encompass a wide range of subjects and formats, including video lectures, interactive modules, discussion forums, quizzes, and assignments. Unlike traditional classroom-based learning, online courses provide flexibility and convenience, allowing students to access course materials and participate in activities from anywhere with an internet connection. Read our in depth article on [Real Ways to Earn Money Online](/blog/ways-to-make-money/)!
 
 ### Types of Online Courses
 

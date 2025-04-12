@@ -19,7 +19,7 @@ Google AdSense, a program developed by Google, serves as an advertising platform
 
 ## How Does it Work?
 
-For those who don't know, Google Adsense offers one of the best opportunities to [earn ad revenue](/blog/ad-revenue-strategies). Companies or individuals offer a specific amount which they will pay per click to the Adwords program. They have two options, Pay Per Click (PPC) or Pay Per Impression (PPI).
+For those who don't know, Google Adsense offers one of the best opportunities to [earn ad revenue](/blog/ad-revenue-strategies/). Companies or individuals offer a specific amount which they will pay per click to the Adwords program. They have two options, Pay Per Click (PPC) or Pay Per Impression (PPI).
 
 PPC Model: With the pay-per-click model, website owners earn revenue each time a visitor clicks on an ad displayed on their site. The amount earned per click varies based on factors like ad type, content relevance, and advertiser bids.
 
@@ -29,11 +29,11 @@ PPI Model: In the pay-per-impression model, earnings are based on the number of 
 
 Want to maximize your earnings? Here’s how to leverage Google Ads:
 
-* Google Ads: AdSense remains a cornerstone for [monetizing websites](/blog/how-to-monetize-a-website). By placing targeted ads on your site, you can earn revenue based on user interactions, clicks, or impressions.
+* Google Ads: AdSense remains a cornerstone for [monetizing websites](/blog/how-to-monetize-a-website/). By placing targeted ads on your site, you can earn revenue based on user interactions, clicks, or impressions.
 * Display Network: Reach a broader audience by showing ads across Google’s vast network of websites.
 * Search Network Campaigns: Bid on relevant keywords to get your ads in front of users actively searching for related content.
 * Remarketing: Re-engage visitors who didn’t convert with remarketing campaigns.
-* Affiliate Marketing with Ads: Combine [affiliate marketing opportunities](/blog/affiliate-marketing-fundamentals) with Google Ads to earn commissions by promoting third-party products or services.
+* Affiliate Marketing with Ads: Combine [affiliate marketing opportunities](/blog/affiliate-marketing-fundamentals/) with Google Ads to earn commissions by promoting third-party products or services.
 * App Monetization: Mobile app developers can earn through in-app ads or by promoting other apps.
 * Local Business Ads: Use Google Ads to target local customers for brick-and-mortar businesses.
 * E-commerce Promotion: Boost e-commerce sales by promoting products with Google Shopping ads to users searching for similar items.

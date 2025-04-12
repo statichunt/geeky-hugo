@@ -21,6 +21,8 @@ Many publishers have partnered with YouTube’s network to make money over the l
 2. Researching Your Niche: Once you have a few ideas, research their viability on YouTube. Look at the existing channels in that niche. Are they successful? How competitive is the niche? Use tools like Google Trends and YouTube Analytics to gauge interest and search volume for your chosen topics.
 3. Combining Interests: Consider combining a few of your interests to create a unique niche. For example, if you love fitness and cooking, you could create a channel focused on healthy recipes for athletes. This can help you stand out in a crowded market.
 
+Related: [How Do YouTubers Make Money](/blog/how-do-youtubers-make-money/)
+
 ### 2. Create a YouTube Brand Identity
 
 Your YouTube channel is an extension of your brand, so it's essential to develop a cohesive YouTube brand identity that reflects your personality and values. Choose a memorable channel name that resonates with your niche and audience. You may also want to create a compelling logo and channel art that visually represent your brand.
@@ -57,9 +59,7 @@ Don't forget to optimize your channel settings for searchability by including re
 
 I highly recommended choosing a topic that you’re familiar with when starting your channel. Begin with your niche, a topic you’re passionate about. It allows you to provide valuable content as a content creator. If you have a decent amount of knowledge about a subject, you can work more consistently and diligently. It allows you to work on things you enjoy.
 
-#### Customizing Your Channel Layout
-
-Customize your channel layout to optimize the viewer experience. Organize your playlists, featured videos, and sections to highlight your best content and make it easily accessible to your audience.
+Customize Your Channel Layout: Be sure to customize your channel layout to optimize the viewer experience. Organize your playlists, featured videos, and sections to highlight your best content and make it easily accessible to your audience.
 
 ### 7. Develop a Video Content Strategy
 

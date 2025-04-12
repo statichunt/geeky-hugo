@@ -15,7 +15,7 @@ In this guide, I’ll explain how to monetize a Pinterest in 6 steps. Even more,
 
 How can you make money on Pinterest? Well, it’s simple. Pinterest is nothing like most social media networks. This platform encourages you to grow your social media presence. In other words, most social media networks restrict publishers from sharing affiliate links or promoting affiliate programs. Whereas, Pinterest encourages [social media monetization](/blog/social-media-monetization/). Lets get to it, how to _make money on Pinterest_, in six steps:
 
-### 1. Build a Landing Page
+### Build a Landing Page
 
 First, you need to create a landing page. What is a landing page? When it comes to internet marketing, a landing page (destination page, lead capture page, squeeze page) is a signal web page used for marketing or promoting a product, service, or message. The landing page provides you with a platform to send targeted leads, prospects, and customers. It’s called a landing page because it’s where the visitor lands. There are two types of landing pages, a reference landing page, and a transactional landing page.
 
@@ -27,23 +27,23 @@ Option #1 (Purchase a landing page) In my opinion purchasing a landing page is t
 
 Option #2 (Get a free landing page) If you don’t want to pay for a landing page. You can create a free landing page on [Linktree](https://linktr.ee) Linktree is a freemium social media landing page. You can use this platform to post your affiliate links, products links, or profile links. Here you can post whatever links you desire!
 
-### 2. Create a Pinterest Business Account
+### Create a Pinterest Business Account
 
 If you want to grow your Pinterest page quickly, it’s essential to [create a Pinterest business account](https://www.pinterest.com/business/). Not only does the business account help you grow faster, but it gives you access to valuable tools like analytics and ads. Do not forget to include the link to your landing page on your Pinterest business account profile.
 
-### 3. Build an Active Following
+### Build an Active Following
 
 To make money on Pinterest you must build an active following. I’m sure you’re wondering how to build an active following. To state the obvious, marketing is the key to building an enthusiastic following! No matter which strategy you choose to make money on Pinterest, marketing is the key. So, if you don’t have marketing skills. You should take a marketing crash course. However, I’ll show you a few secrets to gain followers.
 
-### 4. Develop a Marketing Strategy
+### Develop a Marketing Strategy
 
 The key to growing your Pinterest account is marketing. Therefore, it’s essential to develop your marketing strategy. A marketing strategy is a series of activities that organizations use to achieve and maintain a sustainable competitive advantage in the market. Developing a marketing strategy is time-consuming. It requires a significant amount of groundwork, studying, and patience. However, the end results are well worth the effort. Below, I’ll share two marketing strategies to speed up the process;
 
-### 5. Select Strategies to Make Money on Pinterest
+### Select Strategies to Make Money on Pinterest
 
 How do you make money on Pinterest? When it comes to Pinterest monetization, there are several options. It is based on your resources. In other words, are you a website owner? Do you have tangible products for sale? Or, do you own digital products? If not, no biggie. You can still make money online through Pinterest.
 
-#### 5.1 Affiliate Marketing on Pinterest
+#### Affiliate Marketing on Pinterest
 
 One of the easiest ways to make money on Pinterest is through affiliate marketing. This involves promoting products and earning a commission on sales made through your referral links.
 
@@ -55,7 +55,7 @@ Tips for Successful Affiliate Marketing;
 - High-Quality Images: Use high-quality, eye-catching images that attract attention.
 - Engaging Descriptions: Write compelling descriptions that encourage users to click through and make a purchase.
 
-#### 5.2 Promoting Your Own Products
+#### Promoting Your Own Products
 
 If you have your own products, Pinterest is an excellent platform to promote them. The visual nature of Pinterest makes it ideal for showcasing products.
 
@@ -63,7 +63,7 @@ Create dedicated pins for each of your products. Use high-quality images and add
 
 Pinterest Shopping Ads allow you to promote your products to a broader audience. These ads appear in users' feeds and search results, making it easier for potential customers to discover your products.
 
-#### 5.3 Selling Digital Products
+#### Selling Digital Products
 
 Digital products, such as eBooks, printables, and online courses, are another great way to make money on Pinterest.
 
@@ -75,7 +75,7 @@ Benefits of Selling Digital Products;
 - Scalability: Digital products can be sold to an unlimited number of customers without additional effort.
 - Passive Income: Digital products can generate passive income as they continue to sell over time.
 
-#### 5.4 Offering Services
+#### Offering Services
 
 Pinterest can also be used to promote services, such as graphic design, consulting, or coaching.
 
@@ -83,13 +83,13 @@ Design pins that highlight your services and their benefits. Use testimonials an
 
 If you offer local services, use location-specific keywords in your pins and descriptions. This helps potential customers in your area find your services more easily.
 
-#### 5.5 Driving Traffic to Your Blog
+#### Driving Traffic to Your Blog
 
 Bloggers can use Pinterest to drive traffic to their websites, where they can monetize through ads, sponsored content, and affiliate links.
 
 Create pins for each blog post, using eye-catching images and compelling descriptions. Rich Pins can help by automatically pulling in your blog post’s title, description, and author information.
 
-#### 5.6 Using Pinterest for Lead Generation
+#### Using Pinterest for Lead Generation
 
 Pinterest can be a powerful tool for generating leads for your business.
 
@@ -100,7 +100,7 @@ Why Use Lead Generation;
 - Building an Email List: Collecting email addresses allows you to build a list of potential customers to market to in the future.
 - Nurturing Leads: Once you have a lead's contact information, you can nurture the relationship through email marketing.
 
-#### 5.7 Joining Pinterest’s Creator Fund
+#### Joining Pinterest’s Creator Fund
 
 Pinterest has a Creator Fund that offers financial support and resources to help creators grow their presence on the platform.
 
@@ -112,7 +112,7 @@ Benefits of the Creator Fund;
 - Exclusive Resources: Access to Pinterest’s tools and insights to improve your content strategy.
 - Increased Visibility: Being part of the Creator Fund can increase your visibility on the platform.
 
-#### 5.8 Collaborating with Brands
+#### Collaborating with Brands
 
 Brand collaborations can be highly lucrative on Pinterest. Brands often seek influencers to promote their products to a larger audience.
 
@@ -124,7 +124,7 @@ Pros of Brand Collaborations;
 - Free Products: Brands often send free products for you to review and promote.
 - Increased Exposure: Collaborating with well-known brands can increase your credibility and visibility.
 
-#### 5.9 Using Pinterest Analytics
+#### Using Pinterest Analytics
 
 Pinterest Analytics provides valuable insights into how your pins are performing and who your audience is.
 
@@ -136,7 +136,7 @@ Advantages of Pinterest Analytics;
 - Audience Insights: Understand your audience’s preferences and behaviors.
 - Performance Tracking: Track your progress and adjust your strategy as needed.
 
-### 6. Market Your Opportunity
+#### Market Your Opportunity
 
 The final step involves promoting your product or service. Sponsored Pins are paid ads on Pinterest that appear in users' feeds and search results. Use Pinterest's Ads Manager to create and promote your pins, set a budget, define your target audience, and monitor ad performance.
 
