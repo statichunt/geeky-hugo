@@ -1,6 +1,6 @@
 [hugoVersion]
 extended = true
-min = "0.106.0"
+min = "0.146.6"
 
 [[imports]]
 path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -32,11 +32,11 @@ path = "github.com/gethugothemes/hugo-modules/pwa"
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/images"
 
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes"
+# [[imports]]
+# path = "github.com/gethugothemes/hugo-modules/shortcodes"
 
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/buttons"
+path = "github.com/gethugothemes/hugo-modules/shortcodes/button"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/shortcodes/codepen"
@@ -57,13 +57,10 @@ path = "github.com/gethugothemes/hugo-modules/shortcodes/tabs"
 path = "github.com/gethugothemes/hugo-modules/shortcodes/gallery"
 
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/table-of-contents"
+path = "github.com/gethugothemes/hugo-modules/table-of-contents"
 
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/youtube-lite"
-
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/vimeo-lite"
+path = "github.com/gethugothemes/hugo-modules/videos"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/seo-tools/baidu-analytics"

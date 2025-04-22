@@ -5,7 +5,7 @@ image: "images/post/how-to-use-geeky.jpeg"
 date: 2023-01-24T18:19:25+06:00
 categories: ["tutorial"]
 tags: ["docs"]
-type: "featured" # available types: [featured/regular]
+postType: "featured" # available postType: [featured/regular]
 draft: false
 sitemapExclude: false
 ---
@@ -13,27 +13,31 @@ sitemapExclude: false
 Congrats on finding the perfect theme for your blog. You have great taste that's for sure, this guide will help you get your blog up and running with the Geeky theme in no time.
 
 #### Let's Get Geeking
+
 First, if you haven't already, you'll need to download the [Go](https://go.dev/doc/install) programming language. Hugo is built on Go, so it's essential to have it installed before you can use Hugo.
 
 Next, proceed to install [hugo](https://gohugo.io/installation/)
 
 - **Mac**
+
 ```Bash
 brew install hugo
 ```
+
 or
 
-```Bash 
+```Bash
 sudo port install hugo
 ```
 
-
 - **Windows**
+
 ```Bash
 choco install hugo-extended
 ```
 
 - **Linux**
+
 ```Bash
 sudo apt install hugo
 ```
@@ -46,29 +50,32 @@ Next you'll need a text editor, personally I use VScode but any text editor will
 
 Clone the geeky repository.
 Open your terminal and enter the following command:
+
 ```Bash
  $ git clone git@github.com:statichunt/geeky-hugo.git
 ```
 
 After cloning, navigate into the newly cloned repository with:
+
 ```Bash
  $ cd geeky-hugo
 ```
+
 <br>
 
 If you don't already have [vscode](https://code.visualstudio.com/download), I recommend downloading it. It will simplify the management of this directory. However, if you're already using another text editor, the instructions provided will be applicable to any editor you choose.
 
-
 Open the folder in vscode or your preferred text editor:
+
 ```Bash
  $ code .
 ```
+
 You'll see a bunch of folders here. Don't worry, we're only going to adjust a few of them.
 
 {{< image src="images/post/post-1/pic1.png" caption="screenshot1" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 Look for a folder named `exampleSite`.This is where you'll customize your blog to your liking. But before we get into that, let's take a look at the `config.toml` file in the root directory.
-
 
 In this file, you can make some changes to customize the look of your blog. For example, you can change the main color of your blog's theme by replacing the current color in `color_primary` with your desired color. You can also update other options, like the font size, to match your style.
 
@@ -87,21 +94,24 @@ In this file, you can make some changes to customize the look of your blog. For 
     light = "#f2f2f2"
 
     # font variables
-    # base font size for full website, 
+    # base font size for full website,
     font_size = "15px" # default is 16px
 
 
 ```
 
 Now navigate to the `exampleSite` folder:
+
 ```Bash
  $ cd exampleSite
 ```
 
 If everything is set up correctly, this command should work:
+
 ```Bash
 $ hugo server --themesDir ../..
 ```
+
 <br>
 
 Awesome we can now access the site at: `http://localhost:1313/geeky-hugo/`
@@ -109,7 +119,6 @@ Awesome we can now access the site at: `http://localhost:1313/geeky-hugo/`
 <br>
 
 {{< image src="images/post/post-1/pic2.png" caption="screenshot2" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
-
 
 <br>
 
@@ -120,6 +129,7 @@ The `assets`, `config`, and `content` folders are the ones we'll be working with
 {{< image src="images/post/post-1/pic3.png" caption="screenshot3" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 #### Assets
+
 This folder will hold all the static files for your blog. The only thing that should matter to you here is the images, this is where you store all your images.
 The images you see above including the blog banner:
 
@@ -191,9 +201,9 @@ paginate = 6
 googleAnalytics = "UA-12345678-9" # Replace with your actual tracking ID
 ```
 
-  2. **Disqus:**
-     - Sign up for a Disqus account and obtain your Disqus shortname.
-     - Update the `disqusShortname` setting:
+2. **Disqus:**
+   - Sign up for a Disqus account and obtain your Disqus shortname.
+   - Update the `disqusShortname` setting:
 
 ```toml
 # Disqus short name
@@ -214,10 +224,10 @@ disableLanguages = ["fr"]
 - **module.toml**: Contains a list of all the dependencies for the blog. There's generally no need to modify this file.
 
 ##### params.toml
+
 This file is where we'll be doing a significant amount of configuration.
 
 To adjust the file as per your requirements, follow these guidelines:
-
 
 - **Favicon and Logo**: Specify the paths to your favicon and logo images. For the logo, you can also set its width. If the logo is missing, the logo text will be displayed.
 
@@ -405,9 +415,7 @@ link = "#"
 
 Adjust these settings according to your blog's requirements and preferences.
 
-
-
-#### Content 
+#### Content
 
 Inside the `content` folder, you'll find the `blog` folder, which is where all your articles are stored in Markdown files (e.g., `post-2.md`, `post-3.md`, etc.). Before creating new articles, delete the previous posts or update them as they are just demos. Simply create a new `.md` file. Markdown (.md) is a lightweight markup language for plain-text formatting. Articles within these .md files are composed in Hugo's Markdown format.
 To learn more about Hugo Markdown check out the official Hugo documentation at [https://gohugo.io/documentation/](https://gohugo.io/documentation/).
@@ -424,23 +432,24 @@ image: "images/post/post-1.png"
 date: 2021-01-24T18:19:25+06:00
 categories: ["category"]
 tags: ["tag1", "tag2"]
-type: "regular" # available types: [featured/regular]
+postType: "regular" # available postType: [featured/regular]
 draft: false
 ---
 ```
 
 After the front matter, you can begin writing your article.
 
-
 For content files that aren't located within the `blog` directory, such as `about.md`, `contact.md`, `privacy-policy.md`, and `search.md` These files populate the on your site. Adjust them as needed:
 
 Example:
+
 - **About Page** (`about.md`)
 
 This file is used to create an "About" section on your site. It includes details about you
 
 ```markdown
 ---
+
 title: "About The Author"
 description: "this is meta-description"
 image: "images/author.png"
@@ -448,16 +457,19 @@ layout: "about"
 draft: false
 
 # education
+
 education:
- enable: true
- title: "Formal Education"
- ...
+enable: true
+title: "Formal Education"
+...
 
 # experience
+
 experience:
- enable: true
- ...
+enable: true
+...
 ```
+
 Once you're done setting everything up, your blog should be ready to go live.
 
 There's a lot more that we couldn't cover here, but you can find more information in the [Hugo documentation](https://gohugo.io/documentation/). So go check it out, and happy geeking!

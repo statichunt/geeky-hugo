@@ -1,31 +1,37 @@
 {{ define "main" }}
 
 <!--=================== banner section start ===================-->
-{{ with site.Params.banner }}
-{{ if .enable }}
-
-{{ $bgImage:= resources.Get .background_image }}
-<section class="banner text-center text-lg-start" style="background-image: url('{{ $bgImage.RelPermalink }}');">
+{{ with site.Params.banner }} {{ if .enable }} {{ $bgImage:= resources.Get
+.background_image }}
+<section
+  class="banner text-center text-lg-start"
+  style="background-image: url('{{ $bgImage.RelPermalink }}');"
+>
   <div class="container">
     <div class="row align-items-center flex-column-reverse flex-lg-row">
       <div class="col-lg-6 mb-5 mb-lg-0">
-        {{ with .title_large }}<h1 class="banner-title mb-0">{{ . | markdownify }}</h1>{{ end }}
-        {{ with .title_small }}<h2 class="h2 fw-normal mb-4">{{ . | markdownify}}</h2>{{ end }}
+        {{ with .title_large }}
+        <h1 class="banner-title mb-0">{{ . | markdownify }}</h1>
+        {{ end }} {{ with .title_small }}
+        <h2 class="h2 fw-normal mb-4">{{ . | markdownify}}</h2>
+        {{ end }}
         <p class="mb-4 fs-6 text-light-600">{{.content | markdownify}}</p>
         {{ if .button_label }}
-        <a href="{{ .button_link | absURL }}" class="btn btn-primary">{{ .button_label }}</a>
+        <a href="{{ .button_link | absURL }}" class="btn btn-primary"
+          >{{ .button_label }}</a
+        >
         {{ end }}
       </div>
       {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 mx-auto mb-5 mb-lg-0">
-        {{ partial "image.html" (dict "Src" . "Alt" "banner-img" "Class" "img-fluid" ) }}
+        {{ partial "image.html" (dict "Src" . "Alt" "banner-img" "Class"
+        "img-fluid" ) }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}
 <!--=================== banner section end ===================-->
 
 <!--=================== blog section start ===================-->
@@ -41,21 +47,27 @@
         <div class="border rounded d-lg-flex p-4 mb-5">
           <!-- big featured post -->
           <div class="col-lg-6 me-lg-4 mb-5 mb-lg-0">
-            {{ range first 1 (where site.RegularPages "Type" "featured") }}
-            {{ .Render "post" }}
-            {{ end }}
+            {{ range first 1 (where site.RegularPages "Params.postType"
+            "featured") }} {{ .Render "post" }} {{ end }}
           </div>
           <!-- small featured post -->
           <div class="col-lg-6 pe-4 blog-card-list scroll-list">
-            {{ range after 1 (where site.RegularPages "Type" "featured") }}
+            {{ range after 1 (where site.RegularPages "Params.postType"
+            "featured") }}
             <div class="card rounded-0">
               <div class="d-sm-flex">
-                {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid rounded-4 align-self-start" "Command" "Fill" "Size" "105x85" ) }}
+                {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title
+                "Class" "img-fluid rounded-4 align-self-start" "Command" "Fill"
+                "Size" "105x85" ) }}
                 <div class="card-body ps-sm-3">
                   <h3 class="h6">
-                    <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
+                    <a class="title-linked" href="{{.RelPermalink}}"
+                      >{{.Title | markdownify}}</a
+                    >
                   </h3>
-                  <ul class="list-inline card-meta d-flex align-items-center mb-3">
+                  <ul
+                    class="list-inline card-meta d-flex align-items-center mb-3"
+                  >
                     <li class="list-inline-item d-flex align-items-center">
                       <i class="fas fa-calendar me-2"></i>
                       <span>{{ time.Format ":date_long" .PublishDate }}</span>
@@ -73,7 +85,13 @@
         <div class="mb-5">
           <a href="{{.link | absLangURL}}">
             {{ $image:= resources.Get .image }}
-            <img class="img-fluid w-100" width="858" height="123" src="{{ $image.RelPermalink }}" alt="image">
+            <img
+              class="img-fluid w-100"
+              width="858"
+              height="123"
+              src="{{ $image.RelPermalink }}"
+              alt="image"
+            />
           </a>
         </div>
         {{ end }}
@@ -87,11 +105,9 @@
         <div class="border pt-4 mb-5 rounded">
           <div class="row mx-0 g-5">
             <!-- recent post -->
-            {{ $paginator:= .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections ) }}
-            {{ range $paginator.Pages }}
-            <div class="col-sm-6 mb-4">
-              {{ .Render "post" }}
-            </div>
+            {{ $paginator:= .Paginate (where site.RegularPages "Section" "in"
+            site.Params.mainSections ) }} {{ range $paginator.Pages }}
+            <div class="col-sm-6 mb-4">{{ .Render "post" }}</div>
             {{ end }}
           </div>
         </div>
@@ -113,65 +129,79 @@
             <!-- Previous page. -->
             {{ if $paginator.HasPrev }}
             <li class="page-item prev d-flex align-items-center">
-              <a class="page-link disabled" href="{{ $paginator.Prev.URL }}" aria-label="Pagination Arrow"><i
-                  class="fas fa-arrow-left me-3"></i><span class="d-none d-sm-inline">{{ site.Params.previous_button }}</span>
+              <a
+                class="page-link disabled"
+                href="{{ $paginator.Prev.URL }}"
+                aria-label="Pagination Arrow"
+                ><i class="fas fa-arrow-left me-3"></i
+                ><span class="d-none d-sm-inline"
+                  >{{ site.Params.previous_button }}</span
+                >
               </a>
             </li>
             {{ else }}
             <li class="page-item prev d-flex align-items-center disabled">
-              <span class="page-link disabled" aria-label="Pagination Arrow"><i
-                  class="fas fa-arrow-left me-3"></i><span class="d-none d-sm-inline">{{ site.Params.previous_button }}</span>
+              <span class="page-link disabled" aria-label="Pagination Arrow"
+                ><i class="fas fa-arrow-left me-3"></i
+                ><span class="d-none d-sm-inline"
+                  >{{ site.Params.previous_button }}</span
+                >
               </span>
             </li>
             {{ end }}
             <!-- Page numbers. -->
-            {{ range $paginator.Pagers }}
-            {{ $.Scratch.Set "page_number_flag" false }}
+            {{ range $paginator.Pagers }} {{ $.Scratch.Set "page_number_flag"
+            false }}
             <!-- Advanced page numbers. -->
             {{ if gt $paginator.TotalPages $max_links }}
             <!-- Lower limit pages. -->
             <!-- If the user is on a page which is in the lower limit.  -->
             {{ if le $paginator.PageNumber $lower_limit }}
             <!-- If the current loop page is less than max_links. -->
-            {{ if le .PageNumber $max_links }}
-            {{ $.Scratch.Set "page_number_flag" true }}
-            {{ end }}
+            {{ if le .PageNumber $max_links }} {{ $.Scratch.Set
+            "page_number_flag" true }} {{ end }}
             <!-- Upper limit pages. -->
             <!-- If the user is on a page which is in the upper limit. -->
             {{ else if ge $paginator.PageNumber $upper_limit }}
             <!-- If the current loop page is greater than total pages minus $max_links -->
-            {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
-            {{ $.Scratch.Set "page_number_flag" true }}
-            {{ end }}
+            {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }} {{
+            $.Scratch.Set "page_number_flag" true }} {{ end }}
             <!-- Middle pages. -->
-            {{ else }}
-            {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
-            {{ $.Scratch.Set "page_number_flag" true }}
-            {{ end }}
-            {{ end }}
+            {{ else }} {{ if and ( ge .PageNumber (sub $paginator.PageNumber
+            $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber
+            $adjacent_links) ) }} {{ $.Scratch.Set "page_number_flag" true }} {{
+            end }} {{ end }}
             <!-- Simple page numbers. -->
-            {{ else }}
-            {{ $.Scratch.Set "page_number_flag" true }}
-            {{ end }}
+            {{ else }} {{ $.Scratch.Set "page_number_flag" true }} {{ end }}
             <!-- Output page numbers. -->
             {{ if eq ($.Scratch.Get "page_number_flag") true }}
             <li class="page-item">
-              <a href="{{ .URL }}" class="page-link {{if eq . $paginator}}active{{end}}">
+              <a
+                href="{{ .URL }}"
+                class="page-link {{if eq . $paginator}}active{{end}}"
+              >
                 {{ .PageNumber }}
               </a>
             </li>
-            {{ end }}
-            {{ end }}
+            {{ end }} {{ end }}
             <!-- Next page. -->
             {{ if $paginator.HasNext }}
             <li class="page-item next d-flex align-items-center">
-              <a class="page-link arrow" href="{{ $paginator.Next.URL }}" aria-label="Pagination"><span class="d-none d-sm-inline">{{ site.Params.next_button }}</span><i
-                  class="fas fa-arrow-right ms-3"></i>
+              <a
+                class="page-link arrow"
+                href="{{ $paginator.Next.URL }}"
+                aria-label="Pagination"
+                ><span class="d-none d-sm-inline"
+                  >{{ site.Params.next_button }}</span
+                ><i class="fas fa-arrow-right ms-3"></i>
               </a>
             </li>
             {{ else }}
             <li class="page-item next d-flex align-items-center disabled">
-              <span class="page-link arrow" aria-label="Pagination"><span class="d-none d-sm-inline">{{ site.Params.next_button }}</span><i class="fas fa-arrow-right ms-3"></i>
+              <span class="page-link arrow" aria-label="Pagination"
+                ><span class="d-none d-sm-inline"
+                  >{{ site.Params.next_button }}</span
+                ><i class="fas fa-arrow-right ms-3"></i>
               </span>
             </li>
             {{ end }}
@@ -182,8 +212,8 @@
 
       <!-- sidebar widgets -->
       <aside class="col-lg-4">
-        {{ $widget:= site.Params.widgets.sidebar }}
-        {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . )}}
+        {{ $widget:= site.Params.widgets.sidebar }} {{ partialCached
+        "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . )}}
       </aside>
     </div>
   </div>
