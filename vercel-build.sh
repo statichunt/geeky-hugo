@@ -38,6 +38,5 @@ npm install
 
 # run the build command
 echo "Running the build command..."
-cd exampleSite && hugo mod download
-cd ..
+
 npm run build
