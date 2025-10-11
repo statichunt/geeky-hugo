@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 title = "Geeky | Hugo Personal Blog Template"
-# theme = "geeky-hugo" # commented out when using --themesDir
+theme = "geeky-hugo" # commented out when using --themesDir
 languageName = "En"
 languageCode = "en-us"
 # post pagination
