@@ -61,39 +61,19 @@ $ cd geeky-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
+<!-- edit with sitepins -->
 
-## Deployment and hosting
+## 📝 Edit Content with CMS
 
-## Netlify 
+This template comes pre-configured with [**Sitepins**](https://sitepins.com), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/statichunt/geeky-hugo)
+**How to get started:**
 
-Follow these steps.
+Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
 
-
-## Render
-
-![Deploy to Render](https://www.render.com)
-
-To deploy your Hugo site on Render, follow these steps:
-
-1. **Create a New Static Site** on Render's dashboard.
-2. **Link the Git Repository** that contains your Hugo site.
-3. Navigate to **Settings > Build & Deploy**.
-
-Configure the build settings as follows:
-
-- **Build Command**:
-
-```bash
-mkdir geeky-hugo; mv * geeky-hugo/.; hugo -s geeky-hugo/exampleSite --minify --gc --themesDir ../..
-```
-
-- **Publish Directory**:
-
-```bash
-geeky-hugo/exampleSite/public
-```
+  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Geeky%20Hugo&repository=https://github.com/statichunt/geeky-hugo/">
+    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
+  </a>
 
 <!-- reporting issue -->
 ## Reporting Issues
