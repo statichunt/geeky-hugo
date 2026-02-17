@@ -13,6 +13,7 @@ navbar_fixed = false
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
 author = "Themefisher"
+author_multi = ["Themefisher"]
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
 address = "9567 Turner Trace Apt. BC C3G8A4"
@@ -104,25 +105,25 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 ############################# social site ########################
 [[social]]
 title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-facebook"
 link = "#"
 
 [[social]]
 title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-twitter"
 link = "#"
 
 [[social]]
 title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-instagram"
 link = "#"
 
 [[social]]
 title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-github"
 link = "#"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-linkedin"
 link = "#"
